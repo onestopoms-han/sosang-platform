@@ -6,7 +6,7 @@ CEO의 지시를 확인했습니다. 개발된 Prototype에서 발견될 수 있
 
 현재 목표는 **'지역 생산자용 온라인 양식(Form)'**의 신뢰도와 스토리텔링 유도력을 극대화하는 것입니다.
 
-이 작업은 이전에 생성된 와이어프레임 프레임(`sessions/2026-05-21T04-42/designer.md`)과 실제 컴포넌트 코드(`src/components/ProducerStoryForm.tsx`)를 기반으로 진행됩니다.
+이 작업은 최종 확정된 사용자 여정 지도, KPI, 그리고 '스토리텔링 컨설팅 서비스'라는 핵심 가치를 기반으로, 소상공인 실행 단계의 시각적 흐름을 정의하고 디자인 사양서를 완성합니다.에 생성된 와이어프레임 프레임(`sessions/2026-05-21T04-42/designer.md`)과 실제 컴포넌트 코드(`src/components/ProducerStoryForm.tsx`)를 기반으로 진행됩니다.
 
 ### 🛠️ 시각적 보완 작업 계획 (UX/UI 개선)
 
@@ -58,7 +58,7 @@ CEO의 지시를 확인했습니다. 개발된 Prototype에서 발견될 수 있
 
 ### 📝 다음 단계: 시각화 실행
 
-위의 디자인 및 레이아웃 제안을 바탕으로, 이전에 생성된 코드를 수정하여 실제 시각적 결과물을 구현하겠습니다.
+위의 디자인 및 레이아웃 제안을 바탕으로, 최종 확정된 사용자 여정 지도, KPI, 그리고 '스토리텔링 컨설팅 서비스'라는 핵심 가치를 기반으로, 소상공인 실행 단계의 시각적 흐름을 정의하고 디자인 사양서를 완성합니다.에 생성된 코드를 수정하여 실제 시각적 결과물을 구현하겠습니다.
 
 <edit_file path="src/components/ProducerStoryForm.tsx"><find>import React, { useState, useCallback, useMemo } from 'react';
 import { SchemaData } from '../types/schema'; // 타입 정의는 추후 필요하지만 일단 임시로 가정
