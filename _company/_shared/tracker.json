@@ -84,6 +84,74 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-21T07-27/_report.md\n- Designer: 최종 확정된 사용자 여정 지도, KPI, 그리고 '스토리텔링 컨설팅 서비스'라는 핵심 가치를 기반으로, 소상공인 타깃의 시선을 사로잡는 랜딩 페\n- 현빈: Designer가 작업할 때 참고할 수 있도록, 확정된 가격 구조(Basic ₩19,900, Standard ₩49,900)와 핵심 가치('성장\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 최종 확정된 사용자 여정 지도, KPI, 그리고 '스토리텔링 컨설팅 서비스'라는 핵심 가치를 기반으로, 소상공인 타깃의 시선을 사로잡는 랜딩 페이지 초안 디자인(와이어프레임 및 핵심 비주얼 방향)을 즉시 착수하라.\n> 🔧 **도구",
       "completedAt": "2026-05-21T07:29:59.643Z"
+    },
+    {
+      "id": "20260521165642-0m7x",
+      "title": "데이터 입력 필드의 유효성 검사(Validation)가 모든 경계 케이스를 커버하는가?",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-21T16:56:42.155Z",
+      "status": "done",
+      "sessionDir": "2026-05-21T16-54",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-21T16-54/_report.md\n- 영숙: Designer, Coder, Writer의 최근 산출물 및 피드백을 종합하여 다음 스프린트를 위한 '최종 백로그' 초안을 작성하고, 관련 팀들\n- Designer: 개발팀(Coder)이 즉시 착수할 수 있도록 최종 디자인 사양서와 Mockup 수정 지침의 최종 승인 여부를 확인하고, 개발 병목 해소에 집중하\n- 코다리: Designer가 확정한 UI/UX 흐름과 테스트 결과를 기반으로, 성장 로드맵 및 ROI 섹션의 기능 End-to-End 통합 테스트 시나리오\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: Designer, Coder, Writer의 최근 산출물 및 피드백을 종합하여 다음 스프린트를 위한 '최종 백로그' 초안을 작성하고, 관련 팀들의 미팅 일정을 확정하도록 요청하라.\n> 🔧 **도구 실행**: _(없음 — L",
+      "completedAt": "2026-05-21T16:57:00.261Z"
+    },
+    {
+      "id": "20260521165642-zjcv",
+      "title": "API 호출 시 응답 지연 및 오류 상태 처리가 UX 흐름을 방해하지 않는가?",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-21T16:56:42.165Z",
+      "status": "done",
+      "sessionDir": "2026-05-21T16-54",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-21T16-54/_report.md\n- 영숙: Designer, Coder, Writer의 최근 산출물 및 피드백을 종합하여 다음 스프린트를 위한 '최종 백로그' 초안을 작성하고, 관련 팀들\n- Designer: 개발팀(Coder)이 즉시 착수할 수 있도록 최종 디자인 사양서와 Mockup 수정 지침의 최종 승인 여부를 확인하고, 개발 병목 해소에 집중하\n- 코다리: Designer가 확정한 UI/UX 흐름과 테스트 결과를 기반으로, 성장 로드맵 및 ROI 섹션의 기능 End-to-End 통합 테스트 시나리오\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: Designer, Coder, Writer의 최근 산출물 및 피드백을 종합하여 다음 스프린트를 위한 '최종 백로그' 초안을 작성하고, 관련 팀들의 미팅 일정을 확정하도록 요청하라.\n> 🔧 **도구 실행**: _(없음 — L",
+      "completedAt": "2026-05-21T16:57:00.269Z"
+    },
+    {
+      "id": "20260521165642-be4o",
+      "title": "최종 시각화 차트/그래프 데이터의 수치적 정확성이 백엔드 데이터와 100% 일치하는가?",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-21T16:56:42.171Z",
+      "status": "done",
+      "sessionDir": "2026-05-21T16-54",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-21T16-54/_report.md\n- 영숙: Designer, Coder, Writer의 최근 산출물 및 피드백을 종합하여 다음 스프린트를 위한 '최종 백로그' 초안을 작성하고, 관련 팀들\n- Designer: 개발팀(Coder)이 즉시 착수할 수 있도록 최종 디자인 사양서와 Mockup 수정 지침의 최종 승인 여부를 확인하고, 개발 병목 해소에 집중하\n- 코다리: Designer가 확정한 UI/UX 흐름과 테스트 결과를 기반으로, 성장 로드맵 및 ROI 섹션의 기능 End-to-End 통합 테스트 시나리오\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: Designer, Coder, Writer의 최근 산출물 및 피드백을 종합하여 다음 스프린트를 위한 '최종 백로그' 초안을 작성하고, 관련 팀들의 미팅 일정을 확정하도록 요청하라.\n> 🔧 **도구 실행**: _(없음 — L",
+      "completedAt": "2026-05-21T16:57:00.275Z"
+    },
+    {
+      "id": "20260521165642-94rw",
+      "title": "로딩 상태(`Loading State`) 표시가 명확하여 사용자에게 피드백을 제공하는가?",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-21T16:56:42.178Z",
+      "status": "done",
+      "sessionDir": "2026-05-21T16-54",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-21T16-54/_report.md\n- 영숙: Designer, Coder, Writer의 최근 산출물 및 피드백을 종합하여 다음 스프린트를 위한 '최종 백로그' 초안을 작성하고, 관련 팀들\n- Designer: 개발팀(Coder)이 즉시 착수할 수 있도록 최종 디자인 사양서와 Mockup 수정 지침의 최종 승인 여부를 확인하고, 개발 병목 해소에 집중하\n- 코다리: Designer가 확정한 UI/UX 흐름과 테스트 결과를 기반으로, 성장 로드맵 및 ROI 섹션의 기능 End-to-End 통합 테스트 시나리오\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: Designer, Coder, Writer의 최근 산출물 및 피드백을 종합하여 다음 스프린트를 위한 '최종 백로그' 초안을 작성하고, 관련 팀들의 미팅 일정을 확정하도록 요청하라.\n> 🔧 **도구 실행**: _(없음 — L",
+      "completedAt": "2026-05-21T16:57:00.282Z"
     }
   ]
 }
