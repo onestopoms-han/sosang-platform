@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 5. 22. 오전 6:56:31_
+_업데이트: 2026. 5. 22. 오전 7:10:59_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,13 +11,13 @@ _업데이트: 2026. 5. 22. 오전 6:56:31_
 - [2026-05-21] YouTube에서 도출된 핵심 메시지를 활용하여, 소상공인 Pain Point를 자극하고 '도움이 되는 지식 콘텐츠' 형태로 포장한 바이럴 포스팅 아이디어 5가지와 이에 맞는 최적의 해시태그 세트를 즉시 기획하라. → 산출물 sessions/2026-05-21T11-12/instagram.md
 - [2026-05-21] Writer가 작성한 콘텐츠 기획안을 바탕으로, 소상공인 타깃의 참여를 유도할 수 있는 바이럴 포스팅 아이디어 5가지와 각 게시물에 적합한 핵심 해시태그 세트를 즉시 기획하라. → 산출물 sessions/2026-05-21T16-09/instagram.md
 ### 🎨 Designer
-- [2026-05-21] Action Plan Flow의 Step 2('실행 계획 제시')에 대한 최종 Mockup 디자인 시안을 제작하여, 사용자의 구매 전환을 극대화하는 시각적 흐름을 확정하라. → 산출물 sessions/2026-05-21T21-24/designer.md
 - [2026-05-21] 현빈이 정의한 프리미엄 가격대(₩299,000 ~ ₩499,000)와 디자인 컨셉 A('The Blueprint')를 반영하여, 전체 Action Plan Flow의 Mockup 및 최종 UI/UX 흐름을 개발팀에 전달할 수 있는 최종 사양서(`AI_Diagnosis_Final_Design_Spec.md`)를 완성하라. → 산출물 sessions/2026-05-21T21-39/designer.md
 - [2026-05-21] AI_Diagnosis_Final_Design_Spec.md를 바탕으로 프론트엔드 개발팀이 즉시 컴포넌트 구현을 시작할 수 있도록 상세한 UI/UX 흐름 및 디자인 사양서(Implementation Guide)를 최종 정리하여 전달하라. → 산출물 sessions/2026-05-21T21-54/designer.md
+- [2026-05-21] AI_Diagnosis_Final_Design_Spec.md를 바탕으로 프론트엔드 개발팀이 즉시 컴포넌트 구현을 시작할 수 있도록 상세한 UI/UX 흐름 및 디자인 사양서(Implementation Guide)를 최종 정리하고, 디자인 시스템 적용 준비를 완료하라. → 산출물 sessions/2026-05-21T22-09/designer.md
 ### 💻 코다리
-- [2026-05-21] Business와 Designer가 확정한 Action Plan 데이터 모델(`diagnosis_input_schema.ts`)과 UI/UX 흐름을 기반으로, 유료 전환 플로우에 맞춰 API 연동 로직 및 프론트엔드 컴포넌트의 초기 구조를 설계하라. → 산출물 sessions/2026-05-21T21-09/developer.md
 - [2026-05-21] 현빈이 정의한 'Pro Implementation Bundle'의 콘텐츠 구조(Module 1 포함) 및 Action Plan Flow에 맞춰, 백엔드 API 설계와 데이터 모델(`diagnosis_input_schema.ts` 연계)을 최종 확정하고 구현 준비를 시작하라. → 산출물 sessions/2026-05-21T21-39/developer.md
 - [2026-05-21] Designer가 확정한 AI_Diagnosis_Final_Design_Spec.md 및 diagnosis_input_schema.ts를 기반으로, 백엔드 API 명세서(Swagger/OpenAPI) 초안을 작성하고 데이터 모델에 따른 초기 API 구조를 정의하라. → 산출물 sessions/2026-05-21T21-54/developer.md
+- [2026-05-21] Designer가 확정한 AI_Diagnosis_Final_Design_Spec.md와 diagnosis_input_schema.ts를 기반으로, Action Plan Flow에 따른 백엔드 엔드포인트 및 데이터 흐름(API 명세 초안)을 최종 확정하고 구현 착수 준비를 완료하라. → 산출물 sessions/2026-05-21T22-09/developer.md
 ### 💼 현빈
 - [2026-05-21] 현재 개발 중인 AI 진단 리포팅 기능이 'Action Prescription'을 통해 구체적인 실행 계획을 제시할 때, 어떤 수익화 단계(Pricing Ladder)에 가장 적합한지 분석하고, 이를 기반으로 MVP의 핵심 KPI와 초기 전환 유도 포인트를 재정의하라. → 산출물 sessions/2026-05-21T20-54/business.md
 - [2026-05-21] Writer와 Designer의 논의 결과를 바탕으로, Action Prescription 기반의 최종 유료 패키지(Tier 1)의 가격 구조(Pricing Ladder)를 명확히 확정하고, 각 단계별 핵심 KPI(PMER) 및 행동 유도 포인트를 최종 점검하여 개발팀에 전달할 명세서를 작성하라. → 산출물 sessions/2026-05-21T21-09/business.md
