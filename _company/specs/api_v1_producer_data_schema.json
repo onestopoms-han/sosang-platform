@@ -1,0 +1,109 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Producer Data Ingestion API Schema (나들가게)",
+    "version": "1.0.0",
+    "description": "지역 생산자 대상 온라인 데이터 수집 양식의 최종 입력 스펙 및 유효성 검사 정의."
+  },
+  "paths": {
+    "/api/v1/producer-data": {
+      "post": {
+        "operationId": "submitProducerData",
+        "requestBody": {
+          "description": "생산자 프로필 및 스토리텔링 데이터를 담은 JSON 객체.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/ProducerProfile" }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "데이터 수집 성공. 저장된 데이터 ID 반환."
+          },
+          "400": {
+            "description": "유효성 검사 실패 (Validation Error). 필수 필드 누락 또는 데이터 타입 오류."
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ProducerProfile": {
+        "type": "object",
+        "required": ["producerId", "basicInfo", "storyData"],
+        "properties": {
+          "producerId": {
+            "description": "시스템이 부여한 고유 식별자 (예: 지역코드-순번)",
+            "type": "string",
+            "example": "KR1234567890"
+          },
+          "submissionTimestamp": {
+            "description": "데이터 제출 시점 (ISO 8601 형식).",
+            "type": "string",
+            "format": "date-time",
+            "example": "2024-05-30T10:30:00Z"
+          },
+          "basicInfo": {
+            "description": "가게/생산자 기본 정보 (필수).",
+            "type": "object",
+            "required": ["businessName", "regionCode", "contactPhone"],
+            "properties": {
+              "businessName": {"type": "string", "maxLength": 50, "description": "가게의 정식 상호명."},
+              "regionCode": {"type": "string", "pattern": "^[A-Z]{2}\\d{6}$", "description": "지역 코드 (예: 서울시 강남구)."},
+              "businessType": {
+                "type": "array",
+                "items": {"type": "string"},
+                "description": "판매 품목 유형 (다중 선택 가능)."
+              },
+              "contactPhone": {"type": "string", "pattern": "^\\d{10}$", "description": "대표 연락처 (숫자 10자리)."}
+            }
+          },
+          "storyData": {
+            "description": "스토리텔링 기반 심층 데이터. 비정형 데이터를 구조화하는 핵심 영역.",
+            "type": "object",
+            "required": ["mainProductStory"],
+            "properties": {
+              "productCategories": {
+                "type": "array",
+                "items": {"type": "string"},
+                "description": "주력 상품 카테고리 (최대 5개)."
+              },
+              "mainProductStory": {
+                "type": "object",
+                "required": ["narrativeTitle", "storyNarrative"],
+                "properties": {
+                  "narrativeTitle": {"type": "string", "maxLength": 80, "description": "스토리의 제목 (소비자 후킹용)."},
+                  "storyNarrative": {
+                    "type": "string",
+                    "minLength": 200,
+                    "description": "생산 배경 및 가치를 설명하는 스토리 본문. 최소 글자 수 보장 필요."
+                  },
+                  "uniqueSellingPoint": {"type": "array", "items": {"type": "string"}, "description": "차별화된 강점 3가지 (구체적 키워드)." }
+                }
+              },
+              "localConnection": {
+                "description": "지역 사회 기여 및 협력 포인트.",
+                "type": "object",
+                "properties": {
+                  "communityRole": {"type": "string", "maxLength": 100, "example": "지역 아동센터와 연계하여 제품 판매."},
+                  "sourcingDetails": {"type": "boolean", "description": "원료 공급처가 지역 내인지 여부."}
+                }
+              }
+            }
+          },
+          "consent": {
+             "type": "object",
+             "properties": {
+                 "dataUseAgreement": {"type": "boolean", "description": "데이터 활용 및 마케팅 동의 여부 (필수 체크)."},
+                 "termsAndConditionsAcknowledged": {"type": "boolean", "description": "이용 약관 동의 여부."}
+             },
+             "required": ["dataUseAgreement", "termsAndConditionsAcknowledged"]
+          }
+        }
+      }
+    }
+  }
+}
