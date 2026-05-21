@@ -50,6 +50,40 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-21T04-12/_report.md\n- 영숙: 영숙 에이전트가 정리한 지역 생산자 데이터 수집 프로세스(Step 3, 4) 및 Writer 에이전트가 작성한 핵심 용어 가이드라인을 통합하여,\n- Designer: Writer의 핵심 용어 가이드라인과 Designer의 브랜드 컨셉을 기반으로, 지역 생산자용 온보딩 매뉴얼(PDF) 초안 제작에 필요한 최종 \n- 코다리: 현빈/레오가 준비할 가상 테스트 케이스 5종의 구체적인 요구사항(Input Data Schema)을 정의하고, 데이터 수집 프로세스(Secret\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 영숙 에이전트가 정리한 지역 생산자 데이터 수집 프로세스(Step 3, 4) 및 Writer 에이전트가 작성한 핵심 용어 가이드라인을 통합하여, 파일럿 테스트를 위한 최종 실행 To-do List와 체크리스트를 즉시 생성하고",
       "completedAt": "2026-05-21T04:15:01.836Z"
+    },
+    {
+      "id": "20260521072941-eef9",
+      "title": "Standard 플랜의 핵심 기능 3가지 정의 및 근거 확보 (현빈)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-21T07:29:41.702Z",
+      "status": "done",
+      "sessionDir": "2026-05-21T07-27",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-21T07-27/_report.md\n- Designer: 최종 확정된 사용자 여정 지도, KPI, 그리고 '스토리텔링 컨설팅 서비스'라는 핵심 가치를 기반으로, 소상공인 타깃의 시선을 사로잡는 랜딩 페\n- 현빈: Designer가 작업할 때 참고할 수 있도록, 확정된 가격 구조(Basic ₩19,900, Standard ₩49,900)와 핵심 가치('성장\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 최종 확정된 사용자 여정 지도, KPI, 그리고 '스토리텔링 컨설팅 서비스'라는 핵심 가치를 기반으로, 소상공인 타깃의 시선을 사로잡는 랜딩 페이지 초안 디자인(와이어프레임 및 핵심 비주얼 방향)을 즉시 착수하라.\n> 🔧 **도구",
+      "completedAt": "2026-05-21T07:29:59.635Z"
+    },
+    {
+      "id": "20260521072941-pivf",
+      "title": "Basic 대비 명확한 '결과 차이'를 담는 카피 초안 제작 (Writer)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-21T07:29:41.712Z",
+      "status": "done",
+      "sessionDir": "2026-05-21T07-27",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-21T07-27/_report.md\n- Designer: 최종 확정된 사용자 여정 지도, KPI, 그리고 '스토리텔링 컨설팅 서비스'라는 핵심 가치를 기반으로, 소상공인 타깃의 시선을 사로잡는 랜딩 페\n- 현빈: Designer가 작업할 때 참고할 수 있도록, 확정된 가격 구조(Basic ₩19,900, Standard ₩49,900)와 핵심 가치('성장\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 최종 확정된 사용자 여정 지도, KPI, 그리고 '스토리텔링 컨설팅 서비스'라는 핵심 가치를 기반으로, 소상공인 타깃의 시선을 사로잡는 랜딩 페이지 초안 디자인(와이어프레임 및 핵심 비주얼 방향)을 즉시 착수하라.\n> 🔧 **도구",
+      "completedAt": "2026-05-21T07:29:59.643Z"
     }
   ]
 }
