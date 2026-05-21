@@ -1,0 +1,55 @@
+{
+  "tasks": [
+    {
+      "id": "20260521041356-4uh5",
+      "title": "**교육 완료:** 생산자 대상 프로세스 교육이 완료되었는가?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-05-21T04:13:56.832Z",
+      "status": "done",
+      "sessionDir": "2026-05-21T04-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-21T04-12/_report.md\n- 영숙: 영숙 에이전트가 정리한 지역 생산자 데이터 수집 프로세스(Step 3, 4) 및 Writer 에이전트가 작성한 핵심 용어 가이드라인을 통합하여,\n- Designer: Writer의 핵심 용어 가이드라인과 Designer의 브랜드 컨셉을 기반으로, 지역 생산자용 온보딩 매뉴얼(PDF) 초안 제작에 필요한 최종 \n- 코다리: 현빈/레오가 준비할 가상 테스트 케이스 5종의 구체적인 요구사항(Input Data Schema)을 정의하고, 데이터 수집 프로세스(Secret\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 영숙 에이전트가 정리한 지역 생산자 데이터 수집 프로세스(Step 3, 4) 및 Writer 에이전트가 작성한 핵심 용어 가이드라인을 통합하여, 파일럿 테스트를 위한 최종 실행 To-do List와 체크리스트를 즉시 생성하고",
+      "completedAt": "2026-05-21T04:15:01.824Z"
+    },
+    {
+      "id": "20260521041356-d7kv",
+      "title": "**데이터 확보:** 스토리와 원산지 정보 등 필수 데이터 세트가 모두 수집되었는가?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-05-21T04:13:56.837Z",
+      "status": "done",
+      "sessionDir": "2026-05-21T04-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-21T04-12/_report.md\n- 영숙: 영숙 에이전트가 정리한 지역 생산자 데이터 수집 프로세스(Step 3, 4) 및 Writer 에이전트가 작성한 핵심 용어 가이드라인을 통합하여,\n- Designer: Writer의 핵심 용어 가이드라인과 Designer의 브랜드 컨셉을 기반으로, 지역 생산자용 온보딩 매뉴얼(PDF) 초안 제작에 필요한 최종 \n- 코다리: 현빈/레오가 준비할 가상 테스트 케이스 5종의 구체적인 요구사항(Input Data Schema)을 정의하고, 데이터 수집 프로세스(Secret\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 영숙 에이전트가 정리한 지역 생산자 데이터 수집 프로세스(Step 3, 4) 및 Writer 에이전트가 작성한 핵심 용어 가이드라인을 통합하여, 파일럿 테스트를 위한 최종 실행 To-do List와 체크리스트를 즉시 생성하고",
+      "completedAt": "2026-05-21T04:15:01.831Z"
+    },
+    {
+      "id": "20260521041356-o0un",
+      "title": "**표준화 준수:** 모든 기록물에 Writer의 용어 가이드라인을 적용했는가?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-05-21T04:13:56.843Z",
+      "status": "done",
+      "sessionDir": "2026-05-21T04-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-21T04-12/_report.md\n- 영숙: 영숙 에이전트가 정리한 지역 생산자 데이터 수집 프로세스(Step 3, 4) 및 Writer 에이전트가 작성한 핵심 용어 가이드라인을 통합하여,\n- Designer: Writer의 핵심 용어 가이드라인과 Designer의 브랜드 컨셉을 기반으로, 지역 생산자용 온보딩 매뉴얼(PDF) 초안 제작에 필요한 최종 \n- 코다리: 현빈/레오가 준비할 가상 테스트 케이스 5종의 구체적인 요구사항(Input Data Schema)을 정의하고, 데이터 수집 프로세스(Secret\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 영숙 에이전트가 정리한 지역 생산자 데이터 수집 프로세스(Step 3, 4) 및 Writer 에이전트가 작성한 핵심 용어 가이드라인을 통합하여, 파일럿 테스트를 위한 최종 실행 To-do List와 체크리스트를 즉시 생성하고",
+      "completedAt": "2026-05-21T04:15:01.836Z"
+    }
+  ]
+}
