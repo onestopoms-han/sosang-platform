@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 5. 22. 오전 8:44:25_
+_업데이트: 2026. 5. 22. 오전 8:57:05_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -15,13 +15,13 @@ _업데이트: 2026. 5. 22. 오전 8:44:25_
 - [2026-05-21] 코다리가 구현할 데이터 구조를 기반으로 'Pain Point 시각화 카드'의 디자인 사양서를 최종 검토하고, 백엔드 응답 JSON 구조에 대한 기술적 검토를 제공하여 개발팀에 전달할 준비를 완료하라. → 산출물 sessions/2026-05-21T22-39/designer.md
 - [2026-05-21] 최종 UI/UX 흐름 사양서를 기반으로, 수익화 단계별 정보 노출 우선순위(Tiered Information Hierarchy)를 확정하고, 'Action Plan'의 시각화를 극대화하는 최종 디자인 시스템 가이드라인을 완성하라. → 산출물 sessions/2026-05-21T22-54/designer.md
 ### 💻 코다리
-- [2026-05-21] Action Plan 생성 로직을 구체화하고, AI 진단 결과(Action Prescription)를 포함한 최종 백엔드 API 구현을 완료하여 코다리님의 작업 산출물을 확정하라. → 산출물 sessions/2026-05-21T22-39/developer.md
 - [2026-05-21] 확정된 데이터 모델(`diagnosis_input_schema.ts`)과 API 명세(Swagger/OpenAPI)를 기반으로 Action Plan Flow에 따른 백엔드 엔드포인트 및 데이터 흐름 구현을 즉시 착수하라. → 산출물 sessions/2026-05-21T23-09/developer.md
 - [2026-05-21] 수익화 전략(Tiered Pricing)에 맞춰 Action Plan 생성 로직(`action_plan_service.py`)을 실제 데이터 흐름과 연동하여 완성하고 테스트 코드를 작성하여 백엔드 구현을 완료한다. → 산출물 sessions/2026-05-21T23-24/developer.md
+- [2026-05-21] 수익화 전략(Tiered Pricing)과 Pain Point 분석 결과를 연동하여, Action Plan 생성 로직을 완성하고 관련 테스트 코드를 작성하는 백엔드 구현을 즉시 착수하라. → 산출물 sessions/2026-05-21T23-54/developer.md
 ### 💼 현빈
-- [2026-05-21] AI 진단 결과(Action Plan)의 가치를 극대화하기 위한 Tiered Pricing 전략과 초기 KPI 로드맵을 재검토하고, '혼돈에서 질서로의 전환' 컨셉에 맞는 수익화 흐름을 구체화하라. → 산출물 sessions/2026-05-21T22-54/business.md
 - [2026-05-21] Tiered Pricing 전략(Basic, Premium, Enterprise)에 기반하여 각 티어별 구체적인 가격 책정 및 마케팅 채널별 최적화 방안을 수립하고, 이 계획을 개발팀에 전달할 준비를 하라. → 산출물 sessions/2026-05-21T23-09/business.md
 - [2026-05-21] 현재 개발된 'Action Plan' 기능에 대해 Tiered Pricing 전략(Basic/Premium)을 최종 확정하고, 각 티어별로 소상공인에게 제공할 핵심 가치와 가격 책정의 논리적 근거를 수립하라. → 산출물 sessions/2026-05-21T23-39/business.md
+- [2026-05-21] Action Plan 생성 로직의 백엔드 구현이 완료되는 대로, Premium 플랜 가치(시간 및 시행착오 감소)가 명확히 반영된 데이터 흐름과 API 응답 구조를 최종 검토하고 승인하라. → 산출물 sessions/2026-05-21T23-54/business.md
 ### 📱 영숙
 - [2026-05-21] 오늘 오후 3시 예정된 Coder 및 Designer와의 회의 일정을 최종 확정하고, 모든 관련 자료(사양서 초안 등)가 공유되도록 사전 준비를 완료하라. → 산출물 sessions/2026-05-21T18-24/secretary.md
 - [2026-05-21] Designer 및 Coder와의 회의 결과를 바탕으로, 확정된 Scope에 맞춘 현실적인 개발 일정 및 리스크 관리 계획(Roadmap) 초안을 수립하여 CEO에게 보고하라. → 산출물 sessions/2026-05-21T18-39/secretary.md
