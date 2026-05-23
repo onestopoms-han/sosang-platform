@@ -1,40 +1,49 @@
-from pydantic import BaseModel, Field, validator
-from typing import List, Optional, Literal
-from datetime import date
+# StoryFlowSchema v2.0 - API 계약서 (Payment Flow Focus)
 
-# --- Shared Enums ---
-RiskLevel = Literal["Low", "Medium", "High"]
-ActionType = Literal["Self-Check", "Resource-Review", "Consultation"]
-BenefitType = Literal["Financial", "Legal", "TimeSaving"]
+from pydantic import BaseModel, Field
+from typing import List, Optional
 
+# 1. 진단 결과 (기존 유지)
+class DiagnosisOutput(BaseModel):
+    risk_level: str = Field(..., description="진단된 손실 위험도 (Low, Medium, High)")
+    diagnosis_summary: str = Field(..., description="핵심 문제 요약")
+    suggested_path: List[str] = Field(..., description="권장되는 코칭 단계 목록")
 
-class StepContent(BaseModel):
-    """단일 코칭 단계에 필요한 콘텐츠 구조."""
-    title: str = Field(description="사용자에게 노출될 단계 제목.")
-    step_id: str = Field(description="이 단계를 식별하는 고유 ID (예: S-01).")
-    required_action: ActionType = Field(description="사용자가 이 단계에서 취해야 할 행동 유형.")
-    content_details: dict = Field(description="단계에 필요한 구체적인 콘텐츠 데이터 맵. { 'text': str, 'image_url': Optional[str], ... }")
-
-
+# 2. 가치 제안 및 전환 관련 데이터 (추가/강화)
 class PremiumValueProposition(BaseModel):
-    """Premium 플랜의 가치 제안을 수치화하여 기술적으로 정의."""
-    benefit_type: BenefitType = Field(description="제공되는 혜택의 유형 (재무, 법률, 시간).")
-    claim_title: str = Field(description="가치를 증명하는 제목.")
-    proof_data: Optional[dict] = Field(description="수치적 근거 데이터. 예: {'metric': 'time_saved', 'value': 15, 'unit': 'hours/month'}.")
+    # '손실 최소화' 테마에 맞춰, 프리미엄이 제공하는 구체적인 이득을 측정 가능한 형태로 정의합니다.
+    risk_reduction_metric: float = Field(..., description="진단 결과 대비, 프리미엄 도입으로 예상되는 손실 위험 감소율 (%)")
+    time_saved_estimate: str = Field(..., description="사용자가 절약할 것으로 예상되는 시간 (예: 월 5시간)")
+    exclusive_feature_benefit: str = Field(..., description="프리미엄 전용 핵심 기능의 구체적인 이점 설명")
+    cost_of_inaction: float = Field(..., description="현재 상태를 유지했을 때 예상되는 잠재적 손실 금액 (손실 회피 심리 자극)")
 
+# 3. 최종 API 응답 스키마
+class StoryFlowSchemaResponse(BaseModel):
+    diagnosis: DiagnosisOutput
+    premium_proposition: PremiumValueProposition
+    suggested_flow: List[str] # 코칭 흐름을 UI에 바로 전달하기 위함
+    technical_feasibility_score: float = Field(..., description="시스템이 제시하는 기술적 실행 가능성 점수 (0.0 ~ 1.0)")
 
-class DiagnosisOutputSchemaV2(BaseModel):
-    """
-    진단 엔진의 최종 결과물 및 스토리 흐름을 담는 API 스키마 (StoryFlowSchema v2.0).
-    Phase 1 목표: Story Flow를 통한 유료 전환 경험 제공.
-    """
-    diagnosis_id: str = Field(description="진단을 실행한 고유 ID.")
-    initial_risk_level: RiskLevel = Field(description="초기 진단 결과에 따른 위험 레벨.")
-    story_flow: List[StepContent] = Field(description="사용자가 거쳐야 할 코칭 스텝의 순서 배열.")
-    premium_value_proposition: Optional[PremiumValueProposition] = Field(None, description="만약 Pro/Premium 플랜이 적용될 경우 제공되는 가치 제안 필드.")
+# API 엔드포인트 정의를 위한 최종 데이터 모델 구조
+class PaymentFlowData(BaseModel):
+    # 이 스키마가 결제 페이지 목업에 필요한 모든 핵심 데이터를 포함합니다.
+    flow_data: StoryFlowSchemaResponse
 
-
-# --- API Contract Example Endpoint ---
-# POST /api/v1/diagnosis/generate_flow
-# Request Body: { "input_data": {...} }
-# Response Body: DiagnosisOutputSchemaV2
+# 예시 데이터 (개발 환경에서 테스트용으로 사용)
+example_response = PaymentFlowData(
+    flow_data=StoryFlowSchemaResponse(
+        diagnosis=DiagnosisOutput(
+            risk_level="High",
+            diagnosis_summary="시장 데이터 분석 부족으로 인한 비효율적 자원 배분.",
+            suggested_path=["데이터 수집 시작", "AI 기반 전략 설계", "실행 및 검증"]
+        ),
+        premium_proposition=PremiumValueProposition(
+            risk_reduction_metric=45.0, # 45% 위험 감소 가정
+            time_saved_estimate="월 7시간",
+            exclusive_feature_benefit="실시간 데이터 기반 예측 엔진 접근 권한",
+            cost_of_inaction=150000  # 잠재적 손실 금액 예시
+        ),
+        suggested_flow=["데이터 수집 시작", "AI 기반 전략 설계", "실행 및 검증"],
+        technical_feasibility_score=0.92 # 기술적 실행 가능성 높음
+    )
+)
