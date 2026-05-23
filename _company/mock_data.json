@@ -1,0 +1,42 @@
+{
+  "mock_user_data": [
+    {
+      "id": "user001",
+      "name": "김소상공인 A",
+      "category": "식당업",
+      "revenue_monthly": 5000000,
+      "cost_of_operation": 2500000,
+      "time_spent_on_admin": 15.5,
+      "risk_level": 3
+    },
+    {
+      "id": "user002",
+      "name": "박소상공인 B",
+      "category": "온라인쇼핑몰",
+      "revenue_monthly": 8000000,
+      "cost_of_operation": 3500000,
+      "time_spent_on_admin": 25.0,
+      "risk_level": 4
+    }
+  ],
+  "mock_roi_scenario": [
+    {
+      "user_id": "user001",
+      "input_data": {
+        "revenue_monthly": 5000000,
+        "cost_of_operation": 2500000,
+        "time_spent_on_admin": 15.5
+      },
+      "expected_roi_multiplier": 1.5  // 예시 ROI 결과
+    },
+    {
+      "user_id": "user002",
+      "input_data": {
+        "revenue_monthly": 8000000,
+        "cost_of_operation": 3500000,
+        "time_spent_on_admin": 25.0
+      },
+      "expected_roi_multiplier": 1.2  // 예시 ROI 결과
+    }
+  ]
+}
