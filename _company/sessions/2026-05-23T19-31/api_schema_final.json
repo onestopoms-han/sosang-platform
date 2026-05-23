@@ -1,0 +1,63 @@
+{
+  "title": "StoryFlowSchema v3.0 (Actionable Value)",
+  "description": "AI 리스크 예측 및 가치 증명 흐름을 위한 최종 API 데이터 계약서.",
+  "type": "object",
+  "properties": {
+    "diagnosis_result": {
+      "type": "string",
+      "description": "최종 AI 진단 결과 (예: 손실 위험도 High)",
+      "enum": ["Low", "Medium", "High"]
+    },
+    "risk_metrics": {
+      "type": "object",
+      "description": "핵심 리스크 측정 지표.",
+      "properties": {
+        "potential_loss": {
+          "type": "number",
+          "description": "소상공인이 직면한 예상 잠재적 금전적 손실 규모 (원화 기준).",
+          "minimum": 0.01
+        },
+        "wtp_index": {
+          "type": "number",
+          "description": "Willingness to Pay Index. 지불 의향을 정규화한 점수 (0.0 ~ 1.0).",
+          "minimum": 0.0,
+          "maximum": 1.0
+        },
+        "risk_avoidance_value": {
+          "type": "number",
+          "description": "리스크 회피 가치. (WTP 지수 / 잠재 손실액)로 계산된 ROI 지표.",
+          "minimum": 0.0,
+          "maximum": 100.0
+        }
+      },
+      "required": ["potential_loss", "wtp_index", "risk_avoidance_value"]
+    },
+    "story_flow": {
+      "type": "array",
+      "description": "다음 단계로 이어질 코칭 및 행동 계획의 조건부 경로.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "step_name": {"type": "string", "description": "단계 이름 (예: Risk Assessment, Solution Proposal)"},
+          "condition": {"type": "string", "description": "이 단계로 진입하기 위한 조건 (예: potential_loss > 1000만원)"},
+          "actionable_advice": {
+            "type": "string",
+            "description": "사용자에게 제시할 구체적인 행동 조언 및 CTA.",
+            "example": "현재 위험도가 높으니, 즉시 [솔루션 도입]을 검토하세요."
+          },
+          "next_step_id": {"type": "string", "description": "다음 단계로의 ID 연결 (StoryFlow 내부 로직용)"}
+        },
+        "required": ["step_name", "condition", "actionable_advice", "next_step_id"]
+      }
+    },
+    "platform_pricing": {
+      "type": "object",
+      "description": "플랫폼의 구독 레벨 정보.",
+      "properties": {
+        "basic_limit": {"type": "number", "description": "Basic 플랜의 제한 사항."},
+        "premium_benefit": {"type": "string", "description": "Premium 플랜이 제공하는 핵심 가치 (Value Proposition)."}
+      }
+    }
+  },
+  "required": ["diagnosis_result", "risk_metrics", "story_flow", "platform_pricing"]
+}
