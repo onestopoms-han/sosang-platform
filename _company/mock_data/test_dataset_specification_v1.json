@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "description": "BDS 소상공인 AI 리스크 예측 대시보드 PoC를 위한 테스트 데이터셋 스펙.",
+    "version": "1.0",
+    "source": "Researcher (WTP/Max Loss 측정 기준 종합)",
+    "usage_note": "이 Mock Data는 소상공인이 겪는 '특정 리스크'에 대해 얼마나 큰 손실(Max Loss)을 예상하며, 그 해결책에 얼마까지 기꺼이 지불할 의사(WTP)가 있는지를 테스트하는 데 사용되어야 합니다. 모든 값은 가상의 데이터입니다."
+  },
+
+  "dataset_schema": {
+    "mock_scenarios": [
+      {
+        "scenario_id": "S001",
+        "scenario_name": "온라인 주문 시스템 갑작스러운 장애 발생",
+        "small_business_type": "동네 맛집 (음식점)",
+        "pain_point_description": "주문 접수 및 결제 시스템 오류로 인해 하루 동안 매출의 일부를 놓치게 됨.",
+        "core_risk_metric": "시스템 가용성 리스크",
+        "max_loss_calculation": {
+          "basis": "평균 일일 매출액 (AOV * 예상 고객 수) * 예상 손실률",
+          "estimated_period_days": 1,
+          "calculated_value": 3500000,
+          "currency": "KRW"
+        },
+        "wtp_measurement": {
+          "basis": "리스크를 완전히 제거하기 위해 지불할 의사 금액 (Insurance/구독 서비스)",
+          "willingness_to_pay_range": [50000, 150000],
+          "preferred_payment_model": "월 구독료 (예방적 비용 인식)"
+        },
+        "solution_impact_score": 0.85,
+        "expected_action_cta": "AI 예측 기반 장애 예방 컨설팅 유료 전환"
+      },
+      {
+        "scenario_id": "S002",
+        "scenario_name": "인건비 급등으로 인한 운영 효율성 저하",
+        "small_business_type": "소매점 (카페/잡화)",
+        "pain_point_description": "급격한 인건비 상승으로 인해 마진율이 예상보다 크게 하락함.",
+        "core_risk_metric": "운영 비용 리스크",
+        "max_loss_calculation": {
+          "basis": "추가 운영 비용(인건비) 증가분 * 예상 기간",
+          "estimated_period_months": 3,
+          "calculated_value": 12000000,
+          "currency": "KRW"
+        },
+        "wtp_measurement": {
+          "basis": "인력 배치 최적화 솔루션 도입 비용 (초기 투자)",
+          "willingness_to_pay_range": [1500000, 3000000],
+          "preferred_payment_model": "설치비 + 월 이용료 (투자 회수 개념)"
+        },
+        "solution_impact_score": 0.92,
+        "expected_action_cta": "AI 기반 인력 스케줄링 솔루션 도입 제안"
+      },
+      {
+        "scenario_id": "S003",
+        "scenario_name": "지역 상권 경기 침체 및 고객 감소",
+        "small_business_type": "생활 서비스 (미용실/세탁소)",
+        "pain_point_description": "경쟁 심화와 외부 요인으로 인해 고정적인 고객 유입이 어려워지고 매출이 꾸준히 하락함.",
+        "core_risk_metric": "시장 수요 리스크",
+        "max_loss_calculation": {
+          "basis": "평균 월 매출액 * 예상 감소율 (3개월간)",
+          "estimated_period_months": 3,
+          "calculated_value": 8000000,
+          "currency": "KRW"
+        },
+        "wtp_measurement": {
+          "basis": "신규 고객 유입 및 마케팅 자동화 시스템 구독료",
+          "willingness_to_pay_range": [80000, 250000],
+          "preferred_payment_model": "월 정액형 (지속적 마케팅 지원)"
+        },
+        "solution_impact_score": 0.78,
+        "expected_action_cta": "데이터 기반 로컬 마케팅 및 고객 확보 채널 연결 제안"
+      }
+    ]
+  }
+}
