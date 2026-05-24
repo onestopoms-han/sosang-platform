@@ -203,6 +203,81 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-24T00-01/_report.md\n- Researcher: AI 리스크 예측 대시보드 개발을 통해 확보된 'Max Loss'와 'WTP' 데이터를 바탕으로, 소상공인의 실제 행동 변화를 유도할 수 있는 \n- Writer: 연구 결과를 기반으로 'AI 리스크 예측'이 소상공인의 손실을 어떻게 줄이고 기회를 어떻게 창출하는지에 초점을 맞춘, 행동 변화를 유도하는 유튜\n- Designer: Writer가 제공한 스토리텔링과 Researcher가 정리한 핵심 지표를 통합하여, 'AI 리스크 예측 대시보드'의 가치를 극대화하는 시각적 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: AI 리스크 예측 대시보드 개발을 통해 확보된 'Max Loss'와 'WTP' 데이터를 바탕으로, 소상공인의 실제 행동 변화를 유도할 수 있는 핵심 통계 및 스토리텔링 지표를 최종 정리하고 콘텐츠의 핵심 메시지",
       "completedAt": "2026-05-24T00:05:20.658Z"
+    },
+    {
+      "id": "20260524153248-tzo6",
+      "title": "**데이터 흐름**: 콘텐츠 시청 → Loss Gauge 확인 → 진단 툴 사용률 측정까지의 데이터가 끊김 없이 기록되는지? (KPI 추적 로직)",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-05-24T15:32:48.802Z",
+      "status": "pending",
+      "sessionDir": "2026-05-24T15-31",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260524153248-gn66",
+      "title": "**사용자 인터랙션**: 모든 버튼과 링크(CTA)가 의도한 페이지와 기능을 정확히 수행하는지? (반응형 웹 검토 포함)",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-05-24T15:32:48.810Z",
+      "status": "pending",
+      "sessionDir": "2026-05-24T15-31",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260524153248-xxjr",
+      "title": "**에러 핸들링**: LLM 호출 실패, API 연결 오류 등 비정상 상황 발생 시 Fallback 화면이 정상적으로 작동하고 사용자에게 혼란을 주지 않는지?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-05-24T15:32:48.819Z",
+      "status": "pending",
+      "sessionDir": "2026-05-24T15-31",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260524153248-8ahu",
+      "title": "**보안/결제**: 결제 모듈 연동 과정에서 개인 정보가 암호화되고, 트랜잭션 기록에 누락된 부분이 없는지?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-05-24T15:32:48.827Z",
+      "status": "pending",
+      "sessionDir": "2026-05-24T15-31",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260524153248-pfyd",
+      "title": "**심리적 이득 극대화**: 사용자가 '불안감(Loss)'을 느낀 지점에서 '해결책/희망'으로 전환되는 스토리텔링의 흐름이 자연스러운지?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-05-24T15:32:48.837Z",
+      "status": "pending",
+      "sessionDir": "2026-05-24T15-31",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
     }
   ]
 }
