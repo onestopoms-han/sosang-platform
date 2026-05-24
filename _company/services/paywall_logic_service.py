@@ -1,89 +1,96 @@
-from pydantic import BaseModel, Field
-from typing import List, Optional
+<![CDATA[
 import json
+from typing import Dict, Any
 
-# --- [Schema Definition] ---
-# StoryFlowSchema v2.0의 백엔드 강제 계약서 역할
-class DiagnosisOutput(BaseModel):
-    """진단 엔진이 산출하는 기본 진단 결과."""
-    risk_level: str = Field(description="손실 위험도 (Low, Medium, High)")
-    loss_potential_score: float = Field(description="잠재적 손실 점수 (0.0 ~ 1.0)")
-    diagnosis_message: str = Field(description="진단 요약 메시지")
+# 가상의 데이터 및 설정 (실제로는 DB 또는 외부 서비스 연동)
+PRICING_TIERS = {
+    "Basic": {"price": 49000, "value_proposition": "기본 진단 결과 제공"},
+    "Standard": {"price": 99000, "value_proposition": "심층 분석 및 맞춤 코칭 로드맵 (시간 절약 효과: 10%)"},
+    "Premium": {"price": 199000, "value_proposition": "AI 기반 예측 리포트 + 실시간 액션 플랜 연동 (시간 절약 효과: 30%)"}
+}
 
-class PremiumBenefit(BaseModel):
-    """Premium 플랜의 가치 제안 데이터 구조."""
-    benefit_title: str = Field(description="가장 강조할 프리미엄 기능 제목 (예: AI 최적화 로드맵)")
-    value_proposition_detail: str = Field(description="사용자가 얻을 감성적/측정 가능한 이점 설명.")
-    is_core_feature: bool = Field(default=True)
-
-class StoryFlowSchema(BaseModel):
-    """진단 결과를 바탕으로 사용자를 유료화로 안내하는 3단계 코칭 흐름."""
-    step_id: str = Field(description="현재 단계 식별자 (S1, S2, S3)")
-    content_template_key: str = Field(description="프론트엔드에서 사용할 콘텐츠 키 (예: 'financial-roadmap')")
-    action_required: Optional[str] = Field(default=None, description="사용자가 취해야 할 행동 ('무료 학습', '상담 예약' 등)")
-    is_paid_wall_triggered: bool = Field(description="이 단계에서 Paywall을 띄워야 하는지 여부.")
-    premium_value_proposition: Optional[PremiumBenefit] = None
-
-# --- [Core Service Implementation] ---
-def calculate_loss_action(diagnosis: DiagnosisOutput) -> StoryFlowSchema:
+# Loss Gauge 계산 로직
+def calculate_loss_gauge(diagnosis: Dict[str, Any], user_plan: str) -> Dict[str, Any]:
     """
-    진단 결과에 따라 사용자에게 최적화된 코칭 스토리 흐름을 계산하고, 
-    Paywall 트리거 여부와 Premium 가치를 결정하는 핵심 비즈니스 로직.
+    진단 결과와 사용자 플랜을 기반으로 손실 게이지 및 행동 유도 데이터를 계산합니다.
+    """
+    if user_plan not in PRICING_TIERS:
+        raise ValueError(f"Invalid user plan: {user_plan}")
+
+    plan_data = PRICING_TIERS[user_plan]
     
-    [WHY] 단순히 결과를 전달하는 것이 아니라, 감성적인 전환 경험(Story Flow)을 설계해야 하기 때문입니다.
-    """
-    print("--- [DEBUG] Calculating Loss Action based on Diagnosis ---")
-
-    if diagnosis.risk_level == "High" and diagnosis.loss_potential_score > 0.7:
-        # High Risk -> 즉각적인 유료 전환 필요 (Strong Paywall Trigger)
-        premium_benefit = PremiumBenefit(
-            benefit_title="맞춤형 AI 생존 로드맵",
-            value_proposition_detail="경쟁사 대비 월 평균 시간 절약 효과 30% 예측.",
-            is_core_feature=True
-        )
-        return StoryFlowSchema(
-            step_id="S2-HighRisk",
-            content_template_key="high_risk_intervention",
-            action_required="Premium Plan 구매 및 로드맵 받기",
-            is_paid_wall_triggered=True, # ★★★ 핵심: 여기서 Paywall 트리거 확정
-            premium_value_proposition=premium_benefit
-        )
-
-    elif diagnosis.risk_level == "Medium" and diagnosis.loss_potential_score > 0.3:
-        # Medium Risk -> 교육/정보 제공으로 유도 후, 낮은 강도의 전환 시도 (Soft Paywall Trigger)
-        return StoryFlowSchema(
-            step_id="S1-MediumRisk",
-            content_template_key="medium_risk_guidance",
-            action_required="무료 코칭 자료 다운로드 및 추가 진단 진행",
-            is_paid_wall_triggered=False, # 아직은 무료 콘텐츠로 신뢰 확보가 우선
-            premium_value_proposition=None
-        )
-
+    # 1. 기본 손실 위험도 계산 (진단 결과 기반)
+    risk_level = diagnosis.get("risk_level", "Medium") # 예시 데이터 가정
+    
+    # 2. 플랜별 가치 반영 (Loss Gauge의 핵심)
+    if user_plan == "Basic":
+        loss_gauge_value = 50  # 기본 손실 위험도만 표시
+        action_prompt = f"진단 결과: {risk_level}. Basic 플랜으로 시작하여 기초를 다지세요."
+    elif user_plan == "Standard":
+        # Standard는 시간 절약 효과 반영
+        loss_gauge_value = 30  # 위험도 + 가치 확보 (10% 절약)
+        action_prompt = f"진단 결과: {risk_level}. Standard 플랜으로 전환하여 핵심 전략을 실행하세요. (시간 절약 예상: 10%)"
+    elif user_plan == "Premium":
+        # Premium은 최대 가치 및 예측 리포트 반영
+        loss_gauge_value = 10  # 최소화된 손실 위험도 + 최적의 액션 플랜 확보 (30% 절약)
+        action_prompt = f"진단 결과: {risk_level}. Premium 플랜으로 전환하여 AI 기반 예측 리포트와 즉각적인 행동 전략을 실행하세요. (시간 절약 예상: 30%)"
     else:
-        # Low Risk -> 문제점 발견 없음. 서비스 이탈 방지에 집중하거나 재진단을 유도.
-        return StoryFlowSchema(
-            step_id="S0-LowRisk",
-            content_template_key="low_risk_status",
-            action_required="다른 비즈니스 영역 진단받기 또는 성공 사례 확인",
-            is_paid_wall_triggered=False,
-            premium_value_proposition=None
-        )
+        # Fallback for unknown plans
+        loss_gauge_value = 100 # 최대 위험 표시
+        action_prompt = "플랜 선택이 불확실합니다. 플랜을 확인하고 다음 단계로 진행하세요."
 
-# --- [Unit Test Placeholder] ---
-def test_paywall_logic():
-    """이 함수는 단위 테스트 환경에서 호출되어야 합니다."""
-    print("\n[TEST] Running Paywall Logic Unit Test...")
-    # Mock Diagnosis Input: High Risk Case
-    mock_diagnosis = DiagnosisOutput(
-        risk_level="High", 
-        loss_potential_score=0.85, 
-        diagnosis_message="위험도가 높습니다. 즉각적인 대응이 필요합니다."
-    )
-    # Mocking된 결과를 통해 Paywall 트리거가 정상 작동하는지 확인해야 합니다.
-    result = calculate_loss_action(mock_diagnosis)
-    print(f"TEST SUCCESS: High Risk -> Paid Wall Triggered? {result.is_paid_wall_triggered}")
-    assert result.is_paid_wall_triggered == True
+    # 3. 최종 결과 반환 구조 (프론트엔드에 전달할 데이터)
+    return {
+        "loss_gauge": loss_gauge_value,
+        "risk_level": risk_level,
+        "action_prompt": action_prompt,
+        "plan_details": plan_data.get("value_proposition", "일반 플랜")
+    }
 
-if __name__ == "__main__":
-    # 로컬 실행 테스트 (개발 환경에서 직접 확인)
-    test_paywall_logic()
+def get_pricing_details(plan: str) -> Dict[str, Any]:
+    """사용자 플랜에 대한 상세 정보를 반환합니다."""
+    return PRICING_TIERS.get(plan, {"price": 0, "value_proposition": "알 수 없는 플랜"})
+
+def validate_story_flow(diagnosis: Dict[str, Any], user_plan: str) -> bool:
+    """StoryFlowSchema에 따른 조건부 흐름의 유효성을 검증합니다."""
+    # TODO: 실제 StoryFlowSchema 로직을 여기에 통합하여 복잡한 상태 전환 검증 로직 구현 필요.
+    # 현재는 단순 플랜 존재 여부로 기본 검증만 수행함.
+    if user_plan not in ["Basic", "Standard", "Premium"]:
+        return False
+    return True
+
+# --- Mock API Endpoints (실제 서비스에서는 DB/외부 연동) ---
+def mock_api_diagnose(input_data: Dict[str, Any]) -> Dict[str, Any]:
+    """진단 엔진의 모의 호출."""
+    print("Mock Diagnosis Engine Called.")
+    # 실제 진단 결과는 이전 단계에서 생성된 데이터나 Mock 데이터를 사용해야 함.
+    return {"risk_level": "High", "score": 85, "recommendation": "즉각적인 재정 계획이 필요합니다."}
+
+def mock_api_get_pricing(plan: str) -> Dict[str, Any]:
+    """가격 및 가치 정보를 반환합니다."""
+    return get_pricing_details(plan)
+
+# --- 메인 서비스 함수 (프론트엔드 요청 처리) ---
+def handle_paywall_request(diagnosis: Dict[str, Any], requested_plan: str) -> Dict[str, Any]:
+    """
+    Paywall 및 Loss Gauge에 필요한 모든 데이터를 통합하여 반환합니다.
+    """
+    if not validate_story_flow(diagnosis, requested_plan):
+        return {"error": "선택하신 플랜은 유효하지 않습니다."}
+
+    pricing = get_pricing_details(requested_plan)
+    loss_data = calculate_loss_gauge(diagnosis, requested_plan)
+
+    # 최종적으로 프론트엔드에 전달할 데이터 구조 정의 (StoryFlowSchema v2.0 반영)
+    return {
+        "success": True,
+        "pricing": pricing,
+        "loss_gauge_data": loss_data,
+        "diagnosis_summary": diagnosis,
+        "story_flow_status": "Ready for action", # 다음 단계 로직은 추후 구현
+    }
+
+# 테스트용 Mock 데이터
+mock_diagnosis_result = {"risk_level": "High", "score": 85, "recommendation": "즉각적인 재정 계획이 필요합니다."}
+print("Paywall Logic Service Initialized.")
+]]>

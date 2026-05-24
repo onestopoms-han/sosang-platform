@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 5. 24. 오후 9:33:14_
+_업데이트: 2026. 5. 24. 오후 11:02:19_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,21 +11,21 @@ _업데이트: 2026. 5. 24. 오후 9:33:14_
 - [2026-05-24] Writer가 제공한 스토리텔링 프레임워크를 기반으로, 소상공인의 공포를 해결책으로 전환하는 참여 유도형 릴스 콘텐츠 아이디어 5가지(캡션 및 해시태그 포함)를 즉시 제작 단계로 이관하라. → 산출물 sessions/2026-05-24T04-46/instagram.md
 - [2026-05-24] writer가 제공한 스토리텔링 프레임워크와 Loss Gauge의 Red/Green 시스템을 활용하여, AI 대시보드 기능 구현에 대한 소상공인의 불안감을 해소하고 행동을 유도하는 참여 유도형 릴스 콘텐츠 아이디어 3가지(캡션 및 해시태그 포함)를 최종 확정하여 제작 준비를 시작하라. → 산출물 sessions/2026-05-24T08-46/instagram.md
 ### 🎨 Designer
-- [2026-05-24] Developer가 구축한 백엔드 로직(API Schema)과 코다리가 확정한 테스트 케이스를 기반으로, 최종 MVP의 핵심 화면(Paywall 및 Loss Gauge)에 대한 실시간 데이터 흐름 및 인터랙션 검증을 위한 시뮬레이션 환경을 점검하고 최종 레이아웃의 기술적 완성도를 확인하라. → 산출물 sessions/2026-05-24T11-46/designer.md
-- [2026-05-24] Designer는 개발팀이 제시한 테스트 결과를 바탕으로, 소상공인의 Loss-Action Loop 경험(Basic $$\rightarrow$$ Pro 업그레이드 경로)이 기술적 흐름과 완벽히 일치하도록 UI/UX 흐름의 최종 점검 및 미세 조정 피드백을 제공하라. → 산출물 sessions/2026-05-24T12-01/designer.md
-- [2026-05-24] Loss-Action Loop 경험에 따른 사용자 이탈 방지 UI/UX 개선안 초안을 제시하여, 기술적 안정성 검증 결과를 디자인에 즉시 반영할 수 있도록 하라. → 산출물 sessions/2026-05-24T12-31/designer.md
+- [2026-05-24] 코다리 및 영숙으로부터 받은 기술적 제약 리스트와 핵심 경험 목록을 기반으로, Paywall 및 Loss Gauge 화면의 UI/UX 흐름 통합 검토 의견을 최종 디자인 문서로 정리하여 개발팀에 전달할 수 있도록 시각화 자료를 준비하라. → 산출물 sessions/2026-05-24T13-31/designer.md
+- [2026-05-24] 개발팀이 확정한 예외 처리 시나리오(A, B)와 UI/UX Fallback 전략을 기반으로 Paywall 및 Loss Gauge 화면의 최종 통합 검토 의견을 정리하고, 기술적 제약사항을 반영한 시각화 자료를 준비하여 개발팀에 전달할 준비를 하라. → 산출물 sessions/2026-05-24T13-46/designer.md
+- [2026-05-24] 기술적 제약사항과 Fallback 전략(시나리오 A/B)을 반영하여 Paywall 및 Loss Gauge 화면의 최종 UI 목업 디자인을 확정하고, 개발팀에 전달할 시각화 자료를 준비하라. → 산출물 sessions/2026-05-24T14-01/designer.md
 ### 💻 코다리
-- [2026-05-24] Designer가 확정한 최종 UI/UX 가이드라인(Paywall, Loss Gauge)을 기반으로, 핵심 수익 로직인 'Loss-Action Loop' 기능의 End-to-End 통합 테스트 시나리오를 작성하고, API 연동 및 프론트엔드 구현에 필요한 통합 테스트 스위트를 즉시 구축하여 실행하라. → 산출물 sessions/2026-05-24T11-46/developer.md
-- [2026-05-24] 코다리는 Designer가 확정한 Loss-Action Loop 기반의 UI/UX 명세서와 API 스키마를 기반으로, Paywall 및 Loss Gauge 화면에 대한 실시간 데이터 흐름 검증을 위한 통합 테스트 스위트를 즉시 구축하고 실행하여 시스템 연동 안정성을 최종적으로 검증하라. → 산출물 sessions/2026-05-24T12-01/developer.md
-- [2026-05-24] Loss-Action Loop 기능의 구독 상태 변경(`status`) 및 알림 시스템(`subscription_notification`)에 대한 통합 테스트를 즉시 실행하고, 모든 데이터 흐름의 안정성을 최종적으로 검증하여 보고하라. → 산출물 sessions/2026-05-24T12-16/developer.md
+- [2026-05-24] Designer가 준비할 UI/UX 흐름 검토 의견(Paywall 및 Loss Gauge 관련)을 바탕으로, Loss-Action Loop 연동에 대한 Mocking 전략과 예외 처리 로직 초안을 구체화하여 개발 계획에 반영하라. → 산출물 sessions/2026-05-24T13-31/developer.md
+- [2026-05-24] 이전에 확정된 Loss-Action Loop 연동에 대한 Mocking 전략(`MockPaymentClient`, `MockAnalysisClient` 등)을 실제 코드에 구현하여 단위 테스트 환경을 구축하고, 사용자 상태(`User State Mgmt`) 조회를 통한 다양한 구독 스펙 주입 테스트 케이스를 구체화하여 Mocking 범위를 확장하라. → 산출물 sessions/2026-05-24T13-46/developer.md
+- [2026-05-24] Designer가 준비한 시각화 자료와 Fallback 전략을 기반으로 Paywall 및 Loss Gauge 화면의 실제 기능 구현 코드를 안정적으로 개발하고 테스트 환경을 구축하라. → 산출물 sessions/2026-05-24T14-01/developer.md
 ### 💼 현빈
 - [2026-05-24] Loss-Action Loop 기반의 수익화 퍼널맵을 바탕으로, 현재 가장 취약한 구간(예: Activation Rate)에 대한 구체적인 가격 전략과 리스크 회피 방안을 재무적 관점에서 보강하고, 이를 실행 가능한 시나리오로 정리하라. → 산출물 sessions/2026-05-24T11-01/business.md
 - [2026-05-24] 개발팀이 제공한 통합 테스트 결과를 바탕으로 유료 전환 로직의 기술적 안정성(Loss-Action Loop)을 평가하고, 이 결과가 수익화 목표 달성에 미치는 영향을 분석하라. → 산출물 sessions/2026-05-24T12-16/business.md
 - [2026-05-24] 코다리의 데이터 재구축 완료 시점을 기준으로, 수익화 전략(Option C)의 리스크 회피 방안과 다음 단계 MVP 기능 구현 우선순위를 재조정하라. → 산출물 sessions/2026-05-24T12-31/business.md
 ### 📱 영숙
-- [2026-05-24] Designer와 Developer의 작업 진척 상황을 모니터링하고, 다음 업데이트에 필요한 리소스를 정리하여 보고할 준비를 하라. → 산출물 sessions/2026-05-24T06-01/secretary.md
 - [2026-05-24] 최근의 모든 작업 분배 내역과 에이전트별 활동 로그를 요약하여 현재 진행 상태를 보고하라. → 산출물 sessions/2026-05-24T11-31/secretary.md
 - [2026-05-24] 위의 결정 사항들을 바탕으로 다음 작업(코다리 데이터 재구축 완료 시점 확인 및 Designer 개선안 초안 전달)을 위한 구체적인 일정과 할 일 목록을 정리하여 보고하라. → 산출물 sessions/2026-05-24T12-31/secretary.md
+- [2026-05-24] 코다리님의 통합 테스트 스위트 실행 결과를 취합하고, Designer님의 UX 개선안과 결합하여 최종 UI/UX 가이드라인 및 개발 명세서(Spec Sheet)를 확정하기 위한 작업 일정을 즉시 수립하라. → 산출물 sessions/2026-05-24T12-46/secretary.md
 ### ✍️ Writer
 - [2026-05-24] Loss Gauge와 Action Pillar 프레임워크를 활용하여, 소상공인의 불안감을 해소하고 행동을 유도하는 핵심 카피(Pain Point-Solution) 스토리라인 5가지를 작성하고, 이를 바탕으로 유튜브 영상 및 인스타그램 콘텐츠용 후크 문구를 기획하라. → 산출물 sessions/2026-05-24T08-16/writer.md
 - [2026-05-24] 확정된 'Loss-Action Loop' 스토리텔링 프레임워크를 기반으로, AI 리스크 예측 대시보드에 대한 유튜브 영상 스크립트 초안(후크, 본문, CTA 포함) 2가지 버전을 작성하고, Instagram용 참여 유도형 릴스 캡션 및 해시태그 아이디어 5가지를 즉시 작성하라. → 산출물 sessions/2026-05-24T08-46/writer.md
