@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 5. 24. 오후 8:32:27_
+_업데이트: 2026. 5. 24. 오후 9:02:41_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,13 +11,13 @@ _업데이트: 2026. 5. 24. 오후 8:32:27_
 - [2026-05-24] Writer가 제공한 스토리텔링 프레임워크를 기반으로, 소상공인의 공포를 해결책으로 전환하는 참여 유도형 릴스 콘텐츠 아이디어 5가지(캡션 및 해시태그 포함)를 즉시 제작 단계로 이관하라. → 산출물 sessions/2026-05-24T04-46/instagram.md
 - [2026-05-24] writer가 제공한 스토리텔링 프레임워크와 Loss Gauge의 Red/Green 시스템을 활용하여, AI 대시보드 기능 구현에 대한 소상공인의 불안감을 해소하고 행동을 유도하는 참여 유도형 릴스 콘텐츠 아이디어 3가지(캡션 및 해시태그 포함)를 최종 확정하여 제작 준비를 시작하라. → 산출물 sessions/2026-05-24T08-46/instagram.md
 ### 🎨 Designer
-- [2026-05-24] Loss-Action Loop 원칙을 기반으로 유료 전환(Paywall) UI/UX 흐름 설계를 시작하고, 개발팀이 참조할 수 있는 최종 레이아웃 및 비주얼 가이드라인을 확정하라. → 산출물 sessions/2026-05-24T10-16/designer.md
-- [2026-05-24] 현빈이 제시한 P0-1(Paywall) 및 P1-1(Loss Gauge 측정 로직)에 대한 최종 UI/UX 가이드라인을 업데이트하고, 개발팀이 참조할 수 있는 최종 스타일 가이드(Style Guide)를 확정하여 전달하라. → 산출물 sessions/2026-05-24T10-46/designer.md
 - [2026-05-24] Loss-Action Loop 원칙을 기반으로 Paywall 및 Loss Gauge 화면의 최종 UI/UX 가이드라인(특히 Basic $ightarrow$ Pro 업그레이드 경로)을 재설계하고, 개발팀이 즉시 구현할 수 있도록 최종 스타일 가이드와 레이아웃을 확정하라. → 산출물 sessions/2026-05-24T11-16/designer.md
+- [2026-05-24] Developer가 구축한 백엔드 로직(API Schema)과 코다리가 확정한 테스트 케이스를 기반으로, 최종 MVP의 핵심 화면(Paywall 및 Loss Gauge)에 대한 실시간 데이터 흐름 및 인터랙션 검증을 위한 시뮬레이션 환경을 점검하고 최종 레이아웃의 기술적 완성도를 확인하라. → 산출물 sessions/2026-05-24T11-46/designer.md
+- [2026-05-24] Designer는 개발팀이 제시한 테스트 결과를 바탕으로, 소상공인의 Loss-Action Loop 경험(Basic $$\rightarrow$$ Pro 업그레이드 경로)이 기술적 흐름과 완벽히 일치하도록 UI/UX 흐름의 최종 점검 및 미세 조정 피드백을 제공하라. → 산출물 sessions/2026-05-24T12-01/designer.md
 ### 💻 코다리
-- [2026-05-24] 최근 확정된 API 스키마(`StoryFlowSchema`)와 가격 구조(`Pricing_Strategy_Final.md`)를 기반으로, 유료 전환 로직(`action_plan_service.py`)에 대한 통합 테스트 스위트(Integration Test Suite)를 즉시 구축하고 실행하여 로직의 안정성을 검증하라. → 산출물 sessions/2026-05-24T10-31/developer.md
-- [2026-05-24] 현빈이 제시한 테스트 케이스 우선순위(P0-1, P0-2, P0-3)를 기반으로 실제 백엔드 테스트 스위트를 즉시 구축하고 실행 환경을 준비하며, 이 테스트가 디자인 명세와 완벽히 일치하는지 검증하라. → 산출물 sessions/2026-05-24T10-46/developer.md
 - [2026-05-24] Designer가 제공한 Loss Gauge 및 Paywall UI/UX 명세서를 기반으로, 유료 전환 로직(Loss-Action Loop)의 안정성을 보장하는 백엔드 API 스키마와 데이터 구조를 확정하고, 구독 갱신 알림 시스템에 필요한 핵심 엔드포인트 설계를 시작하라. → 산출물 sessions/2026-05-24T11-16/developer.md
+- [2026-05-24] Designer가 확정한 최종 UI/UX 가이드라인(Paywall, Loss Gauge)을 기반으로, 핵심 수익 로직인 'Loss-Action Loop' 기능의 End-to-End 통합 테스트 시나리오를 작성하고, API 연동 및 프론트엔드 구현에 필요한 통합 테스트 스위트를 즉시 구축하여 실행하라. → 산출물 sessions/2026-05-24T11-46/developer.md
+- [2026-05-24] 코다리는 Designer가 확정한 Loss-Action Loop 기반의 UI/UX 명세서와 API 스키마를 기반으로, Paywall 및 Loss Gauge 화면에 대한 실시간 데이터 흐름 검증을 위한 통합 테스트 스위트를 즉시 구축하고 실행하여 시스템 연동 안정성을 최종적으로 검증하라. → 산출물 sessions/2026-05-24T12-01/developer.md
 ### 💼 현빈
 - [2026-05-24] 개발팀이 구축할 테스트 스위트가 Loss-Action Loop 원칙과 최종 가격 구조(`Pricing_Strategy_Final.md`)에 부합하는지 검토하고, 테스트 케이스의 우선순위를 설정하라. → 산출물 sessions/2026-05-24T10-31/business.md
 - [2026-05-24] 개발팀과 디자인팀의 작업 결과가 'Loss-Action Loop' 원칙과 최종 가격 구조(`Pricing_Strategy_Final.md`)에 부합하는지 비즈니스 리스크 관점에서 통합 검토하고, 다음 단계 마케팅 전략에 필요한 핵심 지표를 정의하라. → 산출물 sessions/2026-05-24T10-46/business.md
