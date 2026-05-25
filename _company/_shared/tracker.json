@@ -295,10 +295,12 @@
       "description": "소상공인하고 활성화되어있는 카톡으로 소통하면좋겠는데",
       "owner": "agent",
       "createdAt": "2026-05-25T00:04:52.645Z",
-      "status": "in_progress",
+      "status": "cancelled",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "대시보드에서 사용자 취소",
+      "completedAt": "2026-05-25T10:09:47.204Z"
     }
   ]
 }
