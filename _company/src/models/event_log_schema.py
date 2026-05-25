@@ -1,6 +1,7 @@
 # 이 파일은 이전 세션에서 생성된 것으로 가정하고, 임시로 구조만 정의합니다.
 from pydantic import BaseModel, Field
 import datetime
+from typing import Any
 
 class EventLogSchema(BaseModel):
     """

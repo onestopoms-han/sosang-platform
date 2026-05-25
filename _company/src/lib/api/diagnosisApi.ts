@@ -1,4 +1,3 @@
-<![
 import axios from 'axios';
 import { DiagnosisReport } from '@/types/diagnosis'; // diagnosis_input_schema에서 유추된 타입
 
@@ -38,4 +37,3 @@ export const DIAGNOSIS_ENDPOINT = '/api/diagnosis/submit';
 
 // 필요한 경우, 실제 API 통신을 위한 axios 인스턴스 설정도 여기에 추가합니다.
 // export const diagnosisClient = axios.create({ baseURL: API_BASE_URL });
-]]>

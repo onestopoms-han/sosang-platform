@@ -1,4 +1,3 @@
-<![
 import React, { useState } from 'react';
 import { DiagnoseForm } from '@/components/DiagnoseForm'; // 추후 구현될 폼 컴포넌트
 import { DiagnosisReport } from '@/types/diagnosis'; // diagnosis_input_schema에서 유추된 타입
@@ -100,4 +99,3 @@ const DiagnosisPage: React.FC<DiagnosisPageProps> = ({ initialFormData }) => {
 };
 
 export default DiagnosisPage;
-]]>

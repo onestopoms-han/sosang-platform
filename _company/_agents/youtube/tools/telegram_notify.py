@@ -11,6 +11,11 @@ UI-managed home (input via Skills ⚙️). Falls back to legacy config.md
 and finally to youtube_account.json so older setups keep working."""
 import os, json, sys, time, re
 
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(errors='replace')
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 ACCOUNT = os.path.join(HERE, "youtube_account.json")
 # tools/ → youtube/ → _agents/ → brain root
