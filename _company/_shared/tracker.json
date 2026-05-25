@@ -213,11 +213,13 @@
         "secretary"
       ],
       "createdAt": "2026-05-24T15:32:48.802Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-05-24T15-31",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-24T15-31/_report.md\n- 영숙: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 \n- 코다리: 코다리는 통합 테스트 시나리오 및 QA 체크리스트에 맞춰, Paywall 및 Loss Gauge 기능 연동 로직의 End-to-End 통합 테스\n- Designer: Designer는 최종 UI 목업과 개발팀의 QA 체크리스트를 기반으로, 시스템 안정성을 저해하지 않는 선에서 모든 컴포넌트의 반응형 및 기능적\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 전달할 'End-to-End 통합 검증 마일스톤'과 'QA 체크리스트' 초안을 작",
+      "completedAt": "2026-05-24T15:34:49.243Z"
     },
     {
       "id": "20260524153248-gn66",
@@ -228,11 +230,13 @@
         "secretary"
       ],
       "createdAt": "2026-05-24T15:32:48.810Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-05-24T15-31",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-24T15-31/_report.md\n- 영숙: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 \n- 코다리: 코다리는 통합 테스트 시나리오 및 QA 체크리스트에 맞춰, Paywall 및 Loss Gauge 기능 연동 로직의 End-to-End 통합 테스\n- Designer: Designer는 최종 UI 목업과 개발팀의 QA 체크리스트를 기반으로, 시스템 안정성을 저해하지 않는 선에서 모든 컴포넌트의 반응형 및 기능적\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 전달할 'End-to-End 통합 검증 마일스톤'과 'QA 체크리스트' 초안을 작",
+      "completedAt": "2026-05-24T15:34:49.256Z"
     },
     {
       "id": "20260524153248-xxjr",
@@ -243,11 +247,13 @@
         "secretary"
       ],
       "createdAt": "2026-05-24T15:32:48.819Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-05-24T15-31",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-24T15-31/_report.md\n- 영숙: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 \n- 코다리: 코다리는 통합 테스트 시나리오 및 QA 체크리스트에 맞춰, Paywall 및 Loss Gauge 기능 연동 로직의 End-to-End 통합 테스\n- Designer: Designer는 최종 UI 목업과 개발팀의 QA 체크리스트를 기반으로, 시스템 안정성을 저해하지 않는 선에서 모든 컴포넌트의 반응형 및 기능적\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 전달할 'End-to-End 통합 검증 마일스톤'과 'QA 체크리스트' 초안을 작",
+      "completedAt": "2026-05-24T15:34:49.263Z"
     },
     {
       "id": "20260524153248-8ahu",
@@ -258,11 +264,13 @@
         "secretary"
       ],
       "createdAt": "2026-05-24T15:32:48.827Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-05-24T15-31",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-24T15-31/_report.md\n- 영숙: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 \n- 코다리: 코다리는 통합 테스트 시나리오 및 QA 체크리스트에 맞춰, Paywall 및 Loss Gauge 기능 연동 로직의 End-to-End 통합 테스\n- Designer: Designer는 최종 UI 목업과 개발팀의 QA 체크리스트를 기반으로, 시스템 안정성을 저해하지 않는 선에서 모든 컴포넌트의 반응형 및 기능적\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 전달할 'End-to-End 통합 검증 마일스톤'과 'QA 체크리스트' 초안을 작",
+      "completedAt": "2026-05-24T15:34:49.270Z"
     },
     {
       "id": "20260524153248-pfyd",
@@ -273,8 +281,21 @@
         "secretary"
       ],
       "createdAt": "2026-05-24T15:32:48.837Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-05-24T15-31",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-24T15-31/_report.md\n- 영숙: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 \n- 코다리: 코다리는 통합 테스트 시나리오 및 QA 체크리스트에 맞춰, Paywall 및 Loss Gauge 기능 연동 로직의 End-to-End 통합 테스\n- Designer: Designer는 최종 UI 목업과 개발팀의 QA 체크리스트를 기반으로, 시스템 안정성을 저해하지 않는 선에서 모든 컴포넌트의 반응형 및 기능적\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 전달할 'End-to-End 통합 검증 마일스톤'과 'QA 체크리스트' 초안을 작",
+      "completedAt": "2026-05-24T15:34:49.277Z"
+    },
+    {
+      "id": "20260525000452-qa70",
+      "title": "소상공인 카카오톡 채널 활성화 방안 검토",
+      "description": "소상공인하고 활성화되어있는 카톡으로 소통하면좋겠는데",
+      "owner": "agent",
+      "createdAt": "2026-05-25T00:04:52.645Z",
+      "status": "in_progress",
       "nudges": 0,
       "priority": "normal",
       "preAlarmsSent": []
