@@ -1,0 +1,35 @@
+/* ------------------------------------------
+ * BDS 플랫폼 디자인 토큰 (V4.0 - Final)
+ * 이 파일은 모든 컴포넌트의 근간이 되며, 변경 시 전반적인 UI 검토가 필요합니다.
+ * ------------------------------------------ */
+
+:root {
+    /* Primary Colors (Core Identity) */
+    --color-bds-deepblue: #004D66; /* 메인 헤더/배경색 */
+    --color-bds-lightbg: #F9FAFB;  /* 기본 배경색 */
+
+    /* Secondary Colors (Growth & Action) */
+    --color-growth-green: #3CB371; /* 성과 및 성공 액션 버튼 */
+    --color-warning-yellow: #FFD700; /* 경고/주의 알림 (PRSR=Warning 시) */
+    --color-critical-red: #DC143C;  /* 위험/치명적 오류 (PRSR=Critical 시) */
+
+    /* Typography & Spacing */
+    --font-family-primary: 'Pretendard', 'Noto Sans KR', sans-serif;
+    --font-size-h1: 2.5rem;
+    --font-size-body: 1rem;
+    --spacing-unit-sm: 8px;
+    --spacing-unit-md: 16px;
+}
+
+/* Focus Component Styling Rules (예시) */
+.btn-primary {
+    background-color: var(--color-growth-green);
+    border: none;
+    padding: var(--spacing-unit-sm) var(--spacing-unit-md);
+    cursor: pointer;
+}
+
+/* 시스템 상태에 따른 색상 적용 규칙 */
+.status-optimal { color: var(--color-growth-green); border-color: var(--color-growth-green); }
+.status-warning { color: var(--color-warning-yellow); border-color: var(--color-warning-yellow); }
+.status-critical { color: var(--color-critical-red); border-color: var(--color-critical-red); }
