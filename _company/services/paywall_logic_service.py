@@ -1,4 +1,3 @@
-<![CDATA[
 import json
 from typing import Dict, Any
 
@@ -74,6 +73,7 @@ def mock_api_get_pricing(plan: str) -> Dict[str, Any]:
 def handle_paywall_request(diagnosis: Dict[str, Any], requested_plan: str) -> Dict[str, Any]:
     """
     Paywall 및 Loss Gauge에 필요한 모든 데이터를 통합하여 반환합니다.
+    높은 손실 게이지 감지 시 카카오톡 알림톡 전송 기능과 연동됩니다.
     """
     if not validate_story_flow(diagnosis, requested_plan):
         return {"error": "선택하신 플랜은 유효하지 않습니다."}
@@ -81,16 +81,37 @@ def handle_paywall_request(diagnosis: Dict[str, Any], requested_plan: str) -> Di
     pricing = get_pricing_details(requested_plan)
     loss_data = calculate_loss_gauge(diagnosis, requested_plan)
 
+    # 40년 경력 컨설턴트 관점: 손실 경고(Loss Gauge)가 높을 경우 즉시 카카오톡 알림 발송 시뮬레이션
+    kakaotalk_alert_status = "Skipped"
+    if loss_data.get("loss_gauge", 0) >= 50:
+        try:
+            from services.kakaotalk_service import KakaoTalkService
+            kt_service = KakaoTalkService()
+            # 가상 사용자 ID 매핑 및 손실 세부 정보 전달
+            alert_res = kt_service.send_alimtalk_notification(
+                user_id="user_12345",
+                template_type="LOSS_GAUGE_ALERT",
+                context={
+                    "loss_gauge": loss_data["loss_gauge"],
+                    "lost_revenue": "1,500,000",
+                    "loss_reason": "테이블오더 도입 이후 대면 결제 단절로 인한 단골 이탈 및 메뉴 배치 비효율"
+                }
+            )
+            if alert_res.get("success"):
+                kakaotalk_alert_status = "Sent successfully"
+        except Exception as e:
+            kakaotalk_alert_status = f"Failed: {str(e)}"
+
     # 최종적으로 프론트엔드에 전달할 데이터 구조 정의 (StoryFlowSchema v2.0 반영)
     return {
         "success": True,
         "pricing": pricing,
         "loss_gauge_data": loss_data,
         "diagnosis_summary": diagnosis,
-        "story_flow_status": "Ready for action", # 다음 단계 로직은 추후 구현
+        "story_flow_status": "Ready for action",
+        "kakaotalk_alert_status": kakaotalk_alert_status
     }
 
 # 테스트용 Mock 데이터
 mock_diagnosis_result = {"risk_level": "High", "score": 85, "recommendation": "즉각적인 재정 계획이 필요합니다."}
 print("Paywall Logic Service Initialized.")
-]]>
