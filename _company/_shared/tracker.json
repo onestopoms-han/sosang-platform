@@ -301,6 +301,91 @@
       "preAlarmsSent": [],
       "evidence": "대시보드에서 사용자 취소",
       "completedAt": "2026-05-25T10:09:47.204Z"
+    },
+    {
+      "id": "20260526024904-i8wk",
+      "title": "**자동 재시도 로직** (Network Timeout 등 일시적 오류에 국한)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-26T02:49:04.477Z",
+      "status": "done",
+      "sessionDir": "2026-05-26T02-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-26T02-25/_report.md\n- 현빈: 우선순위 1(결제 실패 자동 환불 및 재시도 로직 강화) 구현 계획을 구체화하여 개발팀에 전달할 내용을 작성하고, 이 계획이 AOV 및 이탈율 \n- 코다리: business 에이전트가 제시한 우선순위 1과 2의 기술적 근거(`payment.py`, `onboarding.py` 모듈)에 대한 E2E 테\n- Designer: 결제 실패/성공 시의 사용자 경험(UX) 흐름에 최적화된 '심리적 이득 극대화' 관점의 시각적 스토리텔링 가이드라인을 최종 확정하고, 이를 바탕\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 우선순위 1(결제 실패 자동 환불 및 재시도 로직 강화) 구현 계획을 구체화하여 개발팀에 전달할 내용을 작성하고, 이 계획이 AOV 및 이탈율 목표 달성에 미치는 영향을 분석하라.\n> 🔧 **도구 실행**: _(없음",
+      "completedAt": "2026-05-26T02:59:36.539Z"
+    },
+    {
+      "id": "20260526024904-exge",
+      "title": "**자동 환불 API 연동** (PayPal Refund endpoint 테스트)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-26T02:49:04.486Z",
+      "status": "done",
+      "sessionDir": "2026-05-26T02-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-26T02-25/_report.md\n- 현빈: 우선순위 1(결제 실패 자동 환불 및 재시도 로직 강화) 구현 계획을 구체화하여 개발팀에 전달할 내용을 작성하고, 이 계획이 AOV 및 이탈율 \n- 코다리: business 에이전트가 제시한 우선순위 1과 2의 기술적 근거(`payment.py`, `onboarding.py` 모듈)에 대한 E2E 테\n- Designer: 결제 실패/성공 시의 사용자 경험(UX) 흐름에 최적화된 '심리적 이득 극대화' 관점의 시각적 스토리텔링 가이드라인을 최종 확정하고, 이를 바탕\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 우선순위 1(결제 실패 자동 환불 및 재시도 로직 강화) 구현 계획을 구체화하여 개발팀에 전달할 내용을 작성하고, 이 계획이 AOV 및 이탈율 목표 달성에 미치는 영향을 분석하라.\n> 🔧 **도구 실행**: _(없음",
+      "completedAt": "2026-05-26T02:59:36.551Z"
+    },
+    {
+      "id": "20260526024904-qutd",
+      "title": "**사용자 알림 템플릿** (Push, Email, SMS)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-26T02:49:04.494Z",
+      "status": "done",
+      "sessionDir": "2026-05-26T02-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-26T02-25/_report.md\n- 현빈: 우선순위 1(결제 실패 자동 환불 및 재시도 로직 강화) 구현 계획을 구체화하여 개발팀에 전달할 내용을 작성하고, 이 계획이 AOV 및 이탈율 \n- 코다리: business 에이전트가 제시한 우선순위 1과 2의 기술적 근거(`payment.py`, `onboarding.py` 모듈)에 대한 E2E 테\n- Designer: 결제 실패/성공 시의 사용자 경험(UX) 흐름에 최적화된 '심리적 이득 극대화' 관점의 시각적 스토리텔링 가이드라인을 최종 확정하고, 이를 바탕\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 우선순위 1(결제 실패 자동 환불 및 재시도 로직 강화) 구현 계획을 구체화하여 개발팀에 전달할 내용을 작성하고, 이 계획이 AOV 및 이탈율 목표 달성에 미치는 영향을 분석하라.\n> 🔧 **도구 실행**: _(없음",
+      "completedAt": "2026-05-26T02:59:36.562Z"
+    },
+    {
+      "id": "20260526024904-zb8y",
+      "title": "**영구적 오류 판단 알고리즘** (Fraud Score 기반 분류)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-26T02:49:04.502Z",
+      "status": "done",
+      "sessionDir": "2026-05-26T02-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-26T02-25/_report.md\n- 현빈: 우선순위 1(결제 실패 자동 환불 및 재시도 로직 강화) 구현 계획을 구체화하여 개발팀에 전달할 내용을 작성하고, 이 계획이 AOV 및 이탈율 \n- 코다리: business 에이전트가 제시한 우선순위 1과 2의 기술적 근거(`payment.py`, `onboarding.py` 모듈)에 대한 E2E 테\n- Designer: 결제 실패/성공 시의 사용자 경험(UX) 흐름에 최적화된 '심리적 이득 극대화' 관점의 시각적 스토리텔링 가이드라인을 최종 확정하고, 이를 바탕\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 우선순위 1(결제 실패 자동 환불 및 재시도 로직 강화) 구현 계획을 구체화하여 개발팀에 전달할 내용을 작성하고, 이 계획이 AOV 및 이탈율 목표 달성에 미치는 영향을 분석하라.\n> 🔧 **도구 실행**: _(없음",
+      "completedAt": "2026-05-26T02:59:36.571Z"
+    },
+    {
+      "id": "20260526024904-5sn6",
+      "title": "**재결제 유도 페이지** (할인 코드/업그레이드 제안 포함)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-26T02:49:04.511Z",
+      "status": "done",
+      "sessionDir": "2026-05-26T02-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-26T02-25/_report.md\n- 현빈: 우선순위 1(결제 실패 자동 환불 및 재시도 로직 강화) 구현 계획을 구체화하여 개발팀에 전달할 내용을 작성하고, 이 계획이 AOV 및 이탈율 \n- 코다리: business 에이전트가 제시한 우선순위 1과 2의 기술적 근거(`payment.py`, `onboarding.py` 모듈)에 대한 E2E 테\n- Designer: 결제 실패/성공 시의 사용자 경험(UX) 흐름에 최적화된 '심리적 이득 극대화' 관점의 시각적 스토리텔링 가이드라인을 최종 확정하고, 이를 바탕\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 우선순위 1(결제 실패 자동 환불 및 재시도 로직 강화) 구현 계획을 구체화하여 개발팀에 전달할 내용을 작성하고, 이 계획이 AOV 및 이탈율 목표 달성에 미치는 영향을 분석하라.\n> 🔧 **도구 실행**: _(없음",
+      "completedAt": "2026-05-26T02:59:36.580Z"
     }
   ]
 }
