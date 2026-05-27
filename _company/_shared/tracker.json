@@ -556,6 +556,91 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-26T15-51/_report.md\n- Designer: 코다리가 구현한 시스템 안정성 지표(PRSR, ERT 등)가 적용된 UX 목업을 기반으로, 최종 디자인 가이드라인(V3.0)에 따라 시각적 규칙\n- 코다리: Designer가 확정한 시스템 안정성 지표(PRSR/ERT) 인터랙션 스펙(`Payment_Failure_Screen_Interaction_S\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리가 구현한 시스템 안정성 지표(PRSR, ERT 등)가 적용된 UX 목업을 기반으로, 최종 디자인 가이드라인(V3.0)에 따라 시각적 규칙을 완벽하게 적용하고 개발팀에 전달할 최종 사양서를 완성하라.\n> 🔧 **도구 실행**",
       "completedAt": "2026-05-26T16:23:16.950Z"
+    },
+    {
+      "id": "20260527055101-0bls",
+      "title": "피치 덱 슬라이드 PDF 버전 준비",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-27T05:51:01.084Z",
+      "status": "done",
+      "sessionDir": "2026-05-27T05-30",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-27T05-30/_report.md\n- Writer: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(\n- Designer: Designer는 Writer가 제공한 스토리라인을 기반으로 '안정성 증명 흐름도'의 최종 시각화 디자인 방향을 확정하고, 피치 덱 레이아웃에 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(Speaker Notes)를 완성하여 제공하라.\n> 🔧 **도구 실행**: _(없음 — LLM ",
+      "completedAt": "2026-05-27T05:55:16.808Z"
+    },
+    {
+      "id": "20260527055101-umhy",
+      "title": "Q&A 질문 및 답변 사전 연습",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-27T05:51:01.093Z",
+      "status": "done",
+      "sessionDir": "2026-05-27T05-30",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-27T05-30/_report.md\n- Writer: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(\n- Designer: Designer는 Writer가 제공한 스토리라인을 기반으로 '안정성 증명 흐름도'의 최종 시각화 디자인 방향을 확정하고, 피치 덱 레이아웃에 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(Speaker Notes)를 완성하여 제공하라.\n> 🔧 **도구 실행**: _(없음 — LLM ",
+      "completedAt": "2026-05-27T05:55:16.821Z"
+    },
+    {
+      "id": "20260527055101-p8za",
+      "title": "투자자 명단 확인 (초기 투자, 액셀러레이터, 업계 전문가)",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-27T05:51:01.106Z",
+      "status": "done",
+      "sessionDir": "2026-05-27T05-30",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-27T05-30/_report.md\n- Writer: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(\n- Designer: Designer는 Writer가 제공한 스토리라인을 기반으로 '안정성 증명 흐름도'의 최종 시각화 디자인 방향을 확정하고, 피치 덱 레이아웃에 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(Speaker Notes)를 완성하여 제공하라.\n> 🔧 **도구 실행**: _(없음 — LLM ",
+      "completedAt": "2026-05-27T05:55:16.832Z"
+    },
+    {
+      "id": "20260527055101-d7wn",
+      "title": "BDS 소상인플랫폼 로고 및 브랜드 가이드라인 적용",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-27T05:51:01.118Z",
+      "status": "done",
+      "sessionDir": "2026-05-27T05-30",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-27T05-30/_report.md\n- Writer: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(\n- Designer: Designer는 Writer가 제공한 스토리라인을 기반으로 '안정성 증명 흐름도'의 최종 시각화 디자인 방향을 확정하고, 피치 덱 레이아웃에 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(Speaker Notes)를 완성하여 제공하라.\n> 🔧 **도구 실행**: _(없음 — LLM ",
+      "completedAt": "2026-05-27T05:55:16.842Z"
+    },
+    {
+      "id": "20260527055101-jyim",
+      "title": "시스템 안정성 지표 (PRSR/ERT) 정확도 검증 완료",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-27T05:51:01.128Z",
+      "status": "done",
+      "sessionDir": "2026-05-27T05-30",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-27T05-30/_report.md\n- Writer: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(\n- Designer: Designer는 Writer가 제공한 스토리라인을 기반으로 '안정성 증명 흐름도'의 최종 시각화 디자인 방향을 확정하고, 피치 덱 레이아웃에 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(Speaker Notes)를 완성하여 제공하라.\n> 🔧 **도구 실행**: _(없음 — LLM ",
+      "completedAt": "2026-05-27T05:55:16.851Z"
     }
   ]
 }

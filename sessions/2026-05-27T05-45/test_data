@@ -1,0 +1,47 @@
+# 🧪 PRSR 기반 동적 요금제 테스트 시나리오 데이터 (JSON)
+
+```json
+[
+  {
+    "scenario_id": "A",
+    "description": "고성능 환경 - T2 적용 기대",
+    "metrics": {
+      "api_success_rate": 0.995,
+      "average_latency_ms": 100,
+      "error_handling_quality_score": 0.9
+    },
+    "expected_prsr": 0.987,
+    "expected_tier": "Premium",
+    "psychological_stability_points": 98
+  },
+  {
+    "scenario_id": "B",
+    "description": "에러 발생 - T1 강제로降级 (Downgrade) 테스트",
+    "metrics": {
+      "api_success_rate": 0.92,
+      "average_latency_ms": 350,
+      "error_handling_quality_score": 0.6
+    },
+    "expected_prsr": 0.78,
+    "expected_tier": "Pro",
+    "psychological_stability_points": 76
+  },
+  {
+    "scenario_id": "C",
+    "description": "시스템 전체 다운 시 - 에러 핸들링 로직 검증",
+    "metrics": {
+      "api_success_rate": 0.4, // 시스템 다운으로 인한 급감
+      "average_latency_ms": 2000,
+      "error_handling_quality_score": 0.95 // 명확한 안내 및 자동 복구
+    },
+    "expected_prsr": 0.85, // 에러 핸들링이 높게 반영되어 T1 유지 예상
+    "expected_tier": "Pro",
+    "psychological_stability_points": 84
+  }
+]
+```
+
+---
+**작성자**: 코다리 (QA & Developer Agent)  
+**작성일**: 2026-05-27T05:45  
+**상태**: 초안 - QA 테스트 준비 대기

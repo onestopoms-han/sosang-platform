@@ -1,0 +1,106 @@
+# 🎨 PrsrDashboard UI Components (React)
+
+## 1. 안정성 게이지 컴포넌트 (`StabilityGauge.tsx`)
+안정성 점수 (PSP) 를 시각적으로 보여주는 컴포넌트입니다.
+
+```tsx
+import React from 'react';
+import { Gauge } from 'recharts'; // 또는 custom SVG 로 직접 구현
+
+interface StabilityGaugeProps {
+  prsr: number; // 0 ~ 1
+  targetThresholds?: number[]; // 티어별 최소 PRSR (예: [0.8, 0.95, 0.99])
+}
+
+export const StabilityGauge: React.FC<StabilityGaugeProps> = ({ prsr }) => {
+  return (
+    <div className="stability-gauge-container">
+      <h3>시스템 안정성 지수 (PRSR)</h3>
+      <Gauge value={prsr * 100} min={0} max={100} color="#2ecc71" />
+      <p>심리적 안정감: {Math.round(prsr * 100)}%</p>
+    </div>
+  );
+};
+```
+
+## 2. 요금제 선택 카드 컴포넌트 (`TierCard.tsx`)
+사용자가 현재 티어와 다음 티어를 비교할 수 있는 카드 컴포넌트입니다.
+
+```tsx
+import React from 'react';
+
+interface TierInfo {
+  id: string;
+  name: string;
+  prsrRange: [number, number]; // 최소 ~ 최대
+  price: string;
+  benefits: string[];
+}
+
+export const TierCard: React.FC<TierInfo & { isCurrent?: boolean }> = ({
+  name,
+  prsrRange,
+  price,
+  benefits,
+  isCurrent = false,
+}) => {
+  return (
+    <div className={`tier-card ${isCurrent ? 'active' : ''}`}>
+      <h4>{name}</h4>
+      <p>PSP: {prsrRange[0] * 100} ~ {prsrRange[1] * 100}</p>
+      <p>가격: {price}</p>
+      <ul>
+        {benefits.map((benefit, index) => (
+          <li key={index}>{benefit}</li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+```
+
+## 3. 메인 대시보드 컴포넌트 (`PrsrDashboard.tsx`)
+위 컴포넌트를 활용하여 전체 시뮬레이터 화면을 구성합니다.
+
+```tsx
+import React, { useState } from 'react';
+import { StabilityGauge } from './StabilityGauge';
+import { TierCard } from './TierCard';
+
+const tiers: TierInfo[] = [
+  { id: 'basic', name: 'Basic', prsrRange: [0, 0.8], price: '무료', benefits: ['기본 API 호출'] },
+  { id: 'pro', name: 'Pro', prsrRange: [0.8, 0.94], price: '$10/월', benefits: ['1.5x 호출 한도', '에러 우선 지원'] },
+  { id: 'premium', name: 'Premium', prsrRange: [0.95, 0.98], price: '$30/월', benefits: ['2.5x 호출 한도', '재시도 3 회', '안정성 리포트'] },
+  { id: 'insurance', name: 'Stability Insurance', prsrRange: [0.99, 1], price: '$100/월', benefits: ['100% Uptime', '실시간 모니터링'] },
+];
+
+export const PrsrDashboard: React.FC = () => {
+  // 시뮬레이션용 가상 데이터 (실제 로직과 연동될 것)
+  const [currentPrsr, setCurrentPrsr] = useState(0.96);
+
+  return (
+    <div className="dashboard-container">
+      <StabilityGauge prsr={currentPrsr} />
+      <div className="tier-selection">
+        {tiers.map((tier) => (
+          <TierCard
+            key={tier.id}
+            name={tier.name}
+            price={tier.price}
+            benefits={tier.benefits}
+            prsrRange={[tier.prsrRange[0], tier.prsrRange[1]]}
+            isCurrent={currentPrsr >= tier.prsrRange[0] && currentPrsr < tier.prsrRange[1]}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default PrsrDashboard;
+```
+
+---
+**작성자**: 코다리 (UI/UX & Developer Agent)  
+**작성일**: 2026-05-27T05:45  
+**상태**: 초안 - 디자인 검토 대기
