@@ -692,6 +692,159 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-27T10-30/_report.md\n- Designer: Writer가 완성한 스토리텔링 흐름('불안 $\rightarrow$ 안전망')과 'BDS 비주얼 디자인 시스템 가이드라인'을 기반으로, 피치 덱\n- 레오: Writer가 완성한 영상 스크립트와 Designer가 정의한 감성 컬러 시스템을 반영하여, 유튜브 영상 제작을 위한 최종 스토리텔링과 후킹 카\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Writer가 완성한 스토리텔링 흐름('불안 $\rightarrow$ 안전망')과 'BDS 비주얼 디자인 시스템 가이드라인'을 기반으로, 피치 덱 및 웹 시뮬레이터 목업에 최종 시각적 일관성을 확보하도록 즉시 수정하고 적용하라.\n> ",
       "completedAt": "2026-05-27T10:59:02.450Z"
+    },
+    {
+      "id": "20260527180145-luf6",
+      "title": "모든 슬라이드에서 Deep Blue 와 Growth Green 이 주된 색상으로 사용됨.",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-27T18:01:45.089Z",
+      "status": "done",
+      "sessionDir": "2026-05-27T17-59",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-27T17-59/_report.md\n- Designer: Writer가 완성한 스토리라인과 기존 BDS 디자인 시스템 가이드라인을 기반으로, 투자자 피치 덱(PPT/Keynote)의 실제 시각화된 마스\n- Writer: Designer가 설계한 스토리보드를 반영하여, 핵심 데이터(PRSR, ERT)가 가장 강력하게 드러나는 세부 슬라이드별 카피와 비주얼 요소를 \n- 코다리: Writer와 Designer가 완성한 스토리라인 및 시각화 구조를 기반으로, AI 대시보드 기능과 리스크 시뮬레이터의 데이터 연동 로직이 이 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Writer가 완성한 스토리라인과 기존 BDS 디자인 시스템 가이드라인을 기반으로, 투자자 피치 덱(PPT/Keynote)의 실제 시각화된 마스터 프레젠테이션 파일 제작을 즉시 착수할 것.\n> 🔧 **도구 실행**: _(없음 — ",
+      "completedAt": "2026-05-27T18:03:43.841Z"
+    },
+    {
+      "id": "20260527180145-xiow",
+      "title": "PRSR 과 ERT 데이터가 시각적 요소로 자연스럽게 통합되었는가?",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-27T18:01:45.111Z",
+      "status": "done",
+      "sessionDir": "2026-05-27T17-59",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-27T17-59/_report.md\n- Designer: Writer가 완성한 스토리라인과 기존 BDS 디자인 시스템 가이드라인을 기반으로, 투자자 피치 덱(PPT/Keynote)의 실제 시각화된 마스\n- Writer: Designer가 설계한 스토리보드를 반영하여, 핵심 데이터(PRSR, ERT)가 가장 강력하게 드러나는 세부 슬라이드별 카피와 비주얼 요소를 \n- 코다리: Writer와 Designer가 완성한 스토리라인 및 시각화 구조를 기반으로, AI 대시보드 기능과 리스크 시뮬레이터의 데이터 연동 로직이 이 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Writer가 완성한 스토리라인과 기존 BDS 디자인 시스템 가이드라인을 기반으로, 투자자 피치 덱(PPT/Keynote)의 실제 시각화된 마스터 프레젠테이션 파일 제작을 즉시 착수할 것.\n> 🔧 **도구 실행**: _(없음 — ",
+      "completedAt": "2026-05-27T18:03:43.865Z"
+    },
+    {
+      "id": "20260527180145-yv2o",
+      "title": "카피라인이 투자자가 '우리는 당신의 파트너입니다'라고 느끼게 하는가?",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-27T18:01:45.125Z",
+      "status": "done",
+      "sessionDir": "2026-05-27T17-59",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-27T17-59/_report.md\n- Designer: Writer가 완성한 스토리라인과 기존 BDS 디자인 시스템 가이드라인을 기반으로, 투자자 피치 덱(PPT/Keynote)의 실제 시각화된 마스\n- Writer: Designer가 설계한 스토리보드를 반영하여, 핵심 데이터(PRSR, ERT)가 가장 강력하게 드러나는 세부 슬라이드별 카피와 비주얼 요소를 \n- 코다리: Writer와 Designer가 완성한 스토리라인 및 시각화 구조를 기반으로, AI 대시보드 기능과 리스크 시뮬레이터의 데이터 연동 로직이 이 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Writer가 완성한 스토리라인과 기존 BDS 디자인 시스템 가이드라인을 기반으로, 투자자 피치 덱(PPT/Keynote)의 실제 시각화된 마스터 프레젠테이션 파일 제작을 즉시 착수할 것.\n> 🔧 **도구 실행**: _(없음 — ",
+      "completedAt": "2026-05-27T18:03:43.877Z"
+    },
+    {
+      "id": "20260527180145-82mf",
+      "title": "비주얼 요소가 스토리텔링의 흐름을 방해하지 않고 오히려 강화하는가?",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-27T18:01:45.138Z",
+      "status": "done",
+      "sessionDir": "2026-05-27T17-59",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-27T17-59/_report.md\n- Designer: Writer가 완성한 스토리라인과 기존 BDS 디자인 시스템 가이드라인을 기반으로, 투자자 피치 덱(PPT/Keynote)의 실제 시각화된 마스\n- Writer: Designer가 설계한 스토리보드를 반영하여, 핵심 데이터(PRSR, ERT)가 가장 강력하게 드러나는 세부 슬라이드별 카피와 비주얼 요소를 \n- 코다리: Writer와 Designer가 완성한 스토리라인 및 시각화 구조를 기반으로, AI 대시보드 기능과 리스크 시뮬레이터의 데이터 연동 로직이 이 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Writer가 완성한 스토리라인과 기존 BDS 디자인 시스템 가이드라인을 기반으로, 투자자 피치 덱(PPT/Keynote)의 실제 시각화된 마스터 프레젠테이션 파일 제작을 즉시 착수할 것.\n> 🔧 **도구 실행**: _(없음 — ",
+      "completedAt": "2026-05-27T18:03:43.887Z"
+    },
+    {
+      "id": "20260527211703-lj9d",
+      "title": "리스크 시뮬레이터 API (Python/FastAPI) ↔ 프론트엔드 UI (React/TypeScript) 데이터 연동",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-27T21:17:03.549Z",
+      "status": "done",
+      "sessionDir": "2026-05-27T21-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-27T21-10/_report.md\n- Writer: Designer가 확정한 BDS 비주얼 시스템 가이드라인을 기반으로, 코다리가 검증한 리스크 시뮬레이터의 핵심 결과를 가장 강력하게 드러내는 투\n- Designer: Writer가 완성한 스토리라인과 기술적 검증(코다리)을 반영하여, 모든 채널에 일관된 BDS 비주얼 시스템을 적용한 최종 투자자 피치 덱의 마\n- 코다리: Writer와 Designer가 완성한 스토리라인 및 시각화 구조를 기반으로, AI 대시보드 기능과 리스크 시뮬레이터의 데이터 연동 로직이 피치\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Designer가 확정한 BDS 비주얼 시스템 가이드라인을 기반으로, 코다리가 검증한 리스크 시뮬레이터의 핵심 결과를 가장 강력하게 드러내는 투자자 피치 덱의 최종 카피와 스토리텔링 흐름을 완성하라.\n> 🔧 **도구 실행**: _(없음 —",
+      "completedAt": "2026-05-27T21:17:36.852Z"
+    },
+    {
+      "id": "20260527211703-gbbz",
+      "title": "JSON Schema v2.0 (`StoryFlowSchema`) 의 유효성 검사 로직 실행",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-27T21:17:03.577Z",
+      "status": "done",
+      "sessionDir": "2026-05-27T21-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-27T21-10/_report.md\n- Writer: Designer가 확정한 BDS 비주얼 시스템 가이드라인을 기반으로, 코다리가 검증한 리스크 시뮬레이터의 핵심 결과를 가장 강력하게 드러내는 투\n- Designer: Writer가 완성한 스토리라인과 기술적 검증(코다리)을 반영하여, 모든 채널에 일관된 BDS 비주얼 시스템을 적용한 최종 투자자 피치 덱의 마\n- 코다리: Writer와 Designer가 완성한 스토리라인 및 시각화 구조를 기반으로, AI 대시보드 기능과 리스크 시뮬레이터의 데이터 연동 로직이 피치\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Designer가 확정한 BDS 비주얼 시스템 가이드라인을 기반으로, 코다리가 검증한 리스크 시뮬레이터의 핵심 결과를 가장 강력하게 드러내는 투자자 피치 덱의 최종 카피와 스토리텔링 흐름을 완성하라.\n> 🔧 **도구 실행**: _(없음 —",
+      "completedAt": "2026-05-27T21:17:36.877Z"
+    },
+    {
+      "id": "20260527211703-4210",
+      "title": "Deep Blue/Growth Green/Safety Yellow 색상 시스템 적용 여부 (UI 컴포넌트)",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-27T21:17:03.590Z",
+      "status": "done",
+      "sessionDir": "2026-05-27T21-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-27T21-10/_report.md\n- Writer: Designer가 확정한 BDS 비주얼 시스템 가이드라인을 기반으로, 코다리가 검증한 리스크 시뮬레이터의 핵심 결과를 가장 강력하게 드러내는 투\n- Designer: Writer가 완성한 스토리라인과 기술적 검증(코다리)을 반영하여, 모든 채널에 일관된 BDS 비주얼 시스템을 적용한 최종 투자자 피치 덱의 마\n- 코다리: Writer와 Designer가 완성한 스토리라인 및 시각화 구조를 기반으로, AI 대시보드 기능과 리스크 시뮬레이터의 데이터 연동 로직이 피치\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Designer가 확정한 BDS 비주얼 시스템 가이드라인을 기반으로, 코다리가 검증한 리스크 시뮬레이터의 핵심 결과를 가장 강력하게 드러내는 투자자 피치 덱의 최종 카피와 스토리텔링 흐름을 완성하라.\n> 🔧 **도구 실행**: _(없음 —",
+      "completedAt": "2026-05-27T21:17:36.910Z"
+    },
+    {
+      "id": "20260527211703-oqn3",
+      "title": "graceful degradation 시나리오 (API 파손 시 UI 반응)",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-27T21:17:03.604Z",
+      "status": "done",
+      "sessionDir": "2026-05-27T21-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-27T21-10/_report.md\n- Writer: Designer가 확정한 BDS 비주얼 시스템 가이드라인을 기반으로, 코다리가 검증한 리스크 시뮬레이터의 핵심 결과를 가장 강력하게 드러내는 투\n- Designer: Writer가 완성한 스토리라인과 기술적 검증(코다리)을 반영하여, 모든 채널에 일관된 BDS 비주얼 시스템을 적용한 최종 투자자 피치 덱의 마\n- 코다리: Writer와 Designer가 완성한 스토리라인 및 시각화 구조를 기반으로, AI 대시보드 기능과 리스크 시뮬레이터의 데이터 연동 로직이 피치\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Designer가 확정한 BDS 비주얼 시스템 가이드라인을 기반으로, 코다리가 검증한 리스크 시뮬레이터의 핵심 결과를 가장 강력하게 드러내는 투자자 피치 덱의 최종 카피와 스토리텔링 흐름을 완성하라.\n> 🔧 **도구 실행**: _(없음 —",
+      "completedAt": "2026-05-27T21:17:36.959Z"
+    },
+    {
+      "id": "20260527211703-jem6",
+      "title": "보안: 시크릿 변수 마스킹, CORS 정책",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-27T21:17:03.618Z",
+      "status": "done",
+      "sessionDir": "2026-05-27T21-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-27T21-10/_report.md\n- Writer: Designer가 확정한 BDS 비주얼 시스템 가이드라인을 기반으로, 코다리가 검증한 리스크 시뮬레이터의 핵심 결과를 가장 강력하게 드러내는 투\n- Designer: Writer가 완성한 스토리라인과 기술적 검증(코다리)을 반영하여, 모든 채널에 일관된 BDS 비주얼 시스템을 적용한 최종 투자자 피치 덱의 마\n- 코다리: Writer와 Designer가 완성한 스토리라인 및 시각화 구조를 기반으로, AI 대시보드 기능과 리스크 시뮬레이터의 데이터 연동 로직이 피치\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Designer가 확정한 BDS 비주얼 시스템 가이드라인을 기반으로, 코다리가 검증한 리스크 시뮬레이터의 핵심 결과를 가장 강력하게 드러내는 투자자 피치 덱의 최종 카피와 스토리텔링 흐름을 완성하라.\n> 🔧 **도구 실행**: _(없음 —",
+      "completedAt": "2026-05-27T21:17:36.999Z"
     }
   ]
 }
