@@ -913,6 +913,465 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-27T23-25/_report.md\n- Designer: 최종 디자인 사인오프 파일(BDS_Pitch_Video_Final_Design_Signoff.md)을 기반으로 영상 제작팀에 시각 결과물 제작을\n- Writer: 완성된 내레이션 스크립트를 기반으로 실제 영상 콘텐츠의 톤앤매너와 일치하는 최종 보이스오버 녹음을 준비하라.\n- 영숙: 위 두 작업(디자인 요청 및 녹음 준비)의 마일스톤을 설정하고, 다음 진행 상황에 맞춰 모든 에이전트에게 일일 보고를 요청할 일정을 정리하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 최종 디자인 사인오프 파일(BDS_Pitch_Video_Final_Design_Signoff.md)을 기반으로 영상 제작팀에 시각 결과물 제작을 즉시 요청하고 진행 상황을 추적할 준비를 하라.\n> 🔧 **도구 실행**: _(없음 ",
       "completedAt": "2026-05-27T23:31:04.011Z"
+    },
+    {
+      "id": "20260527235817-sa55",
+      "title": "스크립트 버전 확인: `Script_Final_v3.2` 사용",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-27T23:58:17.411Z",
+      "status": "done",
+      "sessionDir": "2026-05-27T23-55",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-27T23-55/_report.md\n- Designer: 최종 디자인 사인오프 파일(BDS_Pitch_Video_Final_Design_Signoff.md)을 기반으로, 영상 제작팀에 시각 결과물 제작\n- Writer: 완성된 내레이션 스크립트와 디자인 가이드라인을 바탕으로 최종 보이스오버 녹음을 위한 상세 가이드라인(톤앤매너, 감정선 포함)을 작성하고 녹음 준\n- 영숙: 영상 제작 및 보이스오버 작업에 대한 마일스톤과 일일 보고 체계를 활성화하여 모든 작업 진척 상황을 실시간으로 모니터링할 수 있는 'BDS 통합\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 최종 디자인 사인오프 파일(BDS_Pitch_Video_Final_Design_Signoff.md)을 기반으로, 영상 제작팀에 시각 결과물 제작을 즉시 요청하고 진행 상황 추적 계획을 수립하라.\n> 🔧 **도구 실행**: _(없음",
+      "completedAt": "2026-05-27T23:59:50.370Z"
+    },
+    {
+      "id": "20260527235817-4ztc",
+      "title": "감정선 노트 준비: 위 표를 출력하여 녹음 옆에 두거나, 메모장에 적어두세요.",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-27T23:58:17.429Z",
+      "status": "done",
+      "sessionDir": "2026-05-27T23-55",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-27T23-55/_report.md\n- Designer: 최종 디자인 사인오프 파일(BDS_Pitch_Video_Final_Design_Signoff.md)을 기반으로, 영상 제작팀에 시각 결과물 제작\n- Writer: 완성된 내레이션 스크립트와 디자인 가이드라인을 바탕으로 최종 보이스오버 녹음을 위한 상세 가이드라인(톤앤매너, 감정선 포함)을 작성하고 녹음 준\n- 영숙: 영상 제작 및 보이스오버 작업에 대한 마일스톤과 일일 보고 체계를 활성화하여 모든 작업 진척 상황을 실시간으로 모니터링할 수 있는 'BDS 통합\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 최종 디자인 사인오프 파일(BDS_Pitch_Video_Final_Design_Signoff.md)을 기반으로, 영상 제작팀에 시각 결과물 제작을 즉시 요청하고 진행 상황 추적 계획을 수립하라.\n> 🔧 **도구 실행**: _(없음",
+      "completedAt": "2026-05-27T23:59:50.408Z"
+    },
+    {
+      "id": "20260527235817-yxey",
+      "title": "소리 환경: 배경 소음이 없고, 에코가 없는 공간 (예: 책장 주변) 선택",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-27T23:58:17.449Z",
+      "status": "done",
+      "sessionDir": "2026-05-27T23-55",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-27T23-55/_report.md\n- Designer: 최종 디자인 사인오프 파일(BDS_Pitch_Video_Final_Design_Signoff.md)을 기반으로, 영상 제작팀에 시각 결과물 제작\n- Writer: 완성된 내레이션 스크립트와 디자인 가이드라인을 바탕으로 최종 보이스오버 녹음을 위한 상세 가이드라인(톤앤매너, 감정선 포함)을 작성하고 녹음 준\n- 영숙: 영상 제작 및 보이스오버 작업에 대한 마일스톤과 일일 보고 체계를 활성화하여 모든 작업 진척 상황을 실시간으로 모니터링할 수 있는 'BDS 통합\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 최종 디자인 사인오프 파일(BDS_Pitch_Video_Final_Design_Signoff.md)을 기반으로, 영상 제작팀에 시각 결과물 제작을 즉시 요청하고 진행 상황 추적 계획을 수립하라.\n> 🔧 **도구 실행**: _(없음",
+      "completedAt": "2026-05-27T23:59:50.428Z"
+    },
+    {
+      "id": "20260527235817-vdgy",
+      "title": "마이크 설정: `BDS Standard Voice` 프로파일로 미리 설정",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-27T23:58:17.475Z",
+      "status": "done",
+      "sessionDir": "2026-05-27T23-55",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-27T23-55/_report.md\n- Designer: 최종 디자인 사인오프 파일(BDS_Pitch_Video_Final_Design_Signoff.md)을 기반으로, 영상 제작팀에 시각 결과물 제작\n- Writer: 완성된 내레이션 스크립트와 디자인 가이드라인을 바탕으로 최종 보이스오버 녹음을 위한 상세 가이드라인(톤앤매너, 감정선 포함)을 작성하고 녹음 준\n- 영숙: 영상 제작 및 보이스오버 작업에 대한 마일스톤과 일일 보고 체계를 활성화하여 모든 작업 진척 상황을 실시간으로 모니터링할 수 있는 'BDS 통합\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 최종 디자인 사인오프 파일(BDS_Pitch_Video_Final_Design_Signoff.md)을 기반으로, 영상 제작팀에 시각 결과물 제작을 즉시 요청하고 진행 상황 추적 계획을 수립하라.\n> 🔧 **도구 실행**: _(없음",
+      "completedAt": "2026-05-27T23:59:50.464Z"
+    },
+    {
+      "id": "20260528010025-ukm6",
+      "title": "**디자인 일관성:** 모든 콘텐츠가 V2.0 컴포넌트를 따르는가? (Designer 체크)",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-05-28T01:00:25.391Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T00-55",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T00-55/_report.md\n- Writer: Designer가 구축한 BDS 디자인 시스템 컴포넌트 라이브러리(`BDS_Design_System_Component_Library.md`)를 \n- Designer: 구축된 디자인 시스템 컴포넌트를 확장하고, 콘텐츠 템플릿(`BDS_Content_Template_Guide.md`)에 맞춰 핵심 UI 컴포넌트를\n- 코다리: Writer와 Designer의 산출물을 'BDS 통합 PM 대시보드'에 연결하여 콘텐츠 제작 병목 현상을 실시간으로 모니터링할 수 있는 데이터\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Designer가 구축한 BDS 디자인 시스템 컴포넌트 라이브러리(`BDS_Design_System_Component_Library.md`)를 기반으로, 투자자 피치 및 마케팅에 즉시 활용 가능한 핵심 콘텐츠 템플릿(카피라인 및 스크립트 초",
+      "completedAt": "2026-05-28T01:01:02.240Z"
+    },
+    {
+      "id": "20260528010025-29wq",
+      "title": "**기술 적합성:** 필요한 데이터 필드가 대시보드에 매핑 가능한가? (Kodari 체크)",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-05-28T01:00:25.407Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T00-55",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T00-55/_report.md\n- Writer: Designer가 구축한 BDS 디자인 시스템 컴포넌트 라이브러리(`BDS_Design_System_Component_Library.md`)를 \n- Designer: 구축된 디자인 시스템 컴포넌트를 확장하고, 콘텐츠 템플릿(`BDS_Content_Template_Guide.md`)에 맞춰 핵심 UI 컴포넌트를\n- 코다리: Writer와 Designer의 산출물을 'BDS 통합 PM 대시보드'에 연결하여 콘텐츠 제작 병목 현상을 실시간으로 모니터링할 수 있는 데이터\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Designer가 구축한 BDS 디자인 시스템 컴포넌트 라이브러리(`BDS_Design_System_Component_Library.md`)를 기반으로, 투자자 피치 및 마케팅에 즉시 활용 가능한 핵심 콘텐츠 템플릿(카피라인 및 스크립트 초",
+      "completedAt": "2026-05-28T01:01:02.284Z"
+    },
+    {
+      "id": "20260528010025-vjwv",
+      "title": "**스토리 흐름:** 스크립트의 감정적 변화(Pain Point/Solution)가 시각화 구조와 일치하는가? (Writer 체크)",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-05-28T01:00:25.419Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T00-55",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T00-55/_report.md\n- Writer: Designer가 구축한 BDS 디자인 시스템 컴포넌트 라이브러리(`BDS_Design_System_Component_Library.md`)를 \n- Designer: 구축된 디자인 시스템 컴포넌트를 확장하고, 콘텐츠 템플릿(`BDS_Content_Template_Guide.md`)에 맞춰 핵심 UI 컴포넌트를\n- 코다리: Writer와 Designer의 산출물을 'BDS 통합 PM 대시보드'에 연결하여 콘텐츠 제작 병목 현상을 실시간으로 모니터링할 수 있는 데이터\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Designer가 구축한 BDS 디자인 시스템 컴포넌트 라이브러리(`BDS_Design_System_Component_Library.md`)를 기반으로, 투자자 피치 및 마케팅에 즉시 활용 가능한 핵심 콘텐츠 템플릿(카피라인 및 스크립트 초",
+      "completedAt": "2026-05-28T01:01:02.328Z"
+    },
+    {
+      "id": "20260528011357-qod2",
+      "title": "재고 과다 보유로 현금이 부족한가?",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-28T01:13:57.440Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T01-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T01-10/_report.md\n- Writer: BDS_Content_Template_Guide_v2.0.md를 바탕으로, 가장 핵심적인 소상공인 지원 콘텐츠 템플릿(예: 리스크 분석 보고서,\n- Designer: BDS_Content_Template_Guide_v2.0.md에 명시된 디자인 시스템 컴포넌트를 활용하여, Writer가 작성한 콘텐츠 템플릿의\n- 코다리: Designer가 확정한 V2.0 디자인 컴포넌트를 기반으로, 콘텐츠 제작 병목 현상을 실시간으로 모니터링할 수 있는 PM 대시보드(`PM_Da\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: BDS_Content_Template_Guide_v2.0.md를 바탕으로, 가장 핵심적인 소상공인 지원 콘텐츠 템플릿(예: 리스크 분석 보고서, AI 활용 가이드 등)의 내용 구조와 메시지 흐름을 디자인 시스템과 일치하도록 작성하고 표준화 ",
+      "completedAt": "2026-05-28T01:16:21.287Z"
+    },
+    {
+      "id": "20260528011357-b034",
+      "title": "경쟁사 대비 가격 경쟁력이 약한가?",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-28T01:13:57.461Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T01-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T01-10/_report.md\n- Writer: BDS_Content_Template_Guide_v2.0.md를 바탕으로, 가장 핵심적인 소상공인 지원 콘텐츠 템플릿(예: 리스크 분석 보고서,\n- Designer: BDS_Content_Template_Guide_v2.0.md에 명시된 디자인 시스템 컴포넌트를 활용하여, Writer가 작성한 콘텐츠 템플릿의\n- 코다리: Designer가 확정한 V2.0 디자인 컴포넌트를 기반으로, 콘텐츠 제작 병목 현상을 실시간으로 모니터링할 수 있는 PM 대시보드(`PM_Da\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: BDS_Content_Template_Guide_v2.0.md를 바탕으로, 가장 핵심적인 소상공인 지원 콘텐츠 템플릿(예: 리스크 분석 보고서, AI 활용 가이드 등)의 내용 구조와 메시지 흐름을 디자인 시스템과 일치하도록 작성하고 표준화 ",
+      "completedAt": "2026-05-28T01:16:21.312Z"
+    },
+    {
+      "id": "20260528011357-cp8p",
+      "title": "고객 이탈률이 높아지고 있는가?",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-28T01:13:57.480Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T01-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T01-10/_report.md\n- Writer: BDS_Content_Template_Guide_v2.0.md를 바탕으로, 가장 핵심적인 소상공인 지원 콘텐츠 템플릿(예: 리스크 분석 보고서,\n- Designer: BDS_Content_Template_Guide_v2.0.md에 명시된 디자인 시스템 컴포넌트를 활용하여, Writer가 작성한 콘텐츠 템플릿의\n- 코다리: Designer가 확정한 V2.0 디자인 컴포넌트를 기반으로, 콘텐츠 제작 병목 현상을 실시간으로 모니터링할 수 있는 PM 대시보드(`PM_Da\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: BDS_Content_Template_Guide_v2.0.md를 바탕으로, 가장 핵심적인 소상공인 지원 콘텐츠 템플릿(예: 리스크 분석 보고서, AI 활용 가이드 등)의 내용 구조와 메시지 흐름을 디자인 시스템과 일치하도록 작성하고 표준화 ",
+      "completedAt": "2026-05-28T01:16:21.334Z"
+    },
+    {
+      "id": "20260528011357-bg7l",
+      "title": "외부 환경 변화 (경기, 정책) 에 취약한가?",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-28T01:13:57.496Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T01-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T01-10/_report.md\n- Writer: BDS_Content_Template_Guide_v2.0.md를 바탕으로, 가장 핵심적인 소상공인 지원 콘텐츠 템플릿(예: 리스크 분석 보고서,\n- Designer: BDS_Content_Template_Guide_v2.0.md에 명시된 디자인 시스템 컴포넌트를 활용하여, Writer가 작성한 콘텐츠 템플릿의\n- 코다리: Designer가 확정한 V2.0 디자인 컴포넌트를 기반으로, 콘텐츠 제작 병목 현상을 실시간으로 모니터링할 수 있는 PM 대시보드(`PM_Da\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: BDS_Content_Template_Guide_v2.0.md를 바탕으로, 가장 핵심적인 소상공인 지원 콘텐츠 템플릿(예: 리스크 분석 보고서, AI 활용 가이드 등)의 내용 구조와 메시지 흐름을 디자인 시스템과 일치하도록 작성하고 표준화 ",
+      "completedAt": "2026-05-28T01:16:21.353Z"
+    },
+    {
+      "id": "20260528011357-9l5w",
+      "title": "AI 대시보드 로그인 → \"리스크 분석\" 메뉴 선택",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-28T01:13:57.514Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T01-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T01-10/_report.md\n- Writer: BDS_Content_Template_Guide_v2.0.md를 바탕으로, 가장 핵심적인 소상공인 지원 콘텐츠 템플릿(예: 리스크 분석 보고서,\n- Designer: BDS_Content_Template_Guide_v2.0.md에 명시된 디자인 시스템 컴포넌트를 활용하여, Writer가 작성한 콘텐츠 템플릿의\n- 코다리: Designer가 확정한 V2.0 디자인 컴포넌트를 기반으로, 콘텐츠 제작 병목 현상을 실시간으로 모니터링할 수 있는 PM 대시보드(`PM_Da\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: BDS_Content_Template_Guide_v2.0.md를 바탕으로, 가장 핵심적인 소상공인 지원 콘텐츠 템플릿(예: 리스크 분석 보고서, AI 활용 가이드 등)의 내용 구조와 메시지 흐름을 디자인 시스템과 일치하도록 작성하고 표준화 ",
+      "completedAt": "2026-05-28T01:16:21.380Z"
+    },
+    {
+      "id": "20260528014203-5ikr",
+      "title": "후크가 3 초 안에 시청자의 주의를 끌 수 있는가?",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-28T01:42:03.801Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T01-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T01-40/_report.md\n- Writer: Designer가 표준화한 Universal Content Module 컴포넌트를 활용하여, 가장 핵심적인 콘텐츠 템플릿(예: 유튜브 영상 기획\n- Designer: Writer가 작성한 콘텐츠 템플릿에 맞춰, 정의된 디자인 시스템 컴포넌트를 적용하여 시각적 레이아웃과 최종 UI 결과물을 제작하라.\n- 코다리: Designer가 제공한 최종 컴포넌트 스펙을 기반으로, Writer의 콘텐츠 구조와 연동될 수 있도록 PM 대시보드(PM_Dashboard_D\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Designer가 표준화한 Universal Content Module 컴포넌트를 활용하여, 가장 핵심적인 콘텐츠 템플릿(예: 유튜브 영상 기획안 또는 인스타 릴스 프레임워크)의 내용 구조를 작성하라.\n> 🔧 **도구 실행**: _(없음 ",
+      "completedAt": "2026-05-28T01:44:40.270Z"
+    },
+    {
+      "id": "20260528014203-dg59",
+      "title": "본문에서 문제 → 해결책 → 사례의 논리가 명확한가?",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-28T01:42:03.819Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T01-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T01-40/_report.md\n- Writer: Designer가 표준화한 Universal Content Module 컴포넌트를 활용하여, 가장 핵심적인 콘텐츠 템플릿(예: 유튜브 영상 기획\n- Designer: Writer가 작성한 콘텐츠 템플릿에 맞춰, 정의된 디자인 시스템 컴포넌트를 적용하여 시각적 레이아웃과 최종 UI 결과물을 제작하라.\n- 코다리: Designer가 제공한 최종 컴포넌트 스펙을 기반으로, Writer의 콘텐츠 구조와 연동될 수 있도록 PM 대시보드(PM_Dashboard_D\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Designer가 표준화한 Universal Content Module 컴포넌트를 활용하여, 가장 핵심적인 콘텐츠 템플릿(예: 유튜브 영상 기획안 또는 인스타 릴스 프레임워크)의 내용 구조를 작성하라.\n> 🔧 **도구 실행**: _(없음 ",
+      "completedAt": "2026-05-28T01:44:40.308Z"
+    },
+    {
+      "id": "20260528014203-9r0b",
+      "title": "CTA 가 구체적이고 행동 가능한 지침을 제공하는가?",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-28T01:42:03.840Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T01-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T01-40/_report.md\n- Writer: Designer가 표준화한 Universal Content Module 컴포넌트를 활용하여, 가장 핵심적인 콘텐츠 템플릿(예: 유튜브 영상 기획\n- Designer: Writer가 작성한 콘텐츠 템플릿에 맞춰, 정의된 디자인 시스템 컴포넌트를 적용하여 시각적 레이아웃과 최종 UI 결과물을 제작하라.\n- 코다리: Designer가 제공한 최종 컴포넌트 스펙을 기반으로, Writer의 콘텐츠 구조와 연동될 수 있도록 PM 대시보드(PM_Dashboard_D\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Designer가 표준화한 Universal Content Module 컴포넌트를 활용하여, 가장 핵심적인 콘텐츠 템플릿(예: 유튜브 영상 기획안 또는 인스타 릴스 프레임워크)의 내용 구조를 작성하라.\n> 🔧 **도구 실행**: _(없음 ",
+      "completedAt": "2026-05-28T01:44:40.347Z"
+    },
+    {
+      "id": "20260528014203-lfdq",
+      "title": "비주얼과 내레이션이 일관된 메시지를 전달하는가?",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-28T01:42:03.856Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T01-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T01-40/_report.md\n- Writer: Designer가 표준화한 Universal Content Module 컴포넌트를 활용하여, 가장 핵심적인 콘텐츠 템플릿(예: 유튜브 영상 기획\n- Designer: Writer가 작성한 콘텐츠 템플릿에 맞춰, 정의된 디자인 시스템 컴포넌트를 적용하여 시각적 레이아웃과 최종 UI 결과물을 제작하라.\n- 코다리: Designer가 제공한 최종 컴포넌트 스펙을 기반으로, Writer의 콘텐츠 구조와 연동될 수 있도록 PM 대시보드(PM_Dashboard_D\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Designer가 표준화한 Universal Content Module 컴포넌트를 활용하여, 가장 핵심적인 콘텐츠 템플릿(예: 유튜브 영상 기획안 또는 인스타 릴스 프레임워크)의 내용 구조를 작성하라.\n> 🔧 **도구 실행**: _(없음 ",
+      "completedAt": "2026-05-28T01:44:40.369Z"
+    },
+    {
+      "id": "20260528024259-lkao",
+      "title": "JSON 스키마를 Pydantic 모델로 변환하여 유효성 검사 실행 (`pydantic.validate_json` 사용).",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-28T02:42:59.378Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T02-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T02-40/_report.md\n- 현빈: 재정 안정성 변수(R01, R02 등)에 대해 AI가 실시간으로 대안을 제안할 수 있는 최소한의 조건 및 임계값(Thresholds)을 구체화하\n- 코다리: 현빈이 정의한 수학적 공식을 기반으로, PM 대시보드 데이터 모델 연동에 필요한 핵심 API 필드와 기술적 상태 변수 구조를 최종 설계하고 데이\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 재정 안정성 변수(R01, R02 등)에 대해 AI가 실시간으로 대안을 제안할 수 있는 최소한의 조건 및 임계값(Thresholds)을 구체화하고 논리적 규칙을 추가로 정의하라.\n> 🔧 **도구 실행**: _(없음 ",
+      "completedAt": "2026-05-28T02:43:29.569Z"
+    },
+    {
+      "id": "20260528024259-strx",
+      "title": "`calculate_r01` 함수의 Edge Case 테스트: `variable_cost = 0`, `cash_flow < fixed_cost`.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-28T02:42:59.400Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T02-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T02-40/_report.md\n- 현빈: 재정 안정성 변수(R01, R02 등)에 대해 AI가 실시간으로 대안을 제안할 수 있는 최소한의 조건 및 임계값(Thresholds)을 구체화하\n- 코다리: 현빈이 정의한 수학적 공식을 기반으로, PM 대시보드 데이터 모델 연동에 필요한 핵심 API 필드와 기술적 상태 변수 구조를 최종 설계하고 데이\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 재정 안정성 변수(R01, R02 등)에 대해 AI가 실시간으로 대안을 제안할 수 있는 최소한의 조건 및 임계값(Thresholds)을 구체화하고 논리적 규칙을 추가로 정의하라.\n> 🔧 **도구 실행**: _(없음 ",
+      "completedAt": "2026-05-28T02:43:29.598Z"
+    },
+    {
+      "id": "20260528024259-4nta",
+      "title": "API 응답 헤더에 `Cache-Control: no-cache, no-store` 추가 (실시간 대시보드 특성상 캐싱 금지).",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-28T02:42:59.417Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T02-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T02-40/_report.md\n- 현빈: 재정 안정성 변수(R01, R02 등)에 대해 AI가 실시간으로 대안을 제안할 수 있는 최소한의 조건 및 임계값(Thresholds)을 구체화하\n- 코다리: 현빈이 정의한 수학적 공식을 기반으로, PM 대시보드 데이터 모델 연동에 필요한 핵심 API 필드와 기술적 상태 변수 구조를 최종 설계하고 데이\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 재정 안정성 변수(R01, R02 등)에 대해 AI가 실시간으로 대안을 제안할 수 있는 최소한의 조건 및 임계값(Thresholds)을 구체화하고 논리적 규칙을 추가로 정의하라.\n> 🔧 **도구 실행**: _(없음 ",
+      "completedAt": "2026-05-28T02:43:29.615Z"
+    },
+    {
+      "id": "20260528024259-p7pk",
+      "title": "프론트엔드 컴포넌트가 Schema 에 정의된 필드만 렌더링하는지 확인 (`PropTypes` 또는 Zod 유효성 검사 적용).",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-28T02:42:59.434Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T02-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T02-40/_report.md\n- 현빈: 재정 안정성 변수(R01, R02 등)에 대해 AI가 실시간으로 대안을 제안할 수 있는 최소한의 조건 및 임계값(Thresholds)을 구체화하\n- 코다리: 현빈이 정의한 수학적 공식을 기반으로, PM 대시보드 데이터 모델 연동에 필요한 핵심 API 필드와 기술적 상태 변수 구조를 최종 설계하고 데이\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 재정 안정성 변수(R01, R02 등)에 대해 AI가 실시간으로 대안을 제안할 수 있는 최소한의 조건 및 임계값(Thresholds)을 구체화하고 논리적 규칙을 추가로 정의하라.\n> 🔧 **도구 실행**: _(없음 ",
+      "completedAt": "2026-05-28T02:43:29.639Z"
+    },
+    {
+      "id": "20260528031312-c4zp",
+      "title": "API 응답에서 모든 필드가 유효성 검사를 통과하는지 확인 (JSON Schema validate)",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-28T03:13:12.844Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T03-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T03-10/_report.md\n- 코다리: Designer가 정의한 UI 컴포넌트 시스템 가이드(`PM_Dashboard_Component_System_Guide_v1.0.md`)에 맞춰\n- Designer: Developer가 확정한 최종 API 스키마(`PM_Dashboard_Data_Model_Spec_v1.0.md`)와 시각화 가이드라인을 기반\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 정의한 UI 컴포넌트 시스템 가이드(`PM_Dashboard_Component_System_Guide_v1.0.md`)에 맞춰, 핵심 지표(R01, S01 등)별 시각화 레이아웃을 구체적으로 설계하고, 이에 필요한 API 데",
+      "completedAt": "2026-05-28T03:15:04.221Z"
+    },
+    {
+      "id": "20260528031312-25h1",
+      "title": "각 차트 타입에 대한 UI 컴포넌트가 존재하고, Props 명세가 일치하는지 검증",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-28T03:13:12.863Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T03-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T03-10/_report.md\n- 코다리: Designer가 정의한 UI 컴포넌트 시스템 가이드(`PM_Dashboard_Component_System_Guide_v1.0.md`)에 맞춰\n- Designer: Developer가 확정한 최종 API 스키마(`PM_Dashboard_Data_Model_Spec_v1.0.md`)와 시각화 가이드라인을 기반\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 정의한 UI 컴포넌트 시스템 가이드(`PM_Dashboard_Component_System_Guide_v1.0.md`)에 맞춰, 핵심 지표(R01, S01 등)별 시각화 레이아웃을 구체적으로 설계하고, 이에 필요한 API 데",
+      "completedAt": "2026-05-28T03:15:04.247Z"
+    },
+    {
+      "id": "20260528031312-uxqb",
+      "title": "실시간 데이터 스트림이 5 분마다 업데이트되고, 프론트엔드에서 자동 재렌더링 되는지 테스트",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-28T03:13:12.881Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T03-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T03-10/_report.md\n- 코다리: Designer가 정의한 UI 컴포넌트 시스템 가이드(`PM_Dashboard_Component_System_Guide_v1.0.md`)에 맞춰\n- Designer: Developer가 확정한 최종 API 스키마(`PM_Dashboard_Data_Model_Spec_v1.0.md`)와 시각화 가이드라인을 기반\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 정의한 UI 컴포넌트 시스템 가이드(`PM_Dashboard_Component_System_Guide_v1.0.md`)에 맞춰, 핵심 지표(R01, S01 등)별 시각화 레이아웃을 구체적으로 설계하고, 이에 필요한 API 데",
+      "completedAt": "2026-05-28T03:15:04.269Z"
+    },
+    {
+      "id": "20260528031312-2bly",
+      "title": "호버, Zoom, 기간 선택 등 상호작용이 정상 작동하는지 기능 테스트",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-28T03:13:12.896Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T03-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T03-10/_report.md\n- 코다리: Designer가 정의한 UI 컴포넌트 시스템 가이드(`PM_Dashboard_Component_System_Guide_v1.0.md`)에 맞춰\n- Designer: Developer가 확정한 최종 API 스키마(`PM_Dashboard_Data_Model_Spec_v1.0.md`)와 시각화 가이드라인을 기반\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 정의한 UI 컴포넌트 시스템 가이드(`PM_Dashboard_Component_System_Guide_v1.0.md`)에 맞춰, 핵심 지표(R01, S01 등)별 시각화 레이아웃을 구체적으로 설계하고, 이에 필요한 API 데",
+      "completedAt": "2026-05-28T03:15:04.289Z"
+    },
+    {
+      "id": "20260528034316-cxz6",
+      "title": "**반응형 설계(Responsiveness):** 모든 컴포넌트는 모바일, 태블릿, 데스크톱 환경에서 뷰포트 크기에 맞춰 유연하게 축소/확대되도록 구현되어야 합니다. (Breakpoint: 768px, 1200px)",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-28T03:43:16.685Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T03-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T03-40/_report.md\n- 코다리: PM 대시보드 구현 청사진(`PM_Dashboard_Implementation_Blueprint_v1.0.md`)을 기반으로, 정의된 API 스\n- Designer: 최종 API 스키마와 컴포넌트 명세를 바탕으로, 재사용 가능한 UI 컴포넌트 시스템 전체의 기술적 일관성(Design System Consist\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: PM 대시보드 구현 청사진(`PM_Dashboard_Implementation_Blueprint_v1.0.md`)을 기반으로, 정의된 API 스키마에 따른 실제 데이터 스트림 연동 로직 초안을 작성하고 초기 프론트엔드 컴포넌트 구현을 즉시 시",
+      "completedAt": "2026-05-28T03:44:09.362Z"
+    },
+    {
+      "id": "20260528034316-o8z7",
+      "title": "**접근성(Accessibility):** 모든 컴포넌트는 ARIA 속성을 포함하여 스크린 리더를 사용하는 사용자도 내용을 이해할 수 있도록 설계해야 합니다. (특히 색상 대비율 WCAG AA 이상 준수).",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-28T03:43:16.696Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T03-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T03-40/_report.md\n- 코다리: PM 대시보드 구현 청사진(`PM_Dashboard_Implementation_Blueprint_v1.0.md`)을 기반으로, 정의된 API 스\n- Designer: 최종 API 스키마와 컴포넌트 명세를 바탕으로, 재사용 가능한 UI 컴포넌트 시스템 전체의 기술적 일관성(Design System Consist\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: PM 대시보드 구현 청사진(`PM_Dashboard_Implementation_Blueprint_v1.0.md`)을 기반으로, 정의된 API 스키마에 따른 실제 데이터 스트림 연동 로직 초안을 작성하고 초기 프론트엔드 컴포넌트 구현을 즉시 시",
+      "completedAt": "2026-05-28T03:44:09.418Z"
+    },
+    {
+      "id": "20260528034316-ehph",
+      "title": "**코드 구조:** 각 컴포넌트(`<KPI-Card>`, `<TrendGraph>`)는 독립적이며, 명확한 Props 인터페이스(TypeScript)를 정의하고 테스트 코드를 동반하여 작성해야 합니다.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-28T03:43:16.709Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T03-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T03-40/_report.md\n- 코다리: PM 대시보드 구현 청사진(`PM_Dashboard_Implementation_Blueprint_v1.0.md`)을 기반으로, 정의된 API 스\n- Designer: 최종 API 스키마와 컴포넌트 명세를 바탕으로, 재사용 가능한 UI 컴포넌트 시스템 전체의 기술적 일관성(Design System Consist\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: PM 대시보드 구현 청사진(`PM_Dashboard_Implementation_Blueprint_v1.0.md`)을 기반으로, 정의된 API 스키마에 따른 실제 데이터 스트림 연동 로직 초안을 작성하고 초기 프론트엔드 컴포넌트 구현을 즉시 시",
+      "completedAt": "2026-05-28T03:44:09.440Z"
     }
   ]
 }
