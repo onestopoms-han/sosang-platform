@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 5. 28. 오후 1:44:29_
+_업데이트: 2026. 5. 28. 오후 3:59:03_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,21 +11,21 @@ _업데이트: 2026. 5. 28. 오후 1:44:29_
 - [2026-05-26] Writer가 작성한 영상 스크립트의 핵심 메시지를 바탕으로, 전문가들의 불안감 해소 니즈를 반영하는 참여 유도형 릴스 콘텐츠 아이디어 3가지(캡션 및 해시태그 포함)를 구체화하고 제작 단계로 이관하라. → 산출물 sessions/2026-05-26T14-21/instagram.md
 - [2026-05-27] Writer의 카피라이팅과 Designer의 비주얼 가이드를 활용하여, 소상공인의 불안 해소 니즈를 자극하는 릴스 콘텐츠 아이디어 3가지(캡션 및 해시태그 포함)를 구체화합니다. → 산출물 sessions/2026-05-27T22-10/instagram.md
 ### 🎨 Designer
-- [2026-05-28] `PM_Dashboard_DesignSystem_V2.0.md`를 기반으로, 핵심 지표(`R01`, `S01`)에 대한 실제 UI 컴포넌트(예: `KPI-Card`, `TrendGraph`)의 초기 코드 구조 및 스타일 적용 예시를 구현하라. → 산출물 sessions/2026-05-28T03-55/designer.md
-- [2026-05-28] 개발팀이 구현하는 모든 코드가 `PM_Dashboard_DesignSystem_V2.0.md`의 스타일 가이드라인 및 컴포넌트 명세를 완벽하게 준수하도록 코드 리뷰 및 최종 디자인 일관성 검토를 수행하라. → 산출물 sessions/2026-05-28T04-10/designer.md
-- [2026-05-28] 확정된 KPI 목표(예: R01이 70 미만일 때 Critical 상태 표시)를 기반으로, PM 대시보드 시각화 컴포넌트(`KPI-Card`, `TrendGraph`)가 디자인 시스템 표준을 완벽하게 반영하도록 최종 디자인 가이드라인과 UI 컴포넌트 스펙을 확정하라. → 산출물 sessions/2026-05-28T04-40/designer.md
+- [2026-05-28] 개발팀이 구현하는 KPI-Card와 TrendGraph 컴포넌트에 대해 확정된 디자인 토큰과 상태 반영 규칙(Critical, Warning 등)이 100% 일치하는지 최종 검수하고 즉각적인 피드백을 제공하라. → 산출물 sessions/2026-05-28T05-55/designer.md
+- [2026-05-28] Design_SignOff_Checklist_KPI_v1.0.md를 기반으로 모든 예외 상황(Edge Case)에 대한 사용자 흐름 및 명세를 정의하라. → 산출물 sessions/2026-05-28T06-10/designer.md
+- [2026-05-28] 최종 통합 검증 블루프린트(`Final_Integration_Review_Blueprint_v1.0.md`)를 기반으로 UI/UX 가이드라인과 컴포넌트 명세서가 테스트 시나리오와 100% 일치하는지 최종적으로 검토하고 개발팀에 핸드오프할 준비를 완료하라. → 산출물 sessions/2026-05-28T06-55/designer.md
 ### 💻 코다리
-- [2026-05-28] Designer가 구현한 KPI-Card와 TrendGraph 컴포넌트 블루프린트를 기반으로, 확정된 API 스키마(`PM_Dashboard_Data_Model_Spec_v1.0.md`)에 맞춰 실제 데이터 스트림 연동 로직을 최종적으로 작성하고 프론트엔드 컴포넌트 구현을 즉시 착수하라. → 산출물 sessions/2026-05-28T04-10/developer.md
-- [2026-05-28] business 에이전트가 제시할 KPI 목표 및 임계값 로직에 맞춰, 데이터 모델(`PM_Dashboard_Status_Variables_v1.md`)과 API 스키마의 연동 기준을 최종적으로 검토하고 코다리에게 전달할 준비를 하라. → 산출물 sessions/2026-05-28T04-25/developer.md
-- [2026-05-28] business와 designer가 확정한 KPI 임계값 및 디자인 스펙을 기반으로, 데이터 모델(`PM_Dashboard_Status_Variables_v1.md`)과 프론트엔드 컴포넌트(`KPI-Card`, `TrendGraph`) 간의 API 연동 로직 및 시각화 구현 코드를 즉시 착수하라. → 산출물 sessions/2026-05-28T04-40/developer.md
+- [2026-05-28] Mock Data를 활용하여 KPI 컴포넌트(`KPI-Card`, `TrendGraph`)의 프론트엔드 로직 구현을 착수하고, 백엔드 API 스키마와 연동하는 데이터 흐름을 구축하라. → 산출물 sessions/2026-05-28T06-25/developer.md
+- [2026-05-28] EdgeCase_Flow_Spec_v1.0.md와 TestPlan_QA_v1.0.md를 기반으로 Mock Data 환경에서 'Critical', 'Warning' 상태 변화를 검증하는 통합 자동화 테스트 스크립트를 구현하고 실행하라. → 산출물 sessions/2026-05-28T06-40/developer.md
+- [2026-05-28] EdgeCase_Flow_Spec_v1.0.md 파일을 기반으로 Mock Data 환경에서 'Critical', 'Warning' 상태 변화를 검증하는 통합 자동화 테스트 스크립트 구현을 재개하고 실행하라. → 산출물 sessions/2026-05-28T06-55/developer.md
 ### 💼 현빈
-- [2026-05-28] 구현되는 핵심 지표(R01, S01 등)가 소상공인의 실질적 어려움 해소에 기여하는지 확인하기 위해, 각 기능 구현 시 목표 KPI 달성 로직을 재검토하고 데이터 모델의 우선순위를 최종적으로 확정하라. → 자격증명 부족으로 차단됨
-- [2026-05-28] KPI_PainPoint_Mapping_v1.md을 검토하고, 각 KPI 지표(R01, S01 등)가 소상공인의 실질적 어려움 해소에 기여하는지를 재확인하며, 목표 설정 및 임계값(Threshold) 로직을 구체화하여 데이터 모델과 연동할 수 있는 명확한 수학적/논리적 기준을 작성하라. → 산출물 sessions/2026-05-28T04-25/business.md
-- [2026-05-28] 현빈이 제시한 KPI 목표 및 임계값 로직(R01, S01 등)에 대해, 실제 소상공인의 재정 불안 및 공급망 리스크를 얼마나 정확히 반영하는지 최종 검증하고, 데이터 모델 연동을 위한 최적의 수학적 공식과 임계값을 확정하라. → 산출물 sessions/2026-05-28T04-40/business.md
+- [2026-05-28] 현빈이 최종 검증한 백엔드 API 응답 스키마(`Dashboard_API_Response_Schema_v1.0.md`)에 맞춰 프론트엔드 데이터 연동 로직 및 상태 처리의 논리적 일관성을 실시간으로 검증하고, 비즈니스 목표(KPI 임계값)가 UI에 정확히 반영되도록 보장하라. → 산출물 sessions/2026-05-28T05-25/business.md
+- [2026-05-28] 테스트 결과가 소상공인의 실질적 Pain Point(재정, 공급망 리스크)와 명확하게 연결되는지 검증하고, KPI 상태(`Critical`, `Warning`) 로직의 비즈니스 임계값 적합성을 최종 확인하라. → 산출물 sessions/2026-05-28T06-40/business.md
+- [2026-05-28] 통합 테스트 결과와 KPI 임계값 로직이 소상공인의 실질적 Pain Point(재정, 공급망 리스크)와 명확하게 연결되는지 최종 검증하고 KPI 상태(`Critical`, `Warning`) 로직의 비즈니스 임계값 적합성을 확인하라. → 산출물 sessions/2026-05-28T06-55/business.md
 ### 📱 영숙
-- [2026-05-28] 오늘(5월 28일)의 핵심 목표와 지난 보고서('BDS 통합 PM 대시보드')를 바탕으로, Writer의 보이스오버 파일 수신 및 Designer의 일정 조정에 따른 병목 현상 해결을 위한 데일리 보고 루틴 실행 계획을 즉시 작성하라. → 산출물 sessions/2026-05-28T00-10/secretary.md
-- [2026-05-28] Writer가 정리한 VO 데이터(파일명, 분량)와 Designer의 일정 정보를 바탕으로, 영상 제작 병목 현상 해결을 위한 일일 보고 루틴에 필요한 핵심 액션과 블로커를 통합하여 오늘(5/28)의 최종 실행 계획을 수립하고 팀원들에게 공유할 내용을 정리하라. → 산출물 sessions/2026-05-28T00-25/secretary.md
-- [2026-05-28] 위의 모든 작업 진행 상황 및 산출물을 통합 PM 대시보드에 반영하여, 일일 보고 루틴을 자동화하고 다음 액션 항목을 정리하라. → 산출물 sessions/2026-05-28T00-55/secretary.md
+- [2026-05-28] 개발 및 QA 사이클의 진행 상황을 모니터링하며, 모든 작업의 진척도를 정리하여 다음 보고를 준비하라. → 산출물 sessions/2026-05-28T05-55/secretary.md
+- [2026-05-28] 통합 QA 계획을 구체화하여, Mock API 환경에서 'Critical', 'Warning' 상태가 정확히 반영되는지 검증하는 자동화 테스트 시나리오를 설계하라. → 산출물 sessions/2026-05-28T06-10/secretary.md
+- [2026-05-28] Designer가 정의한 EdgeCase 명세서(`EdgeCase_Flow_Spec_v1.0.md`) 및 QA 계획(`TestPlan_QA_v1.0.md`)에 따라, Mock API 환경에서 'Critical', 'Warning' 상태가 정확히 반영되는지 검증하는 자동화 테스트 시나리오를 실제 코드로 구현하라. → 산출물 sessions/2026-05-28T06-25/secretary.md
 ### ✍️ Writer
 - [2026-05-28] Designer가 구축한 BDS 디자인 시스템 컴포넌트 라이브러리(`BDS_Design_System_Component_Library.md`)를 기반으로, 투자자 피치 및 마케팅에 즉시 활용 가능한 핵심 콘텐츠 템플릿(카피라인 및 스크립트 초안)을 제작하라. → 산출물 sessions/2026-05-28T00-55/writer.md
 - [2026-05-28] BDS_Content_Template_Guide_v2.0.md를 바탕으로, 가장 핵심적인 소상공인 지원 콘텐츠 템플릿(예: 리스크 분석 보고서, AI 활용 가이드 등)의 내용 구조와 메시지 흐름을 디자인 시스템과 일치하도록 작성하고 표준화 작업을 시작하라. → 산출물 sessions/2026-05-28T01-10/writer.md
