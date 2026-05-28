@@ -1535,11 +1535,13 @@
         "business"
       ],
       "createdAt": "2026-05-28T07:13:53.676Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-05-28T07-10",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T07-10/_report.md\n- 코다리: 파일 경로 오류(`tests/edge_case_qa.py` 누락)를 해결하고, Mock Data 환경에서 'Critical', 'Warning'\n- 현빈: 개발팀이 구현하는 KPI 임계값 로직(`Critical < 3`)이 소상공인의 실질적 Pain Point(재정 불안 및 공급망 리스크)를 명확히\n- Designer: 최종 통합 검증 블루프린트(`Final_Integration_Review_Blueprint_v1.0.md`)와 `Design_System_Han\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 파일 경로 오류(`tests/edge_case_qa.py` 누락)를 해결하고, Mock Data 환경에서 'Critical', 'Warning' 상태 변화 검증 자동화 테스트 스크립트의 실행을 즉시 재개하여 시스템 안정성을 최종 검증한다.\n>",
+      "completedAt": "2026-05-28T07:15:34.439Z"
     },
     {
       "id": "20260528071353-zuyk",
@@ -1550,11 +1552,13 @@
         "business"
       ],
       "createdAt": "2026-05-28T07:13:53.683Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-05-28T07-10",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T07-10/_report.md\n- 코다리: 파일 경로 오류(`tests/edge_case_qa.py` 누락)를 해결하고, Mock Data 환경에서 'Critical', 'Warning'\n- 현빈: 개발팀이 구현하는 KPI 임계값 로직(`Critical < 3`)이 소상공인의 실질적 Pain Point(재정 불안 및 공급망 리스크)를 명확히\n- Designer: 최종 통합 검증 블루프린트(`Final_Integration_Review_Blueprint_v1.0.md`)와 `Design_System_Han\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 파일 경로 오류(`tests/edge_case_qa.py` 누락)를 해결하고, Mock Data 환경에서 'Critical', 'Warning' 상태 변화 검증 자동화 테스트 스크립트의 실행을 즉시 재개하여 시스템 안정성을 최종 검증한다.\n>",
+      "completedAt": "2026-05-28T07:15:34.456Z"
     },
     {
       "id": "20260528071353-pil0",
@@ -1565,11 +1569,183 @@
         "business"
       ],
       "createdAt": "2026-05-28T07:13:53.703Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-05-28T07-10",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T07-10/_report.md\n- 코다리: 파일 경로 오류(`tests/edge_case_qa.py` 누락)를 해결하고, Mock Data 환경에서 'Critical', 'Warning'\n- 현빈: 개발팀이 구현하는 KPI 임계값 로직(`Critical < 3`)이 소상공인의 실질적 Pain Point(재정 불안 및 공급망 리스크)를 명확히\n- Designer: 최종 통합 검증 블루프린트(`Final_Integration_Review_Blueprint_v1.0.md`)와 `Design_System_Han\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 파일 경로 오류(`tests/edge_case_qa.py` 누락)를 해결하고, Mock Data 환경에서 'Critical', 'Warning' 상태 변화 검증 자동화 테스트 스크립트의 실행을 즉시 재개하여 시스템 안정성을 최종 검증한다.\n>",
+      "completedAt": "2026-05-28T07:15:34.477Z"
+    },
+    {
+      "id": "20260528081232-j0j2",
+      "title": "**후크 선택:** 후크 A 를 기본으로 하되, 테스트용으로 B/C도 준비",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-28T08:12:32.751Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T08-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T08-10/_report.md\n- Writer: 최종 영상 스크립트 초안에 기반하여 유튜브 영상 제작을 위한 구체적인 후킹 카피 및 스토리텔링을 확정하고 제작 단계로 이관하라.\n- Designer: 작성된 비주얼 아이덴티티(VI) 가이드라인을 개발팀과 공유하여 UI/UX 컴포넌트 설계에 즉시 적용하도록 핸드오프를 완료하라.\n- 코다리: 시스템 안정화 검증 결과를 바탕으로, 확정된 VI와 스크립트를 통합하는 최종 사용자 경험(UX) 흐름을 검토하고 마케팅 채널별 최적화 방안을 모\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 최종 영상 스크립트 초안에 기반하여 유튜브 영상 제작을 위한 구체적인 후킹 카피 및 스토리텔링을 확정하고 제작 단계로 이관하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: ✍️ Writer: 영상",
+      "completedAt": "2026-05-28T08:15:13.960Z"
+    },
+    {
+      "id": "20260528081232-2o2o",
+      "title": "**시각 일관성:** Loss Gauge 등 디자인 토큰 (Designer) 과 동기화",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-28T08:12:32.782Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T08-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T08-10/_report.md\n- Writer: 최종 영상 스크립트 초안에 기반하여 유튜브 영상 제작을 위한 구체적인 후킹 카피 및 스토리텔링을 확정하고 제작 단계로 이관하라.\n- Designer: 작성된 비주얼 아이덴티티(VI) 가이드라인을 개발팀과 공유하여 UI/UX 컴포넌트 설계에 즉시 적용하도록 핸드오프를 완료하라.\n- 코다리: 시스템 안정화 검증 결과를 바탕으로, 확정된 VI와 스크립트를 통합하는 최종 사용자 경험(UX) 흐름을 검토하고 마케팅 채널별 최적화 방안을 모\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 최종 영상 스크립트 초안에 기반하여 유튜브 영상 제작을 위한 구체적인 후킹 카피 및 스토리텔링을 확정하고 제작 단계로 이관하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: ✍️ Writer: 영상",
+      "completedAt": "2026-05-28T08:15:13.997Z"
+    },
+    {
+      "id": "20260528081232-goyp",
+      "title": "**데이터 정확성:** API 응답 스키마 검증 완료 (개발팀)",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-28T08:12:32.802Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T08-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T08-10/_report.md\n- Writer: 최종 영상 스크립트 초안에 기반하여 유튜브 영상 제작을 위한 구체적인 후킹 카피 및 스토리텔링을 확정하고 제작 단계로 이관하라.\n- Designer: 작성된 비주얼 아이덴티티(VI) 가이드라인을 개발팀과 공유하여 UI/UX 컴포넌트 설계에 즉시 적용하도록 핸드오프를 완료하라.\n- 코다리: 시스템 안정화 검증 결과를 바탕으로, 확정된 VI와 스크립트를 통합하는 최종 사용자 경험(UX) 흐름을 검토하고 마케팅 채널별 최적화 방안을 모\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 최종 영상 스크립트 초안에 기반하여 유튜브 영상 제작을 위한 구체적인 후킹 카피 및 스토리텔링을 확정하고 제작 단계로 이관하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: ✍️ Writer: 영상",
+      "completedAt": "2026-05-28T08:15:14.023Z"
+    },
+    {
+      "id": "20260528081232-31hx",
+      "title": "**사운드/음향 효과:** 백그라운드 잡음, 효과음 라이브러리 준비",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-28T08:12:32.820Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T08-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T08-10/_report.md\n- Writer: 최종 영상 스크립트 초안에 기반하여 유튜브 영상 제작을 위한 구체적인 후킹 카피 및 스토리텔링을 확정하고 제작 단계로 이관하라.\n- Designer: 작성된 비주얼 아이덴티티(VI) 가이드라인을 개발팀과 공유하여 UI/UX 컴포넌트 설계에 즉시 적용하도록 핸드오프를 완료하라.\n- 코다리: 시스템 안정화 검증 결과를 바탕으로, 확정된 VI와 스크립트를 통합하는 최종 사용자 경험(UX) 흐름을 검토하고 마케팅 채널별 최적화 방안을 모\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 최종 영상 스크립트 초안에 기반하여 유튜브 영상 제작을 위한 구체적인 후킹 카피 및 스토리텔링을 확정하고 제작 단계로 이관하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: ✍️ Writer: 영상",
+      "completedAt": "2026-05-28T08:15:14.059Z"
+    },
+    {
+      "id": "20260528141356-m3pe",
+      "title": "Pain(#B03A2E) 영역: 경고색 배경, 텍스트에 `#B03A2E` 사용 (무게 낮음).",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-28T14:13:56.214Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T14-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T14-10/_report.md\n- 영숙: 최근 의사결정 로그와 CEO 메모리를 바탕으로, 'Designer' 및 'Writer'에게 필요한 핵심 자산(`designer.md`, `kpi\n- Designer: Secretary가 확보한 핵심 자산(`designer.md`, `kpi_relax_script_v2.md`)을 기반으로, 'Before & A\n- Writer: Designer가 확정한 Flow Map과 KPI 목표 요약에 맞춰, 소상공인의 불안 해소 니즈를 자극하는 '고통 해결형 스토리텔링 스크립트(V\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 최근 의사결정 로그와 CEO 메모리를 바탕으로, 'Designer' 및 'Writer'에게 필요한 핵심 자산(`designer.md`, `kpi_relax_script_v2.md`)의 파일 경로 접근 문제를 즉시 해결하고, ",
+      "completedAt": "2026-05-28T14:14:25.635Z"
+    },
+    {
+      "id": "20260528141356-he4m",
+      "title": "Solution(#4CAF50) 영역: 안정색 배경, 텍스트에 `#4CAF50` 사용 (무게 높음).",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-28T14:13:56.236Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T14-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T14-10/_report.md\n- 영숙: 최근 의사결정 로그와 CEO 메모리를 바탕으로, 'Designer' 및 'Writer'에게 필요한 핵심 자산(`designer.md`, `kpi\n- Designer: Secretary가 확보한 핵심 자산(`designer.md`, `kpi_relax_script_v2.md`)을 기반으로, 'Before & A\n- Writer: Designer가 확정한 Flow Map과 KPI 목표 요약에 맞춰, 소상공인의 불안 해소 니즈를 자극하는 '고통 해결형 스토리텔링 스크립트(V\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 최근 의사결정 로그와 CEO 메모리를 바탕으로, 'Designer' 및 'Writer'에게 필요한 핵심 자산(`designer.md`, `kpi_relax_script_v2.md`)의 파일 경로 접근 문제를 즉시 해결하고, ",
+      "completedAt": "2026-05-28T14:14:25.671Z"
+    },
+    {
+      "id": "20260528141356-t814",
+      "title": "시각적 전환: 게이지 바의 색상 변화를 통해 '위험 → 안전'으로의 감정 전환을 명확히 표현.",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-05-28T14:13:56.247Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T14-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T14-10/_report.md\n- 영숙: 최근 의사결정 로그와 CEO 메모리를 바탕으로, 'Designer' 및 'Writer'에게 필요한 핵심 자산(`designer.md`, `kpi\n- Designer: Secretary가 확보한 핵심 자산(`designer.md`, `kpi_relax_script_v2.md`)을 기반으로, 'Before & A\n- Writer: Designer가 확정한 Flow Map과 KPI 목표 요약에 맞춰, 소상공인의 불안 해소 니즈를 자극하는 '고통 해결형 스토리텔링 스크립트(V\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 최근 의사결정 로그와 CEO 메모리를 바탕으로, 'Designer' 및 'Writer'에게 필요한 핵심 자산(`designer.md`, `kpi_relax_script_v2.md`)의 파일 경로 접근 문제를 즉시 해결하고, ",
+      "completedAt": "2026-05-28T14:14:25.696Z"
+    },
+    {
+      "id": "20260528144205-2c3s",
+      "title": "모든 KPI 지표의 데이터 타입 및 범위 정의 완료 (Codari 확인).",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-28T14:42:05.800Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T14-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T14-40/_report.md\n- Designer: 현빈(Business) 및 코다리(Developer)가 확정한 KPI Status Gauge의 데이터 정의와 디자인 토큰을 기반으로, 최종 UI\n\nCEO 종합 요점: 🎨 Designer: 작업 시작합니다.\n\nCEO의 지시에 따라 KPI Status Gauge 컴포넌트와 전반적인 사용자 여정 흐름을 통합한 최종 UI/UX 핸드오프 스펙 문서를 제작하겠습니다. 이 문서는 개발팀이 모호함 없이 코딩에 착수할 수 있도록, **데이터 기반 로직(Codari)**과 **시각적 토큰(design_tokens_v3.md)**을 결합",
+      "completedAt": "2026-05-28T14:42:05.845Z"
+    },
+    {
+      "id": "20260528144205-dszo",
+      "title": "State A/B/C에 따른 UI 변화 스펙 명확화.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-28T14:42:05.817Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T14-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T14-40/_report.md\n- Designer: 현빈(Business) 및 코다리(Developer)가 확정한 KPI Status Gauge의 데이터 정의와 디자인 토큰을 기반으로, 최종 UI\n\nCEO 종합 요점: 🎨 Designer: 작업 시작합니다.\n\nCEO의 지시에 따라 KPI Status Gauge 컴포넌트와 전반적인 사용자 여정 흐름을 통합한 최종 UI/UX 핸드오프 스펙 문서를 제작하겠습니다. 이 문서는 개발팀이 모호함 없이 코딩에 착수할 수 있도록, **데이터 기반 로직(Codari)**과 **시각적 토큰(design_tokens_v3.md)**을 결합",
+      "completedAt": "2026-05-28T14:42:05.858Z"
+    },
+    {
+      "id": "20260528144205-0270",
+      "title": "`color-danger-red`와 `color-growth-green` 간의 전환 애니메이션(Transition Animation) 사양 추가 필요 (Front-end 개발팀 검토 요청).",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-05-28T14:42:05.829Z",
+      "status": "done",
+      "sessionDir": "2026-05-28T14-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-28T14-40/_report.md\n- Designer: 현빈(Business) 및 코다리(Developer)가 확정한 KPI Status Gauge의 데이터 정의와 디자인 토큰을 기반으로, 최종 UI\n\nCEO 종합 요점: 🎨 Designer: 작업 시작합니다.\n\nCEO의 지시에 따라 KPI Status Gauge 컴포넌트와 전반적인 사용자 여정 흐름을 통합한 최종 UI/UX 핸드오프 스펙 문서를 제작하겠습니다. 이 문서는 개발팀이 모호함 없이 코딩에 착수할 수 있도록, **데이터 기반 로직(Codari)**과 **시각적 토큰(design_tokens_v3.md)**을 결합",
+      "completedAt": "2026-05-28T14:42:05.873Z"
     }
   ]
 }
