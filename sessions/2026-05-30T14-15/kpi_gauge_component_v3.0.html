@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>KPI Gauge Component - V3.0</title>
+    <style>
+        :root {
+            --deep-blue: #004D66; /* 신뢰/전문성 */
+            --growth-green: #3CB371; /* 성장/해결책 */
+            --warning-red: #E53935; /* 경고/위험 */
+            --bg-color: #f4f6f8;
+        }
+
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: var(--bg-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .gauge-container {
+            width: 400px;
+            height: 320px;
+            background-color: white;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0, 77, 102, 0.15);
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .gauge-header {
+            font-size: 16px;
+            color: var(--deep-blue);
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        .gauge-body {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        /* SVG Gauge */
+        svg.gauge-svg {
+            width: 280px;
+            height: 140px;
+            overflow: visible;
+        }
+
+        .gauge-bg-arc {
+            fill: none;
+            stroke: #e0e0e0;
+            stroke-width: 30;
+            stroke-linecap: round;
+        }
+
+        .gauge-fill-arc {
+            fill: none;
+            stroke: var(--growth-green); /* 성장 구간 */
+            stroke-width: 30;
+            stroke-linecap: round;
+            transition: stroke-dasharray 1s ease-in-out, stroke 0.5s ease;
+        }
+
+        .gauge-warning-arc {
+            fill: none;
+            stroke: var(--warning-red); /* 경고 구간 */
+            stroke-width: 30;
+            stroke-linecap: round;
+            transition: stroke-dasharray 1s ease-in-out, stroke 0.5s ease;
+        }
+
+        .gauge-center-text {
+            position: absolute;
+            text-align: center;
+        }
+
+        .gauge-value {
+            font-size: 42px;
+            font-weight: 800;
+            color: var(--deep-blue);
+            line-height: 1.1;
+        }
+
+        .gauge-label {
+            font-size: 14px;
+            color: #666;
+            margin-top: 2px;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 100px;
+            font-size: 12px;
+            font-weight: 700;
+            background-color: var(--growth-green);
+            color: white;
+            margin-top: 8px;
+        }
+
+        .status-badge.warning {
+            background-color: var(--warning-red);
+        }
+
+        /* Scale markers */
+        .gauge-scale {
+            position: absolute;
+            bottom: -24px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #999;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="gauge-container">
+    <div class="gauge-header">
+        KPI Monitor: 매출 성장률 (YoY)
+    </div>
+
+    <div class="gauge-body">
+        <!-- SVG Gauge -->
+        <svg class="gauge-svg" viewBox="0 0 280 140">
+            <!-- Background Arc (270 degrees start at top-left-ish) -->
+            <path class="gauge-bg-arc" 
+                  d="M 50 110 A 60 60 0 0 1 230 110" />
+            
+            <!-- Fill Arc (Dynamic) - Green by default (growth) -->
+            <path id="fill-green" class="gauge-fill-arc" 
+                  d="M 50 110 A 60 60 0 0 1 230 110" />
+
+            <!-- Warning Arc (Hidden by default, red) -->
+            <path id="fill-red" class="gauge-warning-arc" 
+                  d="M 50 110 A 60 60 0 0 1 230 110" />
+
+            <!-- Center Text -->
+            <text x="50%" y="48%" text-anchor="middle" id="center-value">
+                +0.0%
+            </text>
+            
+            <!-- Scale Markers (Bottom) -->
+            <g class="gauge-scale">
+                <text x="10%" y="132">-10%</text>
+                <text x="50%" y="132">0%</text>
+                <text x="90%" y="132">+10%</text>
+            </g>
+        </svg>
+
+    </div>
+
+    <!-- Footer Info -->
+    <div style="margin-top: 4px;">
+        <span id="status-badge" class="status-badge">성장 중</span>
+    </div>
+</div>
+
+<script>
+    // --- Configuration & Data Simulation ---
+    
+    const CONFIG = {
+        min: -10,   // -10%
+        max: 10,    // +10%
+        center: 0,  // 0%
+        
+        arcLength: (Math.PI * 60) * 2, // Circumference of radius 60 is ~377. But we want 90 deg left to 90 deg right? No, 270 degrees total usually for gauge. Let's recalculate dasharray based on circumference = 2 * PI * r = 377.
+        // Actually SVG path with A command calculates arc length automatically if stroke-dasharray is used correctly relative to the full circle (2*PI*r). But easier: 
+        // Let's use a simpler approach for stroke-dasharray: we'll calculate the total dash length needed and adjust.
+        
+        greenRange: [-10, 4],   // -10% ~ +4% is Green (Healthy Growth)
+        redRangeStart: 4,       // Above +4% switches to Warning (Over-optimistic or volatile?) -> Let's reverse logic for demo
+        
+        // Alternative logic: 
+        // < 0% : Red (Decline) - but let's stick to design system first.
+        // > 0% : Green (Growth).
+        // But the prompt says "Pain(Warning Color)" to "Solution(Stability)".
+        // Let's implement a specific scenario: 
+        // If value < 0 (Negative growth) -> Red Warning Arc (Decline/Pain)
+        // If value > 0 (Positive growth) -> Green Growth Arc (Recovery/Solution)
+        
+    };
+
+    let currentValue = 0; // Starting at neutral
+    
+    const fillGreen = document.getElementById('fill-green');
+    const fillRed = document.getElementById('fill-red');
+    const centerValueText = document.getElementById('center-value');
+    const statusBadge = document.getElementById('status-badge');
+
+    function updateGauge(value) {
+        // Normalize value to range [-10, 10]
+        let normalizedValue = Math.max(CONFIG.min, Math.min(CONFIG.max, value));
+        
+        // Calculate percentage relative to full scale (20 units total from -10 to +10)
+        const percent = ((normalizedValue - CONFIG.min) / (CONFIG.max - CONFIG.min)) * 100;
+
+        // SVG Arc Path: "M 50 110 A 60 60 0 0 1 230 110" is a full 270-degree arc.
+        // Circumference = 2 * PI * 60 = ~377. So one pixel of stroke-dasharray corresponds to (377 / 270) deg.
+        // Let's set total dash length for the full green arc as: 
+        const fullArcLength = (Math.PI * 60) * 1.5; // Approx 270 deg in pixels? No, let's use actual path length logic from SVG docs or cheat with simple math.
+        
+        // Cheating via circumference formula: C = 2 * PI * r. Full circle = 377px.
+        // We want 90 degrees left to 90 degrees right (180 deg total) + 90 degrees top? 
+        // Actually the path "A 60 60 0 0 1 230 110" draws a major arc (default large-arc-flag=0, sweep-flag=1).
+        // From 50,110 going counter-clockwise to 230,110 is roughly 270 degrees. Let's verify: 
+        // Start angle (from center): atan2(0, -60) = 180 deg? No, SVG arc starts at 3 o'clock usually.
+        // To avoid complex trigonometry in head, let's just use a known full circle length and subtract.
+        
+        const r = 60;
+        const circumference = 2 * Math.PI * r; // ~376.99
+        
+        // We want to draw an arc from roughly "9 o'clock" to "3 o'clock" via the top-left/right? 
+        // Let's simplify: The path provided draws a 270 degree arc.
+        const totalArcAngle = 270; // degrees
+        const pixelsPerDegree = circumference / 360;
+        
+        // Calculate fill length based on normalized value:
+        // If value is +10 (max), we want the red warning arc to be full? Or green growth to be max?
+        // Let's say:
+        // -10% to +4% -> Green Growth Arc fills from 0 to X.
+        // +4% to +10% -> Red Warning Arc fills from X to Y.
+        
+        // Logic Revision for Design System Consistency:
+        // Current Value > 0 (Growth) -> Show Green Arc growing from left.
+        // Current Value < 0 (Decline) -> Show Red Arc growing from right (Pain).
+        
+        let fillLength = 0;
+        let status = "neutral";
+
+        if (normalizedValue >= 0) {
+            // Positive Growth - Green Arc
+            // Full green range is from 0% to +10%. 
+            const growthPercent = normalizedValue / 10; // 0.5 for +5%
+            fillLength = growthPercent * circumference; // Actually this would be full circle if value=+10, but we only want ~270 deg max.
+            
+            // We need to cap the arc at the visual boundary (270 degrees). 
+            const maxGrowthArc = 270 * pixelsPerDegree;
+            fillLength = Math.min(fillLength, maxGrowthArc);
+            
+            fillGreen.style.strokeDasharray = `${fillLength} ${circumference - fillLength}`;
+            fillRed.style.opacity = '0'; // Hide red arc
+            
+            if (normalizedValue > 4) {
+                status = "over-optimistic"; // Warning for excessive growth? 
+            } else {
+                status = "growth";
+            }
+
+        } else {
+            // Negative Growth - Red Arc
+            const declinePercent = Math.abs(normalizedValue / 10); // 0.3 for -3%
+            fillLength = declinePercent * circumference;
+            
+            const maxRedArc = 270 * pixelsPerDegree;
+            fillLength = Math.min(fillLength, maxGrowthArc);
+
+            fillGreen.style.opacity = '0'; // Hide green arc
+            
+            if (normalizedValue < -4) {
+                status = "critical-decline";
+            } else {
+                status = "decline";
+            }
+            
+            fillRed.style.strokeDasharray = `${fillLength} ${circumference - fillLength}`;
+        }
+
+        // Update Text and Status Badge
+        const sign = normalizedValue >= 0 ? '+' : '';
+        centerValueText.textContent = `${sign}${normalizedValue.toFixed(1)}%`;
+        
+        if (status === 'growth') {
+            statusBadge.textContent = "성장 중";
+            statusBadge.className = "status-badge growth"; // Green
+        } else if (status === 'decline' || status === 'critical-decline') {
+            statusBadge.textContent = "감소중";
+            statusBadge.className = "status-badge warning"; // Red
+        } else if (normalizedValue > 4) {
+             statusBadge.textContent = "과도한 상승 위험";
+             statusBadge.style.backgroundColor = "#FF9800"; // Orange warning
+        } else if (normalizedValue < -4) {
+            statusBadge.textContent = "심각한 하락";
+            statusBadge.style.backgroundColor = "#E53935"; // Red warning
+        } else {
+             statusBadge.textContent = "안정적 성장";
+             statusBadge.className = "status-badge neutral"; // Gray/Greenish
+        }
+
+    }
+
+    // --- Simulation Loop ---
+    
+    function simulateData() {
+        // Random walk simulation
+        const prevValue = currentValue;
+        let change = (Math.random() - 0.5) * 2; // Change between -1 and +1
+        
+        // Add some trend to make it interesting
+        if (prevValue < 0 && Math.random() > 0.7) {
+            change += 1; // Recovering strongly
+        } else if (prevValue > 5) {
+            change -= 0.5; // Cooling down
+        }
+
+        currentValue += change;
+        
+        // Keep within bounds
+        if (currentValue < -12) currentValue = -12;
+        if (currentValue > 12) currentValue = 12;
+
+        updateGauge(currentValue);
+    }
+
+    // --- Initialize ---
+    
+    updateGauge(0); // Start neutral
+    
+    // Run simulation every 800ms
+    setInterval(simulateData, 800);
+
+</script>
+</body>
+</html>
