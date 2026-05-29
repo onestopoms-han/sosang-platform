@@ -1,0 +1,9 @@
+| **Component** | **Feature** | **Purpose** | **State / Variant** | **Dimensions (px)** | **Key Assets Needed** | **Data Binding (API Field)** | **Priority** | **Dependencies** | **Remarks (Design Note)** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **BDS-MetricCard** | Core Metric Display | 핵심 성과 지표 시각화 및 전달. | Default (Good) | W: 300, H: 120 | Icon Set (Success), Card Background, Number Typography | `user_metric_value` (Number), `metric_name` (String) | P0 | None | 성장 단계(Green/Yellow/Red)에 따른 색상 변화 로직 필수. |
+| **BDS-MetricCard** | Core Metric Display | 핵심 성과 지표 시각화 및 전달. | Warning (Risk) | W: 300, H: 120 | Icon Set (Warning), Card Background, Number Typography | `user_metric_value` (Number), `metric_name` (String) | P0 | None | 경고색(#FFC107) 사용. 위험 감지 시 애니메이션 강조 필요. |
+| **BDS-MetricCard** | Core Metric Display | 핵심 성과 지표 시각화 및 전달. | Critical (Crisis) | W: 300, H: 120 | Icon Set (Alert), Card Background, Number Typography | `user_metric_value` (Number), `metric_name` (String) | P0 | None | 위험색(#D9534F) 사용. 즉각적인 행동 유도(CTA)와 연결해야 함. |
+| **SME-AlertBadge** | Urgent Status Indicator | 긴급하거나 중요한 경고 상태 표시. | Standard Alert | W: 100, H: 24 | Badge Background, Icon (Exclamation), Text Label | `alert_status` (Enum: 'Low', 'Medium', 'High') | P0 | MetricCard | 간결하고 명확하게 위험 등급(Low/Medium/High)을 전달. |
+| **SME-AlertBadge** | Urgent Status Indicator | 긴급하거나 중요한 경고 상태 표시. | Disabled / Empty | W: 100, H: 24 | Badge Background, Icon (None), Text Label | `alert_status` (Enum: 'None') | P1 | None | 비활성화 시 디자인적 여백 처리 및 색상 배제 로직 필요. |
+| **Global Element** | Typography System | 전체 시스템에 적용되는 폰트 규칙 정의. | N/A | Varied | Font Family Set, H1-H6 Stylesheet | N/A | P0 | None | Primary Font: Pretendard (가정). 계층 구조 명확히 설정. |
+| **Global Element** | Iconography System | 모든 컴포넌트에서 사용되는 표준 아이콘 세트. | N/A | 24x24, 32x32 | SVG Icons Library (Solid, Outline) | N/A | P0 | None | 통일된 스타일(Outlined) 유지 및 크기 가이드 확정 필요. |

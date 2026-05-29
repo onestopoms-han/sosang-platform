@@ -2103,6 +2103,278 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-05-29T00-10/_report.md\n- Writer: 코다리로부터 받은 시스템 안정성 데이터(KPI 및 상태 변화)를 근거로 소상공인의 Pain $\rightarrow$ Solution을 극대화하는 \n- Designer: Writer가 제공할 핵심 카피와 BDS 통합 디자인 시스템(`BDS_Component_System_Guide.md`)을 기반으로, 데이터 기반\n- Instagram: Writer와 Designer가 확정한 비주얼 가이드라인과 카피를 통합하여, 소상공인의 불안 해소 니즈를 자극하는 인스타그램 콘텐츠(릴스/피드)\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 코다리로부터 받은 시스템 안정성 데이터(KPI 및 상태 변화)를 근거로 소상공인의 Pain $\rightarrow$ Solution을 극대화하는 핵심 카피(Pain/Solution/ROI) 초안을 작성하고, 이를 Pitch Deck 구조에 맞",
       "completedAt": "2026-05-29T00:15:41.797Z"
+    },
+    {
+      "id": "20260529054355-xev9",
+      "title": "**State Manager 로직**: 비동기 호출 간의 순서 보장을 위한 `Promise.all` 또는 `async-await` 패턴이 적용되었는지 확인.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-29T05:43:55.368Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T05-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T05-40/_report.md\n- 영숙: 최종 생산 실행 미팅(5월 30일 오전 10시)의 논의 사항 목록을 바탕으로, 개발 우선순위와 기술적 병목 해소 방안에 대한 발표 자료 구조를 \n- 코다리: KPI Gauge 컴포넌트 로직 안정성 검증 결과 및 모션 스펙에 대한 최종 기술 검토를 준비하기 위해, Motion Blueprint 및 KP\n- Designer: 통합 자산 제작 백로그(V1.0) 중 P1 항목('KPI Gauge', 'Producer Story Form')에 대한 구체적인 구현 난이도와 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 최종 생산 실행 미팅(5월 30일 오전 10시)의 논의 사항 목록을 바탕으로, 개발 우선순위와 기술적 병목 해소 방안에 대한 발표 자료 구조를 최종 점검하고 필요한 자료를 정리하라.\n> 🔧 **도구 실행**: _(없음 — ",
+      "completedAt": "2026-05-29T05:45:36.826Z"
+    },
+    {
+      "id": "20260529054355-7f6d",
+      "title": "**Canvas 렌더링 최적화**: 리사이즈 시 Canvas 크기를 동적으로 변경하는 로직이 누락되지 않았는지 확인.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-29T05:43:55.399Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T05-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T05-40/_report.md\n- 영숙: 최종 생산 실행 미팅(5월 30일 오전 10시)의 논의 사항 목록을 바탕으로, 개발 우선순위와 기술적 병목 해소 방안에 대한 발표 자료 구조를 \n- 코다리: KPI Gauge 컴포넌트 로직 안정성 검증 결과 및 모션 스펙에 대한 최종 기술 검토를 준비하기 위해, Motion Blueprint 및 KP\n- Designer: 통합 자산 제작 백로그(V1.0) 중 P1 항목('KPI Gauge', 'Producer Story Form')에 대한 구체적인 구현 난이도와 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 최종 생산 실행 미팅(5월 30일 오전 10시)의 논의 사항 목록을 바탕으로, 개발 우선순위와 기술적 병목 해소 방안에 대한 발표 자료 구조를 최종 점검하고 필요한 자료를 정리하라.\n> 🔧 **도구 실행**: _(없음 — ",
+      "completedAt": "2026-05-29T05:45:36.848Z"
+    },
+    {
+      "id": "20260529054355-ho3o",
+      "title": "**애니메이션 타이밍**: Easing 함수와 Duration 설정이 Motion Blueprint 스펙과 일치하는지 확인.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-29T05:43:55.429Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T05-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T05-40/_report.md\n- 영숙: 최종 생산 실행 미팅(5월 30일 오전 10시)의 논의 사항 목록을 바탕으로, 개발 우선순위와 기술적 병목 해소 방안에 대한 발표 자료 구조를 \n- 코다리: KPI Gauge 컴포넌트 로직 안정성 검증 결과 및 모션 스펙에 대한 최종 기술 검토를 준비하기 위해, Motion Blueprint 및 KP\n- Designer: 통합 자산 제작 백로그(V1.0) 중 P1 항목('KPI Gauge', 'Producer Story Form')에 대한 구체적인 구현 난이도와 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 최종 생산 실행 미팅(5월 30일 오전 10시)의 논의 사항 목록을 바탕으로, 개발 우선순위와 기술적 병목 해소 방안에 대한 발표 자료 구조를 최종 점검하고 필요한 자료를 정리하라.\n> 🔧 **도구 실행**: _(없음 — ",
+      "completedAt": "2026-05-29T05:45:36.870Z"
+    },
+    {
+      "id": "20260529061404-tqy4",
+      "title": "프론트엔드 컴포넌트 구조 (`KPIGauge`, `MotionBlueprint`) 정의 완료",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-29T06:14:04.568Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T06-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T06-10/_report.md\n- Designer: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉\n- 코다리: Designer가 제시한 최종 디자인 스펙과 우선순위에 기반하여, KPI Gauge 및 Motion Blueprint 구현에 필요한 최소 요구사\n- 영숙: Designer와 Developer의 통합 결과물을 바탕으로 다음 주 월요일 최종 생산 실행 미팅 일정을 확정하고, 논의할 핵심 기술적 병목 사\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉시 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵",
+      "completedAt": "2026-05-29T06:16:01.660Z"
+    },
+    {
+      "id": "20260529061404-5t3d",
+      "title": "상태 관리 로직 (`useReducer`/`Zustand`) 구현 및 테스트 통과",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-29T06:14:04.589Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T06-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T06-10/_report.md\n- Designer: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉\n- 코다리: Designer가 제시한 최종 디자인 스펙과 우선순위에 기반하여, KPI Gauge 및 Motion Blueprint 구현에 필요한 최소 요구사\n- 영숙: Designer와 Developer의 통합 결과물을 바탕으로 다음 주 월요일 최종 생산 실행 미팅 일정을 확정하고, 논의할 핵심 기술적 병목 사\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉시 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵",
+      "completedAt": "2026-05-29T06:16:01.678Z"
+    },
+    {
+      "id": "20260529061404-succ",
+      "title": "백엔드 API 응답 형식 (`kpi_gauge`, `motion_blueprint`) 검증 및 호환성 테스트",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-29T06:14:04.603Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T06-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T06-10/_report.md\n- Designer: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉\n- 코다리: Designer가 제시한 최종 디자인 스펙과 우선순위에 기반하여, KPI Gauge 및 Motion Blueprint 구현에 필요한 최소 요구사\n- 영숙: Designer와 Developer의 통합 결과물을 바탕으로 다음 주 월요일 최종 생산 실행 미팅 일정을 확정하고, 논의할 핵심 기술적 병목 사\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉시 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵",
+      "completedAt": "2026-05-29T06:16:01.694Z"
+    },
+    {
+      "id": "20260529061404-xscl",
+      "title": "UI/UX 가이드라인 (Tailwind CSS + Shadcn/UI) 준수 여부 확인",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-29T06:14:04.616Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T06-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T06-10/_report.md\n- Designer: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉\n- 코다리: Designer가 제시한 최종 디자인 스펙과 우선순위에 기반하여, KPI Gauge 및 Motion Blueprint 구현에 필요한 최소 요구사\n- 영숙: Designer와 Developer의 통합 결과물을 바탕으로 다음 주 월요일 최종 생산 실행 미팅 일정을 확정하고, 논의할 핵심 기술적 병목 사\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉시 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵",
+      "completedAt": "2026-05-29T06:16:01.708Z"
+    },
+    {
+      "id": "20260529061404-wepz",
+      "title": "로딩, 에러 처리 전략 (`Spinner`, `ErrorBoundary`) 구현 완료",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-05-29T06:14:04.629Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T06-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T06-10/_report.md\n- Designer: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉\n- 코다리: Designer가 제시한 최종 디자인 스펙과 우선순위에 기반하여, KPI Gauge 및 Motion Blueprint 구현에 필요한 최소 요구사\n- 영숙: Designer와 Developer의 통합 결과물을 바탕으로 다음 주 월요일 최종 생산 실행 미팅 일정을 확정하고, 논의할 핵심 기술적 병목 사\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉시 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵",
+      "completedAt": "2026-05-29T06:16:01.723Z"
+    },
+    {
+      "id": "20260529071234-vgq5",
+      "title": "MRD-01 실시간 동기화 로직 구현",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-29T07:12:34.569Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T07-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T07-10/_report.md\n- 현빈: MRD-01(실시간 동기화)과 MRD-02(데이터 무결성 체크)를 반영하여, 개발 우선순위를 최종 확정하고 MVP 범위 축소에 따른 비즈니스 위\n- 코다리: business 에이전트가 제시한 최종 개발 우선순위와 MRD를 기반으로, Event Sourcing 아키텍처의 구체적인 기술 구현 방안 및 초\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MRD-01(실시간 동기화)과 MRD-02(데이터 무결성 체크)를 반영하여, 개발 우선순위를 최종 확정하고 MVP 범위 축소에 따른 비즈니스 위험도 분석을 통합한 실행 계획 및 리스크 관리 로드맵을 작성하라.\n> 🔧",
+      "completedAt": "2026-05-29T07:15:07.220Z"
+    },
+    {
+      "id": "20260529071234-h5mm",
+      "title": "MRD-02 데이터 무결성 체크 로직 구현",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-29T07:12:34.587Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T07-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T07-10/_report.md\n- 현빈: MRD-01(실시간 동기화)과 MRD-02(데이터 무결성 체크)를 반영하여, 개발 우선순위를 최종 확정하고 MVP 범위 축소에 따른 비즈니스 위\n- 코다리: business 에이전트가 제시한 최종 개발 우선순위와 MRD를 기반으로, Event Sourcing 아키텍처의 구체적인 기술 구현 방안 및 초\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MRD-01(실시간 동기화)과 MRD-02(데이터 무결성 체크)를 반영하여, 개발 우선순위를 최종 확정하고 MVP 범위 축소에 따른 비즈니스 위험도 분석을 통합한 실행 계획 및 리스크 관리 로드맵을 작성하라.\n> 🔧",
+      "completedAt": "2026-05-29T07:15:07.254Z"
+    },
+    {
+      "id": "20260529071234-dt8t",
+      "title": "Event Sourcing 기반 아키텍처 적용",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-05-29T07:12:34.602Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T07-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T07-10/_report.md\n- 현빈: MRD-01(실시간 동기화)과 MRD-02(데이터 무결성 체크)를 반영하여, 개발 우선순위를 최종 확정하고 MVP 범위 축소에 따른 비즈니스 위\n- 코다리: business 에이전트가 제시한 최종 개발 우선순위와 MRD를 기반으로, Event Sourcing 아키텍처의 구체적인 기술 구현 방안 및 초\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MRD-01(실시간 동기화)과 MRD-02(데이터 무결성 체크)를 반영하여, 개발 우선순위를 최종 확정하고 MVP 범위 축소에 따른 비즈니스 위험도 분석을 통합한 실행 계획 및 리스크 관리 로드맵을 작성하라.\n> 🔧",
+      "completedAt": "2026-05-29T07:15:07.269Z"
+    },
+    {
+      "id": "20260529084536-g06m",
+      "title": "**A/B 테스트 변수 명확화:** 현빈 에이전트가 제시한 수익 모델(예: 멤버십 옵션, 추가 서비스)이 P0 기능에서 시각적으로 구별 가능한가?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-05-29T08:45:36.117Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T08-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T08-40/_report.md\n- 코다리: BDS-MetricCard 및 SME-AlertBadge 컴포넌트의 기술 명세와 Event Sourcing 스펙을 최종 확정하여 개발팀에 전달할\n- 현빈: 식별된 비즈니스 위험 요소(매출 모델 실패 리스크)에 대한 대응 전략(A/B 테스트 시나리오 포함)을 구체화하고 우선순위를 설정하라.\n- Designer: 개발팀의 기술 스펙과 비즈니스 리스크 분석을 통합하여, P0 기능 구현에 최적화된 UX/UI 디자인 우선순위를 재조정하는 초안을 준비하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: BDS-MetricCard 및 SME-AlertBadge 컴포넌트의 기술 명세와 Event Sourcing 스펙을 최종 확정하여 개발팀에 전달할 준비를 하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출*",
+      "completedAt": "2026-05-29T08:46:04.905Z"
+    },
+    {
+      "id": "20260529084536-7s55",
+      "title": "**KPI 측정 기준 정의:** MVP 단계에서 가장 먼저 측정할 핵심 지표(예: 특정 버튼 클릭률, 페이지 이탈율 등)를 명확히 확정하고, 이를 기술적으로 추적 가능한가?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-05-29T08:45:36.131Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T08-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T08-40/_report.md\n- 코다리: BDS-MetricCard 및 SME-AlertBadge 컴포넌트의 기술 명세와 Event Sourcing 스펙을 최종 확정하여 개발팀에 전달할\n- 현빈: 식별된 비즈니스 위험 요소(매출 모델 실패 리스크)에 대한 대응 전략(A/B 테스트 시나리오 포함)을 구체화하고 우선순위를 설정하라.\n- Designer: 개발팀의 기술 스펙과 비즈니스 리스크 분석을 통합하여, P0 기능 구현에 최적화된 UX/UI 디자인 우선순위를 재조정하는 초안을 준비하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: BDS-MetricCard 및 SME-AlertBadge 컴포넌트의 기술 명세와 Event Sourcing 스펙을 최종 확정하여 개발팀에 전달할 준비를 하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출*",
+      "completedAt": "2026-05-29T08:46:04.933Z"
+    },
+    {
+      "id": "20260529084536-zzt5",
+      "title": "**핵심 컴포넌트 API 정의:** `MetricCard`와 `AlertBadge`의 모든 데이터 입력/출력 파라미터(API Schema)가 현빈이 요구하는 비즈니스 로직을 모두 수용할 수 있는가?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-05-29T08:45:36.143Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T08-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T08-40/_report.md\n- 코다리: BDS-MetricCard 및 SME-AlertBadge 컴포넌트의 기술 명세와 Event Sourcing 스펙을 최종 확정하여 개발팀에 전달할\n- 현빈: 식별된 비즈니스 위험 요소(매출 모델 실패 리스크)에 대한 대응 전략(A/B 테스트 시나리오 포함)을 구체화하고 우선순위를 설정하라.\n- Designer: 개발팀의 기술 스펙과 비즈니스 리스크 분석을 통합하여, P0 기능 구현에 최적화된 UX/UI 디자인 우선순위를 재조정하는 초안을 준비하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: BDS-MetricCard 및 SME-AlertBadge 컴포넌트의 기술 명세와 Event Sourcing 스펙을 최종 확정하여 개발팀에 전달할 준비를 하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출*",
+      "completedAt": "2026-05-29T08:46:04.951Z"
+    },
+    {
+      "id": "20260529084536-dkhl",
+      "title": "**이벤트 소싱 로직 검증:** 모든 상태 변화(State Change)가 Event Sourcing 구조 내에서 무결하게 추적되고 기록되는지 최종 테스트 계획을 세웠는가?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-05-29T08:45:36.155Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T08-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T08-40/_report.md\n- 코다리: BDS-MetricCard 및 SME-AlertBadge 컴포넌트의 기술 명세와 Event Sourcing 스펙을 최종 확정하여 개발팀에 전달할\n- 현빈: 식별된 비즈니스 위험 요소(매출 모델 실패 리스크)에 대한 대응 전략(A/B 테스트 시나리오 포함)을 구체화하고 우선순위를 설정하라.\n- Designer: 개발팀의 기술 스펙과 비즈니스 리스크 분석을 통합하여, P0 기능 구현에 최적화된 UX/UI 디자인 우선순위를 재조정하는 초안을 준비하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: BDS-MetricCard 및 SME-AlertBadge 컴포넌트의 기술 명세와 Event Sourcing 스펙을 최종 확정하여 개발팀에 전달할 준비를 하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출*",
+      "completedAt": "2026-05-29T08:46:04.965Z"
+    },
+    {
+      "id": "20260529084536-rt5d",
+      "title": "**디자인 시스템 준수 여부:** 확정된 모든 UI/UX 요소(버튼, 카드 등)가 `Motion Blueprint` 내의 컴포넌트 스타일을 벗어나지 않는가? (특히 데이터 변화 시 애니메이션 처리)",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-05-29T08:45:36.168Z",
+      "status": "done",
+      "sessionDir": "2026-05-29T08-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-05-29T08-40/_report.md\n- 코다리: BDS-MetricCard 및 SME-AlertBadge 컴포넌트의 기술 명세와 Event Sourcing 스펙을 최종 확정하여 개발팀에 전달할\n- 현빈: 식별된 비즈니스 위험 요소(매출 모델 실패 리스크)에 대한 대응 전략(A/B 테스트 시나리오 포함)을 구체화하고 우선순위를 설정하라.\n- Designer: 개발팀의 기술 스펙과 비즈니스 리스크 분석을 통합하여, P0 기능 구현에 최적화된 UX/UI 디자인 우선순위를 재조정하는 초안을 준비하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: BDS-MetricCard 및 SME-AlertBadge 컴포넌트의 기술 명세와 Event Sourcing 스펙을 최종 확정하여 개발팀에 전달할 준비를 하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출*",
+      "completedAt": "2026-05-29T08:46:04.981Z"
     }
   ]
 }
