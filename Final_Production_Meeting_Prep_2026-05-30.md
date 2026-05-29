@@ -5,7 +5,7 @@
 *   **참석자:** CEO, Designer, Developer, Writer, Instagram/YouTube Lead.
 *   **일시 (제안):** 2026년 5월 30일 (금) 오전 10:00
 
-## ⚙️ 2. 기술적 병목 해소를 위한 필수 사전 검토 항목 (MUST-HAVE Checklist)
+## ⚙️ 2. 기술적 병목 해소를 위한 필수 ✅ 사전 필수 검토 자료 목록 (모든 에이전트) (MUST-HAVE Checklist)
 
 ### A. Motion & Tech (Developer / Designer 책임)
 *   **애니메이션 시퀀스:** Pain $\to$ Solution 전환 애니메이션의 실제 구현 가능성 및 최적화 버전 제출. (프레임, 파일 크기 명시 필수)
