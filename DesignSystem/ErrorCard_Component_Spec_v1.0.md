@@ -1,0 +1,1 @@
+# 🚨 Error Card Component Design Specification v1.0 (Final) - BDS 플랫폼
