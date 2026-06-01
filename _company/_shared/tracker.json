@@ -2715,6 +2715,66 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-01T17-37/_report.md\n- Designer: 개발팀에 핸드오프할 핵심 오류 카드(`Error Card Component`)의 최종 UI/UX 목업 및 디자인 토큰을 명확히 정리하여 전달하고\n- Writer: MVP 검증 캠페인에 활용할 'Pain → Solution' 프레임을 기반으로, 오류 상황에서 사용자 신뢰를 확보하는 핵심 메시지(Error S\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 개발팀에 핸드오프할 핵심 오류 카드(`Error Card Component`)의 최종 UI/UX 목업 및 디자인 토큰을 명확히 정리하여 전달하고, 개발이 즉시 시작될 수 있도록 준비하라.\n> 🔧 **도구 실행**: _(없음 — L",
       "completedAt": "2026-06-01T17:43:41.130Z"
+    },
+    {
+      "id": "20260601175445-pl3p",
+      "title": "Pain (불안) 을 인정하고 공감하는 표현이 포함되어 있는가?",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-01T17:54:45.403Z",
+      "status": "pending",
+      "sessionDir": "2026-06-01T17-52",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260601175445-1blc",
+      "title": "Solution (해결책) 이 구체적이고 신뢰할 수 있는가?",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-01T17:54:45.467Z",
+      "status": "pending",
+      "sessionDir": "2026-06-01T17-52",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260601175445-jo5l",
+      "title": "CTA 가 다음에 할 일을 명확하게 안내하는가?",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-01T17:54:45.638Z",
+      "status": "pending",
+      "sessionDir": "2026-06-01T17-52",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260601175445-yngu",
+      "title": "시각적 가이드라인과 어울리는가? (색상, 아이콘, 타이포그래피)",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-01T17:54:45.647Z",
+      "status": "pending",
+      "sessionDir": "2026-06-01T17-52",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
     }
   ]
 }
