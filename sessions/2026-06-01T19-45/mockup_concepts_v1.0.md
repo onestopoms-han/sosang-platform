@@ -1,0 +1,1 @@
+<find>기존</find><replace>새</replace>
