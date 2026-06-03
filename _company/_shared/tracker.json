@@ -3157,6 +3157,91 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-02T14-01/_report.md\n- 현빈: Pilot User 인터뷰를 통해 도출할 최소 상품 단위(MSU) 정의, 가격 책정 전략, 그리고 초기 계약 조건을 포함하는 '수익 모델 초안'\n- Writer: 파일럿 사용자에게 제공할 심층 인터뷰 스크립트 초안과 플랫폼의 가치를 증명할 수 있는 구체적인 성공 스토리 시나리오 3가지를 작성하라.\n- 영숙: Writer와 Business 에이전트가 준비할 '파일럿 파트너 인터뷰 스크립트' 및 '수익 모델 초안'의 최종 마일스톤을 설정하고, 다음 액션\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Pilot User 인터뷰를 통해 도출할 최소 상품 단위(MSU) 정의, 가격 책정 전략, 그리고 초기 계약 조건을 포함하는 '수익 모델 초안'을 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n",
       "completedAt": "2026-06-02T14:06:34.252Z"
+    },
+    {
+      "id": "20260603111526-chxb",
+      "title": "KPI 명세서에 동의한 문서 서명",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-03T11:15:26.896Z",
+      "status": "done",
+      "sessionDir": "2026-06-03T11-13",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-03T11-13/_report.md\n- 현빈: Pilot Partner 계약에 필요한 핵심 성과 지표(KPI) 및 기술적 안정성 요구사항을 기반으로 운영상 필수 항목 체크리스트(v3.0)를 \n- Writer: Business 에이전트가 제공한 KPI 및 체크리스트 초안을 바탕으로 Pilot Partner 대상 '운영 규약 초안(SLA)' 문서 작성을 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Pilot Partner 계약에 필요한 핵심 성과 지표(KPI) 및 기술적 안정성 요구사항을 기반으로 운영상 필수 항목 체크리스트(v3.0)를 최종 확정하고, 이 내용을 Writer에게 전달할 준비를 하라.\n> 🔧 ",
+      "completedAt": "2026-06-03T11:17:39.385Z"
+    },
+    {
+      "id": "20260603111526-euwp",
+      "title": "기술적 안정성 요구사항 준수 여부 인증서 제출",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-03T11:15:26.921Z",
+      "status": "done",
+      "sessionDir": "2026-06-03T11-13",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-03T11-13/_report.md\n- 현빈: Pilot Partner 계약에 필요한 핵심 성과 지표(KPI) 및 기술적 안정성 요구사항을 기반으로 운영상 필수 항목 체크리스트(v3.0)를 \n- Writer: Business 에이전트가 제공한 KPI 및 체크리스트 초안을 바탕으로 Pilot Partner 대상 '운영 규약 초안(SLA)' 문서 작성을 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Pilot Partner 계약에 필요한 핵심 성과 지표(KPI) 및 기술적 안정성 요구사항을 기반으로 운영상 필수 항목 체크리스트(v3.0)를 최종 확정하고, 이 내용을 Writer에게 전달할 준비를 하라.\n> 🔧 ",
+      "completedAt": "2026-06-03T11:17:39.433Z"
+    },
+    {
+      "id": "20260603111526-z0k9",
+      "title": "파트너 전용 관리자 계정 생성 완료",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-03T11:15:26.938Z",
+      "status": "done",
+      "sessionDir": "2026-06-03T11-13",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-03T11-13/_report.md\n- 현빈: Pilot Partner 계약에 필요한 핵심 성과 지표(KPI) 및 기술적 안정성 요구사항을 기반으로 운영상 필수 항목 체크리스트(v3.0)를 \n- Writer: Business 에이전트가 제공한 KPI 및 체크리스트 초안을 바탕으로 Pilot Partner 대상 '운영 규약 초안(SLA)' 문서 작성을 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Pilot Partner 계약에 필요한 핵심 성과 지표(KPI) 및 기술적 안정성 요구사항을 기반으로 운영상 필수 항목 체크리스트(v3.0)를 최종 확정하고, 이 내용을 Writer에게 전달할 준비를 하라.\n> 🔧 ",
+      "completedAt": "2026-06-03T11:17:39.476Z"
+    },
+    {
+      "id": "20260603111526-tv09",
+      "title": "플랫폼 연동 테스트 환경 구축 및 API 키 발급",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-03T11:15:26.958Z",
+      "status": "done",
+      "sessionDir": "2026-06-03T11-13",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-03T11-13/_report.md\n- 현빈: Pilot Partner 계약에 필요한 핵심 성과 지표(KPI) 및 기술적 안정성 요구사항을 기반으로 운영상 필수 항목 체크리스트(v3.0)를 \n- Writer: Business 에이전트가 제공한 KPI 및 체크리스트 초안을 바탕으로 Pilot Partner 대상 '운영 규약 초안(SLA)' 문서 작성을 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Pilot Partner 계약에 필요한 핵심 성과 지표(KPI) 및 기술적 안정성 요구사항을 기반으로 운영상 필수 항목 체크리스트(v3.0)를 최종 확정하고, 이 내용을 Writer에게 전달할 준비를 하라.\n> 🔧 ",
+      "completedAt": "2026-06-03T11:17:39.516Z"
+    },
+    {
+      "id": "20260603111526-hq4q",
+      "title": "기술 지원 담당자 매칭 및 Slack/Teams 채널 개설",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-03T11:15:26.974Z",
+      "status": "done",
+      "sessionDir": "2026-06-03T11-13",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-03T11-13/_report.md\n- 현빈: Pilot Partner 계약에 필요한 핵심 성과 지표(KPI) 및 기술적 안정성 요구사항을 기반으로 운영상 필수 항목 체크리스트(v3.0)를 \n- Writer: Business 에이전트가 제공한 KPI 및 체크리스트 초안을 바탕으로 Pilot Partner 대상 '운영 규약 초안(SLA)' 문서 작성을 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Pilot Partner 계약에 필요한 핵심 성과 지표(KPI) 및 기술적 안정성 요구사항을 기반으로 운영상 필수 항목 체크리스트(v3.0)를 최종 확정하고, 이 내용을 Writer에게 전달할 준비를 하라.\n> 🔧 ",
+      "completedAt": "2026-06-03T11:17:39.537Z"
     }
   ]
 }

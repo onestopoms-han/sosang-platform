@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 3. 오후 8:01:11_
+_업데이트: 2026. 6. 3. 오후 10:17:29_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,25 +11,25 @@ _업데이트: 2026. 6. 3. 오후 8:01:11_
 - [2026-06-01] 제작팀이 즉시 사용할 수 있도록 확정된 비주얼 자산 목록과 캡션 가이드라인을 바탕으로, 콘텐츠 배포 실행 준비를 완료하라. → 산출물 sessions/2026-06-01T23-07/instagram.md
 - [2026-06-01] Writer와 Designer가 준비한 모든 최종 콘텐츠 가이드라인을 통합하여, 실제 배포를 위한 '콘텐츠 배포 최종 전달 문서'의 초안을 생성하라. → 산출물 sessions/2026-06-01T23-22/instagram.md
 ### 🎨 Designer
-- [2026-06-02] Writer가 제공한 스토리텔링과 Onboarding Flow 목업 제작을 위해, '안정성 프리미엄' 메시지가 시각적으로 명확히 드러나는 핵심 → 산출물 sessions/2026-06-02T13-01/designer.md
-- [2026-06-03] Business 에이전트가 정의한 최종 사용자 여정 및 KPI를 바탕으로, 기술적 안정성을 '안정성 프리미엄' 스토리로 전환하여 시각화하는 대시보드 컴포넌트 프로토타입(Mockup)을 제작하고, Deep Blue/Warning Orange 컬러 시스템을 완벽히 적용하여 GTM 단계별 핵심 화면을 디자인하라. → 산출물 sessions/2026-06-03T03-20/designer.md
-- [2026-06-03] Business 에이전트가 정의한 Pilot Partner 온보딩 플로우와 핵심 KPI를 통합하여, 외부 파트너에게 제시할 '성공 증명 키트'의 최종 UI/UX 목업 및 프레젠테이션 시각 자료(Pitch Deck 초안)를 제작하라. Deep Blue/Warning Orange 컬러 시스템을 적용하여 신뢰감을 극대화하라. → 산출물 sessions/2026-06-03T03-35/designer.md
+- [2026-06-03] Business 및 Writer의 최종 구조와 메시지를 기반으로, 전문적이고 통일감 있는 최종 통합 Pitch Deck의 레이아웃과 비주얼 템플릿(Deep Blue/Warning Orange 적용)을 완성하라. → 산출물 sessions/2026-06-03T11-43/designer.md
+- [2026-06-03] Business Agent가 정의한 8단계 구조와 Writer/Designer가 확정한 디자인 시스템(Deep Blue/Warning Orange)을 기반으로, Pilot Partner 대상 최종 Pitch Deck의 목업(Mockup) 제작을 즉시 시작하고, 핵심 데이터 시각화 컴포넌트 구성을 포함하여 진행하라. → 산출물 sessions/2026-06-03T12-14/designer.md
+- [2026-06-03] Business Agent 및 Writer가 확정한 Sales Asset Kit (Pain Point, Solution, ROI) 구조와 Deep Blue/Warning Orange 디자인 시스템을 기반으로, 최종 Pitch Deck의 핵심 템플릿 목업(Mockup) 제작을 즉시 착수하라. → 산출물 sessions/2026-06-03T12-29/designer.md
 ### 💻 코다리
 - [2026-06-02] Designer가 확정한 '최종 개발 사양서(DEV SPEC)'를 기반으로, 기술적 안정성 지표(Success Rate 95%, Retry Rate 80%) 달성을 위한 E2E 테스트 환경 및 재시도 로직 코딩을 즉시 시작하고 진행 상황을 보고할 준비를 하라. → 산출물 sessions/2026-06-02T06-57/developer.md
 - [2026-06-02] Designer가 확정한 '최종 개발 사양서(DEV SPEC)'와 기술적 안정성 지표(Success Rate 95%, Retry Rate 80%)를 완벽히 반영하여, 성공/실패 화면의 UX/UI 컴포넌트(Deep Blue, Warning Orange 사용)를 실제 재사용 가능한 컴포넌트 형태로 구체화하고 코딩을 최종 점검하라. → 산출물 sessions/2026-06-02T07-12/developer.md
 - [2026-06-02] Designer가 확정한 '최종 개발 사양서(DEV SPEC)'와 기술적 안정성 지표(Success Rate 95%, Retry Rate 80%)를 기반으로, 성공/실패 화면에 적용할 UX/UI 컴포넌트(Deep Blue, Warning Orange 사용)의 실제 재사용 가능한 코드를 즉시 구현하고 E2E 테스트 환경 연동 로직을 최종 점검하라. → 산출물 sessions/2026-06-02T12-31/developer.md
 ### 💼 현빈
-- [2026-06-03] secretary가 제시한 단일 작업에 대해 수익화, 전략적 우선순위, KPI 측면에서 그 가치를 분석하고 최적의 실행 방안을 제안하세요. → 산출물 sessions/2026-06-03T09-58/business.md
-- [2026-06-03] 선정된 단일 작업에 대해 수익화 전략 및 KPI 관점에서 최적의 실행 방향을 분석하고 제안하라. → 산출물 sessions/2026-06-03T10-28/business.md
-- [2026-06-03] 식별된 최우선 작업에 대해 수익화, 비즈니스 전략 및 KPI 관점에서 실행 가능성과 우선순위를 분석합니다. → 산출물 sessions/2026-06-03T10-58/business.md
+- [2026-06-03] Pilot Partner 대상 PoC 핵심 성과 지표(KPI) 상세 정의서 v2.0 작성을 최우선으로 요청하고, 기술적 안정성(Uptime 99.5%, Latency < 200ms)을 매출 증가 및 비용 절감 ROI 시나리오에 기반하여 구체적인 수치를 산출하도록 지시하라. → 산출물 sessions/2026-06-03T12-44/business.md
+- [2026-06-03] 기술적 안정성 지표(KPI: Uptime 99.5%, Latency < 200ms)를 기반으로 Pilot Partner 대상의 핵심 비즈니스 범위(In-scope/Out-of-scope), 성과 보상 및 제재 조건에 대한 세부안을 작성하라. → 산출물 sessions/2026-06-03T12-59/business.md
+- [2026-06-03] Pilot Partner 대상 SOW(Statement of Work) 작성을 위해, 수익화 모델과 보상/제재 구조(SLA 기반)를 구체적으로 정의하고 Writer에게 제공할 수 있도록 핵심 내용을 명확히 정의하십시오. → 산출물 sessions/2026-06-03T13-14/business.md
 ### 📱 영숙
-- [2026-06-03] 모든 에이전트의 개인 목표, 최근 의사결정, 그리고 모든 메모리를 즉시 검토하고 현재 시점에서 가장 가치 있는 단일 작업 1개를 선정하여 보고할 준비를 하라. → 산출물 sessions/2026-06-03T10-28/secretary.md
-- [2026-06-03] 회사 목표, 각 에이전트 개인 목표(goal.md), 최근 의사결정, 메모리를 검토하여 현재 가장 가치 있는 단일 작업 1개를 결정하고 실행 계획을 수립하라. → 산출물 sessions/2026-06-03T10-43/secretary.md
-- [2026-06-03] 회사 목표, 각 에이전트의 개인 목표(_agents/{id}/goal.md), 최근 의사결정 및 메모리를 검토하여 현재 가장 가치 있는 단일 작업 1개를 식별하고 이를 보고할 준비를 합니다. → 산출물 sessions/2026-06-03T10-58/secretary.md
+- [2026-06-03] 최근 메모리와 일정을 검토하여 현재 진행 중인 작업의 우선순위와 다음 실행 계획을 요약하고 보고하라. → 산출물 sessions/2026-06-03T11-28/secretary.md
+- [2026-06-03] Business 및 Writer의 작업 진행 상황을 모니터링하고, 다음 단계인 SOW 초안 작성을 위한 마일스톤 일정을 수립하여 보고할 준비를 하라. → 산출물 sessions/2026-06-03T12-44/secretary.md
+- [2026-06-03] Writer와 Business Agent의 작업 진행 상황을 모니터링하고, 다음 마일스톤(SOW 최종 검토 및 법률 자문 준비) 일정을 수립하여 보고할 준비를 하라. → 산출물 sessions/2026-06-03T12-59/secretary.md
 ### ✍️ Writer
-- [2026-06-03] 확보된 데이터와 '안정성 프리미엄' 컨셉을 통합하여, 잠재적 파트너/투자자 대상의 핵심 가치 제안(Value Proposition) 스토리라인 및 피치 덱 초안의 핵심 메시지를 작성하라. → 산출물 sessions/2026-06-03T02-50/writer.md
-- [2026-06-03] Pilot User 확보를 위한 온보딩 플로우와 성공 스토리텔링을 통합한 '성공 증명 키트'용 핵심 스크립트(영상/텍스트)의 최종 버전을 작성하고, 잠재 파트너가 즉시 활용할 수 있는 구체적인 시나리오 템플릿을 제작하라. → 산출물 sessions/2026-06-03T03-35/writer.md
-- [2026-06-03] 확보된 파트너 유형(A, B, C)에 맞추어, 성공 사례 스토리텔링을 극대화할 수 있는 미팅용 Q&A 및 보조 자료를 업데이트하고, Pilot Partner에게 제공할 핵심 가치 제안 스크립트를 작성하라. → 산출물 sessions/2026-06-03T03-50/writer.md
+- [2026-06-03] Business Agent가 정의한 KPI와 ROI 수치를 바탕으로, Pilot Partner 대상의 성공 측정 기준을 명확히 하는 운영 프레임워크(SLA) 초안 작성을 시작하라. → 산출물 sessions/2026-06-03T12-44/writer.md
+- [2026-06-03] Business Agent가 정의한 KPI 및 비즈니스 조건을 통합하여, Pilot Partner 대상 최종 계약 단계인 SOW(Statement of Work)의 핵심 조항 초안을 작성하라. → 산출물 sessions/2026-06-03T12-59/writer.md
+- [2026-06-03] Business Agent가 정의한 수익화 및 보상/제재 구조를 통합하여, 기술적 안정성 지표(Uptime 99.5%, Latency < 200ms)와 비즈니스 KPI를 포함하는 SOW 마스터 초안 작성을 즉시 시작하십시오. → 산출물 sessions/2026-06-03T13-14/writer.md
 ### 🔍 Researcher
 - [2026-06-02] 수익화 모델 검증을 위해, '안정성 중시 골목상권 주부'와 같은 핵심 타겟 페르소나의 실제 고통 지점 및 니즈에 대한 심층 인터뷰 질문 목록과 시장 데이터 수집 계획을 수립하라. → 산출물 sessions/2026-06-02T00-22/researcher.md
 - [2026-06-03] Pilot 사용자 인터뷰 자료(페인 포인트)를 분석하여, 현재 플랫폼에 가장 시급하게 반영해야 할 기능 우선순위 매트릭스 초안을 작성하라. → 산출물 sessions/2026-06-03T02-50/researcher.md

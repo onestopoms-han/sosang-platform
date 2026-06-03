@@ -1,0 +1,20 @@
+// Figma Mockup File Placeholder: Pitch Deck Core Template Set (V1.0)
+// Includes 6 core, reusable components based on the design system guide.
+
+// 📄 Slide 1: Title Page - [Deep Blue Background]
+{ "type": "Title", "title": "BDS 소상공인 성공 파트너십 제안", "subtitle_placeholder": "기술적 안정성을 기반으로 한 데이터 성장 컨설팅" }
+
+// 📊 Slide 2: Pain Point - [Warning Orange 강조 영역]
+{ "type": "Problem/PainPoint", "layout": ["Stat Card (A)", "Challenge Icon List (B)"], "focus_area": "데이터 부족 및 불확실한 시장 예측" }
+
+// ✨ Slide 3: Solution Overview - [Deep Blue 플로우차트]
+{ "type": "Solution Flow", "steps": ["STEP 1: 진단 분석", "STEP 2: 시스템 구축", "STEP 3: 성과 측정"], "visual_guide": "A -> B -> C (화살표 강조)" }
+
+// 📈 Slide 4: ROI Deep Dive - [핵심 시각화]
+{ "type": "ROI Comparison", "data_points": ["전(Before)", "후(After)"], "visualization_rule": "막대 그래프와 % 변화율을 결합한 비교 차트. '기술 안정성' 수치 삽입 필수." }
+
+// ⭐ Slide 5: Core Value - [카드형 그리드]
+{ "type": "Value Proposition", "cards": ["데이터 기반 예측", "24시간 운영 시스템", "맞춤형 성장 로드맵"], "layout_rule": "3분할 Grid (아이콘 + 헤드라인)" }
+
+// 🚀 Slide 6: CTA - [Warning Orange 액션 박스]
+{ "type": "Call to Action", "headline": "지금, 성공의 다음 단계를 설계하십시오.", "action_items": ["미팅 요청 버튼", "문의처 정보"], "emphasis": "명확한 행동 유도" }
