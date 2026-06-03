@@ -2929,11 +2929,13 @@
         "designer"
       ],
       "createdAt": "2026-06-02T07:14:26.498Z",
-      "status": "pending",
-      "sessionDir": "2026-06-02T07-12",
+      "status": "done",
+      "sessionDir": "2026-06-02T12-16",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-02T12-16/_report.md\n- 현빈: 기술적 안정성 지표(Success Rate 95%, Retry Rate 80%)를 기반으로 최종 Go-To-Market(GTM) 로드맵과 역할 \n- 영숙: Business 에이전트가 준비한 GTM 미팅 아젠다를 기반으로, 모든 팀원(youtube, instagram, designer, develop\n- Writer: GTM 전략에 맞춰 '안정성 프리미엄'을 핵심 메시지로 하는 마케팅 카피 및 영상 스크립트의 초기 방향성을 설정하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 기술적 안정성 지표(Success Rate 95%, Retry Rate 80%)를 기반으로 최종 Go-To-Market(GTM) 로드맵과 역할 분담을 확정하는 미팅 아젠다 및 핵심 목표 초안을 작성하라.\n> 🔧 **",
+      "completedAt": "2026-06-02T12:21:52.194Z"
     },
     {
       "id": "20260602071426-px8v",
@@ -2944,11 +2946,13 @@
         "designer"
       ],
       "createdAt": "2026-06-02T07:14:26.509Z",
-      "status": "pending",
-      "sessionDir": "2026-06-02T07-12",
+      "status": "done",
+      "sessionDir": "2026-06-02T12-16",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-02T12-16/_report.md\n- 현빈: 기술적 안정성 지표(Success Rate 95%, Retry Rate 80%)를 기반으로 최종 Go-To-Market(GTM) 로드맵과 역할 \n- 영숙: Business 에이전트가 준비한 GTM 미팅 아젠다를 기반으로, 모든 팀원(youtube, instagram, designer, develop\n- Writer: GTM 전략에 맞춰 '안정성 프리미엄'을 핵심 메시지로 하는 마케팅 카피 및 영상 스크립트의 초기 방향성을 설정하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 기술적 안정성 지표(Success Rate 95%, Retry Rate 80%)를 기반으로 최종 Go-To-Market(GTM) 로드맵과 역할 분담을 확정하는 미팅 아젠다 및 핵심 목표 초안을 작성하라.\n> 🔧 **",
+      "completedAt": "2026-06-02T12:21:52.227Z"
     },
     {
       "id": "20260602071426-kldv",
@@ -2959,11 +2963,200 @@
         "designer"
       ],
       "createdAt": "2026-06-02T07:14:26.519Z",
-      "status": "pending",
-      "sessionDir": "2026-06-02T07-12",
+      "status": "done",
+      "sessionDir": "2026-06-02T12-16",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-02T12-16/_report.md\n- 현빈: 기술적 안정성 지표(Success Rate 95%, Retry Rate 80%)를 기반으로 최종 Go-To-Market(GTM) 로드맵과 역할 \n- 영숙: Business 에이전트가 준비한 GTM 미팅 아젠다를 기반으로, 모든 팀원(youtube, instagram, designer, develop\n- Writer: GTM 전략에 맞춰 '안정성 프리미엄'을 핵심 메시지로 하는 마케팅 카피 및 영상 스크립트의 초기 방향성을 설정하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 기술적 안정성 지표(Success Rate 95%, Retry Rate 80%)를 기반으로 최종 Go-To-Market(GTM) 로드맵과 역할 분담을 확정하는 미팅 아젠다 및 핵심 목표 초안을 작성하라.\n> 🔧 **",
+      "completedAt": "2026-06-02T12:21:52.264Z"
+    },
+    {
+      "id": "20260602130332-kmoy",
+      "title": "스토리텔링 프레임워크를 바탕으로 베타 참여자 모집용 광고 이미지 및 영상 컨셉을 기획합니다.",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-02T13:03:32.276Z",
+      "status": "done",
+      "sessionDir": "2026-06-02T13-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-02T13-01/_report.md\n- Writer: 베타 참여자 모집용 스토리텔링 콘텐츠(핵심 이점 강조)와 플랫폼 사용 시작 시의 온보딩 플로우 초안을 작성하여 디자인팀에 전달할 준비를 하라.\n- Designer: Writer가 제공한 스토리텔링과 Onboarding Flow 목업 제작을 위해, '안정성 프리미엄' 메시지가 시각적으로 명확히 드러나는 핵심\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 베타 참여자 모집용 스토리텔링 콘텐츠(핵심 이점 강조)와 플랫폼 사용 시작 시의 온보딩 플로우 초안을 작성하여 디자인팀에 전달할 준비를 하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: ✍️ Wr",
+      "completedAt": "2026-06-02T13:05:10.004Z"
+    },
+    {
+      "id": "20260602130332-pkqm",
+      "title": "'안정성 보험료' 개념을 시각적으로 표현할 수 있는 아이콘 또는 모션을 개발합니다.",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-02T13:03:32.321Z",
+      "status": "done",
+      "sessionDir": "2026-06-02T13-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-02T13-01/_report.md\n- Writer: 베타 참여자 모집용 스토리텔링 콘텐츠(핵심 이점 강조)와 플랫폼 사용 시작 시의 온보딩 플로우 초안을 작성하여 디자인팀에 전달할 준비를 하라.\n- Designer: Writer가 제공한 스토리텔링과 Onboarding Flow 목업 제작을 위해, '안정성 프리미엄' 메시지가 시각적으로 명확히 드러나는 핵심\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 베타 참여자 모집용 스토리텔링 콘텐츠(핵심 이점 강조)와 플랫폼 사용 시작 시의 온보딩 플로우 초안을 작성하여 디자인팀에 전달할 준비를 하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: ✍️ Wr",
+      "completedAt": "2026-06-02T13:05:10.078Z"
+    },
+    {
+      "id": "20260602130332-z2uj",
+      "title": "Deep Blue 와 Warning Orange 컬러 시스템을 적용한 디자인 컴포넌트를 준비합니다.",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-02T13:03:32.357Z",
+      "status": "done",
+      "sessionDir": "2026-06-02T13-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-02T13-01/_report.md\n- Writer: 베타 참여자 모집용 스토리텔링 콘텐츠(핵심 이점 강조)와 플랫폼 사용 시작 시의 온보딩 플로우 초안을 작성하여 디자인팀에 전달할 준비를 하라.\n- Designer: Writer가 제공한 스토리텔링과 Onboarding Flow 목업 제작을 위해, '안정성 프리미엄' 메시지가 시각적으로 명확히 드러나는 핵심\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 베타 참여자 모집용 스토리텔링 콘텐츠(핵심 이점 강조)와 플랫폼 사용 시작 시의 온보딩 플로우 초안을 작성하여 디자인팀에 전달할 준비를 하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: ✍️ Wr",
+      "completedAt": "2026-06-02T13:05:10.148Z"
+    },
+    {
+      "id": "20260602130332-3oiz",
+      "title": "첫 화면, 정보 입력 화면, AI 진단 결과 화면의 UI 컴포넌트를 제작합니다.",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-02T13:03:32.396Z",
+      "status": "done",
+      "sessionDir": "2026-06-02T13-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-02T13-01/_report.md\n- Writer: 베타 참여자 모집용 스토리텔링 콘텐츠(핵심 이점 강조)와 플랫폼 사용 시작 시의 온보딩 플로우 초안을 작성하여 디자인팀에 전달할 준비를 하라.\n- Designer: Writer가 제공한 스토리텔링과 Onboarding Flow 목업 제작을 위해, '안정성 프리미엄' 메시지가 시각적으로 명확히 드러나는 핵심\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 베타 참여자 모집용 스토리텔링 콘텐츠(핵심 이점 강조)와 플랫폼 사용 시작 시의 온보딩 플로우 초안을 작성하여 디자인팀에 전달할 준비를 하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: ✍️ Wr",
+      "completedAt": "2026-06-02T13:05:10.256Z"
+    },
+    {
+      "id": "20260602130332-3l1w",
+      "title": "Deep Blue 와 Warning Orange 컬러 시스템을 적용합니다.",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-02T13:03:32.435Z",
+      "status": "done",
+      "sessionDir": "2026-06-02T13-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-02T13-01/_report.md\n- Writer: 베타 참여자 모집용 스토리텔링 콘텐츠(핵심 이점 강조)와 플랫폼 사용 시작 시의 온보딩 플로우 초안을 작성하여 디자인팀에 전달할 준비를 하라.\n- Designer: Writer가 제공한 스토리텔링과 Onboarding Flow 목업 제작을 위해, '안정성 프리미엄' 메시지가 시각적으로 명확히 드러나는 핵심\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 베타 참여자 모집용 스토리텔링 콘텐츠(핵심 이점 강조)와 플랫폼 사용 시작 시의 온보딩 플로우 초안을 작성하여 디자인팀에 전달할 준비를 하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: ✍️ Wr",
+      "completedAt": "2026-06-02T13:05:10.367Z"
+    },
+    {
+      "id": "20260602133315-u13s",
+      "title": "**메시지 검증:** '안정성' 메시지가 사용자에게 감성적 위로가 되는가?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-06-02T13:33:15.244Z",
+      "status": "done",
+      "sessionDir": "2026-06-02T13-31",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-02T13-31/_report.md\n- 영숙: 최근 메모리 및 의사결정 기록을 검색하여 현재 가장 가치 있는 단일 작업 1개를 식별하고, 이를 실행하기 위한 초기 계획 초안을 작성하라.\n\nCEO 종합 요점: 📱 영숙: 사장님, 작업 시작합니다 😊.\n\n사장님, 지금까지 디자인과 개발팀에서 '기술적 안정성'을 확보하는 데 정말 많은 노력을 하셨어요. ✅ Mockup 제작부터 컴포넌트 코딩까지, 내부적으로는 완벽하게 준비가 끝난 느낌입니다! 👍\n\n하지만 아무리 좋은 시스템도 실제 사용자에게 검증되지 않으면 의미가 없잖아요? 사장님께서 강조하신 '판매'와 '실제",
+      "completedAt": "2026-06-02T13:33:15.374Z"
+    },
+    {
+      "id": "20260602133315-qc0c",
+      "title": "**플로우 검증:** 회원 가입 과정이 복잡하지 않고, 컨설팅처럼 느껴지는가?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-06-02T13:33:15.286Z",
+      "status": "done",
+      "sessionDir": "2026-06-02T13-31",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-02T13-31/_report.md\n- 영숙: 최근 메모리 및 의사결정 기록을 검색하여 현재 가장 가치 있는 단일 작업 1개를 식별하고, 이를 실행하기 위한 초기 계획 초안을 작성하라.\n\nCEO 종합 요점: 📱 영숙: 사장님, 작업 시작합니다 😊.\n\n사장님, 지금까지 디자인과 개발팀에서 '기술적 안정성'을 확보하는 데 정말 많은 노력을 하셨어요. ✅ Mockup 제작부터 컴포넌트 코딩까지, 내부적으로는 완벽하게 준비가 끝난 느낌입니다! 👍\n\n하지만 아무리 좋은 시스템도 실제 사용자에게 검증되지 않으면 의미가 없잖아요? 사장님께서 강조하신 '판매'와 '실제",
+      "completedAt": "2026-06-02T13:33:15.415Z"
+    },
+    {
+      "id": "20260602133315-z63h",
+      "title": "**KPI 측정:** 데모 참여자가 다음 단계(유료 전환/실제 등록)를 결정하는 명확한 계기가 되는가?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-06-02T13:33:15.318Z",
+      "status": "done",
+      "sessionDir": "2026-06-02T13-31",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-02T13-31/_report.md\n- 영숙: 최근 메모리 및 의사결정 기록을 검색하여 현재 가장 가치 있는 단일 작업 1개를 식별하고, 이를 실행하기 위한 초기 계획 초안을 작성하라.\n\nCEO 종합 요점: 📱 영숙: 사장님, 작업 시작합니다 😊.\n\n사장님, 지금까지 디자인과 개발팀에서 '기술적 안정성'을 확보하는 데 정말 많은 노력을 하셨어요. ✅ Mockup 제작부터 컴포넌트 코딩까지, 내부적으로는 완벽하게 준비가 끝난 느낌입니다! 👍\n\n하지만 아무리 좋은 시스템도 실제 사용자에게 검증되지 않으면 의미가 없잖아요? 사장님께서 강조하신 '판매'와 '실제",
+      "completedAt": "2026-06-02T13:33:15.444Z"
+    },
+    {
+      "id": "20260602140447-pih7",
+      "title": "대상: 파일럿 프로그램 가입자 중 1 인 이상 (초기에는 최소 3 명 목표)",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-02T14:04:47.260Z",
+      "status": "done",
+      "sessionDir": "2026-06-02T14-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-02T14-01/_report.md\n- 현빈: Pilot User 인터뷰를 통해 도출할 최소 상품 단위(MSU) 정의, 가격 책정 전략, 그리고 초기 계약 조건을 포함하는 '수익 모델 초안'\n- Writer: 파일럿 사용자에게 제공할 심층 인터뷰 스크립트 초안과 플랫폼의 가치를 증명할 수 있는 구체적인 성공 스토리 시나리오 3가지를 작성하라.\n- 영숙: Writer와 Business 에이전트가 준비할 '파일럿 파트너 인터뷰 스크립트' 및 '수익 모델 초안'의 최종 마일스톤을 설정하고, 다음 액션\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Pilot User 인터뷰를 통해 도출할 최소 상품 단위(MSU) 정의, 가격 책정 전략, 그리고 초기 계약 조건을 포함하는 '수익 모델 초안'을 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n",
+      "completedAt": "2026-06-02T14:06:34.107Z"
+    },
+    {
+      "id": "20260602140447-jrsi",
+      "title": "도구: 녹음 장치(녹음은 필수), 인터뷰 노트, BDS 플랫폼 아카데미 접근 권한",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-02T14:04:47.300Z",
+      "status": "done",
+      "sessionDir": "2026-06-02T14-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-02T14-01/_report.md\n- 현빈: Pilot User 인터뷰를 통해 도출할 최소 상품 단위(MSU) 정의, 가격 책정 전략, 그리고 초기 계약 조건을 포함하는 '수익 모델 초안'\n- Writer: 파일럿 사용자에게 제공할 심층 인터뷰 스크립트 초안과 플랫폼의 가치를 증명할 수 있는 구체적인 성공 스토리 시나리오 3가지를 작성하라.\n- 영숙: Writer와 Business 에이전트가 준비할 '파일럿 파트너 인터뷰 스크립트' 및 '수익 모델 초안'의 최종 마일스톤을 설정하고, 다음 액션\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Pilot User 인터뷰를 통해 도출할 최소 상품 단위(MSU) 정의, 가격 책정 전략, 그리고 초기 계약 조건을 포함하는 '수익 모델 초안'을 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n",
+      "completedAt": "2026-06-02T14:06:34.148Z"
+    },
+    {
+      "id": "20260602140447-c4ye",
+      "title": "멘탈: \"완벽한 답변\"을 기대하지 말고, 사용자의 '진실'에 집중하세요.",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-02T14:04:47.339Z",
+      "status": "done",
+      "sessionDir": "2026-06-02T14-01",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-02T14-01/_report.md\n- 현빈: Pilot User 인터뷰를 통해 도출할 최소 상품 단위(MSU) 정의, 가격 책정 전략, 그리고 초기 계약 조건을 포함하는 '수익 모델 초안'\n- Writer: 파일럿 사용자에게 제공할 심층 인터뷰 스크립트 초안과 플랫폼의 가치를 증명할 수 있는 구체적인 성공 스토리 시나리오 3가지를 작성하라.\n- 영숙: Writer와 Business 에이전트가 준비할 '파일럿 파트너 인터뷰 스크립트' 및 '수익 모델 초안'의 최종 마일스톤을 설정하고, 다음 액션\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Pilot User 인터뷰를 통해 도출할 최소 상품 단위(MSU) 정의, 가격 책정 전략, 그리고 초기 계약 조건을 포함하는 '수익 모델 초안'을 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n",
+      "completedAt": "2026-06-02T14:06:34.252Z"
     }
   ]
 }
