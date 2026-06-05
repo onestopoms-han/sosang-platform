@@ -1,0 +1,11 @@
+[Figma Link Placeholder] - Pitch Deck (20장 내외) 최종 목업 시트. Trust Widget을 3번 이상의 핵심 슬라이드에 배치하고, Deep Blue(#004D66)를 주 색상으로 하여 데이터 신뢰성을 강조함. CTA 및 요약 섹션의 레이아웃은 LP와 동일한 그리드를 사용하도록 설계됨.
+
+[Figma Component List]
+- Global Styles: Color (Deep Blue, Warning Orange, Light Gray), Typography (Noto Sans KR, H2/H3/Body 폰트 스케일 정의).
+- Key Components: Trust Widget (v2.0), ROI Calculator Mockup, Success Story Card.
+
+[Mockup Instructions]
+1.  **인트로:** 소상공인의 문제점(Pain Point)을 명확히 제시하고, 기술적 위험성(Risk)을 경고하는 톤으로 시작.
+2.  **솔루션 제안:** BDS 플랫폼의 핵심 가치('데이터 기반 안정성')를 소개하며 `Trust Widget`을 첫 번째로 크게 배치하여 시선을 사로잡음.
+3.  **구조적 증명 (Body):** 기술 안정성 지표(Success Rate, Retry Rate) 데이터를 차트와 그래프 형태로 가장 직관적으로 제시. 모든 데이터는 출처 명시가 가능하도록 디자인됨.
+4.  **CTA/마무리:** LP의 핵심 CTA 섹션과 동일한 '지금 바로 문의하세요' 레이아웃을 사용하여 구매 전환까지 고려한 일관성을 유지함.
