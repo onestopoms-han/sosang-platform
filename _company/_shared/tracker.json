@@ -3242,6 +3242,142 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-03T11-13/_report.md\n- 현빈: Pilot Partner 계약에 필요한 핵심 성과 지표(KPI) 및 기술적 안정성 요구사항을 기반으로 운영상 필수 항목 체크리스트(v3.0)를 \n- Writer: Business 에이전트가 제공한 KPI 및 체크리스트 초안을 바탕으로 Pilot Partner 대상 '운영 규약 초안(SLA)' 문서 작성을 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Pilot Partner 계약에 필요한 핵심 성과 지표(KPI) 및 기술적 안정성 요구사항을 기반으로 운영상 필수 항목 체크리스트(v3.0)를 최종 확정하고, 이 내용을 Writer에게 전달할 준비를 하라.\n> 🔧 ",
       "completedAt": "2026-06-03T11:17:39.537Z"
+    },
+    {
+      "id": "20260603161756-9iwb",
+      "title": "Deep Blue와 Warning Orange의 사용 비율과 맥락이 일관적인가?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-06-03T16:17:56.101Z",
+      "status": "done",
+      "sessionDir": "2026-06-03T16-14",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-03T16-14/_report.md\n- Instagram: 최종 확정된 영상 콘텐츠와 디자인 비주얼에 맞춰, 채널별(YouTube/Instagram) 최적화된 캡션, 해시태그 전략 및 포스팅 캘린더를 즉\n- Designer: 최종 확정된 시각화 컴포넌트(Deep Blue/Warning Orange)를 반영한 Pitch Deck 목업을 최종 검토하고, 모든 콘텐츠와 시\n- 영숙: Instagram과 Designer 에이전트가 요청한 최종 마케팅 자료(캡션/캘린더 및 Pitch Deck 목업)의 마감 기한을 설정하고, 관련\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📷 Instagram _(Head of Instagram)_\n> 📋 **지시**: 최종 확정된 영상 콘텐츠와 디자인 비주얼에 맞춰, 채널별(YouTube/Instagram) 최적화된 캡션, 해시태그 전략 및 포스팅 캘린더를 즉시 실행 가능한 형태로 최종 정리하고 배포 준비를 완료하라.\n> 🔧 **도구 ",
+      "completedAt": "2026-06-03T16:18:27.512Z"
+    },
+    {
+      "id": "20260603161756-9cz2",
+      "title": "모든 컴포넌트(CTA 버튼, 지표 그래프 등)가 v1.0 가이드에 따라 구현되었는가?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-06-03T16:17:56.122Z",
+      "status": "done",
+      "sessionDir": "2026-06-03T16-14",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-03T16-14/_report.md\n- Instagram: 최종 확정된 영상 콘텐츠와 디자인 비주얼에 맞춰, 채널별(YouTube/Instagram) 최적화된 캡션, 해시태그 전략 및 포스팅 캘린더를 즉\n- Designer: 최종 확정된 시각화 컴포넌트(Deep Blue/Warning Orange)를 반영한 Pitch Deck 목업을 최종 검토하고, 모든 콘텐츠와 시\n- 영숙: Instagram과 Designer 에이전트가 요청한 최종 마케팅 자료(캡션/캘린더 및 Pitch Deck 목업)의 마감 기한을 설정하고, 관련\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📷 Instagram _(Head of Instagram)_\n> 📋 **지시**: 최종 확정된 영상 콘텐츠와 디자인 비주얼에 맞춰, 채널별(YouTube/Instagram) 최적화된 캡션, 해시태그 전략 및 포스팅 캘린더를 즉시 실행 가능한 형태로 최종 정리하고 배포 준비를 완료하라.\n> 🔧 **도구 ",
+      "completedAt": "2026-06-03T16:18:27.522Z"
+    },
+    {
+      "id": "20260603161756-lch3",
+      "title": "모든 캡션/스크립트에 '기술적 안정성'을 강조하는 ROI 문구가 포함되어 있는가?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-06-03T16:17:56.136Z",
+      "status": "done",
+      "sessionDir": "2026-06-03T16-14",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-03T16-14/_report.md\n- Instagram: 최종 확정된 영상 콘텐츠와 디자인 비주얼에 맞춰, 채널별(YouTube/Instagram) 최적화된 캡션, 해시태그 전략 및 포스팅 캘린더를 즉\n- Designer: 최종 확정된 시각화 컴포넌트(Deep Blue/Warning Orange)를 반영한 Pitch Deck 목업을 최종 검토하고, 모든 콘텐츠와 시\n- 영숙: Instagram과 Designer 에이전트가 요청한 최종 마케팅 자료(캡션/캘린더 및 Pitch Deck 목업)의 마감 기한을 설정하고, 관련\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📷 Instagram _(Head of Instagram)_\n> 📋 **지시**: 최종 확정된 영상 콘텐츠와 디자인 비주얼에 맞춰, 채널별(YouTube/Instagram) 최적화된 캡션, 해시태그 전략 및 포스팅 캘린더를 즉시 실행 가능한 형태로 최종 정리하고 배포 준비를 완료하라.\n> 🔧 **도구 ",
+      "completedAt": "2026-06-03T16:18:27.538Z"
+    },
+    {
+      "id": "20260603161756-xwwc",
+      "title": "소재(Image)와 카피(Caption) 간의 연결성이 매끄러운가?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-06-03T16:17:56.153Z",
+      "status": "done",
+      "sessionDir": "2026-06-03T16-14",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-03T16-14/_report.md\n- Instagram: 최종 확정된 영상 콘텐츠와 디자인 비주얼에 맞춰, 채널별(YouTube/Instagram) 최적화된 캡션, 해시태그 전략 및 포스팅 캘린더를 즉\n- Designer: 최종 확정된 시각화 컴포넌트(Deep Blue/Warning Orange)를 반영한 Pitch Deck 목업을 최종 검토하고, 모든 콘텐츠와 시\n- 영숙: Instagram과 Designer 에이전트가 요청한 최종 마케팅 자료(캡션/캘린더 및 Pitch Deck 목업)의 마감 기한을 설정하고, 관련\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📷 Instagram _(Head of Instagram)_\n> 📋 **지시**: 최종 확정된 영상 콘텐츠와 디자인 비주얼에 맞춰, 채널별(YouTube/Instagram) 최적화된 캡션, 해시태그 전략 및 포스팅 캘린더를 즉시 실행 가능한 형태로 최종 정리하고 배포 준비를 완료하라.\n> 🔧 **도구 ",
+      "completedAt": "2026-06-03T16:18:27.550Z"
+    },
+    {
+      "id": "20260605153324-ewwu",
+      "title": "**기술적 안정성** (95% 성공률) 을 금전 가치로 치환했는가?",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-05T15:33:24.720Z",
+      "status": "done",
+      "sessionDir": "2026-06-05T15-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-05T15-25/_report.md\n- 코다리: 최종 확정된 기술 사양서와 안정성 지표(Success Rate 95%, Retry Rate 80%)를 기반으로, 최소 기능 단위 시뮬레이터의 E\n- Writer: 최종 확정된 기술 안정성 지표와 수익화 로직(ROI 중심)을 반영하여, 잠재 고객의 페인 포인트와 기술적 이점을 극대화하는 Pitch Deck \n- Instagram: 최종 확정된 영상 콘텐츠와 디자인 비주얼 가이드라인(Deep Blue/Warning Orange)에 맞춰, 채널별 최적화된 캡션, 해시태그 전략\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 최종 확정된 기술 사양서와 안정성 지표(Success Rate 95%, Retry Rate 80%)를 기반으로, 최소 기능 단위 시뮬레이터의 E2E 테스트 환경 및 배포 스크립트 완성 작업을 즉시 시작하고 진행 상황을 보고하라.\n> 🔧 **",
+      "completedAt": "2026-06-05T15:34:08.271Z"
+    },
+    {
+      "id": "20260605153324-6cjw",
+      "title": "**Deep Blue 와 Warning Orange** 컬러를 텍스트에 반영했는가?",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-05T15:33:24.748Z",
+      "status": "done",
+      "sessionDir": "2026-06-05T15-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-05T15-25/_report.md\n- 코다리: 최종 확정된 기술 사양서와 안정성 지표(Success Rate 95%, Retry Rate 80%)를 기반으로, 최소 기능 단위 시뮬레이터의 E\n- Writer: 최종 확정된 기술 안정성 지표와 수익화 로직(ROI 중심)을 반영하여, 잠재 고객의 페인 포인트와 기술적 이점을 극대화하는 Pitch Deck \n- Instagram: 최종 확정된 영상 콘텐츠와 디자인 비주얼 가이드라인(Deep Blue/Warning Orange)에 맞춰, 채널별 최적화된 캡션, 해시태그 전략\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 최종 확정된 기술 사양서와 안정성 지표(Success Rate 95%, Retry Rate 80%)를 기반으로, 최소 기능 단위 시뮬레이터의 E2E 테스트 환경 및 배포 스크립트 완성 작업을 즉시 시작하고 진행 상황을 보고하라.\n> 🔧 **",
+      "completedAt": "2026-06-05T15:34:08.318Z"
+    },
+    {
+      "id": "20260605153324-n4sk",
+      "title": "**CTA** 를 명확히 포함했는가?",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-05T15:33:24.764Z",
+      "status": "done",
+      "sessionDir": "2026-06-05T15-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-05T15-25/_report.md\n- 코다리: 최종 확정된 기술 사양서와 안정성 지표(Success Rate 95%, Retry Rate 80%)를 기반으로, 최소 기능 단위 시뮬레이터의 E\n- Writer: 최종 확정된 기술 안정성 지표와 수익화 로직(ROI 중심)을 반영하여, 잠재 고객의 페인 포인트와 기술적 이점을 극대화하는 Pitch Deck \n- Instagram: 최종 확정된 영상 콘텐츠와 디자인 비주얼 가이드라인(Deep Blue/Warning Orange)에 맞춰, 채널별 최적화된 캡션, 해시태그 전략\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 최종 확정된 기술 사양서와 안정성 지표(Success Rate 95%, Retry Rate 80%)를 기반으로, 최소 기능 단위 시뮬레이터의 E2E 테스트 환경 및 배포 스크립트 완성 작업을 즉시 시작하고 진행 상황을 보고하라.\n> 🔧 **",
+      "completedAt": "2026-06-05T15:34:08.366Z"
+    },
+    {
+      "id": "20260605153324-oogg",
+      "title": "**해시태그** 세트 A, B, C 중 하나를 선택했는가? (최대 15 개)",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-05T15:33:24.786Z",
+      "status": "done",
+      "sessionDir": "2026-06-05T15-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-05T15-25/_report.md\n- 코다리: 최종 확정된 기술 사양서와 안정성 지표(Success Rate 95%, Retry Rate 80%)를 기반으로, 최소 기능 단위 시뮬레이터의 E\n- Writer: 최종 확정된 기술 안정성 지표와 수익화 로직(ROI 중심)을 반영하여, 잠재 고객의 페인 포인트와 기술적 이점을 극대화하는 Pitch Deck \n- Instagram: 최종 확정된 영상 콘텐츠와 디자인 비주얼 가이드라인(Deep Blue/Warning Orange)에 맞춰, 채널별 최적화된 캡션, 해시태그 전략\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 최종 확정된 기술 사양서와 안정성 지표(Success Rate 95%, Retry Rate 80%)를 기반으로, 최소 기능 단위 시뮬레이터의 E2E 테스트 환경 및 배포 스크립트 완성 작업을 즉시 시작하고 진행 상황을 보고하라.\n> 🔧 **",
+      "completedAt": "2026-06-05T15:34:08.390Z"
     }
   ]
 }
