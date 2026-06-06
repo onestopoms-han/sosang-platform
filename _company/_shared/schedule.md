@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 6. 오후 6:59:04_
+_업데이트: 2026. 6. 6. 오후 7:29:11_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,13 +11,13 @@ _업데이트: 2026. 6. 6. 오후 6:59:04_
 - [2026-06-06] Writer가 제공한 콘텐츠 방향성을 따라, 확정된 디자인 가이드라인을 준수하여 초기 4주 포스팅 캘린더의 주제, 캡션(감성적 메시지 강조), 해시태그를 실행 가능한 형태로 정리하고 배포 준비를 완료하라. → 산출물 sessions/2026-06-06T04-10/instagram.md
 - [2026-06-06] business 에이전트가 선택한 MVP 모델의 타겟 페르소나에 맞는 핵심 메시지를 구체화하고, 초기 4주 포스팅 캘린더 전략 및 콘텐츠 배포 계획을 수립하라. → 산출물 sessions/2026-06-06T04-40/instagram.md
 ### 🎨 Designer
-- [2026-06-06] Designer: 코다리가 확정한 KPI 스키마(`01_KPI_Schema_Final_Review.md`)와 '안전 마진' 로직을 기반으로, 소상공인의 의사결정을 유도하는 핵심 지표를 시각화하는 대시보드 와이어프레임 초안(UX/UI)을 즉시 설계하세요. → 산출물 sessions/2026-06-06T09-10/designer.md
-- [2026-06-06] kpi_dashboard_wireframe_v1.md와 Trust Widget 최종 목업 디자인 명세서를 기반으로, 소상공인의 의사결정을 유도하는 핵심 지표(PAIN 및 안전 마진)를 시각화하는 최종 UX/UI 사양을 확정하고, 데이터-디자인 일관성을 확보하는 가이드라인을 작성하세요. → 산출물 sessions/2026-06-06T09-25/designer.md
 - [2026-06-06] 코다리에서 정의된 KPI 스키마와 '안전 마진' 로직($SM$ 공식)을 시각화하는 핵심 대시보드 와이어프레임을 즉시 설계하여 데이터 기반 의사결정을 유도할 디자인 시스템 초안을 구축할 것. → 산출물 sessions/2026-06-06T09-55/designer.md
+- [2026-06-06] 작성된 컴포넌트 라이브러리 명세서(`Component_Library_Spec_Dashboard_V1.0.md`)에 따라, 소상공인의 의사결정을 유도하는 핵심 지표(PAIN 및 안전 마진)를 시각화하는 최종 UX/UI 사양을 확정하고, 데이터-디자인 일관성을 확보하는 가이드라인을 완성하세요. → 산출물 sessions/2026-06-06T10-10/designer.md
+- [2026-06-06] Dashboard_Design_System_Guide_V1.0.md와 Trust_Widget_Mockup_Spec_V2.0.md를 기반으로, 데이터-디자인 일관성을 완벽히 반영하는 '안전 마진' 핵심 KPI 대시보드 와이어프레임을 최종 설계하고 개발 착수를 위한 디자인 시스템 초안을 완성하라. → 산출물 sessions/2026-06-06T10-25/designer.md
 ### 💻 코다리
-- [2026-06-06] kpi_calculation_schema.json과 Trust_Widget_Technical_Spec_V1.0.md를 기반으로, PAIN 입력 변수($A$, $B$)가 실제 플랫폼 데이터와 어떻게 연동되어 안전 마진($SM$) 계산에 사용되는지 구체적인 API/DB 스택 구현 계획을 확정하고, 데이터 파이프라인의 기술적 검증 단계를 명문화하세요. → 산출물 sessions/2026-06-06T09-25/developer.md
-- [2026-06-06] PAIN 지표($A$, $B$)와 수익 모델(수수료 3.9% + 인센티브)을 반영하여 '안전 마진' KPI 계산 로직 스키마(`kpi_calculation_schema.json`)를 즉시 정의하고, 이를 기반으로 필요한 API/DB 스택 구현 계획을 명문화하세요. → 산출물 sessions/2026-06-06T09-40/developer.md
 - [2026-06-06] 정의된 KPI 계산 로직(`kpi_calculation_schema.json`)과 PAIN 변수들을 실제 DB 및 API 구현 계획으로 전환하기 위한 명세서를 완성할 것. → 산출물 sessions/2026-06-06T09-55/developer.md
+- [2026-06-06] KPI 계산 로직($SM$ 공식)과 PAIN 변수를 실제 DB 및 API 스택 구현 계획(Schema 및 Endpoint 정의)을 즉시 시작하고, Designer가 제시한 컴포넌트 라이브러리 명세서에 따라 PAIN 게이지 컴포넌트(`PainGauge_V1.0.tsx`)의 초기 프로토타입 코딩을 착수하여 데이터-디자인 일관성을 검증하세요. → 산출물 sessions/2026-06-06T10-10/developer.md
+- [2026-06-06] kpi_calculation_spec_v1.0.md와 Trust_Widget_Technical_Spec_V1.0.md를 기반으로, PAIN 및 안전 마진 KPI 계산 로직($SM$ 공식)을 실제 DB 스키마(`kpi_calculation_schema.json`) 및 API 엔드포인트 정의로 전환하는 구현 계획(Schema 및 Endpoint 정의)을 즉시 시작하라. → 산출물 sessions/2026-06-06T10-25/developer.md
 ### 💼 현빈
 - [2026-06-06] PAIN_01과 PAIN_02 지표가 CustomerProfile 및 Feature Status 데이터 모델에 기반하여 정확하게 연결되는지 계산 로직의 정확성을 최종 검증하고, 플랫폼 가치 측정의 신뢰성을 확보하라. → 산출물 sessions/2026-06-06T08-25/business.md
 - [2026-06-06] 요약된 시장 검증 결과를 바탕으로 거래 수수료 모델의 초기 적용 수수료율과 KPI를 최종 확정하고, 영업 전략과의 일치 여부를 재검토하라. → 산출물 sessions/2026-06-06T08-40/business.md
