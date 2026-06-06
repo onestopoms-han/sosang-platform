@@ -3599,6 +3599,261 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-06T00-10/_report.md\n- 코다리: Trust Widget API 구조 및 실시간 시각화 로직 명세서(코다리가 진행 중)를 Designer가 제시한 와이어프레임 및 디자인 시스템 \n- Designer: Trust Widget의 최종 와이어프레임과 디자인 시스템 규칙을 기반으로, 기술 안정성 지표가 시각화되는 인터랙티브 컴포넌트(Trust Wid\n- 영숙: Developer와 Designer 간의 기술 명세 및 디자인 검토 결과를 취합하여 CEO에게 요약 보고서를 작성하고, 다음 단계(Go-To-M\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Trust Widget API 구조 및 실시간 시각화 로직 명세서(코다리가 진행 중)를 Designer가 제시한 와이어프레임 및 디자인 시스템 규칙과 완벽하게 일치시키도록 최종 검토하고, 개발팀에 전달할 수 있는 완성된 기술 구현 명세를 작성",
       "completedAt": "2026-06-06T00:15:21.072Z"
+    },
+    {
+      "id": "20260606041247-3du0",
+      "title": "0:00 - 0:30: 골목 풍경 및 사장님 고개 숙인 모습 (빨간색 필터)",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-06T04:12:47.901Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T04-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T04-10/_report.md\n- 레오: Trust Widget의 '안전 마진' 개념을 핵심 메시지로 하여, 확정된 디자인 가이드라인(Deep Blue/Warning Orange)에 맞\n- Writer: youtube 에이전트가 제시한 영상 기획 및 시퀀스를 바탕으로, 기술 안정성 지표(Trust Widget 상태)를 '안심하고 투자'라는 감성적\n- Instagram: Writer가 제공한 콘텐츠 방향성을 따라, 확정된 디자인 가이드라인을 준수하여 초기 4주 포스팅 캘린더의 주제, 캡션(감성적 메시지 강조), \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: Trust Widget의 '안전 마진' 개념을 핵심 메시지로 하여, 확정된 디자인 가이드라인(Deep Blue/Warning Orange)에 맞춰 실제 영상 기획 및 시퀀스를 최종 확정하고 촬영/편집 단계로 전환할 수 있는 구체적인 스크립",
+      "completedAt": "2026-06-06T04:14:48.011Z"
+    },
+    {
+      "id": "20260606041247-3sld",
+      "title": "0:30 - 1:30: 손으로 계산하는 사장님 vs 데이터 대시보드 화면 전환",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-06T04:12:47.927Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T04-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T04-10/_report.md\n- 레오: Trust Widget의 '안전 마진' 개념을 핵심 메시지로 하여, 확정된 디자인 가이드라인(Deep Blue/Warning Orange)에 맞\n- Writer: youtube 에이전트가 제시한 영상 기획 및 시퀀스를 바탕으로, 기술 안정성 지표(Trust Widget 상태)를 '안심하고 투자'라는 감성적\n- Instagram: Writer가 제공한 콘텐츠 방향성을 따라, 확정된 디자인 가이드라인을 준수하여 초기 4주 포스팅 캘린더의 주제, 캡션(감성적 메시지 강조), \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: Trust Widget의 '안전 마진' 개념을 핵심 메시지로 하여, 확정된 디자인 가이드라인(Deep Blue/Warning Orange)에 맞춰 실제 영상 기획 및 시퀀스를 최종 확정하고 촬영/편집 단계로 전환할 수 있는 구체적인 스크립",
+      "completedAt": "2026-06-06T04:14:48.037Z"
+    },
+    {
+      "id": "20260606041247-a19m",
+      "title": "1:30 - 2:30: 공식 1, 2, 3 그래픽화 (키워드 중심)",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-06T04:12:47.956Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T04-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T04-10/_report.md\n- 레오: Trust Widget의 '안전 마진' 개념을 핵심 메시지로 하여, 확정된 디자인 가이드라인(Deep Blue/Warning Orange)에 맞\n- Writer: youtube 에이전트가 제시한 영상 기획 및 시퀀스를 바탕으로, 기술 안정성 지표(Trust Widget 상태)를 '안심하고 투자'라는 감성적\n- Instagram: Writer가 제공한 콘텐츠 방향성을 따라, 확정된 디자인 가이드라인을 준수하여 초기 4주 포스팅 캘린더의 주제, 캡션(감성적 메시지 강조), \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: Trust Widget의 '안전 마진' 개념을 핵심 메시지로 하여, 확정된 디자인 가이드라인(Deep Blue/Warning Orange)에 맞춰 실제 영상 기획 및 시퀀스를 최종 확정하고 촬영/편집 단계로 전환할 수 있는 구체적인 스크립",
+      "completedAt": "2026-06-06T04:14:48.065Z"
+    },
+    {
+      "id": "20260606041247-0jmt",
+      "title": "2:30 - 4:00: AI 리스크 예측 시스템 시연 (Loss Gauge 애니메이션)",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-06T04:12:47.986Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T04-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T04-10/_report.md\n- 레오: Trust Widget의 '안전 마진' 개념을 핵심 메시지로 하여, 확정된 디자인 가이드라인(Deep Blue/Warning Orange)에 맞\n- Writer: youtube 에이전트가 제시한 영상 기획 및 시퀀스를 바탕으로, 기술 안정성 지표(Trust Widget 상태)를 '안심하고 투자'라는 감성적\n- Instagram: Writer가 제공한 콘텐츠 방향성을 따라, 확정된 디자인 가이드라인을 준수하여 초기 4주 포스팅 캘린더의 주제, 캡션(감성적 메시지 강조), \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: Trust Widget의 '안전 마진' 개념을 핵심 메시지로 하여, 확정된 디자인 가이드라인(Deep Blue/Warning Orange)에 맞춰 실제 영상 기획 및 시퀀스를 최종 확정하고 촬영/편집 단계로 전환할 수 있는 구체적인 스크립",
+      "completedAt": "2026-06-06T04:14:48.090Z"
+    },
+    {
+      "id": "20260606041248-a9ex",
+      "title": "0:00 - 5:30: BGM 심박음/리듬에 맞춰 자막 타이밍 조정",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-06T04:12:48.014Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T04-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T04-10/_report.md\n- 레오: Trust Widget의 '안전 마진' 개념을 핵심 메시지로 하여, 확정된 디자인 가이드라인(Deep Blue/Warning Orange)에 맞\n- Writer: youtube 에이전트가 제시한 영상 기획 및 시퀀스를 바탕으로, 기술 안정성 지표(Trust Widget 상태)를 '안심하고 투자'라는 감성적\n- Instagram: Writer가 제공한 콘텐츠 방향성을 따라, 확정된 디자인 가이드라인을 준수하여 초기 4주 포스팅 캘린더의 주제, 캡션(감성적 메시지 강조), \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: Trust Widget의 '안전 마진' 개념을 핵심 메시지로 하여, 확정된 디자인 가이드라인(Deep Blue/Warning Orange)에 맞춰 실제 영상 기획 및 시퀀스를 최종 확정하고 촬영/편집 단계로 전환할 수 있는 구체적인 스크립",
+      "completedAt": "2026-06-06T04:14:48.113Z"
+    },
+    {
+      "id": "20260606043741-hxva",
+      "title": "공급자 회원가입/인증 (사업자번호, 사업자등록증 업로드)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-06T04:37:41.075Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T04-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T04-25/_report.md\n- Researcher: 현재까지의 모든 데이터(영상 분석, 인스타그램 반응 등)를 기반으로 대한민국 소상공인이 겪는 핵심 어려움 3가지와 이들을 해결할 수 있는 구체적\n- 현빈: Researcher가 도출한 사업 아이디어를 바탕으로, BDS소상공인플렛폼의 목표(소상공인의 성공 지원)에 가장 부합하고 수익성이 높은 초기 M\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 현재까지의 모든 데이터(영상 분석, 인스타그램 반응 등)를 기반으로 대한민국 소상공인이 겪는 핵심 어려움 3가지와 이들을 해결할 수 있는 구체적인 민간 사업 아이디어 5가지를 도출하라.\n> 🔧 **도구 실행*",
+      "completedAt": "2026-06-06T04:38:10.008Z"
+    },
+    {
+      "id": "20260606043741-wdln",
+      "title": "제품 등록 (이미지, 설명, 가격, 재고)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-06T04:37:41.104Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T04-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T04-25/_report.md\n- Researcher: 현재까지의 모든 데이터(영상 분석, 인스타그램 반응 등)를 기반으로 대한민국 소상공인이 겪는 핵심 어려움 3가지와 이들을 해결할 수 있는 구체적\n- 현빈: Researcher가 도출한 사업 아이디어를 바탕으로, BDS소상공인플렛폼의 목표(소상공인의 성공 지원)에 가장 부합하고 수익성이 높은 초기 M\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 현재까지의 모든 데이터(영상 분석, 인스타그램 반응 등)를 기반으로 대한민국 소상공인이 겪는 핵심 어려움 3가지와 이들을 해결할 수 있는 구체적인 민간 사업 아이디어 5가지를 도출하라.\n> 🔧 **도구 실행*",
+      "completedAt": "2026-06-06T04:38:10.039Z"
+    },
+    {
+      "id": "20260606043741-qlef",
+      "title": "실시간 재고 업데이트 (웹훅 또는 API 연동)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-06T04:37:41.132Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T04-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T04-25/_report.md\n- Researcher: 현재까지의 모든 데이터(영상 분석, 인스타그램 반응 등)를 기반으로 대한민국 소상공인이 겪는 핵심 어려움 3가지와 이들을 해결할 수 있는 구체적\n- 현빈: Researcher가 도출한 사업 아이디어를 바탕으로, BDS소상공인플렛폼의 목표(소상공인의 성공 지원)에 가장 부합하고 수익성이 높은 초기 M\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 현재까지의 모든 데이터(영상 분석, 인스타그램 반응 등)를 기반으로 대한민국 소상공인이 겪는 핵심 어려움 3가지와 이들을 해결할 수 있는 구체적인 민간 사업 아이디어 5가지를 도출하라.\n> 🔧 **도구 실행*",
+      "completedAt": "2026-06-06T04:38:10.064Z"
+    },
+    {
+      "id": "20260606043741-tp6c",
+      "title": "카테고리 분류 및 검색 기능",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-06T04:37:41.156Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T04-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T04-25/_report.md\n- Researcher: 현재까지의 모든 데이터(영상 분석, 인스타그램 반응 등)를 기반으로 대한민국 소상공인이 겪는 핵심 어려움 3가지와 이들을 해결할 수 있는 구체적\n- 현빈: Researcher가 도출한 사업 아이디어를 바탕으로, BDS소상공인플렛폼의 목표(소상공인의 성공 지원)에 가장 부합하고 수익성이 높은 초기 M\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 현재까지의 모든 데이터(영상 분석, 인스타그램 반응 등)를 기반으로 대한민국 소상공인이 겪는 핵심 어려움 3가지와 이들을 해결할 수 있는 구체적인 민간 사업 아이디어 5가지를 도출하라.\n> 🔧 **도구 실행*",
+      "completedAt": "2026-06-06T04:38:10.091Z"
+    },
+    {
+      "id": "20260606043741-vegf",
+      "title": "PayPal/Stripe/PgPay API 연동 테스트 (실제 거래 데이터 확보 전까지 샌드박스 모드)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-06T04:37:41.182Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T04-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T04-25/_report.md\n- Researcher: 현재까지의 모든 데이터(영상 분석, 인스타그램 반응 등)를 기반으로 대한민국 소상공인이 겪는 핵심 어려움 3가지와 이들을 해결할 수 있는 구체적\n- 현빈: Researcher가 도출한 사업 아이디어를 바탕으로, BDS소상공인플렛폼의 목표(소상공인의 성공 지원)에 가장 부합하고 수익성이 높은 초기 M\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 현재까지의 모든 데이터(영상 분석, 인스타그램 반응 등)를 기반으로 대한민국 소상공인이 겪는 핵심 어려움 3가지와 이들을 해결할 수 있는 구체적인 민간 사업 아이디어 5가지를 도출하라.\n> 🔧 **도구 실행*",
+      "completedAt": "2026-06-06T04:38:10.124Z"
+    },
+    {
+      "id": "20260606074315-4841",
+      "title": "CRM 에서 A등급 리스트 최종 확인",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-06T07:43:15.907Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T07-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T07-40/_report.md\n- 현빈: A등급 파일럿 참여자 리스트를 기반으로 Sales Agent가 즉시 접촉 및 일정 조율을 시작할 수 있도록 최종 영업 워크플로우와 메시지 세트를\n- 코다리: 파일럿 참여자를 위한 'Sandbox 환경' 구축을 위한 기술 사양서(Designer가 제공한 가이드라인 준수)를 기반으로 개발 작업을 즉시 시\n- 영숙: 모든 실행 단계(영업 활동 및 Sandbox 구축)의 진행 상황을 통합하여 추적할 수 있는 '주간 파일럿 운영 진척 현황 대시보드'의 초기 구조\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: A등급 파일럿 참여자 리스트를 기반으로 Sales Agent가 즉시 접촉 및 일정 조율을 시작할 수 있도록 최종 영업 워크플로우와 메시지 세트를 재확인하고, 데이터 수집 KPI를 구체화하여 보고서를 업데이트하라.\n> ",
+      "completedAt": "2026-06-06T07:45:12.221Z"
+    },
+    {
+      "id": "20260606074315-ufzx",
+      "title": "영업 워크플로우 문서 배포 (Sales 팀)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-06T07:43:15.937Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T07-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T07-40/_report.md\n- 현빈: A등급 파일럿 참여자 리스트를 기반으로 Sales Agent가 즉시 접촉 및 일정 조율을 시작할 수 있도록 최종 영업 워크플로우와 메시지 세트를\n- 코다리: 파일럿 참여자를 위한 'Sandbox 환경' 구축을 위한 기술 사양서(Designer가 제공한 가이드라인 준수)를 기반으로 개발 작업을 즉시 시\n- 영숙: 모든 실행 단계(영업 활동 및 Sandbox 구축)의 진행 상황을 통합하여 추적할 수 있는 '주간 파일럿 운영 진척 현황 대시보드'의 초기 구조\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: A등급 파일럿 참여자 리스트를 기반으로 Sales Agent가 즉시 접촉 및 일정 조율을 시작할 수 있도록 최종 영업 워크플로우와 메시지 세트를 재확인하고, 데이터 수집 KPI를 구체화하여 보고서를 업데이트하라.\n> ",
+      "completedAt": "2026-06-06T07:45:12.266Z"
+    },
+    {
+      "id": "20260606074315-pwdk",
+      "title": "메시지 템플릿 CRM 에 업로드",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-06T07:43:15.966Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T07-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T07-40/_report.md\n- 현빈: A등급 파일럿 참여자 리스트를 기반으로 Sales Agent가 즉시 접촉 및 일정 조율을 시작할 수 있도록 최종 영업 워크플로우와 메시지 세트를\n- 코다리: 파일럿 참여자를 위한 'Sandbox 환경' 구축을 위한 기술 사양서(Designer가 제공한 가이드라인 준수)를 기반으로 개발 작업을 즉시 시\n- 영숙: 모든 실행 단계(영업 활동 및 Sandbox 구축)의 진행 상황을 통합하여 추적할 수 있는 '주간 파일럿 운영 진척 현황 대시보드'의 초기 구조\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: A등급 파일럿 참여자 리스트를 기반으로 Sales Agent가 즉시 접촉 및 일정 조율을 시작할 수 있도록 최종 영업 워크플로우와 메시지 세트를 재확인하고, 데이터 수집 KPI를 구체화하여 보고서를 업데이트하라.\n> ",
+      "completedAt": "2026-06-06T07:45:12.297Z"
+    },
+    {
+      "id": "20260606074315-uqrs",
+      "title": "KPI 대시보드 구축 (Google Sheets 또는 BI 도구)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-06T07:43:15.990Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T07-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T07-40/_report.md\n- 현빈: A등급 파일럿 참여자 리스트를 기반으로 Sales Agent가 즉시 접촉 및 일정 조율을 시작할 수 있도록 최종 영업 워크플로우와 메시지 세트를\n- 코다리: 파일럿 참여자를 위한 'Sandbox 환경' 구축을 위한 기술 사양서(Designer가 제공한 가이드라인 준수)를 기반으로 개발 작업을 즉시 시\n- 영숙: 모든 실행 단계(영업 활동 및 Sandbox 구축)의 진행 상황을 통합하여 추적할 수 있는 '주간 파일럿 운영 진척 현황 대시보드'의 초기 구조\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: A등급 파일럿 참여자 리스트를 기반으로 Sales Agent가 즉시 접촉 및 일정 조율을 시작할 수 있도록 최종 영업 워크플로우와 메시지 세트를 재확인하고, 데이터 수집 KPI를 구체화하여 보고서를 업데이트하라.\n> ",
+      "completedAt": "2026-06-06T07:45:12.330Z"
+    },
+    {
+      "id": "20260606074316-i35z",
+      "title": "파일럿 참여자 피드백 수집 프로세스 정의",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-06T07:43:16.018Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T07-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T07-40/_report.md\n- 현빈: A등급 파일럿 참여자 리스트를 기반으로 Sales Agent가 즉시 접촉 및 일정 조율을 시작할 수 있도록 최종 영업 워크플로우와 메시지 세트를\n- 코다리: 파일럿 참여자를 위한 'Sandbox 환경' 구축을 위한 기술 사양서(Designer가 제공한 가이드라인 준수)를 기반으로 개발 작업을 즉시 시\n- 영숙: 모든 실행 단계(영업 활동 및 Sandbox 구축)의 진행 상황을 통합하여 추적할 수 있는 '주간 파일럿 운영 진척 현황 대시보드'의 초기 구조\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: A등급 파일럿 참여자 리스트를 기반으로 Sales Agent가 즉시 접촉 및 일정 조율을 시작할 수 있도록 최종 영업 워크플로우와 메시지 세트를 재확인하고, 데이터 수집 KPI를 구체화하여 보고서를 업데이트하라.\n> ",
+      "completedAt": "2026-06-06T07:45:12.367Z"
     }
   ]
 }
