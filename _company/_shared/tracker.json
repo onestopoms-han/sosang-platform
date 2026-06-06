@@ -3854,6 +3854,278 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-06T07-40/_report.md\n- 현빈: A등급 파일럿 참여자 리스트를 기반으로 Sales Agent가 즉시 접촉 및 일정 조율을 시작할 수 있도록 최종 영업 워크플로우와 메시지 세트를\n- 코다리: 파일럿 참여자를 위한 'Sandbox 환경' 구축을 위한 기술 사양서(Designer가 제공한 가이드라인 준수)를 기반으로 개발 작업을 즉시 시\n- 영숙: 모든 실행 단계(영업 활동 및 Sandbox 구축)의 진행 상황을 통합하여 추적할 수 있는 '주간 파일럿 운영 진척 현황 대시보드'의 초기 구조\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: A등급 파일럿 참여자 리스트를 기반으로 Sales Agent가 즉시 접촉 및 일정 조율을 시작할 수 있도록 최종 영업 워크플로우와 메시지 세트를 재확인하고, 데이터 수집 KPI를 구체화하여 보고서를 업데이트하라.\n> ",
       "completedAt": "2026-06-06T07:45:12.367Z"
+    },
+    {
+      "id": "20260606105815-4odj",
+      "title": "**반응형 설계:** 모든 화면 크기(Mobile/Desktop)에서 게이지의 시각적 왜곡이 없어야 합니다.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-06T10:58:15.830Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T10-55",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T10-55/_report.md\n- 코다리: 확정된 DB 스키마(`kpi_calculation_spec_v1.0.md`) 및 Trust Widget 명세에 따라, 핵심 KPI 계산 로직($\n- Designer: 코다리가 제시한 명세에 맞춰, 데이터-디자인 일관성을 완벽히 반영하는 핵심 컴포넌트(`PainGauge`)의 초기 프로토타입 코딩을 진행하고, \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 확정된 DB 스키마(`kpi_calculation_spec_v1.0.md`) 및 Trust Widget 명세에 따라, 핵심 KPI 계산 로직($SM$ 공식)을 실제 DB 및 API 스택 구현 계획(Schema 및 Endpoint 정의)을 즉시",
+      "completedAt": "2026-06-06T10:59:00.745Z"
+    },
+    {
+      "id": "20260606105815-h61h",
+      "title": "**접근성(A11y):** 색상 대비(Contrast Ratio)가 WCAG AA 레벨 이상을 충족해야 하며, 스크린 리더를 위한 `aria-label`이 필수입니다.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-06T10:58:15.856Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T10-55",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T10-55/_report.md\n- 코다리: 확정된 DB 스키마(`kpi_calculation_spec_v1.0.md`) 및 Trust Widget 명세에 따라, 핵심 KPI 계산 로직($\n- Designer: 코다리가 제시한 명세에 맞춰, 데이터-디자인 일관성을 완벽히 반영하는 핵심 컴포넌트(`PainGauge`)의 초기 프로토타입 코딩을 진행하고, \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 확정된 DB 스키마(`kpi_calculation_spec_v1.0.md`) 및 Trust Widget 명세에 따라, 핵심 KPI 계산 로직($SM$ 공식)을 실제 DB 및 API 스택 구현 계획(Schema 및 Endpoint 정의)을 즉시",
+      "completedAt": "2026-06-06T10:59:00.778Z"
+    },
+    {
+      "id": "20260606105815-hfn4",
+      "title": "**데이터 로딩 상태:** 초기 데이터 로드 시에는 'Data Loading...' 플레이스홀더와 애니메이션 스켈레톤 UI를 표시해야 합니다.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-06T10:58:15.879Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T10-55",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T10-55/_report.md\n- 코다리: 확정된 DB 스키마(`kpi_calculation_spec_v1.0.md`) 및 Trust Widget 명세에 따라, 핵심 KPI 계산 로직($\n- Designer: 코다리가 제시한 명세에 맞춰, 데이터-디자인 일관성을 완벽히 반영하는 핵심 컴포넌트(`PainGauge`)의 초기 프로토타입 코딩을 진행하고, \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 확정된 DB 스키마(`kpi_calculation_spec_v1.0.md`) 및 Trust Widget 명세에 따라, 핵심 KPI 계산 로직($SM$ 공식)을 실제 DB 및 API 스택 구현 계획(Schema 및 Endpoint 정의)을 즉시",
+      "completedAt": "2026-06-06T10:59:00.829Z"
+    },
+    {
+      "id": "20260606111642-koj3",
+      "title": "파일 경로: `C:\\Users\\PJH\\소상공인플렛폼\\_company\\_agents\\instagram\\outputs\\`",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-06T11:16:42.608Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T11-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T11-10/_report.md\n- 코다리: kpi_db_schema_v1.0.md와 PainGauge_Dev_Spec_V3.0.md를 기반으로 실제 DB 스키마(`kpi_calculati\n- Designer: PainGauge_Dev_Spec_V3.0.md를 기준으로, 개발팀이 즉시 코딩에 착수할 수 있도록 데이터-디자인 일관성을 완벽히 반영한 핵심 \n- 레오: 개발 진행 상황과 연계하여, 확정된 '안전 마진' 핵심 메시지를 활용하는 영상 기획 및 썸네일 브리프 초안을 즉시 작성하여 콘텐츠 제작 준비를 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: kpi_db_schema_v1.0.md와 PainGauge_Dev_Spec_V3.0.md를 기반으로 실제 DB 스키마(`kpi_calculation_schema.json`) 및 API 엔드포인트 구현 계획을 즉시 시작하고, 핵심 컴포넌트(`P",
+      "completedAt": "2026-06-06T11:17:13.701Z"
+    },
+    {
+      "id": "20260606111642-n9cj",
+      "title": "파일명: `instagram_posting_calendar_v1.md`",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-06T11:16:42.637Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T11-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T11-10/_report.md\n- 코다리: kpi_db_schema_v1.0.md와 PainGauge_Dev_Spec_V3.0.md를 기반으로 실제 DB 스키마(`kpi_calculati\n- Designer: PainGauge_Dev_Spec_V3.0.md를 기준으로, 개발팀이 즉시 코딩에 착수할 수 있도록 데이터-디자인 일관성을 완벽히 반영한 핵심 \n- 레오: 개발 진행 상황과 연계하여, 확정된 '안전 마진' 핵심 메시지를 활용하는 영상 기획 및 썸네일 브리프 초안을 즉시 작성하여 콘텐츠 제작 준비를 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: kpi_db_schema_v1.0.md와 PainGauge_Dev_Spec_V3.0.md를 기반으로 실제 DB 스키마(`kpi_calculation_schema.json`) 및 API 엔드포인트 구현 계획을 즉시 시작하고, 핵심 컴포넌트(`P",
+      "completedAt": "2026-06-06T11:17:13.733Z"
+    },
+    {
+      "id": "20260606111642-voah",
+      "title": "디자인 가이드라인 적용 완료 (Deep Blue / Warning Orange)",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-06T11:16:42.670Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T11-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T11-10/_report.md\n- 코다리: kpi_db_schema_v1.0.md와 PainGauge_Dev_Spec_V3.0.md를 기반으로 실제 DB 스키마(`kpi_calculati\n- Designer: PainGauge_Dev_Spec_V3.0.md를 기준으로, 개발팀이 즉시 코딩에 착수할 수 있도록 데이터-디자인 일관성을 완벽히 반영한 핵심 \n- 레오: 개발 진행 상황과 연계하여, 확정된 '안전 마진' 핵심 메시지를 활용하는 영상 기획 및 썸네일 브리프 초안을 즉시 작성하여 콘텐츠 제작 준비를 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: kpi_db_schema_v1.0.md와 PainGauge_Dev_Spec_V3.0.md를 기반으로 실제 DB 스키마(`kpi_calculation_schema.json`) 및 API 엔드포인트 구현 계획을 즉시 시작하고, 핵심 컴포넌트(`P",
+      "completedAt": "2026-06-06T11:17:13.759Z"
+    },
+    {
+      "id": "20260606111642-67ml",
+      "title": "해시태그 전략 검토 완료 (소상공인, PAIN, 안전마진 등)",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-06T11:16:42.700Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T11-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T11-10/_report.md\n- 코다리: kpi_db_schema_v1.0.md와 PainGauge_Dev_Spec_V3.0.md를 기반으로 실제 DB 스키마(`kpi_calculati\n- Designer: PainGauge_Dev_Spec_V3.0.md를 기준으로, 개발팀이 즉시 코딩에 착수할 수 있도록 데이터-디자인 일관성을 완벽히 반영한 핵심 \n- 레오: 개발 진행 상황과 연계하여, 확정된 '안전 마진' 핵심 메시지를 활용하는 영상 기획 및 썸네일 브리프 초안을 즉시 작성하여 콘텐츠 제작 준비를 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: kpi_db_schema_v1.0.md와 PainGauge_Dev_Spec_V3.0.md를 기반으로 실제 DB 스키마(`kpi_calculation_schema.json`) 및 API 엔드포인트 구현 계획을 즉시 시작하고, 핵심 컴포넌트(`P",
+      "completedAt": "2026-06-06T11:17:13.786Z"
+    },
+    {
+      "id": "20260606111642-kc28",
+      "title": "캡션 감성적 메시지 검증 완료",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-06T11:16:42.733Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T11-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T11-10/_report.md\n- 코다리: kpi_db_schema_v1.0.md와 PainGauge_Dev_Spec_V3.0.md를 기반으로 실제 DB 스키마(`kpi_calculati\n- Designer: PainGauge_Dev_Spec_V3.0.md를 기준으로, 개발팀이 즉시 코딩에 착수할 수 있도록 데이터-디자인 일관성을 완벽히 반영한 핵심 \n- 레오: 개발 진행 상황과 연계하여, 확정된 '안전 마진' 핵심 메시지를 활용하는 영상 기획 및 썸네일 브리프 초안을 즉시 작성하여 콘텐츠 제작 준비를 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: kpi_db_schema_v1.0.md와 PainGauge_Dev_Spec_V3.0.md를 기반으로 실제 DB 스키마(`kpi_calculation_schema.json`) 및 API 엔드포인트 구현 계획을 즉시 시작하고, 핵심 컴포넌트(`P",
+      "completedAt": "2026-06-06T11:17:13.815Z"
+    },
+    {
+      "id": "20260606124241-8njc",
+      "title": "Deep Blue/Warning Orange 색상 매핑 규칙을 모든 개발 환경에 반영했는가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-06T12:42:41.647Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T12-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T12-40/_report.md\n- Designer: PainGauge 컴포넌트의 최종 디자인 가이드라인(Deep Blue/Warning Orange 규칙 포함)을 개발팀에 전달할 수 있도록, KP\n- Instagram: 확정된 디자인 시스템 가이드라인과 핵심 메시지('안전 마진')를 바탕으로, 초기 4주 포스팅 캘린더의 주제, 감성적 캡션, 해시태그 전략을 실행\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: PainGauge 컴포넌트의 최종 디자인 가이드라인(Deep Blue/Warning Orange 규칙 포함)을 개발팀에 전달할 수 있도록, KPI 지표($SM$ 공식)와 시각적 규칙을 기반으로 핵심 컴포넌트의 최종 디자인 시스템 초",
+      "completedAt": "2026-06-06T12:44:58.533Z"
+    },
+    {
+      "id": "20260606124241-0lfk",
+      "title": "$SM$ 공식의 결과 값(0~100점)이 게이지 크기 변화와 정확히 연동되는가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-06T12:42:41.677Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T12-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T12-40/_report.md\n- Designer: PainGauge 컴포넌트의 최종 디자인 가이드라인(Deep Blue/Warning Orange 규칙 포함)을 개발팀에 전달할 수 있도록, KP\n- Instagram: 확정된 디자인 시스템 가이드라인과 핵심 메시지('안전 마진')를 바탕으로, 초기 4주 포스팅 캘린더의 주제, 감성적 캡션, 해시태그 전략을 실행\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: PainGauge 컴포넌트의 최종 디자인 가이드라인(Deep Blue/Warning Orange 규칙 포함)을 개발팀에 전달할 수 있도록, KPI 지표($SM$ 공식)와 시각적 규칙을 기반으로 핵심 컴포넌트의 최종 디자인 시스템 초",
+      "completedAt": "2026-06-06T12:44:58.562Z"
+    },
+    {
+      "id": "20260606124241-53t1",
+      "title": "Low, Medium, High 세 가지 상태에 맞는 텍스트 및 CTA 가이드라인이 명확한가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-06T12:42:41.703Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T12-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T12-40/_report.md\n- Designer: PainGauge 컴포넌트의 최종 디자인 가이드라인(Deep Blue/Warning Orange 규칙 포함)을 개발팀에 전달할 수 있도록, KP\n- Instagram: 확정된 디자인 시스템 가이드라인과 핵심 메시지('안전 마진')를 바탕으로, 초기 4주 포스팅 캘린더의 주제, 감성적 캡션, 해시태그 전략을 실행\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: PainGauge 컴포넌트의 최종 디자인 가이드라인(Deep Blue/Warning Orange 규칙 포함)을 개발팀에 전달할 수 있도록, KPI 지표($SM$ 공식)와 시각적 규칙을 기반으로 핵심 컴포넌트의 최종 디자인 시스템 초",
+      "completedAt": "2026-06-06T12:44:58.590Z"
+    },
+    {
+      "id": "20260606141353-wnfx",
+      "title": "Pydantic 스키마 정의 (`metrics_dao.py`)",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-06T14:13:53.850Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T14-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T14-10/_report.md\n- 현빈: PainGauge 컴포넌트의 $SM$ 공식($\\text{Safety Margin} = (\\text{매출} - \\text{고정비용} - \\text\n- 코다리: business 에이전트가 확정하는 API 계약과 데이터 모델을 기반으로 PainGauge 컴포넌트의 DB 스키마 및 API 구현 계획(Sour\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: PainGauge 컴포넌트의 $SM$ 공식($\\text{Safety Margin} = (\\text{매출} - \\text{고정비용} - \\text{가변비용}) / \\text{고정비용} \\times 100\\%$)을 기반으",
+      "completedAt": "2026-06-06T14:14:23.956Z"
+    },
+    {
+      "id": "20260606141353-8d51",
+      "title": "FastAPI 앱 초기화 (`main.py`)",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-06T14:13:53.877Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T14-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T14-10/_report.md\n- 현빈: PainGauge 컴포넌트의 $SM$ 공식($\\text{Safety Margin} = (\\text{매출} - \\text{고정비용} - \\text\n- 코다리: business 에이전트가 확정하는 API 계약과 데이터 모델을 기반으로 PainGauge 컴포넌트의 DB 스키마 및 API 구현 계획(Sour\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: PainGauge 컴포넌트의 $SM$ 공식($\\text{Safety Margin} = (\\text{매출} - \\text{고정비용} - \\text{가변비용}) / \\text{고정비용} \\times 100\\%$)을 기반으",
+      "completedAt": "2026-06-06T14:14:23.986Z"
+    },
+    {
+      "id": "20260606141353-a7wh",
+      "title": "의존성 주입 및 데이터베이스 연결 (`database.py`)",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-06T14:13:53.904Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T14-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T14-10/_report.md\n- 현빈: PainGauge 컴포넌트의 $SM$ 공식($\\text{Safety Margin} = (\\text{매출} - \\text{고정비용} - \\text\n- 코다리: business 에이전트가 확정하는 API 계약과 데이터 모델을 기반으로 PainGauge 컴포넌트의 DB 스키마 및 API 구현 계획(Sour\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: PainGauge 컴포넌트의 $SM$ 공식($\\text{Safety Margin} = (\\text{매출} - \\text{고정비용} - \\text{가변비용}) / \\text{고정비용} \\times 100\\%$)을 기반으",
+      "completedAt": "2026-06-06T14:14:24.014Z"
+    },
+    {
+      "id": "20260606141353-ybls",
+      "title": "단위 테스트 작성 (pytest + pytest-cov)",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-06T14:13:53.931Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T14-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T14-10/_report.md\n- 현빈: PainGauge 컴포넌트의 $SM$ 공식($\\text{Safety Margin} = (\\text{매출} - \\text{고정비용} - \\text\n- 코다리: business 에이전트가 확정하는 API 계약과 데이터 모델을 기반으로 PainGauge 컴포넌트의 DB 스키마 및 API 구현 계획(Sour\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: PainGauge 컴포넌트의 $SM$ 공식($\\text{Safety Margin} = (\\text{매출} - \\text{고정비용} - \\text{가변비용}) / \\text{고정비용} \\times 100\\%$)을 기반으",
+      "completedAt": "2026-06-06T14:14:24.042Z"
+    },
+    {
+      "id": "20260606141353-94gd",
+      "title": "React 컴포넌트 구조 설계 (`PainGauge.tsx`)",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-06T14:13:53.960Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T14-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T14-10/_report.md\n- 현빈: PainGauge 컴포넌트의 $SM$ 공식($\\text{Safety Margin} = (\\text{매출} - \\text{고정비용} - \\text\n- 코다리: business 에이전트가 확정하는 API 계약과 데이터 모델을 기반으로 PainGauge 컴포넌트의 DB 스키마 및 API 구현 계획(Sour\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: PainGauge 컴포넌트의 $SM$ 공식($\\text{Safety Margin} = (\\text{매출} - \\text{고정비용} - \\text{가변비용}) / \\text{고정비용} \\times 100\\%$)을 기반으",
+      "completedAt": "2026-06-06T14:14:24.078Z"
     }
   ]
 }
