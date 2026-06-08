@@ -1,0 +1,14 @@
+{
+  "AssetType": "Static Carousel Template",
+  "TargetFormat": "1:1 (Instagram Post)",
+  "Pages": [
+    {"Name": "S01_CoverPage_Hook", "Description": "제목 페이지. Week 3/4 주제별 헤드라인 변형을 위한 모듈 배치. Safety Orange를 활용한 시선 집중."},
+    {"Name": "S02_ProblemDetails_Step2", "Description": "문제점 심화 분석 (데이터 그래프 + 텍스트 조합). 플로우 차트 레이아웃 적용. 간결함 유지 필수."},
+    {"Name": "S03_MechanismFlowchart_Step3", "Description": "해결책 작동 원리 설명 페이지. 화살표, 연결선(Growth Green)을 활용한 인과관계 시각화 컴포넌트 제공."},
+    {"Name": "S04_SummaryPoint_Step4", "Description": "핵심 요약 포인트 (3가지). 아이콘 기반의 리스트 레이아웃 표준 적용. 가독성 최대화."}
+  ],
+  "Guidelines": {
+    "ColorUsage": ["PrimaryBackground (Safety Margin)", "Highlight/Action (Safety Orange)", "Flow/Connection (Growth Green)"],
+    "GridSystem": "12-column grid system enforced for all slides to ensure alignment and modularity."
+  }
+}

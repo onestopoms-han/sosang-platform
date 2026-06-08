@@ -4126,6 +4126,448 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-06T14-10/_report.md\n- 현빈: PainGauge 컴포넌트의 $SM$ 공식($\\text{Safety Margin} = (\\text{매출} - \\text{고정비용} - \\text\n- 코다리: business 에이전트가 확정하는 API 계약과 데이터 모델을 기반으로 PainGauge 컴포넌트의 DB 스키마 및 API 구현 계획(Sour\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: PainGauge 컴포넌트의 $SM$ 공식($\\text{Safety Margin} = (\\text{매출} - \\text{고정비용} - \\text{가변비용}) / \\text{고정비용} \\times 100\\%$)을 기반으",
       "completedAt": "2026-06-06T14:14:24.078Z"
+    },
+    {
+      "id": "20260606233116-kkke",
+      "title": "플랫폼 로고 및 아이콘 (SVG/PNG)",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-06T23:31:16.767Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T23-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T23-25/_report.md\n- Writer: 현빈이 준비한 투자자 맞춤형 실행 계획과 최종 스토리라인을 기반으로, 투자자에게 가장 설득력 있는 핵심 메시지를 담은 Pitch Video의 전\n- Designer: 확정된 Pitch Deck 시각화 에셋과 영상 스토리라인을 기반으로, 최종 발표용 영상에 필요한 모든 시각적 전환(Transition) 및 내레\n- 레오: Writer와 Designer가 제공한 스크립트 및 시각화 가이드라인을 바탕으로, 최종 Pitch Video 제작을 위한 초기 영상 기획안(Sc\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 현빈이 준비한 투자자 맞춤형 실행 계획과 최종 스토리라인을 기반으로, 투자자에게 가장 설득력 있는 핵심 메시지를 담은 Pitch Video의 전체 스크립트 초안을 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡",
+      "completedAt": "2026-06-06T23:31:46.552Z"
+    },
+    {
+      "id": "20260606233116-7tib",
+      "title": "PainGauge 컴포넌트 모션 그래픽 에셋",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-06T23:31:16.797Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T23-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T23-25/_report.md\n- Writer: 현빈이 준비한 투자자 맞춤형 실행 계획과 최종 스토리라인을 기반으로, 투자자에게 가장 설득력 있는 핵심 메시지를 담은 Pitch Video의 전\n- Designer: 확정된 Pitch Deck 시각화 에셋과 영상 스토리라인을 기반으로, 최종 발표용 영상에 필요한 모든 시각적 전환(Transition) 및 내레\n- 레오: Writer와 Designer가 제공한 스크립트 및 시각화 가이드라인을 바탕으로, 최종 Pitch Video 제작을 위한 초기 영상 기획안(Sc\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 현빈이 준비한 투자자 맞춤형 실행 계획과 최종 스토리라인을 기반으로, 투자자에게 가장 설득력 있는 핵심 메시지를 담은 Pitch Video의 전체 스크립트 초안을 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡",
+      "completedAt": "2026-06-06T23:31:46.574Z"
+    },
+    {
+      "id": "20260606233116-3gks",
+      "title": "Deep Blue / Warning Orange / Growth Green 컬러 팔레트",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-06T23:31:16.823Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T23-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T23-25/_report.md\n- Writer: 현빈이 준비한 투자자 맞춤형 실행 계획과 최종 스토리라인을 기반으로, 투자자에게 가장 설득력 있는 핵심 메시지를 담은 Pitch Video의 전\n- Designer: 확정된 Pitch Deck 시각화 에셋과 영상 스토리라인을 기반으로, 최종 발표용 영상에 필요한 모든 시각적 전환(Transition) 및 내레\n- 레오: Writer와 Designer가 제공한 스크립트 및 시각화 가이드라인을 바탕으로, 최종 Pitch Video 제작을 위한 초기 영상 기획안(Sc\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 현빈이 준비한 투자자 맞춤형 실행 계획과 최종 스토리라인을 기반으로, 투자자에게 가장 설득력 있는 핵심 메시지를 담은 Pitch Video의 전체 스크립트 초안을 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡",
+      "completedAt": "2026-06-06T23:31:46.593Z"
+    },
+    {
+      "id": "20260606233116-zxh0",
+      "title": "실제 소상공인 인터뷰 클립 (또는 스톡 footage)",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-06T23:31:16.854Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T23-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T23-25/_report.md\n- Writer: 현빈이 준비한 투자자 맞춤형 실행 계획과 최종 스토리라인을 기반으로, 투자자에게 가장 설득력 있는 핵심 메시지를 담은 Pitch Video의 전\n- Designer: 확정된 Pitch Deck 시각화 에셋과 영상 스토리라인을 기반으로, 최종 발표용 영상에 필요한 모든 시각적 전환(Transition) 및 내레\n- 레오: Writer와 Designer가 제공한 스크립트 및 시각화 가이드라인을 바탕으로, 최종 Pitch Video 제작을 위한 초기 영상 기획안(Sc\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 현빈이 준비한 투자자 맞춤형 실행 계획과 최종 스토리라인을 기반으로, 투자자에게 가장 설득력 있는 핵심 메시지를 담은 Pitch Video의 전체 스크립트 초안을 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡",
+      "completedAt": "2026-06-06T23:31:46.621Z"
+    },
+    {
+      "id": "20260606233116-xph1",
+      "title": "데이터 그래프 애니메이션 템플릿",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-06T23:31:16.884Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T23-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T23-25/_report.md\n- Writer: 현빈이 준비한 투자자 맞춤형 실행 계획과 최종 스토리라인을 기반으로, 투자자에게 가장 설득력 있는 핵심 메시지를 담은 Pitch Video의 전\n- Designer: 확정된 Pitch Deck 시각화 에셋과 영상 스토리라인을 기반으로, 최종 발표용 영상에 필요한 모든 시각적 전환(Transition) 및 내레\n- 레오: Writer와 Designer가 제공한 스크립트 및 시각화 가이드라인을 바탕으로, 최종 Pitch Video 제작을 위한 초기 영상 기획안(Sc\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 현빈이 준비한 투자자 맞춤형 실행 계획과 최종 스토리라인을 기반으로, 투자자에게 가장 설득력 있는 핵심 메시지를 담은 Pitch Video의 전체 스크립트 초안을 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡",
+      "completedAt": "2026-06-06T23:31:46.650Z"
+    },
+    {
+      "id": "20260606235815-att9",
+      "title": "각 장면의 시각적 전환이 자연스러운지? (예: 색상 변화가 급격하지 않은지)",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-06T23:58:15.905Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T23-55",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T23-55/_report.md\n- 레오: 레오가 기획한 Pitch Video의 Scene Breakdown에 대해, 최종 내레이션 및 핵심 메시지 전달을 위한 시각적 전환(Transit\n- Designer: 확정된 Pitch Deck의 시각화 에셋과 스토리라인을 바탕으로, 투자자 눈높이에 맞춰 '안전마진' 가치가 극대화되도록 전체 비주얼 흐름(Vis\n- Writer: 투자자 유형별 맞춤형 재무 논리를 바탕으로, 영상 내에서 사용될 핵심 스토리텔링 스크립트를 다듬고, '안전마진'을 중심으로 감성적 가치와 재무 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 레오가 기획한 Pitch Video의 Scene Breakdown에 대해, 최종 내레이션 및 핵심 메시지 전달을 위한 시각적 전환(Transition)과 감성 흐름(Emotional Flow) 가이드라인을 Writer와 Designer의 ",
+      "completedAt": "2026-06-07T00:00:31.270Z"
+    },
+    {
+      "id": "20260606235815-gnea",
+      "title": "감성 흐름이 '공포→공감→희망→행동'으로 명확하게 전달되는지?",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-06T23:58:15.932Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T23-55",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T23-55/_report.md\n- 레오: 레오가 기획한 Pitch Video의 Scene Breakdown에 대해, 최종 내레이션 및 핵심 메시지 전달을 위한 시각적 전환(Transit\n- Designer: 확정된 Pitch Deck의 시각화 에셋과 스토리라인을 바탕으로, 투자자 눈높이에 맞춰 '안전마진' 가치가 극대화되도록 전체 비주얼 흐름(Vis\n- Writer: 투자자 유형별 맞춤형 재무 논리를 바탕으로, 영상 내에서 사용될 핵심 스토리텔링 스크립트를 다듬고, '안전마진'을 중심으로 감성적 가치와 재무 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 레오가 기획한 Pitch Video의 Scene Breakdown에 대해, 최종 내레이션 및 핵심 메시지 전달을 위한 시각적 전환(Transition)과 감성 흐름(Emotional Flow) 가이드라인을 Writer와 Designer의 ",
+      "completedAt": "2026-06-07T00:00:31.310Z"
+    },
+    {
+      "id": "20260606235815-aizf",
+      "title": "내레이션 가이드라인이 핵심 메시지를 효과적으로 전달하는지?",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-06T23:58:15.961Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T23-55",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T23-55/_report.md\n- 레오: 레오가 기획한 Pitch Video의 Scene Breakdown에 대해, 최종 내레이션 및 핵심 메시지 전달을 위한 시각적 전환(Transit\n- Designer: 확정된 Pitch Deck의 시각화 에셋과 스토리라인을 바탕으로, 투자자 눈높이에 맞춰 '안전마진' 가치가 극대화되도록 전체 비주얼 흐름(Vis\n- Writer: 투자자 유형별 맞춤형 재무 논리를 바탕으로, 영상 내에서 사용될 핵심 스토리텔링 스크립트를 다듬고, '안전마진'을 중심으로 감성적 가치와 재무 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 레오가 기획한 Pitch Video의 Scene Breakdown에 대해, 최종 내레이션 및 핵심 메시지 전달을 위한 시각적 전환(Transition)과 감성 흐름(Emotional Flow) 가이드라인을 Writer와 Designer의 ",
+      "completedAt": "2026-06-07T00:00:31.338Z"
+    },
+    {
+      "id": "20260606235815-p8i2",
+      "title": "전체적인 비주얼 일관성을 유지했는지 (브랜드 컬러, 필터 사용)?",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-06T23:58:15.987Z",
+      "status": "done",
+      "sessionDir": "2026-06-06T23-55",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-06T23-55/_report.md\n- 레오: 레오가 기획한 Pitch Video의 Scene Breakdown에 대해, 최종 내레이션 및 핵심 메시지 전달을 위한 시각적 전환(Transit\n- Designer: 확정된 Pitch Deck의 시각화 에셋과 스토리라인을 바탕으로, 투자자 눈높이에 맞춰 '안전마진' 가치가 극대화되도록 전체 비주얼 흐름(Vis\n- Writer: 투자자 유형별 맞춤형 재무 논리를 바탕으로, 영상 내에서 사용될 핵심 스토리텔링 스크립트를 다듬고, '안전마진'을 중심으로 감성적 가치와 재무 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 레오가 기획한 Pitch Video의 Scene Breakdown에 대해, 최종 내레이션 및 핵심 메시지 전달을 위한 시각적 전환(Transition)과 감성 흐름(Emotional Flow) 가이드라인을 Writer와 Designer의 ",
+      "completedAt": "2026-06-07T00:00:31.361Z"
+    },
+    {
+      "id": "20260607011306-cv4a",
+      "title": "모든 페이지 헤더/푸터에 일관된 Primary 컬러 사용 여부 확인.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-07T01:13:06.859Z",
+      "status": "done",
+      "sessionDir": "2026-06-07T01-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-07T01-10/_report.md\n- Writer: 최종 확정된 Pitch Video 스크립트 및 교육용 콘텐츠 초안(sessions/2026-06-07T10-35)을 바탕으로, 투자자 대상 핵심\n- Designer: Writer가 완성한 최종 스크립트와 코다리가 구현한 컴포넌트를 통합하여, 투자자 대상 Pitch Deck의 시각적 일관성을 100% 확보하는 \n- 코다리: Designer가 정의한 디자인 시스템 명세서(`BDS_Content_System_Design_Spec.md`)를 기반으로, Trust Widg\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 최종 확정된 Pitch Video 스크립트 및 교육용 콘텐츠 초안(sessions/2026-06-07T10-35)을 바탕으로, 투자자 대상 핵심 메시지와 감성적 흐름이 디자인 시스템과 완벽하게 일치하도록 최종 스토리라인 및 내레이션 초안을 ",
+      "completedAt": "2026-06-07T01:14:23.099Z"
+    },
+    {
+      "id": "20260607011306-48xn",
+      "title": "데이터 시각화는 '추상적 수치' 대신 **'안전마진 대비 비율 (%)'**로 변환하여 제시할 것.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-07T01:13:06.888Z",
+      "status": "done",
+      "sessionDir": "2026-06-07T01-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-07T01-10/_report.md\n- Writer: 최종 확정된 Pitch Video 스크립트 및 교육용 콘텐츠 초안(sessions/2026-06-07T10-35)을 바탕으로, 투자자 대상 핵심\n- Designer: Writer가 완성한 최종 스크립트와 코다리가 구현한 컴포넌트를 통합하여, 투자자 대상 Pitch Deck의 시각적 일관성을 100% 확보하는 \n- 코다리: Designer가 정의한 디자인 시스템 명세서(`BDS_Content_System_Design_Spec.md`)를 기반으로, Trust Widg\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 최종 확정된 Pitch Video 스크립트 및 교육용 콘텐츠 초안(sessions/2026-06-07T10-35)을 바탕으로, 투자자 대상 핵심 메시지와 감성적 흐름이 디자인 시스템과 완벽하게 일치하도록 최종 스토리라인 및 내레이션 초안을 ",
+      "completedAt": "2026-06-07T01:14:23.129Z"
+    },
+    {
+      "id": "20260607011306-90bg",
+      "title": "텍스트 설명이 길어질 경우, 반드시 핵심 단어에 Secondary Color를 사용하여 독자의 시선을 유도할 것.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-07T01:13:06.917Z",
+      "status": "done",
+      "sessionDir": "2026-06-07T01-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-07T01-10/_report.md\n- Writer: 최종 확정된 Pitch Video 스크립트 및 교육용 콘텐츠 초안(sessions/2026-06-07T10-35)을 바탕으로, 투자자 대상 핵심\n- Designer: Writer가 완성한 최종 스크립트와 코다리가 구현한 컴포넌트를 통합하여, 투자자 대상 Pitch Deck의 시각적 일관성을 100% 확보하는 \n- 코다리: Designer가 정의한 디자인 시스템 명세서(`BDS_Content_System_Design_Spec.md`)를 기반으로, Trust Widg\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 최종 확정된 Pitch Video 스크립트 및 교육용 콘텐츠 초안(sessions/2026-06-07T10-35)을 바탕으로, 투자자 대상 핵심 메시지와 감성적 흐름이 디자인 시스템과 완벽하게 일치하도록 최종 스토리라인 및 내레이션 초안을 ",
+      "completedAt": "2026-06-07T01:14:23.161Z"
+    },
+    {
+      "id": "20260607021745-u6mi",
+      "title": "고급 예측 모델 (3 개월 후 추가)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-07T02:17:45.433Z",
+      "status": "done",
+      "sessionDir": "2026-06-07T02-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-07T02-10/_report.md\n- Researcher: CEO 메모리에 기반하여 현재 소상공인의 어려움에 대한 최신 데이터 및 트렌드를 심층적으로 분석하고, 플랫폼의 핵심 가치('안전마진', 'Pai\n- 현빈: Researcher가 도출한 페인 포인트 분석 결과를 바탕으로, 플랫폼을 통해 실현 가능한 수익화 모델 및 민간사업 아이디어를 3가지 이상 구체\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: CEO 메모리에 기반하여 현재 소상공인의 어려움에 대한 최신 데이터 및 트렌드를 심층적으로 분석하고, 플랫폼의 핵심 가치('안전마진', 'PainGauge')와 연결할 수 있는 구체적인 페인 포인트 목록과 시장",
+      "completedAt": "2026-06-07T02:18:15.014Z"
+    },
+    {
+      "id": "20260607021745-x5gf",
+      "title": "고급 AI 기반 스케줄링 (3 개월 후 추가)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-07T02:17:45.461Z",
+      "status": "done",
+      "sessionDir": "2026-06-07T02-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-07T02-10/_report.md\n- Researcher: CEO 메모리에 기반하여 현재 소상공인의 어려움에 대한 최신 데이터 및 트렌드를 심층적으로 분석하고, 플랫폼의 핵심 가치('안전마진', 'Pai\n- 현빈: Researcher가 도출한 페인 포인트 분석 결과를 바탕으로, 플랫폼을 통해 실현 가능한 수익화 모델 및 민간사업 아이디어를 3가지 이상 구체\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: CEO 메모리에 기반하여 현재 소상공인의 어려움에 대한 최신 데이터 및 트렌드를 심층적으로 분석하고, 플랫폼의 핵심 가치('안전마진', 'PainGauge')와 연결할 수 있는 구체적인 페인 포인트 목록과 시장",
+      "completedAt": "2026-06-07T02:18:15.043Z"
+    },
+    {
+      "id": "20260607021745-qrzl",
+      "title": "고급 AI 기반 대출 상품 추천 (3 개월 후 추가)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-07T02:17:45.490Z",
+      "status": "done",
+      "sessionDir": "2026-06-07T02-10",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-07T02-10/_report.md\n- Researcher: CEO 메모리에 기반하여 현재 소상공인의 어려움에 대한 최신 데이터 및 트렌드를 심층적으로 분석하고, 플랫폼의 핵심 가치('안전마진', 'Pai\n- 현빈: Researcher가 도출한 페인 포인트 분석 결과를 바탕으로, 플랫폼을 통해 실현 가능한 수익화 모델 및 민간사업 아이디어를 3가지 이상 구체\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: CEO 메모리에 기반하여 현재 소상공인의 어려움에 대한 최신 데이터 및 트렌드를 심층적으로 분석하고, 플랫폼의 핵심 가치('안전마진', 'PainGauge')와 연결할 수 있는 구체적인 페인 포인트 목록과 시장",
+      "completedAt": "2026-06-07T02:18:15.072Z"
+    },
+    {
+      "id": "20260607032743-upja",
+      "title": "모든 애니메이션은 `BDS_Primary_Font`의 가독성을 최우선으로 고려해야 한다.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-07T03:27:43.205Z",
+      "status": "done",
+      "sessionDir": "2026-06-07T03-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-07T03-25/_report.md\n- Designer: Trust Widget 및 PainGauge의 최종 사용 가이드라인과 영상 톤앤매너를 반영하여, Pitch Video에 필요한 애니메이션 디테일\n- 레오: Designer가 확정한 최종 시각 자료와 핵심 메시지('안전마진')를 기반으로, 60초 분량의 Proof of Concept 영상 제작을 위한\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Trust Widget 및 PainGauge의 최종 사용 가이드라인과 영상 톤앤매너를 반영하여, Pitch Video에 필요한 애니메이션 디테일(Red/Yellow/Green 전환 시각화)을 최종 검증하고 확정한다.\n> 🔧 **도",
+      "completedAt": "2026-06-07T03:29:21.823Z"
+    },
+    {
+      "id": "20260607032743-7vwi",
+      "title": "Red $\\to$ Yellow $\\to$ Green의 색상 전환 비율(Ratio)과 시간(Time)은 톤앤매너를 유지하며 일관되어야 한다. (예: Red-Yellow는 긴장감 유발에 초점을 맞추고, Yellow-Green은 안도감/확신에 중점을 둠).",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-07T03:27:43.235Z",
+      "status": "done",
+      "sessionDir": "2026-06-07T03-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-07T03-25/_report.md\n- Designer: Trust Widget 및 PainGauge의 최종 사용 가이드라인과 영상 톤앤매너를 반영하여, Pitch Video에 필요한 애니메이션 디테일\n- 레오: Designer가 확정한 최종 시각 자료와 핵심 메시지('안전마진')를 기반으로, 60초 분량의 Proof of Concept 영상 제작을 위한\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Trust Widget 및 PainGauge의 최종 사용 가이드라인과 영상 톤앤매너를 반영하여, Pitch Video에 필요한 애니메이션 디테일(Red/Yellow/Green 전환 시각화)을 최종 검증하고 확정한다.\n> 🔧 **도",
+      "completedAt": "2026-06-07T03:29:21.855Z"
+    },
+    {
+      "id": "20260607032743-47ua",
+      "title": "모든 인터랙션 지점(Hover, Click)에서 애니메이션이 끊기지 않도록 `CSS Transition`을 전역적으로 적용한다.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-07T03:27:43.264Z",
+      "status": "done",
+      "sessionDir": "2026-06-07T03-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-07T03-25/_report.md\n- Designer: Trust Widget 및 PainGauge의 최종 사용 가이드라인과 영상 톤앤매너를 반영하여, Pitch Video에 필요한 애니메이션 디테일\n- 레오: Designer가 확정한 최종 시각 자료와 핵심 메시지('안전마진')를 기반으로, 60초 분량의 Proof of Concept 영상 제작을 위한\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Trust Widget 및 PainGauge의 최종 사용 가이드라인과 영상 톤앤매너를 반영하여, Pitch Video에 필요한 애니메이션 디테일(Red/Yellow/Green 전환 시각화)을 최종 검증하고 확정한다.\n> 🔧 **도",
+      "completedAt": "2026-06-07T03:29:21.882Z"
+    },
+    {
+      "id": "20260607032852-mbrb",
+      "title": "Red→Yellow→Green 색상 전환 비율(Ratio)과 시간(Time)은 톤앤매너를 유지하며 일관되어야 합니다.",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-07T03:28:52.183Z",
+      "status": "done",
+      "sessionDir": "2026-06-07T03-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-07T03-25/_report.md\n- Designer: Trust Widget 및 PainGauge의 최종 사용 가이드라인과 영상 톤앤매너를 반영하여, Pitch Video에 필요한 애니메이션 디테일\n- 레오: Designer가 확정한 최종 시각 자료와 핵심 메시지('안전마진')를 기반으로, 60초 분량의 Proof of Concept 영상 제작을 위한\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Trust Widget 및 PainGauge의 최종 사용 가이드라인과 영상 톤앤매너를 반영하여, Pitch Video에 필요한 애니메이션 디테일(Red/Yellow/Green 전환 시각화)을 최종 검증하고 확정한다.\n> 🔧 **도",
+      "completedAt": "2026-06-07T03:29:21.909Z"
+    },
+    {
+      "id": "20260607032852-7oo9",
+      "title": "모든 애니메이션은 `BDS_Primary_Font`의 가독성을 최우선으로 고려해야 합니다.",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-07T03:28:52.210Z",
+      "status": "done",
+      "sessionDir": "2026-06-07T03-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-07T03-25/_report.md\n- Designer: Trust Widget 및 PainGauge의 최종 사용 가이드라인과 영상 톤앤매너를 반영하여, Pitch Video에 필요한 애니메이션 디테일\n- 레오: Designer가 확정한 최종 시각 자료와 핵심 메시지('안전마진')를 기반으로, 60초 분량의 Proof of Concept 영상 제작을 위한\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Trust Widget 및 PainGauge의 최종 사용 가이드라인과 영상 톤앤매너를 반영하여, Pitch Video에 필요한 애니메이션 디테일(Red/Yellow/Green 전환 시각화)을 최종 검증하고 확정한다.\n> 🔧 **도",
+      "completedAt": "2026-06-07T03:29:21.936Z"
+    },
+    {
+      "id": "20260607032852-1i0k",
+      "title": "Trust Widget 및 PainGauge 컴포넌트의 시각적 일관성(Visual Consistency) 검증 필수",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-07T03:28:52.238Z",
+      "status": "done",
+      "sessionDir": "2026-06-07T03-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-07T03-25/_report.md\n- Designer: Trust Widget 및 PainGauge의 최종 사용 가이드라인과 영상 톤앤매너를 반영하여, Pitch Video에 필요한 애니메이션 디테일\n- 레오: Designer가 확정한 최종 시각 자료와 핵심 메시지('안전마진')를 기반으로, 60초 분량의 Proof of Concept 영상 제작을 위한\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Trust Widget 및 PainGauge의 최종 사용 가이드라인과 영상 톤앤매너를 반영하여, Pitch Video에 필요한 애니메이션 디테일(Red/Yellow/Green 전환 시각화)을 최종 검증하고 확정한다.\n> 🔧 **도",
+      "completedAt": "2026-06-07T03:29:21.965Z"
+    },
+    {
+      "id": "20260607044429-jr6m",
+      "title": "`bg_red_filter.mp4`, `stock_footage_ghetto_street.mp4`, `actor_sad_shopowner.jpg` → Designer 에서 준비 완료.",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-07T04:44:29.356Z",
+      "status": "done",
+      "sessionDir": "2026-06-07T04-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-07T04-40/_report.md\n- 코다리: Trust_Widget_Technical_Spec_V1.0.md 및 디자인 시스템 명세서를 기반으로 Trust Widget 컴포넌트의 UI 프로\n- 코다리: PainGauge 및 Trust Widget 컴포넌트의 백엔드 데이터 흐름 로직을 최종 코드로 통합하고, 모든 Edge Case 테스트를 포함하\n- 레오: 확정된 Pitch Video의 Scene Breakdown과 내레이션을 기반으로, 60초 분량의 Proof of Concept 영상 제작을 위한\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Trust_Widget_Technical_Spec_V1.0.md 및 디자인 시스템 명세서를 기반으로 Trust Widget 컴포넌트의 UI 프로토타입 구현 코드를 즉시 시작하고 기능적 안정성을 검증하라.\n> 🔧 **도구 실행**: _(없음 ",
+      "completedAt": "2026-06-07T04:45:01.371Z"
+    },
+    {
+      "id": "20260607044429-hxrm",
+      "title": "`comparison_hand_calculator_vs_dashboard.mp4` → 외부 스톡 영상 소스 확보 필요 (Writer 가 담당).",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-07T04:44:29.383Z",
+      "status": "done",
+      "sessionDir": "2026-06-07T04-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-07T04-40/_report.md\n- 코다리: Trust_Widget_Technical_Spec_V1.0.md 및 디자인 시스템 명세서를 기반으로 Trust Widget 컴포넌트의 UI 프로\n- 코다리: PainGauge 및 Trust Widget 컴포넌트의 백엔드 데이터 흐름 로직을 최종 코드로 통합하고, 모든 Edge Case 테스트를 포함하\n- 레오: 확정된 Pitch Video의 Scene Breakdown과 내레이션을 기반으로, 60초 분량의 Proof of Concept 영상 제작을 위한\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Trust_Widget_Technical_Spec_V1.0.md 및 디자인 시스템 명세서를 기반으로 Trust Widget 컴포넌트의 UI 프로토타입 구현 코드를 즉시 시작하고 기능적 안정성을 검증하라.\n> 🔧 **도구 실행**: _(없음 ",
+      "completedAt": "2026-06-07T04:45:01.404Z"
+    },
+    {
+      "id": "20260607044429-ptug",
+      "title": "`animation_loss_gauge*.png`, `demo_loss_gauge*.png` → Designer 의 애니메이션 최종 파일 (이미지 형식, 1920x1080).",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-07T04:44:29.409Z",
+      "status": "done",
+      "sessionDir": "2026-06-07T04-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-07T04-40/_report.md\n- 코다리: Trust_Widget_Technical_Spec_V1.0.md 및 디자인 시스템 명세서를 기반으로 Trust Widget 컴포넌트의 UI 프로\n- 코다리: PainGauge 및 Trust Widget 컴포넌트의 백엔드 데이터 흐름 로직을 최종 코드로 통합하고, 모든 Edge Case 테스트를 포함하\n- 레오: 확정된 Pitch Video의 Scene Breakdown과 내레이션을 기반으로, 60초 분량의 Proof of Concept 영상 제작을 위한\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Trust_Widget_Technical_Spec_V1.0.md 및 디자인 시스템 명세서를 기반으로 Trust Widget 컴포넌트의 UI 프로토타입 구현 코드를 즉시 시작하고 기능적 안정성을 검증하라.\n> 🔧 **도구 실행**: _(없음 ",
+      "completedAt": "2026-06-07T04:45:01.434Z"
+    },
+    {
+      "id": "20260607044429-wu4m",
+      "title": "`graphic_formula*.png` → Writer 가 텍스트 내용 최종 확인 후 Designer 에게 전달.",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-07T04:44:29.438Z",
+      "status": "done",
+      "sessionDir": "2026-06-07T04-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-07T04-40/_report.md\n- 코다리: Trust_Widget_Technical_Spec_V1.0.md 및 디자인 시스템 명세서를 기반으로 Trust Widget 컴포넌트의 UI 프로\n- 코다리: PainGauge 및 Trust Widget 컴포넌트의 백엔드 데이터 흐름 로직을 최종 코드로 통합하고, 모든 Edge Case 테스트를 포함하\n- 레오: 확정된 Pitch Video의 Scene Breakdown과 내레이션을 기반으로, 60초 분량의 Proof of Concept 영상 제작을 위한\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Trust_Widget_Technical_Spec_V1.0.md 및 디자인 시스템 명세서를 기반으로 Trust Widget 컴포넌트의 UI 프로토타입 구현 코드를 즉시 시작하고 기능적 안정성을 검증하라.\n> 🔧 **도구 실행**: _(없음 ",
+      "completedAt": "2026-06-07T04:45:01.463Z"
+    },
+    {
+      "id": "20260607044429-b9qo",
+      "title": "`interview_clip_1.mp4` → 외부 프리랜서 인터뷰 수집 또는 스톡 영상 대체 (Writer 가 담당).",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-07T04:44:29.466Z",
+      "status": "done",
+      "sessionDir": "2026-06-07T04-40",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-07T04-40/_report.md\n- 코다리: Trust_Widget_Technical_Spec_V1.0.md 및 디자인 시스템 명세서를 기반으로 Trust Widget 컴포넌트의 UI 프로\n- 코다리: PainGauge 및 Trust Widget 컴포넌트의 백엔드 데이터 흐름 로직을 최종 코드로 통합하고, 모든 Edge Case 테스트를 포함하\n- 레오: 확정된 Pitch Video의 Scene Breakdown과 내레이션을 기반으로, 60초 분량의 Proof of Concept 영상 제작을 위한\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Trust_Widget_Technical_Spec_V1.0.md 및 디자인 시스템 명세서를 기반으로 Trust Widget 컴포넌트의 UI 프로토타입 구현 코드를 즉시 시작하고 기능적 안정성을 검증하라.\n> 🔧 **도구 실행**: _(없음 ",
+      "completedAt": "2026-06-07T04:45:01.490Z"
     }
   ]
 }

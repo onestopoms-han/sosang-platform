@@ -1,0 +1,257 @@
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Pain Gauge - BDS 플랫폼</title>
+  <!-- Noto Sans KR 폰트 로드 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* 공통 스타일 가이드라인 적용 */
+    :root {
+      --bds-deep-blue: #004D66;
+      --bds-growth-green: #3CB371;
+      --bds-warning-yellow: #FFC107;
+      --bds-danger-red: #F44336;
+      --bds-neutral-gray: #666666;
+    }
+
+    body {
+      font-family: 'Noto Sans KR', Pretendard, sans-serif;
+      background-color: #f5f7fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    /* Pain Gauge 컨테이너 */
+    .pain-gauge-container {
+      width: 400px;
+      padding: 24px;
+      background-color: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    /* 헤더 영역 */
+    .pain-gauge-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+
+    .pain-gauge-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--bds-deep-blue);
+      margin: 0;
+    }
+
+    /* Pain Gauge 시각화 (반원형 또는 막대) */
+    .pain-gauge-visual {
+      position: relative;
+      width: 100%;
+      height: 24px;
+      background-color: #e0e0e0;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 16px;
+    }
+
+    .pain-gauge-fill {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      border-radius: 12px;
+      transition: width 0.5s ease;
+      background-image: linear-gradient(45deg, rgba(255,255,255, .15) 25%, transparent 25%, transparent 50%, rgba(255,255,255, .15) 50%, rgba(255,255,255, .15) 75%, transparent 75%, transparent);
+      background-size: 1rem 1rem;
+    }
+
+    /* 현재 Pain 점수 */
+    .pain-gauge-current {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 0%; /* 초기값 */
+      background-color: var(--bds-deep-blue);
+      border-radius: 12px;
+      transition: width 0.5s ease;
+    }
+
+    .pain-gauge-current::after {
+      content: "";
+      position: absolute;
+      top: -8px; /* 포인트 크기 조정 */
+      left: var(--width, 0); /* 동적 위치 설정 필요, 여기선 단순 처리 */
+      width: 16px;
+      height: 16px;
+      background-color: #ffffff;
+      border-radius: 50%;
+      box-shadow: 0 2px 4px rgba(0,0,0, .2);
+    }
+
+    /* Pain Gauge 라벨 */
+    .pain-gauge-labels {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: var(--bds-neutral-gray);
+      margin-bottom: 8px;
+    }
+
+    .pain-item {
+      display: flex;
+      align-items: center;
+      padding: 4px 0;
+    }
+
+    .pain-label {
+      font-size: 13px;
+      color: var(--bds-neutral-gray);
+    }
+
+    .pain-value {
+      font-weight: 700;
+    }
+
+    .value-high {
+      color: var(--bds-danger-red);
+    }
+
+    .value-medium {
+      color: var(--bds-warning-yellow);
+    }
+
+    .value-low {
+      color: var(--bds-growth-green);
+    }
+
+    /* Pain Gauge 상세 정보 영역 */
+    .pain-detail-info {
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid #e0e0e0;
+    }
+
+    .pain-detail-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--bds-deep-blue);
+      margin-bottom: 8px;
+    }
+
+    .pain-detail-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .pain-detail-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      padding: 6px 0;
+      border-bottom: 1px dashed #e0e0e0;
+    }
+
+    .pain-detail-value {
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="pain-gauge-container">
+    <!-- 헤더 -->
+    <header class="pain-gauge-header">
+      <h2 class="pain-gauge-title">Pain Gauge (통증 지수)</h2>
+      <span style="font-size: 12px; color: #999;">실시간 데이터</span>
+    </header>
+
+    <!-- Pain Gauge 시각화 -->
+    <div class="pain-gauge-labels">
+      <span>0</span>
+      <span>50</span>
+      <span>100</span>
+    </div>
+
+    <div class="pain-gauge-visual">
+      <!-- 배경 (상대적 위험도 시각화용) -->
+      <div class="pain-gauge-fill" style="width: 35%; background-color: var(--bds-warning-yellow);"></div>
+      <!-- 현재 Pain 점수 -->
+      <div class="pain-gauge-current" style="--width: 45%;" id="painGaugeCurrent"></div>
+    </div>
+
+    <!-- Pain Gauge 항목들 -->
+    <div id="painItemsContainer"></div>
+
+    <!-- 상세 정보 -->
+    <footer class="pain-detail-info">
+      <h3 class="pain-detail-title">상세 지표</h3>
+      <ul class="pain-detail-list" id="painDetailList"></ul>
+    </footer>
+  </div>
+
+  <script>
+    // Pain Gauge 데이터 (디자인 시스템에 따라 동적 변경 가능)
+    const painData = [
+      { label: '운영 비용', value: 78, unit: '%', type: 'high' },
+      { label: '인력 부족', value: 65, unit: '명', type: 'medium' },
+      { label: '고객 불만', value: 42, unit: '건/월', type: 'low' }
+    ];
+
+    // DOM 요소 참조
+    const painItemsContainer = document.getElementById('painItemsContainer');
+    const detailList = document.getElementById('painDetailList');
+    const painGaugeCurrent = document.getElementById('painGaugeCurrent');
+
+    // 항목 렌더링 (가상 시각화용)
+    function renderPainItems() {
+      let totalWidth = 0;
+      let maxVal = Math.max(...painData.map(d => d.value));
+
+      painData.forEach(item => {
+        const div = document.createElement('div');
+        div.className = 'pain-item';
+        
+        // 시각적 바 (가상의 막대) - 실제 CSS 로직이 간단히 구현됨
+        const barWidthPercent = (item.value / maxVal) * 100;
+        
+        div.innerHTML = `
+          <label class="pain-label">${item.label}</label>
+          <div style="display:flex; align-items:center;">
+            <div style="background-color: ${getPainColor(item.type)}; height: 8px; width: ${barWidthPercent}%; border-radius: 4px; margin-right: 8px;"></div>
+            <span class="pain-value ${item.type}" style="font-size:13px;">${item.value}${item.unit}</span>
+          </div>
+        `;
+        
+        painItemsContainer.appendChild(div);
+
+        // 상세 정보 리스트 추가 (중복을 피하기 위해 마지막 항목만)
+        if (painData.indexOf(item) === painData.length - 1) {
+          detailList.innerHTML = `
+            <li class="pain-detail-item">
+              <span class="pain-label">${item.label}</span>
+              <span class="pain-detail-value ${item.type}">${item.value}${item.unit}</span>
+            </li>`;
+        }
+      });
+
+      // 현재 Pain 점수 시각화 (가상의 평균)
+      const avgPain = Math.round(painData.reduce((acc, item) => acc + item.value, 0) / painData.length);
+      painGaugeCurrent.style.setProperty('--width', `${avgPain}%`);
+    }
+
+    // Pain 점수에 따른 색상 매핑 (디자인 시스템 준수: Red→Yellow→Green)
+    function getPainColor(type) {
+      if (type === 'high') return '#F44336';
+      if (type === 'medium') return '#FFC107';
+      return '#3CB371';
+    }
+
+  </script>
+</body></html>

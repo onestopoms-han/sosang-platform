@@ -1,0 +1,245 @@
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Trust Widget - BDS 플랫폼</title>
+  <!-- Noto Sans KR 폰트 로드 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* 공통 스타일 가이드라인 적용 */
+    :root {
+      --bds-deep-blue: #004D66;
+      --bds-growth-green: #3CB371;
+      --bds-neutral-gray: #666666;
+      --bds-bg-color: #f5f7fa;
+    }
+
+    body {
+      font-family: 'Noto Sans KR', Pretendard, sans-serif;
+      background-color: var(--bds-bg-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    /* Trust Widget 컨테이너 */
+    .trust-widget-container {
+      width: 360px;
+      padding: 24px;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    /* 헤더 영역 */
+    .trust-widget-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .trust-widget-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--bds-deep-blue);
+      margin: 0;
+    }
+
+    .trust-badge {
+      display: inline-flex;
+      align-items: center;
+      background-color: rgba(60, 179, 113, 0.1);
+      color: var(--bds-growth-green);
+      font-size: 12px;
+      font-weight: 700;
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+
+    .trust-badge::before {
+      content: "✔";
+      margin-right: 4px;
+      color: var(--bds-growth-green);
+    }
+
+    /* 신뢰도 지표 영역 */
+    .trust-score-section {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .trust-label {
+      font-size: 14px;
+      color: var(--bds-neutral-gray);
+      width: 80px;
+    }
+
+    .trust-score-value {
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--bds-deep-blue);
+    }
+
+    .score-icon {
+      margin-right: 8px;
+      font-size: 16px;
+    }
+
+    /* 신뢰도 그래프 (간단한 바) */
+    .trust-bar-container {
+      height: 8px;
+      background-color: #e0e0e0;
+      border-radius: 4px;
+      margin-bottom: 24px;
+    }
+
+    .trust-bar-fill {
+      height: 100%;
+      width: 75%; /* 신뢰도 75% 가정 */
+      background-color: var(--bds-deep-blue);
+      border-radius: 4px;
+      position: relative;
+    }
+
+    .trust-bar-label {
+      position: absolute;
+      right: -30px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 12px;
+      color: var(--bds-deep-blue);
+      white-space: nowrap;
+    }
+
+    /* 신뢰도 항목들 */
+    .trust-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .trust-item-label {
+      font-size: 14px;
+      color: var(--bds-neutral-gray);
+      width: 80px;
+    }
+
+    .trust-item-value {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      font-size: 13px;
+      color: #333;
+    }
+
+    /* 신뢰도 점수별 색상 (위험→안정) */
+    .score-high {
+      color: var(--bds-growth-green);
+    }
+
+    .score-medium {
+      color: #FFC107; /* 주의색 */
+    }
+
+    .score-low {
+      color: #F44336; /* 위험색 */
+    }
+
+    /* 하단 액션 영역 */
+    .trust-action-area {
+      border-top: 1px solid #e0e0e0;
+      padding-top: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .trust-cta {
+      background-color: var(--bds-deep-blue);
+      color: #ffffff;
+      border: none;
+      padding: 8px 16px;
+      font-size: 14px;
+      font-weight: 700;
+      border-radius: 24px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .trust-cta:hover {
+      background-color: #003d52;
+    }
+  </style>
+</head>
+<body>
+  <div class="trust-widget-container">
+    <!-- 헤더 -->
+    <header class="trust-widget-header">
+      <h2 class="trust-widget-title">신뢰도 지표</h2>
+      <span class="trust-badge">최신 데이터</span>
+    </header>
+
+    <!-- 신뢰도 점수 및 그래프 -->
+    <div class="trust-score-section">
+      <label class="trust-label" for="trustScore">전체 신뢰도:</label>
+      <div class="trust-score-value">
+        <span id="trustScoreValue" class="score-icon">📊</span> 75
+      </div>
+    </div>
+
+    <!-- 신뢰도 그래프 -->
+    <div class="trust-bar-container">
+      <div class="trust-bar-fill" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <span class="trust-bar-label">75%</span>
+      </div>
+    </div>
+
+    <!-- 신뢰도 항목들 -->
+    <div id="trustItemsContainer"></div>
+
+    <!-- 하단 액션 -->
+    <footer class="trust-action-area">
+      <button type="button" class="trust-cta">상세 보고서 보기</button>
+      <span style="font-size: 12px; color: #999;">업데이트: 5 분 전</span>
+    </footer>
+  </div>
+
+  <script>
+    // 신뢰도 항목 데이터 (디자인 시스템에 따라 동적으로 변경 가능)
+    const trustData = [
+      { label: '안전 마진', value: '80%', score: 'high' },
+      { label: '리스크 관리', value: '65%', score: 'medium' },
+      { label: '고객 만족도', value: '92%', score: 'high' }
+    ];
+
+    // DOM 요소 참조
+    const itemsContainer = document.getElementById('trustItemsContainer');
+
+    // 항목 렌더링
+    trustData.forEach(item => {
+      const div = document.createElement('div');
+      div.className = 'trust-item';
+      div.innerHTML = `
+        <label class="trust-item-label">${item.label}</label>
+        <div class="trust-item-value">
+          ${item.value}
+          <span class="${item.score}" style="font-size: 12px; font-weight: 700;">${getScoreIcon(item.score)}</span>
+        </div>
+      `;
+      itemsContainer.appendChild(div);
+    });
+
+    // 점수에 따른 아이콘 및 색상 매핑 (디자인 시스템 준수)
+    function getScoreIcon(score) {
+      if (score === 'high') return '✅';
+      if (score === 'medium') return '⚠️';
+      return '🔴';
+    }
+
+  </script>
+</body></html>

@@ -1,0 +1,14 @@
+{
+  "AssetType": "Video Reel Template",
+  "TargetFormat": "9:16 (Instagram Reels / YouTube Shorts)",
+  "Pages": [
+    {"Name": "P01_Hook_SafetyMargin", "Description": "Week 3/4 공통, 불안감 조성. 배경색: #A8A8A8 (옅은 Safety Margin). 타이포그래피 강조 모션 필수."},
+    {"Name": "P02_DataVisualization_Module", "Description": "PainGauge 데이터 차트 컴포넌트 (재사용 가능). X축/Y축 라인, 트렌드라인 애니메이션 표준 적용. Growth Green 하이라이트 영역 지정."},
+    {"Name": "P03_ProblemStatement", "Description": "문제 정의 페이지. '핵심 키워드 + 데이터' 조합 레이아웃. 텍스트 최대 길이를 제한하고 가독성을 최우선으로 설계."},
+    {"Name": "P04_SolutionCTA_Module", "Description": "해결책 제시 및 CTA 영역. 배경색: #3CB371 (Growth Green). 명확한 행동 유도 버튼 컴포넌트(Safety Orange) 포함."}
+  ],
+  "Guidelines": {
+    "ColorUsage": ["PrimaryBackground (Safety Margin)", "Accent/Risk (Safety Orange)", "Success/Growth (Growth Green)"],
+    "Typography": {"H1": "Bold, 48pt", "Body": "Regular, 24pt"}
+  }
+}
