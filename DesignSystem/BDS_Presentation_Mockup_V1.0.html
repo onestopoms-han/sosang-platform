@@ -1,0 +1,1917 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BDS 소상공인 플랫폼 V1.0 디자인 통합 시각화 제안서</title>
+  <!-- Google Fonts: Outfit (English numbers & titles) and Noto Sans KR (Korean text) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    /* CSS Variables & Tokens */
+    :root {
+      /* Brand Color System */
+      --bds-deep-blue: #004D66;
+      --bds-deep-blue-glow: rgba(0, 77, 102, 0.4);
+      --bds-growth-green: #3CB371;
+      --bds-growth-green-glow: rgba(60, 179, 113, 0.4);
+      --bds-danger-red: #F44336;
+      --bds-danger-glow: rgba(244, 67, 54, 0.25);
+      --bds-warning-yellow: #FFC107;
+      
+      /* Dark Theme (Default - Premium Cockpit style) */
+      --bg-gradient: radial-gradient(circle at top right, #0e1726, #060913);
+      --sidebar-bg: rgba(10, 16, 30, 0.95);
+      --card-bg: rgba(18, 26, 47, 0.65);
+      --card-hover-bg: rgba(26, 37, 65, 0.8);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-color-active: rgba(0, 77, 102, 0.5);
+      --text-main: #ffffff;
+      --text-muted: #94a3b8;
+      --text-highlight: #38bdf8;
+      --shadow-premium: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+      --glass-blur: blur(16px);
+      
+      --transition-speed: 0.4s;
+    }
+
+    /* Light Theme (Toggleable) */
+    body.light-theme {
+      --bg-gradient: linear-gradient(135deg, #f5f7fb 0%, #e4ebf5 100%);
+      --sidebar-bg: rgba(255, 255, 255, 0.95);
+      --card-bg: rgba(255, 255, 255, 0.75);
+      --card-hover-bg: rgba(255, 255, 255, 0.9);
+      --border-color: rgba(0, 77, 102, 0.1);
+      --border-color-active: rgba(0, 77, 102, 0.4);
+      --text-main: #0f172a;
+      --text-muted: #64748b;
+      --text-highlight: #0284c7;
+      --shadow-premium: 0 8px 32px 0 rgba(0, 77, 102, 0.08);
+    }
+
+    /* Global Styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      scrollbar-width: thin;
+      scrollbar-color: var(--bds-deep-blue) transparent;
+    }
+
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--bds-deep-blue);
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--bds-growth-green);
+    }
+
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background: var(--bg-gradient);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      overflow-x: hidden;
+      transition: background var(--transition-speed) ease, color var(--transition-speed) ease;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Noto Sans KR', sans-serif;
+      font-weight: 700;
+      letter-spacing: -0.025em;
+    }
+
+    /* Outfit Font for numerical data */
+    .number-font {
+      font-family: 'Outfit', sans-serif;
+    }
+
+    /* Screen Layout */
+    .app-container {
+      display: flex;
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+    }
+
+    /* LEFT PANEL: Proposal Presentation (Sticky Reading View) */
+    .proposal-panel {
+      width: 420px;
+      height: 100%;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      backdrop-filter: var(--glass-blur);
+      -webkit-backdrop-filter: var(--glass-blur);
+      z-index: 100;
+      transition: transform var(--transition-speed) cubic-bezier(0.4, 0, 0.2, 1), width var(--transition-speed) cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .proposal-panel.collapsed {
+      width: 0;
+      transform: translateX(-100%);
+      overflow: hidden;
+    }
+
+    .proposal-header {
+      padding: 24px;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .proposal-logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .proposal-logo .dot {
+      width: 12px;
+      height: 12px;
+      background: var(--bds-growth-green);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--bds-growth-green);
+      animation: pulse 2s infinite;
+    }
+
+    .proposal-logo h2 {
+      font-size: 18px;
+      color: var(--bds-deep-blue);
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+    }
+
+    body.light-theme .proposal-logo h2 {
+      color: var(--bds-deep-blue);
+    }
+
+    .proposal-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 32px 24px;
+    }
+
+    /* Markdown Styling in Left Panel */
+    .proposal-doc {
+      line-height: 1.7;
+    }
+
+    .proposal-doc .title-group {
+      margin-bottom: 24px;
+    }
+
+    .proposal-doc h1 {
+      font-size: 20px;
+      color: var(--text-main);
+      line-height: 1.4;
+      margin-bottom: 4px;
+    }
+
+    .proposal-doc h2 {
+      font-size: 14px;
+      color: var(--bds-growth-green);
+      font-weight: 500;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    .proposal-doc hr {
+      border: 0;
+      height: 1px;
+      background: var(--border-color);
+      margin: 24px 0;
+    }
+
+    .proposal-doc section {
+      margin-bottom: 28px;
+    }
+
+    .proposal-doc h3 {
+      font-size: 16px;
+      color: var(--text-highlight);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .proposal-doc h4 {
+      font-size: 14px;
+      color: var(--text-main);
+      margin-top: 16px;
+      margin-bottom: 8px;
+    }
+
+    .proposal-doc p {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+
+    .proposal-doc ul {
+      list-style-type: none;
+      margin-bottom: 12px;
+    }
+
+    .proposal-doc li {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+      padding-left: 14px;
+      position: relative;
+    }
+
+    .proposal-doc li::before {
+      content: "•";
+      color: var(--bds-deep-blue);
+      position: absolute;
+      left: 0;
+      font-weight: bold;
+    }
+
+    .proposal-doc strong {
+      color: var(--text-main);
+      font-weight: 600;
+    }
+
+    .highlight-card {
+      background: rgba(0, 77, 102, 0.1);
+      border-left: 3px solid var(--bds-deep-blue);
+      padding: 12px;
+      border-radius: 4px;
+      margin: 12px 0;
+    }
+
+    .highlight-card p {
+      margin-bottom: 0;
+      font-size: 12.5px;
+    }
+
+    /* RIGHT PANEL: Interactive Dashboard Mockup */
+    .dashboard-panel {
+      flex: 1;
+      height: 100%;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    /* Dashboard Header */
+    .dashboard-header {
+      padding: 20px 32px;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      backdrop-filter: var(--glass-blur);
+      -webkit-backdrop-filter: var(--glass-blur);
+      background: rgba(6, 9, 19, 0.4);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+
+    body.light-theme .dashboard-header {
+      background: rgba(255, 255, 255, 0.5);
+    }
+
+    .dashboard-nav {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+
+    .menu-toggle-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 8px 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    .menu-toggle-btn:hover {
+      background: var(--card-hover-bg);
+      border-color: var(--bds-deep-blue);
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-container h1 {
+      font-size: 20px;
+      font-family: 'Outfit', sans-serif;
+      font-weight: 900;
+      background: linear-gradient(135deg, #ffffff 30%, var(--bds-growth-green) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: -0.03em;
+    }
+
+    body.light-theme .logo-container h1 {
+      background: linear-gradient(135deg, var(--bds-deep-blue) 30%, var(--bds-growth-green) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .badge-simulator {
+      background: var(--bds-deep-blue-glow);
+      border: 1px solid var(--bds-deep-blue);
+      color: #38bdf8;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 20px;
+      letter-spacing: 0.03em;
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 13.5px;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .nav-links a.active, .nav-links a:hover {
+      color: var(--text-main);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    /* Toggle Switches styling */
+    .theme-toggle-btn {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 18px;
+      padding: 6px;
+      border-radius: 50%;
+      transition: background 0.3s, color 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .theme-toggle-btn:hover {
+      background: var(--card-bg);
+      color: var(--text-main);
+    }
+
+    /* Dashboard Body Main Content */
+    .dashboard-body {
+      padding: 32px;
+      max-width: 1300px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    /* HERO SECTION: Banner + Trust Widget */
+    .hero-section {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 24px;
+    }
+
+    @media (max-width: 1024px) {
+      .hero-section {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .hero-banner {
+      background: linear-gradient(135deg, rgba(0, 77, 102, 0.15) 0%, rgba(60, 179, 113, 0.05) 100%);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow-premium);
+      backdrop-filter: var(--glass-blur);
+    }
+
+    .hero-banner::after {
+      content: "";
+      position: absolute;
+      width: 250px;
+      height: 250px;
+      background: radial-gradient(circle, var(--bds-deep-blue-glow) 0%, transparent 70%);
+      top: -50px;
+      right: -50px;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .hero-banner-title {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 12px;
+      z-index: 1;
+      line-height: 1.3;
+    }
+
+    .hero-banner-subtitle {
+      font-size: 14px;
+      color: var(--text-muted);
+      z-index: 1;
+      max-width: 480px;
+      line-height: 1.6;
+    }
+
+    /* 1. TRUST WIDGET COMPONENT */
+    .trust-widget {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 24px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      box-shadow: var(--shadow-premium);
+      backdrop-filter: var(--glass-blur);
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+    }
+
+    .trust-widget:hover {
+      border-color: var(--bds-deep-blue);
+      box-shadow: 0 0 20px var(--bds-deep-blue-glow);
+    }
+
+    .trust-gauge-wrapper {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      flex-shrink: 0;
+    }
+
+    .trust-circle-svg {
+      width: 100%;
+      height: 100%;
+      transform: rotate(-90deg);
+    }
+
+    .trust-circle-bg {
+      fill: none;
+      stroke: rgba(255, 255, 255, 0.05);
+      stroke-width: 8;
+    }
+
+    body.light-theme .trust-circle-bg {
+      stroke: rgba(0, 77, 102, 0.05);
+    }
+
+    .trust-circle-fill {
+      fill: none;
+      stroke: var(--bds-deep-blue);
+      stroke-width: 8;
+      stroke-linecap: round;
+      stroke-dasharray: 283;
+      stroke-dashoffset: 283; /* Starts empty */
+      transition: stroke-dashoffset 2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .trust-gauge-score {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--text-main);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .trust-gauge-score .percent-sign {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: -4px;
+    }
+
+    .trust-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .trust-info-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .trust-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .trust-badge-label {
+      background: rgba(60, 179, 113, 0.1);
+      color: var(--bds-growth-green);
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .trust-status-text {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .trust-verification-box {
+      margin-top: 6px;
+      padding: 6px 12px;
+      background: rgba(0, 77, 102, 0.15);
+      border-radius: 6px;
+      border: 1px solid rgba(0, 77, 102, 0.25);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      width: fit-content;
+      transition: all 0.5s ease;
+    }
+
+    .trust-verification-box.verified {
+      background: rgba(60, 179, 113, 0.1);
+      border-color: rgba(60, 179, 113, 0.25);
+    }
+
+    .trust-verification-box .icon {
+      font-size: 12px;
+      color: var(--bds-deep-blue);
+      display: flex;
+      align-items: center;
+    }
+
+    .trust-verification-box.verified .icon {
+      color: var(--bds-growth-green);
+    }
+
+    .trust-verification-box .text {
+      font-size: 11.5px;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    /* 3-COLUMN DASHBOARD BODY LAYOUT */
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr 1fr;
+      gap: 24px;
+    }
+
+    @media (max-width: 1200px) {
+      .dashboard-grid {
+        grid-template-columns: 1.2fr 1fr;
+      }
+      .dashboard-grid .grid-column:last-child {
+        grid-column: span 2;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .dashboard-grid {
+        grid-template-columns: 1fr;
+      }
+      .dashboard-grid .grid-column:last-child {
+        grid-column: span 1;
+      }
+    }
+
+    .grid-column {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: var(--shadow-premium);
+      backdrop-filter: var(--glass-blur);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.3s, border-color 0.3s;
+    }
+
+    .card-title-group {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .card-title {
+      font-size: 15px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-main);
+    }
+
+    .card-subtitle {
+      font-size: 11.5px;
+      color: var(--text-muted);
+    }
+
+    /* SECTION 1: 📊 사업 진단 요약 (Business Diagnosis Summary) */
+    .kpi-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .kpi-mini-card {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .kpi-mini-title {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .kpi-mini-value {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .kpi-mini-change {
+      font-size: 11px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .kpi-mini-change.up {
+      color: var(--bds-growth-green);
+    }
+
+    .kpi-mini-change.down {
+      color: var(--bds-danger-red);
+    }
+
+    /* Line Chart Drawing with SVG */
+    .chart-container {
+      width: 100%;
+      height: 200px;
+      position: relative;
+      margin-top: 10px;
+    }
+
+    .chart-svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    .chart-line {
+      fill: none;
+      stroke-width: 3;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 600;
+      stroke-dashoffset: 600;
+      animation: drawLine 2s forwards ease-in-out;
+    }
+
+    .chart-line-main {
+      stroke: var(--bds-deep-blue);
+    }
+
+    .chart-line-margin {
+      stroke: var(--bds-growth-green);
+      stroke-dasharray: 600; /* reset for path drawing, will override */
+    }
+
+    .chart-baseline {
+      stroke: rgba(255, 255, 255, 0.1);
+      stroke-width: 1.5;
+      stroke-dasharray: 4,4;
+    }
+
+    body.light-theme .chart-baseline {
+      stroke: rgba(0, 77, 102, 0.15);
+    }
+
+    .chart-grid-text {
+      font-size: 10px;
+      fill: var(--text-muted);
+      font-family: 'Outfit', sans-serif;
+    }
+
+    /* SECTION 2: 🛡️ 안전마진 확보율 (PainGauge) */
+    .pain-gauge-card {
+      transition: all 0.5s ease;
+      position: relative;
+    }
+
+    .pain-gauge-card.interactive-active {
+      border-color: var(--bds-deep-blue);
+      box-shadow: 0 0 20px var(--bds-deep-blue-glow);
+    }
+
+    .pain-rate-display {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 8px;
+    }
+
+    .pain-rate-value-group {
+      display: flex;
+      align-items: baseline;
+      gap: 4px;
+    }
+
+    .pain-rate-number {
+      font-size: 42px;
+      font-weight: 800;
+      color: var(--bds-danger-red);
+      transition: color 0.5s ease;
+    }
+
+    .pain-rate-number.medium {
+      color: var(--bds-warning-yellow);
+    }
+
+    .pain-rate-number.high {
+      color: var(--bds-growth-green);
+    }
+
+    .pain-rate-unit {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .pain-rate-target {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .pain-rate-target strong {
+      color: var(--bds-growth-green);
+    }
+
+    /* Progress bar styling */
+    .pain-bar-outer {
+      width: 100%;
+      height: 24px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 16px;
+      cursor: pointer;
+    }
+
+    body.light-theme .pain-bar-outer {
+      background: rgba(0, 77, 102, 0.05);
+    }
+
+    .pain-bar-fill {
+      height: 100%;
+      width: 38%; /* Starts at 38% */
+      background: linear-gradient(90deg, var(--bds-danger-red), var(--bds-warning-yellow));
+      border-radius: 12px;
+      transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1), background 0.6s ease;
+      position: relative;
+    }
+
+    .pain-bar-fill.medium {
+      background: linear-gradient(90deg, var(--bds-warning-yellow), #fcd34d);
+    }
+
+    .pain-bar-fill.high {
+      background: linear-gradient(90deg, var(--bds-growth-green), #10b981);
+    }
+
+    .pain-bar-fill::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-image: linear-gradient(
+        -45deg,
+        rgba(255, 255, 255, 0.15) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255, 255, 255, 0.15) 50%,
+        rgba(255, 255, 255, 0.15) 75%,
+        transparent 75%,
+        transparent
+      );
+      background-size: 20px 20px;
+      animation: stripeSlide 2s linear infinite;
+    }
+
+    .pain-zones {
+      display: flex;
+      justify-content: space-between;
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+      padding: 0 4px;
+    }
+
+    .pain-zones .danger-label {
+      color: var(--bds-danger-red);
+      font-weight: 600;
+    }
+
+    .pain-zones .goal-label {
+      color: var(--bds-growth-green);
+      font-weight: 600;
+    }
+
+    /* Warning / Status Card inside Column 2 */
+    .pain-status-card {
+      background: rgba(244, 67, 54, 0.08);
+      border: 1px solid rgba(244, 67, 54, 0.2);
+      border-radius: 12px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      transition: all 0.5s ease;
+    }
+
+    .pain-status-card.medium {
+      background: rgba(255, 193, 7, 0.08);
+      border-color: rgba(255, 193, 7, 0.2);
+    }
+
+    .pain-status-card.high {
+      background: rgba(60, 179, 113, 0.08);
+      border-color: rgba(60, 179, 113, 0.2);
+    }
+
+    .pain-status-message {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .pain-status-message strong {
+      color: var(--text-main);
+    }
+
+    .pain-action-hint {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--bds-danger-red);
+      cursor: pointer;
+      text-decoration: none;
+      transition: color 0.3s;
+      animation: nudge 1.5s infinite;
+      align-self: flex-start;
+    }
+
+    .pain-action-hint.medium {
+      color: var(--bds-warning-yellow);
+    }
+
+    .pain-action-hint.high {
+      color: var(--bds-growth-green);
+      animation: none;
+      cursor: default;
+    }
+
+    /* SECTION 3: 📈 성장 로드맵 (Growth Roadmap) */
+    .roadmap-card {
+      transition: border-color 0.5s ease, box-shadow 0.5s ease;
+    }
+
+    .roadmap-card.pulse-glow {
+      animation: roadmapGlow 1.5s 2 ease-in-out;
+    }
+
+    .roadmap-flow {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      position: relative;
+      margin-bottom: 24px;
+    }
+
+    /* Line connecting nodes */
+    .roadmap-flow::before {
+      content: "";
+      position: absolute;
+      left: 17px;
+      top: 18px;
+      bottom: 18px;
+      width: 2px;
+      background: rgba(255, 255, 255, 0.05);
+      z-index: 0;
+    }
+
+    body.light-theme .roadmap-flow::before {
+      background: rgba(0, 77, 102, 0.05);
+    }
+
+    .roadmap-step {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      z-index: 1;
+      opacity: 0.5;
+      transition: opacity 0.5s ease;
+    }
+
+    .roadmap-step.active {
+      opacity: 1;
+    }
+
+    .roadmap-node {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: #1e293b;
+      border: 2px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-muted);
+      transition: all 0.5s ease;
+    }
+
+    body.light-theme .roadmap-node {
+      background: #f1f5f9;
+    }
+
+    .roadmap-step.active .roadmap-node {
+      border-color: var(--bds-deep-blue);
+      color: #38bdf8;
+      background: rgba(0, 77, 102, 0.2);
+      box-shadow: 0 0 10px var(--bds-deep-blue-glow);
+    }
+
+    .roadmap-step.completed .roadmap-node {
+      border-color: var(--bds-growth-green);
+      color: var(--bds-growth-green);
+      background: rgba(60, 179, 113, 0.1);
+      box-shadow: 0 0 10px var(--bds-growth-green-glow);
+    }
+
+    .roadmap-info-step {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .roadmap-step-title {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--text-muted);
+      transition: color 0.5s;
+    }
+
+    .roadmap-step.active .roadmap-step-title {
+      color: var(--text-main);
+    }
+
+    .roadmap-step.completed .roadmap-step-title {
+      color: var(--bds-growth-green);
+    }
+
+    .roadmap-step-desc {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    /* Expandable Action items */
+    .action-panel {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .action-panel.expanded {
+      max-height: 500px;
+      margin-top: 12px;
+      border-top: 1px solid var(--border-color);
+      padding-top: 20px;
+    }
+
+    .action-panel-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-highlight);
+      margin-bottom: 4px;
+    }
+
+    .action-card {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      transition: all 0.3s ease;
+      opacity: 0;
+      transform: translateY(15px);
+    }
+
+    body.light-theme .action-card {
+      background: rgba(0, 77, 102, 0.02);
+    }
+
+    .action-panel.expanded .action-card {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Stagger slide up animation */
+    .action-panel.expanded .action-card:nth-child(2) { transition-delay: 0.1s; }
+    .action-panel.expanded .action-card:nth-child(3) { transition-delay: 0.2s; }
+    .action-panel.expanded .action-card:nth-child(4) { transition-delay: 0.3s; }
+
+    .action-card:hover {
+      border-color: rgba(255, 255, 255, 0.15);
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    body.light-theme .action-card:hover {
+      border-color: rgba(0, 77, 102, 0.2);
+      background: rgba(0, 77, 102, 0.04);
+    }
+
+    .action-card.completed {
+      border-color: rgba(60, 179, 113, 0.3);
+      background: rgba(60, 179, 113, 0.04);
+    }
+
+    .action-card-text {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .action-card-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .action-card.completed .action-card-title {
+      color: var(--bds-growth-green);
+      text-decoration: line-through;
+      opacity: 0.8;
+    }
+
+    .action-card-desc {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .action-card-impact {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--bds-growth-green);
+      margin-top: 2px;
+    }
+
+    .action-btn {
+      background: var(--bds-deep-blue);
+      color: #ffffff;
+      border: none;
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+      flex-shrink: 0;
+    }
+
+    .action-btn:hover {
+      background: var(--bds-deep-blue-hover);
+    }
+
+    .action-btn.completed {
+      background: rgba(60, 179, 113, 0.2);
+      color: var(--bds-growth-green);
+      border: 1px solid var(--bds-growth-green);
+      cursor: default;
+    }
+
+    .action-placeholder {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      text-align: center;
+      padding: 24px 8px;
+      border: 1px dashed var(--border-color);
+      border-radius: 12px;
+      line-height: 1.6;
+    }
+
+    /* KEYFRAME ANIMATIONS */
+    @keyframes pulse {
+      0% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(60, 179, 113, 0.7); }
+      70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(60, 179, 113, 0); }
+      100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(60, 179, 113, 0); }
+    }
+
+    @keyframes stripeSlide {
+      from { background-position: 0 0; }
+      to { background-position: 40px 0; }
+    }
+
+    @keyframes nudge {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(6px); }
+    }
+
+    @keyframes drawLine {
+      to { stroke-dashoffset: 0; }
+    }
+
+    @keyframes roadmapGlow {
+      0%, 100% { border-color: var(--border-color); box-shadow: var(--shadow-premium); }
+      50% { border-color: var(--bds-deep-blue); box-shadow: 0 0 20px var(--bds-deep-blue-glow); }
+    }
+
+    /* Tooltip / Toast for simulator status changes */
+    .simulator-toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: rgba(18, 26, 47, 0.95);
+      border: 1px solid var(--bds-growth-green);
+      border-radius: 8px;
+      padding: 12px 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      z-index: 1000;
+      transform: translateY(100px);
+      opacity: 0;
+      transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      backdrop-filter: var(--glass-blur);
+    }
+
+    .simulator-toast.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    .simulator-toast .toast-icon {
+      color: var(--bds-growth-green);
+      font-size: 16px;
+    }
+
+    .simulator-toast .toast-text {
+      font-size: 13px;
+      font-weight: 500;
+      color: #ffffff;
+    }
+
+    /* Footer Section */
+    .dashboard-footer {
+      margin-top: auto;
+      padding: 24px 32px;
+      border-top: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="app-container">
+    
+    <!-- LEFT PANEL: PROPOSAL READING VIEWER -->
+    <aside class="proposal-panel" id="proposalPanel">
+      <div class="proposal-header">
+        <div class="proposal-logo">
+          <div class="dot"></div>
+          <h2>BDS PLATFORM</h2>
+        </div>
+        <button class="menu-toggle-btn" onclick="toggleProposal()" title="제안서 닫기">
+          ◀ 닫기
+        </button>
+      </div>
+
+      <div class="proposal-content">
+        <article class="proposal-doc">
+          <div class="title-group">
+            <h1>💡 V1.0 디자인 통합 시각화 제안서</h1>
+            <h2>The Visual Blueprint for Sustainable Growth</h2>
+          </div>
+
+          <hr>
+
+          <!-- Section I -->
+          <section>
+            <h3>🎯 I. 프로젝트 개요 및 디자인 철학</h3>
+            <p>대한민국 소상공인이 데이터 기반의 객관적인 지표를 통해 자신의 사업 상태를 진단하고, 실질적이고 지속 가능한 성장 경로(Safety Margin)를 발견하도록 지원하는 것이 궁극적인 목표입니다.</p>
+            
+            <h4>브랜드 톤 & 비주얼 시스템</h4>
+            <ul>
+              <li><strong>Deep Blue (#004D66):</strong> 신뢰, 안정성 (Trust). 데이터의 깊이와 전문가 컨설팅의 무게감 담당.</li>
+              <li><strong>Growth Green (#3CB371):</strong> 성장, 가능성 (Growth). 사용자에게 희망과 긍정적인 방향성 제시, '안전마진' 달성의 목표 지점 상징.</li>
+            </ul>
+            <div class="highlight-card">
+              <p><strong>핵심 컨셉:</strong> 데이터(Data) → 진단(Diagnosis) → 신뢰(Trust) → 성장(Action)</p>
+            </div>
+          </section>
+
+          <!-- Section II -->
+          <section>
+            <h3>✨ II. 핵심 기능 컴포넌트 시각화</h3>
+            
+            <h4>1. Trust Widget (신뢰 지표)</h4>
+            <p>플랫폼을 통해 얻는 정보의 객관적 신뢰도와 커뮤니티 기반의 상호 검증된 정보를 종합하여 사용자에게 제시합니다.</p>
+            <p>원형 게이지(Gauge) 형태를 유지하며, '신뢰 점수'와 함께 <strong>"BDS 검증 완료"</strong> 마크가 깊은 남색(Deep Blue)으로 강조됩니다.</p>
+            
+            <h4>2. PainGauge (고통/위험 지표)</h4>
+            <p>소상공인이 현재 직면한 잠재적 위험(Cost of Failure)과 확보해야 할 최소한의 안전마진 수익 구조를 시각적으로 진단합니다.</p>
+            <ul>
+              <li><strong>경고 구간 (Danger Zone):</strong> 수익 구조가 위험할 경우, 배경색이 주황/빨간 계열로 은은하게 전환되는 경고 효과.</li>
+              <li><strong>성장 목표 구간 (Goal Zone):</strong> 안전마진 확보율이 높아질수록 Growth Green 영역으로 채워지며, 달성을 위한 액션 플랜 제시.</li>
+            </ul>
+          </section>
+
+          <!-- Section IV -->
+          <section>
+            <h3>✅ IV. 결론 및 다음 단계 제안</h3>
+            <p>전체 디자인 요소는 Deep Blue와 Growth Green이라는 이분법적인 색상 체계를 바탕으로 <strong>'진단(딥 블루)'과 '해결(그로스 그린)'</strong>의 명확한 대비를 이룹니다.</p>
+            <p>이 Mockup을 기반으로, 실제 프로토타입의 인터랙션에 대한 최종 검증만 남았습니다. 이제는 <strong>'디자인 승인'</strong> 단계로 넘어가 개발팀에게 전달하고, 기술 명세서와 함께 핸드오프하는 것이 최우선 과제입니다.</p>
+          </section>
+
+        </article>
+      </div>
+    </aside>
+
+    <!-- RIGHT PANEL: INTERACTIVE DASHBOARD -->
+    <main class="dashboard-panel">
+      
+      <!-- Top Navigation -->
+      <header class="dashboard-header">
+        <div class="dashboard-nav">
+          <!-- Hidden by default unless proposal is collapsed -->
+          <button class="menu-toggle-btn" id="proposalOpenBtn" onclick="toggleProposal()" style="display: none;">
+            ▶ 제안서 읽기
+          </button>
+          
+          <div class="logo-container">
+            <h1>BDS Dashboard</h1>
+            <span class="badge-simulator">시뮬레이터 모드</span>
+          </div>
+          
+          <ul class="nav-links">
+            <li><a href="#" class="active">대시보드</a></li>
+            <li><a href="#">리스크 분석</a></li>
+            <li><a href="#">솔루션 매칭</a></li>
+          </ul>
+        </div>
+        
+        <div class="header-actions">
+          <button class="theme-toggle-btn" onclick="toggleTheme()" id="themeToggleBtn" title="화면 테마 변경">
+            🌙
+          </button>
+          <div style="font-size: 13px; color: var(--text-muted); font-weight: 500;" id="currentDateDisplay">
+            2026. 06. 09
+          </div>
+        </div>
+      </header>
+
+      <!-- Dashboard Layout Content -->
+      <div class="dashboard-body">
+        
+        <!-- Hero: Banner + Trust Widget -->
+        <section class="hero-section">
+          
+          <!-- Banner -->
+          <div class="hero-banner">
+            <h2 class="hero-banner-title">당신의 사업,<br>데이터로 재정비하세요.</h2>
+            <p class="hero-banner-subtitle">BDS의 객관적 신뢰 지표와 안전마진 분석을 기반으로 최적화된 사업 성장 경로를 찾으세요.</p>
+          </div>
+
+          <!-- Trust Widget Component -->
+          <div class="trust-widget" id="trustWidget">
+            <div class="trust-gauge-wrapper">
+              <svg class="trust-circle-svg">
+                <circle class="trust-circle-bg" cx="50" cy="50" r="45"></circle>
+                <circle class="trust-circle-fill" id="trustCircleFill" cx="50" cy="50" r="45"></circle>
+              </svg>
+              <div class="trust-gauge-score">
+                <span class="number-font" id="trustScoreVal">0</span>
+                <span class="percent-sign">%</span>
+              </div>
+            </div>
+            
+            <div class="trust-info">
+              <div class="trust-info-header">
+                <h3 class="trust-title">종합 신뢰 지표</h3>
+                <span class="trust-badge-label">실시간 검증</span>
+              </div>
+              <p class="trust-status-text">공공 정책 데이터 및 상권 매출 지표 분석을 통한 현재 비즈니스의 데이터 신뢰 등급입니다.</p>
+              
+              <!-- BDS 검증 마크 (Deep Blue 강조) -->
+              <div class="trust-verification-box" id="trustVerificationBox">
+                <span class="icon">⌛</span>
+                <span class="text" id="trustVerificationText">데이터 연결 중...</span>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- 3-Column dashboard layout -->
+        <div class="dashboard-grid">
+          
+          <!-- Section 1: Business Diagnosis Summary -->
+          <div class="grid-column">
+            <div class="card" style="flex: 1;">
+              <div class="card-title-group">
+                <div>
+                  <h3 class="card-title">📊 사업 진단 요약</h3>
+                  <span class="card-subtitle">최근 6개월 핵심 지표 및 안전마진 추이</span>
+                </div>
+              </div>
+
+              <!-- Mini KPI metrics inside Column 1 -->
+              <div class="kpi-row">
+                <div class="kpi-mini-card">
+                  <span class="kpi-mini-title">월평균 고정비</span>
+                  <span class="kpi-mini-value number-font">₩345만</span>
+                  <span class="kpi-mini-change up">▲ 2.4% (전월대비)</span>
+                </div>
+                <div class="kpi-mini-card">
+                  <span class="kpi-mini-title">고객 인지도</span>
+                  <span class="kpi-mini-value number-font">64.2%</span>
+                  <span class="kpi-mini-change down">▼ 1.8% (전월대비)</span>
+                </div>
+              </div>
+
+              <!-- SVG Interactive Trend Line Chart -->
+              <div class="chart-container">
+                <svg class="chart-svg" viewBox="0 0 400 200">
+                  <!-- Chart gridlines -->
+                  <line x1="40" y1="20" x2="380" y2="20" class="chart-baseline"></line>
+                  <line x1="40" y1="80" x2="380" y2="80" class="chart-baseline"></line>
+                  <line x1="40" y1="140" x2="380" y2="140" class="chart-baseline"></line>
+                  <line x1="40" y1="180" x2="380" y2="180" class="chart-baseline" style="stroke-dasharray: none; stroke: rgba(255,255,255,0.2)"></line>
+                  
+                  <!-- Y-Axis labels -->
+                  <text x="15" y="24" class="chart-grid-text">100%</text>
+                  <text x="15" y="84" class="chart-grid-text">60%</text>
+                  <text x="15" y="144" class="chart-grid-text">30%</text>
+                  <text x="15" y="184" class="chart-grid-text">0%</text>
+                  
+                  <!-- X-Axis labels (Months) -->
+                  <text x="40" y="196" class="chart-grid-text">1월</text>
+                  <text x="108" y="196" class="chart-grid-text">2월</text>
+                  <text x="176" y="196" class="chart-grid-text">3월</text>
+                  <text x="244" y="196" class="chart-grid-text">4월</text>
+                  <text x="312" y="196" class="chart-grid-text">5월</text>
+                  <text x="370" y="196" class="chart-grid-text">6월</text>
+
+                  <!-- Baseline Target Margin (75%) -->
+                  <line x1="40" y1="56" x2="380" y2="56" stroke="#e11d48" stroke-width="1.5" stroke-dasharray="3,3" id="targetLine"></line>
+                  <text x="310" y="50" class="chart-grid-text" style="fill: #e11d48; font-weight: bold;">최소 안전마진 목표 (75%)</text>
+                  
+                  <!-- Area under line (Gradient) -->
+                  <defs>
+                    <linearGradient id="chartGrad" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="var(--bds-deep-blue)" stop-opacity="0.3"></stop>
+                      <stop offset="100%" stop-color="var(--bds-deep-blue)" stop-opacity="0"></stop>
+                    </linearGradient>
+                    <linearGradient id="chartGradGreen" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="var(--bds-growth-green)" stop-opacity="0.3"></stop>
+                      <stop offset="100%" stop-color="var(--bds-growth-green)" stop-opacity="0"></stop>
+                    </linearGradient>
+                  </defs>
+                  
+                  <!-- Fill Area -->
+                  <path d="M40 180 L40 130 L108 122 L176 148 L244 112 L312 90 L380 75 L380 180 Z" fill="url(#chartGrad)" id="chartAreaPath"></path>
+                  
+                  <!-- Actual Revenue Trend (Deep Blue / Growth Green) -->
+                  <path class="chart-line chart-line-main" id="chartMainPath" d="M40 130 L108 122 L176 148 L244 112 L312 90 L380 75" stroke-dashoffset="0"></path>
+                  
+                  <!-- Dots on graph -->
+                  <circle cx="40" cy="130" r="4" fill="var(--bds-deep-blue)" stroke="#ffffff" stroke-width="1.5"></circle>
+                  <circle cx="108" cy="122" r="4" fill="var(--bds-deep-blue)" stroke="#ffffff" stroke-width="1.5"></circle>
+                  <circle cx="176" cy="148" r="4" fill="var(--bds-deep-blue)" stroke="#ffffff" stroke-width="1.5"></circle>
+                  <circle cx="244" cy="112" r="4" fill="var(--bds-deep-blue)" stroke="#ffffff" stroke-width="1.5"></circle>
+                  <circle cx="312" cy="90" r="4" fill="var(--bds-deep-blue)" stroke="#ffffff" stroke-width="1.5"></circle>
+                  <circle cx="380" cy="75" r="4" id="chartLastDot" fill="var(--bds-deep-blue)" stroke="#ffffff" stroke-width="1.5" style="transition: fill 0.5s ease;"></circle>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 2: Safety Margin Rate (PainGauge) -->
+          <div class="grid-column">
+            <div class="card pain-gauge-card" id="painGaugeCard">
+              <div class="card-title-group" style="margin-bottom: 12px;">
+                <div>
+                  <h3 class="card-title">🛡️ 안전마진 확보율 (PainGauge)</h3>
+                  <span class="card-subtitle">고정비 및 위험 지표 종합 분석</span>
+                </div>
+              </div>
+
+              <!-- Value indicators -->
+              <div class="pain-rate-display">
+                <div class="pain-rate-value-group">
+                  <span class="pain-rate-number number-font" id="painRateNum">38</span>
+                  <span class="pain-rate-unit">%</span>
+                </div>
+                <div class="pain-rate-target">목표치: <strong class="number-font">75%</strong></div>
+              </div>
+
+              <!-- Pain Bar (Progress Gauge) -->
+              <div class="pain-bar-outer" id="painBarOuter" onclick="activateRoadmapSimulation()">
+                <div class="pain-bar-fill" id="painBarFill"></div>
+              </div>
+
+              <!-- Danger & Goal range tags -->
+              <div class="pain-zones">
+                <span class="danger-label">🔴 위험 구간 (0 - 60%)</span>
+                <span class="goal-label">🟢 성장 목표 구간 (75%+)</span>
+              </div>
+
+              <!-- Warning / Success Status Card -->
+              <div class="pain-status-card" id="painStatusCard">
+                <p class="pain-status-message" id="painStatusMsg">
+                  현재 수익 구조가 <strong>위험 구간(38%)</strong>에 있습니다. 매장 임대료와 재고 관리 비효율로 인한 고통 지수가 높은 편입니다.
+                </p>
+                <div class="pain-action-hint" id="painActionHint" onclick="activateRoadmapSimulation()">
+                  👉 지금 위험 요소 분석 & 액션 플랜 보기
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 3: Growth Roadmap -->
+          <div class="grid-column">
+            <div class="card roadmap-card" id="roadmapCard">
+              <div class="card-title-group" style="margin-bottom: 16px;">
+                <div>
+                  <h3 class="card-title">📈 성장 로드맵</h3>
+                  <span class="card-subtitle">지속 가능한 비즈니스 성장 전략</span>
+                </div>
+              </div>
+
+              <!-- Steps flow -->
+              <div class="roadmap-flow">
+                <!-- Step A -->
+                <div class="roadmap-step active completed" id="stepA">
+                  <div class="roadmap-node">A</div>
+                  <div class="roadmap-info-step">
+                    <span class="roadmap-step-title" id="stepATitle">사업 진단 완료</span>
+                    <span class="roadmap-step-desc">안전마진율 38% 진단 (경고 상태)</span>
+                  </div>
+                </div>
+                
+                <!-- Step B -->
+                <div class="roadmap-step" id="stepB">
+                  <div class="roadmap-node">B</div>
+                  <div class="roadmap-info-step">
+                    <span class="roadmap-step-title" id="stepBTitle">맞춤형 솔루션 학습</span>
+                    <span class="roadmap-step-desc">매칭률 향상을 위한 액션 아이템 해결</span>
+                  </div>
+                </div>
+
+                <!-- Step C -->
+                <div class="roadmap-step" id="stepC">
+                  <div class="roadmap-node">C</div>
+                  <div class="roadmap-info-step">
+                    <span class="roadmap-step-title" id="stepCTitle">실행 및 목표 달성</span>
+                    <span class="roadmap-step-desc">성장 목표 달성 및 안전마진 유지</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Action Card Container -->
+              <div class="action-panel-title" id="actionPanelTitle" style="display: none;">💡 개선 실행 플랜 (Action Items)</div>
+              
+              <div class="action-panel" id="actionPanel">
+                <!-- Fallback info when not loaded -->
+                <div class="action-placeholder" id="actionPlaceholder">
+                  안전마진 확보율의 <strong>위험 구간(PainGauge)</strong>을 클릭하여 부족한 지표를 개선하고 로드맵을 활성화할 액션 아이템을 로드하십시오.
+                </div>
+                
+                <!-- Action Item Cards (Hidden initially) -->
+                <div class="action-card" id="actionCard1">
+                  <div class="action-card-text">
+                    <span class="action-card-title">재고 관리 시스템 도입</span>
+                    <span class="action-card-desc">바코드 매칭 및 스마트 입출고로 과다 재고 제거</span>
+                    <span class="action-card-impact">영향: 안전마진 +15%</span>
+                  </div>
+                  <button class="action-btn" id="actionBtn1" onclick="applyAction(1, 15)">실행</button>
+                </div>
+                
+                <div class="action-card" id="actionCard2">
+                  <div class="action-card-text">
+                    <span class="action-card-title">온라인 마케팅 채널 확장</span>
+                    <span class="action-card-desc">네이버 플레이스 광고 최적화 및 타겟 마케팅</span>
+                    <span class="action-card-impact">영향: 안전마진 +20%</span>
+                  </div>
+                  <button class="action-btn" id="actionBtn2" onclick="applyAction(2, 20)">실행</button>
+                </div>
+                
+                <div class="action-card" id="actionCard3">
+                  <div class="action-card-text">
+                    <span class="action-card-title">고정비 절감 솔루션</span>
+                    <span class="action-card-desc">매장 내 고효율 조명 교체 및 에너지 관리 계약 재조정</span>
+                    <span class="action-card-impact">영향: 안전마진 +15%</span>
+                  </div>
+                  <button class="action-btn" id="actionBtn3" onclick="applyAction(3, 15)">실행</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Simulator Toast Notification -->
+      <div class="simulator-toast" id="simulatorToast">
+        <span class="toast-icon">✨</span>
+        <span class="toast-text" id="toastText">시뮬레이션이 활성화되었습니다.</span>
+      </div>
+
+      <!-- Footer -->
+      <footer class="dashboard-footer">
+        <div>BDS 소상공인 플랫폼 V1.0 Mockup Handoff</div>
+        <div>© 2026 The Visual Blueprint for Sustainable Growth. All rights reserved.</div>
+      </footer>
+
+    </main>
+
+  </div>
+
+  <script>
+    // System Variables
+    let safetyMarginRate = 38;
+    let isSimulatorActive = false;
+    let completedActions = [false, false, false];
+
+    // On window load
+    window.onload = function() {
+      // 1. Set current date dynamically
+      const today = new Date();
+      const formattedDate = today.getFullYear() + '. ' + 
+                            String(today.getMonth() + 1).padStart(2, '0') + '. ' + 
+                            String(today.getDate()).padStart(2, '0');
+      document.getElementById('currentDateDisplay').textContent = formattedDate;
+
+      // 2. Trigger Trust Widget Animation after slight delay
+      setTimeout(() => {
+        animateTrustWidget(95);
+      }, 500);
+
+      // 3. Set initial state of PainGauge
+      updatePainGaugeUI();
+    };
+
+    // Trust Widget Animation logic
+    function animateTrustWidget(targetScore) {
+      const scoreValEl = document.getElementById('trustScoreVal');
+      const circleEl = document.getElementById('trustCircleFill');
+      const verifyBox = document.getElementById('trustVerificationBox');
+      const verifyText = document.getElementById('trustVerificationText');
+      
+      // Step A: Database checking text typing effect
+      verifyText.textContent = "BDS 검증 분석 진행 중...";
+      verifyBox.querySelector('.icon').textContent = "🔄";
+      verifyBox.querySelector('.icon').style.animation = "spin 1.5s infinite linear";
+
+      // Animation keyframes injected dynamically for spinner icon
+      if (!document.getElementById('spinStyle')) {
+        const style = document.createElement('style');
+        style.id = 'spinStyle';
+        style.textContent = `@keyframes spin { from {transform: rotate(0deg);} to {transform: rotate(360deg);} }`;
+        document.head.appendChild(style);
+      }
+
+      // Step B: Progress circle fills up
+      setTimeout(() => {
+        // SVG circle circumference is ~283 (2 * pi * 45)
+        const circumference = 283;
+        const offset = circumference - (targetScore / 100) * circumference;
+        circleEl.style.strokeDashoffset = offset;
+        
+        // Count up score number
+        let currentScore = 0;
+        const duration = 1500; // 1.5s
+        const startTime = performance.now();
+        
+        function updateScore(timestamp) {
+          const elapsed = timestamp - startTime;
+          const progress = Math.min(elapsed / duration, 1);
+          
+          // Easing easeOutQuad
+          const easeProgress = progress * (2 - progress);
+          currentScore = Math.floor(easeProgress * targetScore);
+          scoreValEl.textContent = currentScore;
+          
+          if (progress < 1) {
+            requestAnimationFrame(updateScore);
+          } else {
+            scoreValEl.textContent = targetScore;
+            
+            // Verification checkmark activates
+            verifyBox.classList.add('verified');
+            verifyBox.querySelector('.icon').textContent = "✔";
+            verifyBox.querySelector('.icon').style.animation = "none";
+            verifyText.textContent = "BDS 검증 완료";
+            
+            // Animate card pulse
+            document.getElementById('trustWidget').style.borderColor = "var(--bds-deep-blue)";
+          }
+        }
+        
+        requestAnimationFrame(updateScore);
+      }, 1000);
+    }
+
+    // Toggle Proposal Panel Sidebar
+    function toggleProposal() {
+      const panel = document.getElementById('proposalPanel');
+      const openBtn = document.getElementById('proposalOpenBtn');
+      panel.classList.toggle('collapsed');
+      
+      if (panel.classList.contains('collapsed')) {
+        openBtn.style.display = 'block';
+      } else {
+        openBtn.style.display = 'none';
+      }
+    }
+
+    // Toggle light / dark theme
+    function toggleTheme() {
+      const body = document.body;
+      const btn = document.getElementById('themeToggleBtn');
+      body.classList.toggle('light-theme');
+      
+      if (body.classList.contains('light-theme')) {
+        btn.textContent = "☀️";
+      } else {
+        btn.textContent = "🌙";
+      }
+    }
+
+    // Activate the simulator workflow
+    function activateRoadmapSimulation() {
+      if (isSimulatorActive) return; // Prevent double click initiation
+      
+      isSimulatorActive = true;
+      
+      // 1. Highlight PainGauge card as active focus
+      const painCard = document.getElementById('painGaugeCard');
+      painCard.classList.add('interactive-active');
+      
+      // 2. Pulse the Roadmap card to draw attention
+      const roadmapCard = document.getElementById('roadmapCard');
+      roadmapCard.classList.add('pulse-glow');
+      
+      // Show Toast Notification
+      showToast("개선 시뮬레이션이 시작되었습니다. 로드맵 하단 카드를 실행하세요!");
+      
+      // 3. Expand the action panel
+      setTimeout(() => {
+        document.getElementById('actionPlaceholder').style.display = 'none';
+        document.getElementById('actionPanelTitle').style.display = 'block';
+        document.getElementById('actionPanel').classList.add('expanded');
+        
+        // Remove animation class after finish
+        setTimeout(() => {
+          roadmapCard.classList.remove('pulse-glow');
+        }, 3000);
+      }, 600);
+    }
+
+    // Apply specific Action Card inside Roadmap
+    function applyAction(id, increment) {
+      if (completedActions[id - 1]) return; // Already completed
+      
+      const btn = document.getElementById(`actionBtn${id}`);
+      const card = document.getElementById(`actionCard${id}`);
+      
+      // Show loading spinner on button
+      btn.textContent = "⌛";
+      btn.style.pointerEvents = "none";
+      
+      setTimeout(() => {
+        // Complete action
+        completedActions[id - 1] = true;
+        btn.textContent = "완료";
+        btn.className = "action-btn completed";
+        card.classList.add('completed');
+        
+        // Update safety margin
+        const prevMargin = safetyMarginRate;
+        safetyMarginRate = Math.min(safetyMarginRate + increment, 100);
+        
+        // Count up animation for Safety Margin Number
+        countUpSafetyMargin(prevMargin, safetyMarginRate);
+        
+        // Update Dashboard indicators
+        updatePainGaugeUI();
+        checkRoadmapProgress();
+        showToast(`'${getActionTitle(id)}' 성공적으로 적용! 안전마진 +${increment}%`);
+      }, 600);
+    }
+
+    // Count up transition for the Safety Margin rate
+    function countUpSafetyMargin(start, end) {
+      const numEl = document.getElementById('painRateNum');
+      let currentVal = start;
+      const duration = 800;
+      const startTime = performance.now();
+      
+      function updateNum(timestamp) {
+        const elapsed = timestamp - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        const val = Math.floor(start + progress * (end - start));
+        numEl.textContent = val;
+        
+        if (progress < 1) {
+          requestAnimationFrame(updateNum);
+        } else {
+          numEl.textContent = end;
+        }
+      }
+      requestAnimationFrame(updateNum);
+    }
+
+    // Dynamic UI styling for PainGauge (transitions color and messaging based on rate)
+    function updatePainGaugeUI() {
+      const fillBar = document.getElementById('painBarFill');
+      const numEl = document.getElementById('painRateNum');
+      const statusCard = document.getElementById('painStatusCard');
+      const statusMsg = document.getElementById('painStatusMsg');
+      const actionHint = document.getElementById('painActionHint');
+      
+      // Update bar width
+      fillBar.style.width = safetyMarginRate + "%";
+      
+      // Apply correct color logic classes
+      if (safetyMarginRate < 60) {
+        // Danger zone
+        numEl.className = "pain-rate-number number-font";
+        fillBar.className = "pain-bar-fill";
+        statusCard.className = "pain-status-card";
+        actionHint.className = "pain-action-hint";
+        statusMsg.innerHTML = `현재 수익 구조가 <strong>위험 구간(${safetyMarginRate}%)</strong>에 있습니다. 매장 임대료 부담과 비효율적인 재고 관리 비용이 지속되고 있습니다.`;
+      } else if (safetyMarginRate >= 60 && safetyMarginRate < 75) {
+        // Warning zone
+        numEl.className = "pain-rate-number medium number-font";
+        fillBar.className = "pain-bar-fill medium";
+        statusCard.className = "pain-status-card medium";
+        actionHint.className = "pain-action-hint medium";
+        actionHint.textContent = "👉 추가 액션 카드로 목표 지점 달성하기";
+        statusMsg.innerHTML = `현재 주의 상태입니다. 안전마진이 <strong>${safetyMarginRate}%</strong>까지 확보되어 리스크가 상당 부분 감소하였으나, 안정적인 장기 성장을 위해 목표 지점인 75%에 도달해야 합니다.`;
+      } else {
+        // Success Goal zone reached!
+        numEl.className = "pain-rate-number high number-font";
+        fillBar.className = "pain-bar-fill high";
+        statusCard.className = "pain-status-card high";
+        actionHint.className = "pain-action-hint high";
+        actionHint.textContent = "✔ 안전마진 임계치 초과 달성";
+        statusMsg.innerHTML = `🎉 축하합니다! 안전마진 확보율이 <strong>성장 목표 구간(${safetyMarginRate}%)</strong>에 도달했습니다. 비용 및 매출 리스크가 효과적으로 제어되어 자생 성장이 가능한 상태입니다.`;
+        
+        // Dynamically transition chart last data point to success color
+        document.getElementById('chartLastDot').setAttribute('fill', 'var(--bds-growth-green)');
+        
+        // Make baseline line and filled area shift toward growth green
+        const chartArea = document.getElementById('chartAreaPath');
+        chartArea.setAttribute('fill', 'url(#chartGradGreen)');
+        
+        const chartPath = document.getElementById('chartMainPath');
+        chartPath.style.stroke = "var(--bds-growth-green)";
+      }
+    }
+
+    // Dynamic Roadmap Node status highlights
+    function checkRoadmapProgress() {
+      const stepB = document.getElementById('stepB');
+      const stepC = document.getElementById('stepC');
+      
+      // Check count of finished actions
+      const finishedCount = completedActions.filter(v => v).length;
+      
+      if (finishedCount >= 1) {
+        // Highlight step B (Learning match)
+        stepB.classList.add('active');
+        document.getElementById('stepBTitle').textContent = "맞춤형 솔루션 학습 완료";
+      }
+      
+      if (finishedCount === 3 && safetyMarginRate >= 75) {
+        // Full roadmap achievement
+        stepB.classList.add('completed');
+        stepC.classList.add('active');
+        stepC.classList.add('completed');
+        document.getElementById('stepCTitle').textContent = "비즈니스 성장 실행 완료";
+        
+        // Update proposal left panel success text color in dynamic flow
+        showToast("축하합니다! 성장 로드맵의 모든 단계가 활성화되었습니다.");
+      }
+    }
+
+    // Helper functions
+    function getActionTitle(id) {
+      if (id === 1) return "재고 관리 시스템 도입";
+      if (id === 2) return "온라인 마케팅 채널 확장";
+      return "고정비 절감 솔루션";
+    }
+
+    function showToast(text) {
+      const toast = document.getElementById('simulatorToast');
+      const toastText = document.getElementById('toastText');
+      toastText.textContent = text;
+      
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 3500);
+    }
+  </script>
+</body>
+</html>
