@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 11. 오전 11:51:59_
+_업데이트: 2026. 6. 11. 오후 12:21:15_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,13 +11,13 @@ _업데이트: 2026. 6. 11. 오전 11:51:59_
 - [2026-06-09] Designer가 확정한 디자인 시스템(`BDS_Content_System_Design_Spec.md`)과 Writer의 카피를 기반으로, Week 1 콘텐츠(PainGauge 이미지 및 릴스) 제작을 위한 최적의 게시 시간/해시태그 전략을 적용하여 즉시 포스팅 계획을 실행하라. → 산출물 sessions/2026-06-09T07-34/instagram.md
 - [2026-06-11] writer가 작성한 콘텐츠 초안을 바탕으로, Week 1 콘텐츠 게시 전략(게시 시간, 해시태그)을 최종 확정하고, 실제 포스팅 실행 계획을 수립하라. → 산출물 sessions/2026-06-11T02-32/instagram.md
 ### 🎨 Designer
-- [2026-06-11] Trust Widget 및 PainGauge의 최종 Mockup 디자인(`BDS_Component_System_Spec_v3.0`)과 개발팀이 요청한 API 명세를 기반으로, 실제 구현에 바로 사용할 수 있는 최종 시각 에셋(Assets)을 검토하고 일관성을 재확인하라. → 산출물 sessions/2026-06-11T02-17/designer.md
-- [2026-06-11] Trust Widget과 PainGauge를 중심으로 한 시각적 정보 흐름(Visual Flow)과 사용자 여정(User Journey)에 따른 상태 기반 UI 구조의 논리적 흐름을 구체적으로 설계하라. → 산출물 sessions/2026-06-11T02-27/designer.md
 - [2026-06-11] Writer가 제공한 릴스 스크립트 및 BDS_Component_System_Spec_v3.0을 기반으로 Trust Widget과 PainGauge의 최종 Mockup 디자인 작업을 즉시 착수하고, Primary Blue/Risk Level 색상 매핑 규칙을 시각적으로 구현하여 에셋을 제작하라. → 산출물 sessions/2026-06-11T02-47/designer.md
+- [2026-06-11] 개발팀이 바로 사용할 수 있도록 Trust Widget 및 PainGauge의 최종 디자인 에셋과 명세(`final_component_specs_handover.md`)를 기반으로, 개발 과정에서 발생할 수 있는 시각적 모호함을 최소화하는 최종 검토와 Asset 제공을 완료하라. → 산출물 sessions/2026-06-11T03-02/designer.md
+- [2026-06-11] Trust Widget 및 PainGauge의 최종 디자인 에셋과 명세(`final_component_specs_handover.md`)를 기반으로, 개발팀이 바로 사용할 수 있는 통합된 UI 흐름 및 상태 매핑 계획을 최종 검토하고, 코다리에게 전달할 명확한 개발 착수 지침을 확정한다. → 산출물 sessions/2026-06-11T03-17/designer.md
 ### 💻 코다리
-- [2026-06-11] Trust Widget 및 PainGauge 컴포넌트의 상태 기반 API 연동 로직(A/B/C 리스크 등급 반영)과 최종 디자인 명세(`final_component_specs_handover.md`)를 교차 검토하여 기술적 실현 가능성(Feasibility)을 최종 확인하고, 필요한 수정 사항을 보고하라. → 산출물 sessions/2026-06-11T01-47/developer.md
-- [2026-06-11] 최종 확정된 BDS_Component_System_Spec_v3.0 및 API 명세(api_spec_trust_pain.md)를 기반으로 Trust Widget과 PainGauge의 상태 기반 프론트엔드 컴포넌트 구현을 즉시 착수하고, 데이터 흐름 로직에 따른 기능 연동을 완료하라. → 산출물 sessions/2026-06-11T02-17/developer.md
 - [2026-06-11] 제시된 비즈니스 및 디자인 구조를 구현하기 위한 최소 기능 제품(MVP)의 데이터 모델 스키마 초안과 API 연동 로직의 초기 아키텍처를 제안하라. → 산출물 sessions/2026-06-11T02-27/developer.md
+- [2026-06-11] Designer가 제공한 최종 디자인 명세(`design_specs\BDS_Component_System_Spec_v3.0`)와 Writer의 카피를 기반으로 Trust Widget 및 PainGauge 컴포넌트의 상태 기반 API 연동 로직 구현을 즉시 시작하고 기술적 실현 가능성을 검증하라. → 산출물 sessions/2026-06-11T03-02/developer.md
+- [2026-06-11] Designer가 제공한 최종 구현 가이드(`final_component_specs_handover.md`)와 Writer가 정리한 상태별 카피 에셋을 기반으로, Trust Widget 및 PainGauge 컴포넌트의 API 연동 로직 및 프론트엔드 컴포넌트 구현 작업을 즉시 시작한다. → 산출물 sessions/2026-06-11T03-17/developer.md
 ### 💼 현빈
 - [2026-06-10] Factoring Lite MVP를 위한 핵심 기능 목록을 '리스크 등급(A/B/C)'에 따라 명확하게 구조화하고, 각 등급별로 필요한 데이터 및 컨설팅 항목을 정의하라. → 산출물 sessions/2026-06-10T12-15/business.md
 - [2026-06-10] Factoring Lite MVP를 위한 리스크 등급(A/B/C)별 수익 모델, 가격 구조, 그리고 각 등급에 따른 플랫폼 기능 제한 사항에 대한 최종 논리적 매핑을 정의하라. → 산출물 sessions/2026-06-10T12-30/business.md
@@ -27,9 +27,9 @@ _업데이트: 2026. 6. 11. 오전 11:51:59_
 - [2026-06-11] 위에서 정의된 플랫폼 구조의 핵심 요소를 바탕으로 CEO 보고용으로 간결하고 실행 가능한 구조 개요를 3단계로 요약하여 정리하라. → 산출물 sessions/2026-06-11T02-27/secretary.md
 - [2026-06-11] Designer와 Writer의 작업 진행 상황 및 다음 단계 마일스톤을 취합하여 24시간 내에 CEO(본인)에게 보고할 데일리 브리핑 초안을 준비하라. → 산출물 sessions/2026-06-11T02-47/secretary.md
 ### ✍️ Writer
-- [2026-06-11] 최종 확정된 디자인 시스템(`BDS_Content_System_Design_Spec.md`)을 기반으로 Week 1 콘텐츠(PainGauge 이미지 및 릴스)에 들어갈 핵심 카피와 후크를 작성하고, 최적의 게시 시간 및 해시태그 전략을 최종 검토하라. → 산출물 sessions/2026-06-11T01-32/writer.md
-- [2026-06-11] Trust Widget 및 PainGauge의 상태 기반 시각화(Risk Level)를 활용하여, 잠재 고객의 불안감(Pain)을 포착하고 신뢰도를 구축하는 핵심 카피와 릴스/인스타용 콘텐츠 초안을 작성하라. (디자이너가 제공한 비주얼 가이드라인을 반드시 준수) → 산출물 sessions/2026-06-11T02-32/writer.md
 - [2026-06-11] Designer가 요구하는 모든 시각적 에셋(Mockup)에 필요한 구체적인 카피와 내레이션 스크립트 초안을 최종 확정하고, 개발팀 전달용 세부 에셋 목록을 정리하여 Designer에게 즉시 전달하라. → 산출물 sessions/2026-06-11T02-47/writer.md
+- [2026-06-11] 개발팀이 즉시 구현에 사용할 수 있도록 Trust Widget 및 PainGauge에 대한 모든 상태별 카피(내레이션, 툴팁 등)를 최종 확정하고, API 연동 시 필요한 모든 텍스트 에셋 목록을 정리하여 전달하라. → 산출물 sessions/2026-06-11T03-02/writer.md
+- [2026-06-11] 개발팀이 구현할 컴포넌트의 상태(A/B/C 리스크)에 맞춰 Trust Widget 및 PainGauge의 모든 상태별 카피와 API 연동 텍스트 에셋 목록을 최종적으로 검토하고, 개발 요구사항으로 정리하여 전달한다. → 산출물 sessions/2026-06-11T03-17/writer.md
 ### 🔍 Researcher
 - [2026-06-10] Factoring Lite 시장 잠재력 데이터 수집 전략을 실행하고, 소상공인 금융 데이터 및 경쟁사 분석에 필요한 핵심 데이터를 수집할 계획을 수립하라. → 산출물 sessions/2026-06-10T10-45/researcher.md
 - [2026-06-10] Factoring Lite 시장 신뢰 확보를 위한 데이터 수집 계획(Day 1~2)에 따라 공공데이터 및 정부 통계를 즉시 확보하고, 초기 시장 잠재력 예측 모델 구축을 위한 데이터를 수집하는 작업을 시작하라. → 산출물 sessions/2026-06-10T11-00/researcher.md
