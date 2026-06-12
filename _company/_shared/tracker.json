@@ -4752,6 +4752,635 @@
       "sessionDir": "2026-06-12T11-54",
       "evidence": "완료: sessions/2026-06-12T11-54/_report.md\n- 영숙: 현재 진행 중인 모든 작업의 일정 및 마감 기한을 요약하여 가장 시급하게 처리해야 할 부분을 파악하라.\n- 현빈: 현재 플랫폼 개발/기능 구현에 있어 수익화(BDS Pro, Partner) 달성 경로와 관련된 잠재적인 병목 지점 또는 비효율적인 프로세스를 분\n- 코다리: 최근 진행된 코드 리뷰 및 테스트 로그를 검토하여 현재 플랫폼 구현 단계에서 가장 시간 소모가 큰 기술적/구조적 문제점을 식별하고 해결 방안을 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 현재 진행 중인 모든 작업의 일정 및 마감 기한을 요약하여 가장 시급하게 처리해야 할 부분을 파악하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: 전반적인 진척도는 매우 빠르지만,",
       "completedAt": "2026-06-12T11:58:48.478Z"
+    },
+    {
+      "id": "20260612141326-81uc",
+      "title": "**사용자 만족도 (CSAT) ≥ 4.5 점 (5 점 만점)**: 첫 10 명 베타 사용자의 피드백을 기반으로 측정.",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-12T14:13:26.306Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T14-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T14-11/_report.md\n- 현빈: MVP 핵심 흐름(대출 비교/AI 상담)에 대한 최종 QA 테스트 케이스를 설계하고, 성공 기준을 명확히 하여 개발팀과 합의할 수 있도록 준비하\n- 코다리: TrustWidget 및 PainGauge 통합 로직과 디자인 시스템(BDS_Component_System_Spec_v3.0.md) 간의 기능적\n- 영숙: 앞선 두 작업(QA 합의 및 기술 안정화 평가)의 결과를 바탕으로 다음 주 일정을 조정하고, 개발-디자인 통합 QA에 집중할 수 있도록 일일 진\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 핵심 흐름(대출 비교/AI 상담)에 대한 최종 QA 테스트 케이스를 설계하고, 성공 기준을 명확히 하여 개발팀과 합의할 수 있도록 준비하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 📊 ",
+      "completedAt": "2026-06-12T14:15:26.546Z"
+    },
+    {
+      "id": "20260612141326-cs9h",
+      "title": "**오류율 < 1%**: AI 상담 시 금리, 이자 계산, 대출 한도 산출 등 핵심 데이터가 99% 이상 정확.",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-12T14:13:26.326Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T14-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T14-11/_report.md\n- 현빈: MVP 핵심 흐름(대출 비교/AI 상담)에 대한 최종 QA 테스트 케이스를 설계하고, 성공 기준을 명확히 하여 개발팀과 합의할 수 있도록 준비하\n- 코다리: TrustWidget 및 PainGauge 통합 로직과 디자인 시스템(BDS_Component_System_Spec_v3.0.md) 간의 기능적\n- 영숙: 앞선 두 작업(QA 합의 및 기술 안정화 평가)의 결과를 바탕으로 다음 주 일정을 조정하고, 개발-디자인 통합 QA에 집중할 수 있도록 일일 진\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 핵심 흐름(대출 비교/AI 상담)에 대한 최종 QA 테스트 케이스를 설계하고, 성공 기준을 명확히 하여 개발팀과 합의할 수 있도록 준비하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 📊 ",
+      "completedAt": "2026-06-12T14:15:26.562Z"
+    },
+    {
+      "id": "20260612141326-8zbj",
+      "title": "**반응 시간 ≤ 2 초**: AI 상담 응답 및 대출 비교 결과 로딩이 평균 2 초 이내 완료.",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-12T14:13:26.341Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T14-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T14-11/_report.md\n- 현빈: MVP 핵심 흐름(대출 비교/AI 상담)에 대한 최종 QA 테스트 케이스를 설계하고, 성공 기준을 명확히 하여 개발팀과 합의할 수 있도록 준비하\n- 코다리: TrustWidget 및 PainGauge 통합 로직과 디자인 시스템(BDS_Component_System_Spec_v3.0.md) 간의 기능적\n- 영숙: 앞선 두 작업(QA 합의 및 기술 안정화 평가)의 결과를 바탕으로 다음 주 일정을 조정하고, 개발-디자인 통합 QA에 집중할 수 있도록 일일 진\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 핵심 흐름(대출 비교/AI 상담)에 대한 최종 QA 테스트 케이스를 설계하고, 성공 기준을 명확히 하여 개발팀과 합의할 수 있도록 준비하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 📊 ",
+      "completedAt": "2026-06-12T14:15:26.580Z"
+    },
+    {
+      "id": "20260612141326-7kkb",
+      "title": "**안전마진 달성**: 사용자가 금융 정보 제공 중 불안감을 느끼지 않고, '안전을 보장한다'는 메시지가 체감됨 (PainGauge 지표 < 0.3).",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-12T14:13:26.357Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T14-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T14-11/_report.md\n- 현빈: MVP 핵심 흐름(대출 비교/AI 상담)에 대한 최종 QA 테스트 케이스를 설계하고, 성공 기준을 명확히 하여 개발팀과 합의할 수 있도록 준비하\n- 코다리: TrustWidget 및 PainGauge 통합 로직과 디자인 시스템(BDS_Component_System_Spec_v3.0.md) 간의 기능적\n- 영숙: 앞선 두 작업(QA 합의 및 기술 안정화 평가)의 결과를 바탕으로 다음 주 일정을 조정하고, 개발-디자인 통합 QA에 집중할 수 있도록 일일 진\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 핵심 흐름(대출 비교/AI 상담)에 대한 최종 QA 테스트 케이스를 설계하고, 성공 기준을 명확히 하여 개발팀과 합의할 수 있도록 준비하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 📊 ",
+      "completedAt": "2026-06-12T14:15:26.595Z"
+    },
+    {
+      "id": "20260612144429-i2tb",
+      "title": "**색상 코드:** 명세서에 정의된 `primary_blue`, `alert_red`, `success_green` 등 색상 코드가 실제 개발 로직에서 정확히 적용되는지 확인.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T14:44:29.710Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T14-41",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T14-41/_report.md\n- Designer: 개발팀(코다리)이 제시한 기술적 안정화 수준(반응 시간 ≤ 2초, 오류율 < 1%)을 기반으로, TrustWidget 및 PainGauge의 '\n- 코다리: TrustWidget 및 PainGauge 통합 로직과 디자인 시스템(BDS_Component_System_Spec_v3.0.md) 간의 기능적\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 개발팀(코다리)이 제시한 기술적 안정화 수준(반응 시간 ≤ 2초, 오류율 < 1%)을 기반으로, TrustWidget 및 PainGauge의 'Transition Animation' 및 상세 설명 모달 구조에 대해 최종적으로 개발팀",
+      "completedAt": "2026-06-12T14:45:30.254Z"
+    },
+    {
+      "id": "20260612144429-gy9n",
+      "title": "**타이포그래피:** `font-family`, `font-size`, `line-height` 등 타이포그래피 스타일이 컴포넌트 전체에서 일관성을 유지하는지 검증.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T14:44:29.744Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T14-41",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T14-41/_report.md\n- Designer: 개발팀(코다리)이 제시한 기술적 안정화 수준(반응 시간 ≤ 2초, 오류율 < 1%)을 기반으로, TrustWidget 및 PainGauge의 '\n- 코다리: TrustWidget 및 PainGauge 통합 로직과 디자인 시스템(BDS_Component_System_Spec_v3.0.md) 간의 기능적\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 개발팀(코다리)이 제시한 기술적 안정화 수준(반응 시간 ≤ 2초, 오류율 < 1%)을 기반으로, TrustWidget 및 PainGauge의 'Transition Animation' 및 상세 설명 모달 구조에 대해 최종적으로 개발팀",
+      "completedAt": "2026-06-12T14:45:30.281Z"
+    },
+    {
+      "id": "20260612144429-5em9",
+      "title": "**아이콘 및 이미지:** 디자인 시스템에 포함된 아이콘 및 이미지가 실제 사용 시 품질과 크기가 일관성 있게 표시되는지 확인.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T14:44:29.783Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T14-41",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T14-41/_report.md\n- Designer: 개발팀(코다리)이 제시한 기술적 안정화 수준(반응 시간 ≤ 2초, 오류율 < 1%)을 기반으로, TrustWidget 및 PainGauge의 '\n- 코다리: TrustWidget 및 PainGauge 통합 로직과 디자인 시스템(BDS_Component_System_Spec_v3.0.md) 간의 기능적\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 개발팀(코다리)이 제시한 기술적 안정화 수준(반응 시간 ≤ 2초, 오류율 < 1%)을 기반으로, TrustWidget 및 PainGauge의 'Transition Animation' 및 상세 설명 모달 구조에 대해 최종적으로 개발팀",
+      "completedAt": "2026-06-12T14:45:30.302Z"
+    },
+    {
+      "id": "20260612144429-kjyq",
+      "title": "**게이지 애니메이션:** `ease-in-out` 또는 `cubic-bezier(0.4, 0, 0.2, 1)` easing 함수가 실제로 구현되어 부드러운 전환이 이루어지는지 검증.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T14:44:29.810Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T14-41",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T14-41/_report.md\n- Designer: 개발팀(코다리)이 제시한 기술적 안정화 수준(반응 시간 ≤ 2초, 오류율 < 1%)을 기반으로, TrustWidget 및 PainGauge의 '\n- 코다리: TrustWidget 및 PainGauge 통합 로직과 디자인 시스템(BDS_Component_System_Spec_v3.0.md) 간의 기능적\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 개발팀(코다리)이 제시한 기술적 안정화 수준(반응 시간 ≤ 2초, 오류율 < 1%)을 기반으로, TrustWidget 및 PainGauge의 'Transition Animation' 및 상세 설명 모달 구조에 대해 최종적으로 개발팀",
+      "completedAt": "2026-06-12T14:45:30.340Z"
+    },
+    {
+      "id": "20260612144429-w9mb",
+      "title": "**모달 구조:** 상세 설명 모달의 계층 (Hierarchy) 이 명확하고, 클릭/호버 시 올바른 트리거와 상태 변화를 일으키는지 확인.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T14:44:29.824Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T14-41",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T14-41/_report.md\n- Designer: 개발팀(코다리)이 제시한 기술적 안정화 수준(반응 시간 ≤ 2초, 오류율 < 1%)을 기반으로, TrustWidget 및 PainGauge의 '\n- 코다리: TrustWidget 및 PainGauge 통합 로직과 디자인 시스템(BDS_Component_System_Spec_v3.0.md) 간의 기능적\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 개발팀(코다리)이 제시한 기술적 안정화 수준(반응 시간 ≤ 2초, 오류율 < 1%)을 기반으로, TrustWidget 및 PainGauge의 'Transition Animation' 및 상세 설명 모달 구조에 대해 최종적으로 개발팀",
+      "completedAt": "2026-06-12T14:45:30.374Z"
+    },
+    {
+      "id": "20260612163025-6osh",
+      "title": "API 응답 지연 시 Skeleton Loader 가 정상적으로 렌더링되는지 확인.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T16:30:25.870Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T16-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T16-26/_report.md\n- 코다리: 코다리가 정의한 API 응답 지연/오류 시나리오와 상태 관리 조건을 기반으로, Designer가 구현할 Skeleton Loader 및 Fall\n- Designer: 개발팀이 제시한 UI/UX QA 체크리스트 및 백엔드 안정성 보고서를 바탕으로, Skeleton Loader 및 Fallback 로직 구현에 필\n- 현빈: PainGauge < 0.3 달성을 위한 KPI 연동 전략(현빈의 목표)에 맞춰, 시각적 피드백이 사용자에게 '신뢰'와 '안전마진'을 가장 효과\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 코다리가 정의한 API 응답 지연/오류 시나리오와 상태 관리 조건을 기반으로, Designer가 구현할 Skeleton Loader 및 Fallback 로직의 기술적 요구사항(애니메이션 타이밍, 색상 전환 로직)을 최종 확정하고 명세화하라.\n",
+      "completedAt": "2026-06-12T16:34:19.189Z"
+    },
+    {
+      "id": "20260612163025-wb3d",
+      "title": "네트워크 오류 시 Fallback 컴포넌트가 즉시 나타나는지 확인.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T16:30:25.894Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T16-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T16-26/_report.md\n- 코다리: 코다리가 정의한 API 응답 지연/오류 시나리오와 상태 관리 조건을 기반으로, Designer가 구현할 Skeleton Loader 및 Fall\n- Designer: 개발팀이 제시한 UI/UX QA 체크리스트 및 백엔드 안정성 보고서를 바탕으로, Skeleton Loader 및 Fallback 로직 구현에 필\n- 현빈: PainGauge < 0.3 달성을 위한 KPI 연동 전략(현빈의 목표)에 맞춰, 시각적 피드백이 사용자에게 '신뢰'와 '안전마진'을 가장 효과\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 코다리가 정의한 API 응답 지연/오류 시나리오와 상태 관리 조건을 기반으로, Designer가 구현할 Skeleton Loader 및 Fallback 로직의 기술적 요구사항(애니메이션 타이밍, 색상 전환 로직)을 최종 확정하고 명세화하라.\n",
+      "completedAt": "2026-06-12T16:34:19.242Z"
+    },
+    {
+      "id": "20260612163025-0hnp",
+      "title": "`isRetryable` 속성이 올바르게 전달되어 재시도 버튼이 표시되거나 표시되지 않는지 확인.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T16:30:25.915Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T16-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T16-26/_report.md\n- 코다리: 코다리가 정의한 API 응답 지연/오류 시나리오와 상태 관리 조건을 기반으로, Designer가 구현할 Skeleton Loader 및 Fall\n- Designer: 개발팀이 제시한 UI/UX QA 체크리스트 및 백엔드 안정성 보고서를 바탕으로, Skeleton Loader 및 Fallback 로직 구현에 필\n- 현빈: PainGauge < 0.3 달성을 위한 KPI 연동 전략(현빈의 목표)에 맞춰, 시각적 피드백이 사용자에게 '신뢰'와 '안전마진'을 가장 효과\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 코다리가 정의한 API 응답 지연/오류 시나리오와 상태 관리 조건을 기반으로, Designer가 구현할 Skeleton Loader 및 Fallback 로직의 기술적 요구사항(애니메이션 타이밍, 색상 전환 로직)을 최종 확정하고 명세화하라.\n",
+      "completedAt": "2026-06-12T16:34:19.298Z"
+    },
+    {
+      "id": "20260612163025-lxu1",
+      "title": "Theme 전환 시 Skeleton 내부의 색상과 애니메이션이 부드럽게 변경되는지 확인.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T16:30:25.935Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T16-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T16-26/_report.md\n- 코다리: 코다리가 정의한 API 응답 지연/오류 시나리오와 상태 관리 조건을 기반으로, Designer가 구현할 Skeleton Loader 및 Fall\n- Designer: 개발팀이 제시한 UI/UX QA 체크리스트 및 백엔드 안정성 보고서를 바탕으로, Skeleton Loader 및 Fallback 로직 구현에 필\n- 현빈: PainGauge < 0.3 달성을 위한 KPI 연동 전략(현빈의 목표)에 맞춰, 시각적 피드백이 사용자에게 '신뢰'와 '안전마진'을 가장 효과\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 코다리가 정의한 API 응답 지연/오류 시나리오와 상태 관리 조건을 기반으로, Designer가 구현할 Skeleton Loader 및 Fallback 로직의 기술적 요구사항(애니메이션 타이밍, 색상 전환 로직)을 최종 확정하고 명세화하라.\n",
+      "completedAt": "2026-06-12T16:34:19.341Z"
+    },
+    {
+      "id": "20260612163025-rsfk",
+      "title": "Skeleton Loader 가 애니메이션이 정상적으로 작동하는지 확인.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T16:30:25.955Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T16-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T16-26/_report.md\n- 코다리: 코다리가 정의한 API 응답 지연/오류 시나리오와 상태 관리 조건을 기반으로, Designer가 구현할 Skeleton Loader 및 Fall\n- Designer: 개발팀이 제시한 UI/UX QA 체크리스트 및 백엔드 안정성 보고서를 바탕으로, Skeleton Loader 및 Fallback 로직 구현에 필\n- 현빈: PainGauge < 0.3 달성을 위한 KPI 연동 전략(현빈의 목표)에 맞춰, 시각적 피드백이 사용자에게 '신뢰'와 '안전마진'을 가장 효과\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 코다리가 정의한 API 응답 지연/오류 시나리오와 상태 관리 조건을 기반으로, Designer가 구현할 Skeleton Loader 및 Fallback 로직의 기술적 요구사항(애니메이션 타이밍, 색상 전환 로직)을 최종 확정하고 명세화하라.\n",
+      "completedAt": "2026-06-12T16:34:19.382Z"
+    },
+    {
+      "id": "20260612171521-xfut",
+      "title": "Skeleton 애니메이션이 CSS 트랜지션과 호환되어 Flicker 가 없는지 테스트.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T17:15:21.777Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T17-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T17-11/_report.md\n- Designer: Writer가 제공한 최종 카피라이팅 스펙(`copywriting_v1.md`)을 기반으로, 모든 UI 컴포넌트(Hero Section 등)의 \n- 코다리: Designer가 확정할 디자인 스펙과 Writer의 카피를 기반으로, Skeleton Loader 및 Fallback 로직 구현에 필요한 시각\n- 영숙: Designer와 Developer 간의 디자인 스펙 및 기술 명세서 작업 완료 기한을 설정하고, 결과물 일치성을 모니터링하여 다음 단계로의 흐\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Writer가 제공한 최종 카피라이팅 스펙(`copywriting_v1.md`)을 기반으로, 모든 UI 컴포넌트(Hero Section 등)의 구체적인 글자 크기, 여백, 반응형 기준을 확정하여 최종 디자인 스펙(`BDS_Final",
+      "completedAt": "2026-06-12T17:16:51.162Z"
+    },
+    {
+      "id": "20260612171521-v4s7",
+      "title": "API 지연 시 Warning 색상 (`#ff9f43`) 이 적용되는지 UI 의 일관성 유지.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T17:15:21.800Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T17-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T17-11/_report.md\n- Designer: Writer가 제공한 최종 카피라이팅 스펙(`copywriting_v1.md`)을 기반으로, 모든 UI 컴포넌트(Hero Section 등)의 \n- 코다리: Designer가 확정할 디자인 스펙과 Writer의 카피를 기반으로, Skeleton Loader 및 Fallback 로직 구현에 필요한 시각\n- 영숙: Designer와 Developer 간의 디자인 스펙 및 기술 명세서 작업 완료 기한을 설정하고, 결과물 일치성을 모니터링하여 다음 단계로의 흐\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Writer가 제공한 최종 카피라이팅 스펙(`copywriting_v1.md`)을 기반으로, 모든 UI 컴포넌트(Hero Section 등)의 구체적인 글자 크기, 여백, 반응형 기준을 확정하여 최종 디자인 스펙(`BDS_Final",
+      "completedAt": "2026-06-12T17:16:51.211Z"
+    },
+    {
+      "id": "20260612171521-xb8k",
+      "title": "에러 발생 시 Fallback UI 가 Skeleton 과 자연스럽게 전환되는지 확인.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T17:15:21.818Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T17-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T17-11/_report.md\n- Designer: Writer가 제공한 최종 카피라이팅 스펙(`copywriting_v1.md`)을 기반으로, 모든 UI 컴포넌트(Hero Section 등)의 \n- 코다리: Designer가 확정할 디자인 스펙과 Writer의 카피를 기반으로, Skeleton Loader 및 Fallback 로직 구현에 필요한 시각\n- 영숙: Designer와 Developer 간의 디자인 스펙 및 기술 명세서 작업 완료 기한을 설정하고, 결과물 일치성을 모니터링하여 다음 단계로의 흐\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Writer가 제공한 최종 카피라이팅 스펙(`copywriting_v1.md`)을 기반으로, 모든 UI 컴포넌트(Hero Section 등)의 구체적인 글자 크기, 여백, 반응형 기준을 확정하여 최종 디자인 스펙(`BDS_Final",
+      "completedAt": "2026-06-12T17:16:51.240Z"
+    },
+    {
+      "id": "20260612171521-q4cu",
+      "title": "Mobile 환경에서 Skeleton 요소의 레이아웃이 깨지지 않는지 Responsive 테스트.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T17:15:21.839Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T17-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T17-11/_report.md\n- Designer: Writer가 제공한 최종 카피라이팅 스펙(`copywriting_v1.md`)을 기반으로, 모든 UI 컴포넌트(Hero Section 등)의 \n- 코다리: Designer가 확정할 디자인 스펙과 Writer의 카피를 기반으로, Skeleton Loader 및 Fallback 로직 구현에 필요한 시각\n- 영숙: Designer와 Developer 간의 디자인 스펙 및 기술 명세서 작업 완료 기한을 설정하고, 결과물 일치성을 모니터링하여 다음 단계로의 흐\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Writer가 제공한 최종 카피라이팅 스펙(`copywriting_v1.md`)을 기반으로, 모든 UI 컴포넌트(Hero Section 등)의 구체적인 글자 크기, 여백, 반응형 기준을 확정하여 최종 디자인 스펙(`BDS_Final",
+      "completedAt": "2026-06-12T17:16:51.264Z"
+    },
+    {
+      "id": "20260612171521-83v0",
+      "title": "API 응답 지연 시간 (Latency) 을 모니터링하여 3 초 이상 지연 시 Warning 색상 로직이 활성화되는지 확인.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T17:15:21.866Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T17-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T17-11/_report.md\n- Designer: Writer가 제공한 최종 카피라이팅 스펙(`copywriting_v1.md`)을 기반으로, 모든 UI 컴포넌트(Hero Section 등)의 \n- 코다리: Designer가 확정할 디자인 스펙과 Writer의 카피를 기반으로, Skeleton Loader 및 Fallback 로직 구현에 필요한 시각\n- 영숙: Designer와 Developer 간의 디자인 스펙 및 기술 명세서 작업 완료 기한을 설정하고, 결과물 일치성을 모니터링하여 다음 단계로의 흐\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Writer가 제공한 최종 카피라이팅 스펙(`copywriting_v1.md`)을 기반으로, 모든 UI 컴포넌트(Hero Section 등)의 구체적인 글자 크기, 여백, 반응형 기준을 확정하여 최종 디자인 스펙(`BDS_Final",
+      "completedAt": "2026-06-12T17:16:51.285Z"
+    },
+    {
+      "id": "20260612172742-dinz",
+      "title": "모든 핵심 컴포넌트(CTA, 버튼 등)가 반응형으로 정상 동작하는가? (디자인 스펙 기준 확인)",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-06-12T17:27:42.653Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T17-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T17-26/_report.md\n- 영숙: Designer(BDS_Final_Design_Spec_v1.0.md)와 Developer(Skeleton Loader/Fallback 로직 명\n- 코다리: Designer와 Secretary가 확정한 최종 QA 체크리스트 및 기술 명세서(`BDS_Final_Design_Spec_v1.0.md` 및 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: Designer(BDS_Final_Design_Spec_v1.0.md)와 Developer(Skeleton Loader/Fallback 로직 명세서)의 산출물을 기반으로, 최종 QA 체크리스트 및 책임(RACI)을 공식 확정",
+      "completedAt": "2026-06-12T17:29:16.001Z"
+    },
+    {
+      "id": "20260612172742-jkfc",
+      "title": "Trust Widget이 API 응답에 따라 세 가지 리스크 등급(A/B/C)을 정확히 반영하는가?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-06-12T17:27:42.672Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T17-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T17-26/_report.md\n- 영숙: Designer(BDS_Final_Design_Spec_v1.0.md)와 Developer(Skeleton Loader/Fallback 로직 명\n- 코다리: Designer와 Secretary가 확정한 최종 QA 체크리스트 및 기술 명세서(`BDS_Final_Design_Spec_v1.0.md` 및 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: Designer(BDS_Final_Design_Spec_v1.0.md)와 Developer(Skeleton Loader/Fallback 로직 명세서)의 산출물을 기반으로, 최종 QA 체크리스트 및 책임(RACI)을 공식 확정",
+      "completedAt": "2026-06-12T17:29:16.041Z"
+    },
+    {
+      "id": "20260612172742-huyw",
+      "title": "데이터 로딩 및 오류 발생 시, 명세된 Fallback UI와 애니메이션이 정상 작동하며 사용자에게 혼란을 주지 않는가?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-06-12T17:27:42.687Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T17-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T17-26/_report.md\n- 영숙: Designer(BDS_Final_Design_Spec_v1.0.md)와 Developer(Skeleton Loader/Fallback 로직 명\n- 코다리: Designer와 Secretary가 확정한 최종 QA 체크리스트 및 기술 명세서(`BDS_Final_Design_Spec_v1.0.md` 및 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: Designer(BDS_Final_Design_Spec_v1.0.md)와 Developer(Skeleton Loader/Fallback 로직 명세서)의 산출물을 기반으로, 최종 QA 체크리스트 및 책임(RACI)을 공식 확정",
+      "completedAt": "2026-06-12T17:29:16.072Z"
+    },
+    {
+      "id": "20260612172742-q5n9",
+      "title": "모든 화면에서 폰트 크기, 여백(Padding/Margin), 색상 코드가 `BDS_Final_Design_Spec`과 일치하는가?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-06-12T17:27:42.702Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T17-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T17-26/_report.md\n- 영숙: Designer(BDS_Final_Design_Spec_v1.0.md)와 Developer(Skeleton Loader/Fallback 로직 명\n- 코다리: Designer와 Secretary가 확정한 최종 QA 체크리스트 및 기술 명세서(`BDS_Final_Design_Spec_v1.0.md` 및 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: Designer(BDS_Final_Design_Spec_v1.0.md)와 Developer(Skeleton Loader/Fallback 로직 명세서)의 산출물을 기반으로, 최종 QA 체크리스트 및 책임(RACI)을 공식 확정",
+      "completedAt": "2026-06-12T17:29:16.101Z"
+    },
+    {
+      "id": "20260612172742-afq6",
+      "title": "애니메이션의 트랜지션 타이밍이 명세된 값(`--state-color-warning` 전환 등)을 초과하거나 부족하지 않은가?",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-06-12T17:27:42.720Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T17-26",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T17-26/_report.md\n- 영숙: Designer(BDS_Final_Design_Spec_v1.0.md)와 Developer(Skeleton Loader/Fallback 로직 명\n- 코다리: Designer와 Secretary가 확정한 최종 QA 체크리스트 및 기술 명세서(`BDS_Final_Design_Spec_v1.0.md` 및 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: Designer(BDS_Final_Design_Spec_v1.0.md)와 Developer(Skeleton Loader/Fallback 로직 명세서)의 산출물을 기반으로, 최종 QA 체크리스트 및 책임(RACI)을 공식 확정",
+      "completedAt": "2026-06-12T17:29:16.127Z"
+    },
+    {
+      "id": "20260612191556-eb26",
+      "title": "`skeleton-loader.tsx` 의 컴포넌트 상태 (`loading`, `primary_ready`, etc.) 가 디자인 시스템 토큰과 일치하는지 확인 (예: Skeleton 로딩 애니메이션 색상).",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T19:15:56.922Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T19-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T19-11/_report.md\n- 현빈: Writer와 Designer가 확정한 KPI/지표 명세서와 QA 체크리스트를 기반으로 개발팀(코다리) 및 디자인팀 간의 최종 Sign-off \n- 코다리: Writer가 정의한 KPI와 Designer가 요구한 Visual Metric(OEI, DICI)에 맞춰 데이터 로깅 스키마 및 Skeleto\n- Designer: 정의된 OEI와 DICI 지표를 실제 디자인 시스템 토큰과 연결하여 Trust Widget 및 PainGauge의 최종 시각적 프로토타입(V1.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Writer와 Designer가 확정한 KPI/지표 명세서와 QA 체크리스트를 기반으로 개발팀(코다리) 및 디자인팀 간의 최종 Sign-off 절차(RACI)를 공식화하는 초안을 작성하라.\n> 🔧 **도구 실행**:",
+      "completedAt": "2026-06-12T19:17:27.250Z"
+    },
+    {
+      "id": "20260612191556-grog",
+      "title": "Fallback 로직이 실패했을 때 표시되는 Placeholder 이미지가 브랜드 컬러와 맞는지 검증.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T19:15:56.947Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T19-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T19-11/_report.md\n- 현빈: Writer와 Designer가 확정한 KPI/지표 명세서와 QA 체크리스트를 기반으로 개발팀(코다리) 및 디자인팀 간의 최종 Sign-off \n- 코다리: Writer가 정의한 KPI와 Designer가 요구한 Visual Metric(OEI, DICI)에 맞춰 데이터 로깅 스키마 및 Skeleto\n- Designer: 정의된 OEI와 DICI 지표를 실제 디자인 시스템 토큰과 연결하여 Trust Widget 및 PainGauge의 최종 시각적 프로토타입(V1.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Writer와 Designer가 확정한 KPI/지표 명세서와 QA 체크리스트를 기반으로 개발팀(코다리) 및 디자인팀 간의 최종 Sign-off 절차(RACI)를 공식화하는 초안을 작성하라.\n> 🔧 **도구 실행**:",
+      "completedAt": "2026-06-12T19:17:27.273Z"
+    },
+    {
+      "id": "20260612191556-g01g",
+      "title": "OEI/DICI 이벤트 로그가 `timestamp` 기준 순차적으로 기록되도록 보장합니다 (백엔드에서 UTC 시간 사용).",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T19:15:56.966Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T19-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T19-11/_report.md\n- 현빈: Writer와 Designer가 확정한 KPI/지표 명세서와 QA 체크리스트를 기반으로 개발팀(코다리) 및 디자인팀 간의 최종 Sign-off \n- 코다리: Writer가 정의한 KPI와 Designer가 요구한 Visual Metric(OEI, DICI)에 맞춰 데이터 로깅 스키마 및 Skeleto\n- Designer: 정의된 OEI와 DICI 지표를 실제 디자인 시스템 토큰과 연결하여 Trust Widget 및 PainGauge의 최종 시각적 프로토타입(V1.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Writer와 Designer가 확정한 KPI/지표 명세서와 QA 체크리스트를 기반으로 개발팀(코다리) 및 디자인팀 간의 최종 Sign-off 절차(RACI)를 공식화하는 초안을 작성하라.\n> 🔧 **도구 실행**:",
+      "completedAt": "2026-06-12T19:17:27.293Z"
+    },
+    {
+      "id": "20260612191556-47mw",
+      "title": "Skeleton Loader 의 `state_transition` 로그가 로딩 순서와 일치하는지 테스트합니다 (예: Primary → Fallback 전환 시 지연 시간이 예상 범위인지 확인).",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T19:15:56.982Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T19-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T19-11/_report.md\n- 현빈: Writer와 Designer가 확정한 KPI/지표 명세서와 QA 체크리스트를 기반으로 개발팀(코다리) 및 디자인팀 간의 최종 Sign-off \n- 코다리: Writer가 정의한 KPI와 Designer가 요구한 Visual Metric(OEI, DICI)에 맞춰 데이터 로깅 스키마 및 Skeleto\n- Designer: 정의된 OEI와 DICI 지표를 실제 디자인 시스템 토큰과 연결하여 Trust Widget 및 PainGauge의 최종 시각적 프로토타입(V1.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Writer와 Designer가 확정한 KPI/지표 명세서와 QA 체크리스트를 기반으로 개발팀(코다리) 및 디자인팀 간의 최종 Sign-off 절차(RACI)를 공식화하는 초안을 작성하라.\n> 🔧 **도구 실행**:",
+      "completedAt": "2026-06-12T19:17:27.313Z"
+    },
+    {
+      "id": "20260612194227-jyw0",
+      "title": "**TrustGauge_PainGauge_Visual_Consistency_Checklist_v1.0.md**를 다시 읽어보며 다음 토큰을 확인합니다:",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T19:42:27.661Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T19-41",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T19-41/_report.md\n- 코다리: Trust Widget 및 PainGauge 컴포넌트 구현 시, TrustGauge_PainGauge_Visual_Consistency_Chec\n\nCEO 종합 요점: 💻 코다리: CEO 지시사항에 맞춰 Trust Widget/PainGauge 컴포넌트의 Skeleton Loader 와 Fallback 로직 구현을 위한 Actionable Steps 를 준비합니다. 먼저 관련 스펙과 디자인 토큰을 확인하고, 실제 코드 구조를 설계하겠습니다. ⚙️\n\n```markdown\n[📂 파일 탐색 및 스펙 확보]\n- `sessio",
+      "completedAt": "2026-06-12T19:42:27.759Z"
+    },
+    {
+      "id": "20260612194227-giw7",
+      "title": "**Designer 의 Final Handoff Spec**에서 다음을 확인합니다:",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T19:42:27.685Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T19-41",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T19-41/_report.md\n- 코다리: Trust Widget 및 PainGauge 컴포넌트 구현 시, TrustGauge_PainGauge_Visual_Consistency_Chec\n\nCEO 종합 요점: 💻 코다리: CEO 지시사항에 맞춰 Trust Widget/PainGauge 컴포넌트의 Skeleton Loader 와 Fallback 로직 구현을 위한 Actionable Steps 를 준비합니다. 먼저 관련 스펙과 디자인 토큰을 확인하고, 실제 코드 구조를 설계하겠습니다. ⚙️\n\n```markdown\n[📂 파일 탐색 및 스펙 확보]\n- `sessio",
+      "completedAt": "2026-06-12T19:42:27.775Z"
+    },
+    {
+      "id": "20260612194227-283d",
+      "title": "**React 컴포넌트 (`TrustWidgetSkeleton.tsx`, `PainGaugeSkeleton.tsx`)**를 생성합니다.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T19:42:27.700Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T19-41",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T19-41/_report.md\n- 코다리: Trust Widget 및 PainGauge 컴포넌트 구현 시, TrustGauge_PainGauge_Visual_Consistency_Chec\n\nCEO 종합 요점: 💻 코다리: CEO 지시사항에 맞춰 Trust Widget/PainGauge 컴포넌트의 Skeleton Loader 와 Fallback 로직 구현을 위한 Actionable Steps 를 준비합니다. 먼저 관련 스펙과 디자인 토큰을 확인하고, 실제 코드 구조를 설계하겠습니다. ⚙️\n\n```markdown\n[📂 파일 탐색 및 스펙 확보]\n- `sessio",
+      "completedAt": "2026-06-12T19:42:27.791Z"
+    },
+    {
+      "id": "20260612194227-4ig0",
+      "title": "다음 구조로 구현합니다 (디자인 토큰 적용):",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T19:42:27.717Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T19-41",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T19-41/_report.md\n- 코다리: Trust Widget 및 PainGauge 컴포넌트 구현 시, TrustGauge_PainGauge_Visual_Consistency_Chec\n\nCEO 종합 요점: 💻 코다리: CEO 지시사항에 맞춰 Trust Widget/PainGauge 컴포넌트의 Skeleton Loader 와 Fallback 로직 구현을 위한 Actionable Steps 를 준비합니다. 먼저 관련 스펙과 디자인 토큰을 확인하고, 실제 코드 구조를 설계하겠습니다. ⚙️\n\n```markdown\n[📂 파일 탐색 및 스펙 확보]\n- `sessio",
+      "completedAt": "2026-06-12T19:42:27.809Z"
+    },
+    {
+      "id": "20260612194227-fb4h",
+      "title": "**Fallback 로직**을 적용합니다:",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-12T19:42:27.733Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T19-41",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T19-41/_report.md\n- 코다리: Trust Widget 및 PainGauge 컴포넌트 구현 시, TrustGauge_PainGauge_Visual_Consistency_Chec\n\nCEO 종합 요점: 💻 코다리: CEO 지시사항에 맞춰 Trust Widget/PainGauge 컴포넌트의 Skeleton Loader 와 Fallback 로직 구현을 위한 Actionable Steps 를 준비합니다. 먼저 관련 스펙과 디자인 토큰을 확인하고, 실제 코드 구조를 설계하겠습니다. ⚙️\n\n```markdown\n[📂 파일 탐색 및 스펙 확보]\n- `sessio",
+      "completedAt": "2026-06-12T19:42:27.823Z"
+    },
+    {
+      "id": "20260612201315-e503",
+      "title": "**토큰 일관성:** 모든 색상과 간격은 정의된 Design Tokens를 사용했는지 확인.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-12T20:13:15.082Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T20-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T20-11/_report.md\n- Designer: Trust Widget 및 PainGauge의 최종 핸드오프 사양서(`DESIGN_SYSTEM_HANDOFF_V1.0.md`)와 시각적 프로토타\n- 코다리: Designer가 제공한 사양서(`DESIGN_SYSTEM_HANDOFF_V1.0.md`)를 기반으로, Trust Widget 및 PainGau\n- 영숙: Designer와 Developer 간의 최종 QA 체크리스트(`QA_Final_Sync_PreRead_Package.md`) 준비를 위해, 두\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Trust Widget 및 PainGauge의 최종 핸드오프 사양서(`DESIGN_SYSTEM_HANDOFF_V1.0.md`)와 시각적 프로토타입 명세(`TrustGauge_PainGauge_VisualMetric_Spec_v1.0",
+      "completedAt": "2026-06-12T20:15:19.276Z"
+    },
+    {
+      "id": "20260612201315-6mg7",
+      "title": "**반응형(Responsive):** 모바일, 태블릿, 데스크톱 환경에서 컴포넌트 크기가 적절히 조정되는지 테스트.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-12T20:13:15.100Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T20-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T20-11/_report.md\n- Designer: Trust Widget 및 PainGauge의 최종 핸드오프 사양서(`DESIGN_SYSTEM_HANDOFF_V1.0.md`)와 시각적 프로토타\n- 코다리: Designer가 제공한 사양서(`DESIGN_SYSTEM_HANDOFF_V1.0.md`)를 기반으로, Trust Widget 및 PainGau\n- 영숙: Designer와 Developer 간의 최종 QA 체크리스트(`QA_Final_Sync_PreRead_Package.md`) 준비를 위해, 두\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Trust Widget 및 PainGauge의 최종 핸드오프 사양서(`DESIGN_SYSTEM_HANDOFF_V1.0.md`)와 시각적 프로토타입 명세(`TrustGauge_PainGauge_VisualMetric_Spec_v1.0",
+      "completedAt": "2026-06-12T20:15:19.295Z"
+    },
+    {
+      "id": "20260612201315-e7ho",
+      "title": "**접근성(A11y):** 모든 위젯에 ARIA 레이블과 스크린 리더가 읽을 수 있는 대체 텍스트가 포함되었는지 확인.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-12T20:13:15.119Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T20-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T20-11/_report.md\n- Designer: Trust Widget 및 PainGauge의 최종 핸드오프 사양서(`DESIGN_SYSTEM_HANDOFF_V1.0.md`)와 시각적 프로토타\n- 코다리: Designer가 제공한 사양서(`DESIGN_SYSTEM_HANDOFF_V1.0.md`)를 기반으로, Trust Widget 및 PainGau\n- 영숙: Designer와 Developer 간의 최종 QA 체크리스트(`QA_Final_Sync_PreRead_Package.md`) 준비를 위해, 두\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Trust Widget 및 PainGauge의 최종 핸드오프 사양서(`DESIGN_SYSTEM_HANDOFF_V1.0.md`)와 시각적 프로토타입 명세(`TrustGauge_PainGauge_VisualMetric_Spec_v1.0",
+      "completedAt": "2026-06-12T20:15:19.309Z"
+    },
+    {
+      "id": "20260612201315-10dx",
+      "title": "**상태 처리:** 데이터 로딩/오류 발생 시, `Skeleton Loader` 및 `Fallback UI`가 정상 작동하는지 검증 (코다리 구현 영역 연동).",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-12T20:13:15.136Z",
+      "status": "done",
+      "sessionDir": "2026-06-12T20-11",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-12T20-11/_report.md\n- Designer: Trust Widget 및 PainGauge의 최종 핸드오프 사양서(`DESIGN_SYSTEM_HANDOFF_V1.0.md`)와 시각적 프로토타\n- 코다리: Designer가 제공한 사양서(`DESIGN_SYSTEM_HANDOFF_V1.0.md`)를 기반으로, Trust Widget 및 PainGau\n- 영숙: Designer와 Developer 간의 최종 QA 체크리스트(`QA_Final_Sync_PreRead_Package.md`) 준비를 위해, 두\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Trust Widget 및 PainGauge의 최종 핸드오프 사양서(`DESIGN_SYSTEM_HANDOFF_V1.0.md`)와 시각적 프로토타입 명세(`TrustGauge_PainGauge_VisualMetric_Spec_v1.0",
+      "completedAt": "2026-06-12T20:15:19.322Z"
     }
   ]
 }

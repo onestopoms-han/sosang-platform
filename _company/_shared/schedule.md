@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 12. 오후 11:05:57_
+_업데이트: 2026. 6. 13. 오전 5:15:19_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,25 +11,25 @@ _업데이트: 2026. 6. 12. 오후 11:05:57_
 - [2026-06-11] writer가 작성한 콘텐츠 초안을 바탕으로, Week 1 콘텐츠 게시 전략(게시 시간, 해시태그)을 최종 확정하고, 실제 포스팅 실행 계획을 수립하라. → 산출물 sessions/2026-06-11T02-32/instagram.md
 - [2026-06-11] 확정된 디자인 시스템과 UI 흐름에 맞춰 Week 1 콘텐츠 게시 전략 및 실제 포스팅 실행 계획을 점검하고 즉시 실행한다. → 산출물 sessions/2026-06-11T04-47/instagram.md
 ### 🎨 Designer
-- [2026-06-11] 최종 디자인 시스템 핸드오프 패키지를 기반으로, 개발팀이 참조할 수 있는 컴포넌트 라이브러리(SSOT) 구축 작업을 최종적으로 완료하고 전달한다. → 산출물 sessions/2026-06-11T04-47/designer.md
-- [2026-06-11] 개발팀이 제출한 테스트 결과 및 데이터 흐름을 기반으로, TrustWidget/PainGauge의 시각적 구현(`BDS_Component_System_Spec_v3.0.md`)에 대한 최종 검증 및 필요한 디자인 에셋 수정사항을 확정하라. → 산출물 sessions/2026-06-11T06-17/designer.md
-- [2026-06-11] 확정된 KPI 목표와 '안전마진' 감성을 극대화하는 방향으로, TrustWidget 및 PainGauge 디자인 에셋의 최종 UI/UX 흐름을 확정하고, 개발팀에 전달할 최종 디자인 시스템 핸드오프 패키지를 즉시 완성하라. → 산출물 sessions/2026-06-11T11-15/designer.md
+- [2026-06-12] TrustWidget 및 PainGauge의 최종 핸드오프 사양서(design\DESIGN_SYSTEM_HANDOFF_V1.0.md)와 시각적 프로토타입 명세(TrustGauge_PainGauge_VisualMetric_Spec_v1.0.md)를 기반으로, 정의된 디자인 토큰 매핑 규칙에 따라 컴포넌트의 초기 UI 프로토타입 제작을 즉시 시작하라. → 산출물 sessions/2026-06-12T19-26/designer.md
+- [2026-06-12] Trust Widget 및 PainGauge의 최종 핸드오프 사양서(design\DESIGN_SYSTEM_HANDOFF_V1.0.md)와 시각적 프로토타입 명세(TrustGauge_PainGauge_VisualMetric_Spec_v1.0.md)를 기반으로, 정의된 디자인 토큰 매핑 규칙에 따라 컴포넌트의 초기 UI 프로토타입 제작을 즉시 시작하고, Fallback 상태에 대한 시각적 명세를 확정하라. → 산출물 sessions/2026-06-12T19-56/designer.md
+- [2026-06-12] Trust Widget 및 PainGauge의 최종 핸드오프 사양서(`DESIGN_SYSTEM_HANDOFF_V1.0.md`)와 시각적 프로토타입 명세(`TrustGauge_PainGauge_VisualMetric_Spec_v1.0.md`)를 기반으로, 개발팀이 즉시 코드를 구현할 수 있도록 최종 디자인 및 토큰 핸드오프 패키지를 완성하고 전달하라. → 산출물 sessions/2026-06-12T20-11/designer.md
 ### 💻 코다리
-- [2026-06-11] TrustWidget 및 PainGauge의 최종 시각적 구현(V3.0)과 KPI 목표를 기반으로, 디자인 시스템 사양(`BDS_Component_System_Spec_v3.0.md`)에 대한 기능적 일치성(Functional Consistency)을 최종 검증하고 개발팀의 핸드오프 패키지에 필요한 모든 기술적 명세를 보강하라. → 산출물 sessions/2026-06-11T11-15/developer.md
-- [2026-06-12] 최근 진행된 코드 리뷰 및 테스트 로그를 검토하여 현재 플랫폼 구현 단계에서 가장 시간 소모가 큰 기술적/구조적 문제점을 식별하고 해결 방안을 제안하라. → 산출물 sessions/2026-06-12T11-54/developer.md
-- [2026-06-12] 현재 플랫폼 구현 상태와 TrustWidget/PainGauge의 최종 안정화 수준을 분석하여, 가락시장 대상 베타 출시를 위한 기술적 리스크 및 예상 소요 시간을 평가해줘. → 산출물 sessions/2026-06-12T14-03/developer.md
+- [2026-06-12] Trust Widget 및 PainGauge 컴포넌트 구현 시, TrustGauge_PainGauge_Visual_Consistency_Checklist_v1.0.md 및 관련 디자인 시스템 토큰을 100% 반영하여 Skeleton Loader 및 Fallback 로직의 초기 코드를 작성하고, 개발팀이 즉시 작업에 착수할 수 있도록 Actionable Steps를 제공하라. → 산출물 sessions/2026-06-12T19-41/developer.md
+- [2026-06-12] Trust Widget 및 PainGauge 구현 시, 데이터 로깅 스키마(data_logging_schema_skeleton_loader_fallback_spec_v1.0.md)와 Skeleton Loader/Fallback 로직 코드를 작성하고, 디자인 시스템 토큰을 100% 반영하여 컴포넌트의 초기 UI 프로토타입을 구현하라. API 응답 지연 및 에러 발생 시 명시적인 사용자 피드백(Fallback 상태)이 제공되도록 테스트 루프를 포함하라. → 산출물 sessions/2026-06-12T19-56/developer.md
+- [2026-06-12] Designer가 제공한 사양서(`DESIGN_SYSTEM_HANDOFF_V1.0.md`)를 기반으로, Trust Widget 및 PainGauge의 Fallback 상태(A, B, C)를 포함하여 Skeleton Loader 및 Fallback 컴포넌트의 실제 UI 구현을 시작하라. → 산출물 sessions/2026-06-12T20-11/developer.md
 ### 💼 현빈
-- [2026-06-11] 현재 설정된 수익화 전략과 KPI 목표가 플랫폼 완성 로드맵에 정확히 부합하는지 검토하고, 다음 단계의 최우선 비즈니스 전략 방향을 제시하라. → 산출물 sessions/2026-06-11T14-39/business.md
-- [2026-06-12] 현재 플랫폼 개발/기능 구현에 있어 수익화(BDS Pro, Partner) 달성 경로와 관련된 잠재적인 병목 지점 또는 비효율적인 프로세스를 분석하고 우선순위를 제시하라. → 산출물 sessions/2026-06-12T11-54/business.md
-- [2026-06-12] BDS소상공인플렛폼의 수익화 전략과 세그먼트별 KPI 목표를 검토하여, 베타 테스트에 포함되어야 할 최소 기능 집합(MVP)과 성공 기준을 정의해줘. → 산출물 sessions/2026-06-12T14-03/business.md
+- [2026-06-12] PainGauge < 0.3 달성을 위한 KPI 연동 전략(현빈의 목표)에 맞춰, 시각적 피드백이 사용자에게 '신뢰'와 '안전마진'을 가장 효과적으로 전달하는지 비즈니스 관점에서 최종 검토하고 동의를 확보하라. → 산출물 sessions/2026-06-12T16-26/business.md
+- [2026-06-12] 개발팀(코다리)과 디자인팀의 최종 QA 체크리스트와 기술 명세서, 디자인 스펙을 기반으로 개발-디자인 간의 최종 Sign-off 절차(RACI)를 공식화하고 문서화하라. → 산출물 sessions/2026-06-12T18-11/business.md
+- [2026-06-12] Writer와 Designer가 확정한 KPI/지표 명세서와 QA 체크리스트를 기반으로 개발팀(코다리) 및 디자인팀 간의 최종 Sign-off 절차(RACI)를 공식화하는 초안을 작성하라. → 산출물 sessions/2026-06-12T19-11/business.md
 ### 📱 영숙
-- [2026-06-11] 현재 BDS소상공인플렛폼의 핵심 목표(플랫폼 완성, AI 네이티브 시스템)와 최근 작업 진행 상황을 요약하여 보고하라. → 산출물 sessions/2026-06-11T14-39/secretary.md
-- [2026-06-12] 현재 진행 중인 모든 작업의 일정 및 마감 기한을 요약하여 가장 시급하게 처리해야 할 부분을 파악하라. → 산출물 sessions/2026-06-12T11-54/secretary.md
-- [2026-06-12] 최근 진행된 개발-디자인 간의 통합 작업 로그와 다음 마일스톤 일정을 확인하여, 베타 출시를 위한 가장 현실적인 로드맵 초안을 작성해줘. → 산출물 sessions/2026-06-12T14-03/secretary.md
+- [2026-06-12] 개발팀과 디자인팀 간의 초기 구현 시작 지점(RACI)을 기준으로, Skeleton Loader 및 Fallback 로직 구현에 필요한 개발 일정 초안을 수립하고 다음 주 회의를 위한 Task Tracker를 준비하라. → 산출물 sessions/2026-06-12T18-26/secretary.md
+- [2026-06-12] CEO 메모리 및 에이전트 활동 로그를 기반으로 현재 진행 중인 최우선 목표와 다음 실행할 단일 작업 1개를 요약하고, 이를 바탕으로 향후 계획을 정리하여 보고합니다. → 산출물 sessions/2026-06-12T18-41/secretary.md
+- [2026-06-12] Designer와 Developer 간의 최종 QA 체크리스트(`QA_Final_Sync_PreRead_Package.md`) 준비를 위해, 두 팀의 현재 진행 상황과 예상 마일스톤을 요약하여 CEO에게 보고할 자료를 정리하라. → 산출물 sessions/2026-06-12T20-11/secretary.md
 ### ✍️ Writer
-- [2026-06-11] Writer는 개발팀이 즉시 사용할 수 있도록, 코다리가 설계한 API 스키마의 논리 흐름(Mini-Workshop Flow)을 완벽하게 반영하여 Pain Level별 스토리텔링 스크립트를 재구성하고 최종 에셋을 확보하라. → 산출물 sessions/2026-06-11T04-02/writer.md
-- [2026-06-11] Researcher의 분석 결과를 바탕으로, 플랫폼 사용자 여정(User Journey) 단계별로 필요한 핵심 메시지(Pain Level별)와 이에 맞는 후크 카피 및 영상 스크립트 초안을 작성하라. → 산출물 sessions/2026-06-11T06-32/writer.md
 - [2026-06-11] business 에이전트가 확정한 KPI 목표와 '안전마진' 메시지를 기반으로, BDS Pro 및 Partner 세그먼트에 최적화된 콘텐츠(영상 스크립트 또는 게시물 카피)의 핵심 후크(Hook)를 3가지 버전으로 기획하라. → 산출물 sessions/2026-06-11T07-17/writer.md
+- [2026-06-12] 플랫폼의 핵심 가치('소상공인의 어려움 파악', 'AI 솔루션 제시', '성공 사례')를 바탕으로, 사용자에게 공감과 행동을 유발하는 최종 카피라이팅 초안을 작성하여 Designer가 시각화할 수 있는 기반을 마련해줘. → 산출물 sessions/2026-06-12T16-56/writer.md
+- [2026-06-12] 베타 사용자 대상 파일럿 프로그램의 핵심 성공 지표(KPI)와 구체적인 소상공인 페르소나 3가지를 정의하고, 이들이 플랫폼 사용 시 어떤 상태 변화를 보여줘야 성공으로 간주할지 명확히 기술하시오. → 산출물 sessions/2026-06-12T18-56/writer.md
 ### 🔍 Researcher
 - [2026-06-10] Researcher는 Factoring Lite 시장 신뢰 확보를 위해 수집한 데이터(`data_collection_plan.md`)를 검토하고, 리스크 등급(`A/B/C`) 분류에 필요한 외부 법적 및 금융 데이터의 우선순위를 재설정하여 다음 단계 데이터 수집 전략을 보강하라. → 산출물 sessions/2026-06-10T11-15/researcher.md
 - [2026-06-11] 개발팀과 디자이너의 검증 결과를 바탕으로, 사용자(SME)의 감성적 경험 측면에서 '안전마진' 메시지가 데이터 시각화에 성공적으로 연결되었는지에 대한 정성적 분석 보고서를 작성하라. → 산출물 sessions/2026-06-11T06-17/researcher.md
