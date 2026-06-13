@@ -1,0 +1,1 @@
+<find>기술 안정성 보고서 (go_live_tech_report_v1.md)</find><replace>투자자 Q&A 시나리오 및 수익성 KPI 강조용 스크립트</replace>
