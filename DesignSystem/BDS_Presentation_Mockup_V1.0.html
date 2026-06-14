@@ -1348,6 +1348,9 @@
         </div>
         
         <div class="header-actions">
+          <button class="theme-toggle-btn" onclick="toggleSound()" id="soundToggleBtn" title="소리 켜기" style="font-size: 16px; margin-right: 4px;">
+            🔇
+          </button>
           <button class="theme-toggle-btn" onclick="toggleTheme()" id="themeToggleBtn" title="화면 테마 변경">
             🌙
           </button>
@@ -1631,6 +1634,199 @@
     let safetyMarginRate = 38;
     let isSimulatorActive = false;
     let completedActions = [false, false, false];
+    let wasSuccessReached = false;
+
+    // Web Audio API Synthesizer Engine for premium audio feedback (offline, zero dependencies)
+    const SoundEngine = {
+      ctx: null,
+      isMuted: true,
+      warningInterval: null,
+
+      init() {
+        if (this.ctx) return;
+        this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+      },
+
+      resume() {
+        if (this.ctx && this.ctx.state === 'suspended') {
+          this.ctx.resume();
+        }
+      },
+
+      toggleMute() {
+        this.init();
+        this.resume();
+        this.isMuted = !this.isMuted;
+        
+        const btn = document.getElementById('soundToggleBtn');
+        if (this.isMuted) {
+          btn.innerHTML = '🔇';
+          btn.title = "소리 켜기";
+          btn.style.boxShadow = "none";
+          this.stopWarningPulse();
+        } else {
+          btn.innerHTML = '🔊';
+          btn.title = "소리 끄기";
+          btn.style.boxShadow = "0 0 10px var(--bds-deep-blue-glow)";
+          // Play subtle confirm chime
+          this.playClick();
+          // Start warning pulse if in danger zone
+          if (safetyMarginRate < 60) {
+            this.startWarningPulse();
+          }
+        }
+        return this.isMuted;
+      },
+
+      playClick() {
+        if (this.isMuted) return;
+        this.init();
+        this.resume();
+        try {
+          const now = this.ctx.currentTime;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(600, now);
+          osc.frequency.exponentialRampToValueAtTime(1000, now + 0.04);
+          
+          gain.gain.setValueAtTime(0.08, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.04);
+          
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          
+          osc.start(now);
+          osc.stop(now + 0.04);
+        } catch (e) {
+          console.warn("Audio play failed:", e);
+        }
+      },
+
+      playWarning() {
+        if (this.isMuted) return;
+        this.init();
+        this.resume();
+        try {
+          const now = this.ctx.currentTime;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          const filter = this.ctx.createBiquadFilter();
+          
+          osc.type = 'triangle';
+          osc.frequency.setValueAtTime(130, now); // Low frequency pulse
+          osc.frequency.linearRampToValueAtTime(90, now + 0.35);
+          
+          filter.type = 'lowpass';
+          filter.frequency.setValueAtTime(250, now);
+          
+          gain.gain.setValueAtTime(0, now);
+          gain.gain.linearRampToValueAtTime(0.18, now + 0.04);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.35);
+          
+          osc.connect(filter);
+          filter.connect(gain);
+          gain.connect(this.ctx.destination);
+          
+          osc.start(now);
+          osc.stop(now + 0.35);
+        } catch (e) {
+          console.warn("Audio warning failed:", e);
+        }
+      },
+
+      startWarningPulse() {
+        this.stopWarningPulse();
+        if (this.isMuted) return;
+        
+        this.playWarning();
+        this.warningInterval = setInterval(() => {
+          if (safetyMarginRate < 60) {
+            this.playWarning();
+          } else {
+            this.stopWarningPulse();
+          }
+        }, 1600);
+      },
+
+      stopWarningPulse() {
+        if (this.warningInterval) {
+          clearInterval(this.warningInterval);
+          this.warningInterval = null;
+        }
+      },
+
+      playActionApplied() {
+        if (this.isMuted) return;
+        this.init();
+        this.resume();
+        try {
+          const now = this.ctx.currentTime;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          
+          osc.type = 'sine';
+          // Minor chord progression C5 -> G5 for action applied
+          osc.frequency.setValueAtTime(523.25, now); // C5
+          osc.frequency.setValueAtTime(783.99, now + 0.08); // G5
+          
+          gain.gain.setValueAtTime(0, now);
+          gain.gain.linearRampToValueAtTime(0.12, now + 0.02);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25);
+          
+          osc.connect(gain);
+          gain.connect(this.ctx.destination);
+          
+          osc.start(now);
+          osc.stop(now + 0.25);
+        } catch (e) {
+          console.warn("Audio action applied failed:", e);
+        }
+      },
+
+      playSuccessChime() {
+        if (this.isMuted) return;
+        this.init();
+        this.resume();
+        try {
+          const now = this.ctx.currentTime;
+          // Arpeggio chord: C5 -> E5 -> G5 -> C6 (Major ascending chord)
+          const notes = [523.25, 659.25, 783.99, 1046.50]; 
+          
+          notes.forEach((freq, idx) => {
+            const osc = this.ctx.createOscillator();
+            const gain = this.ctx.createGain();
+            const noteTime = now + idx * 0.1;
+            
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(freq, noteTime);
+            
+            gain.gain.setValueAtTime(0, now);
+            gain.gain.linearRampToValueAtTime(0.1, noteTime + 0.02);
+            gain.gain.exponentialRampToValueAtTime(0.001, noteTime + 0.5);
+            
+            osc.connect(gain);
+            gain.connect(this.ctx.destination);
+            
+            osc.start(noteTime);
+            osc.stop(noteTime + 0.5);
+          });
+        } catch (e) {
+          console.warn("Audio success chime failed:", e);
+        }
+      }
+    };
+
+    function toggleSound() {
+      SoundEngine.toggleMute();
+    }
+
+    // Initialize Audio Context on first document click to bypass Autoplay block
+    document.addEventListener('click', () => {
+      SoundEngine.init();
+      SoundEngine.resume();
+    }, { once: true });
 
     // On window load
     window.onload = function() {
@@ -1713,6 +1909,7 @@
 
     // Toggle Proposal Panel Sidebar
     function toggleProposal() {
+      SoundEngine.playClick();
       const panel = document.getElementById('proposalPanel');
       const openBtn = document.getElementById('proposalOpenBtn');
       panel.classList.toggle('collapsed');
@@ -1726,6 +1923,7 @@
 
     // Toggle light / dark theme
     function toggleTheme() {
+      SoundEngine.playClick();
       const body = document.body;
       const btn = document.getElementById('themeToggleBtn');
       body.classList.toggle('light-theme');
@@ -1740,7 +1938,7 @@
     // Activate the simulator workflow
     function activateRoadmapSimulation() {
       if (isSimulatorActive) return; // Prevent double click initiation
-      
+      SoundEngine.playClick();
       isSimulatorActive = true;
       
       // 1. Highlight PainGauge card as active focus
@@ -1770,6 +1968,7 @@
     // Apply specific Action Card inside Roadmap
     function applyAction(id, increment) {
       if (completedActions[id - 1]) return; // Already completed
+      SoundEngine.playClick();
       
       const btn = document.getElementById(`actionBtn${id}`);
       const card = document.getElementById(`actionCard${id}`);
@@ -1791,6 +1990,9 @@
         
         // Count up animation for Safety Margin Number
         countUpSafetyMargin(prevMargin, safetyMarginRate);
+        
+        // Play action applied audio
+        SoundEngine.playActionApplied();
         
         // Update Dashboard indicators
         updatePainGaugeUI();
@@ -1840,6 +2042,9 @@
         statusCard.className = "pain-status-card";
         actionHint.className = "pain-action-hint";
         statusMsg.innerHTML = `현재 수익 구조가 <strong>위험 구간(${safetyMarginRate}%)</strong>에 있습니다. 매장 임대료 부담과 비효율적인 재고 관리 비용이 지속되고 있습니다.`;
+        
+        wasSuccessReached = false;
+        SoundEngine.startWarningPulse();
       } else if (safetyMarginRate >= 60 && safetyMarginRate < 75) {
         // Warning zone
         numEl.className = "pain-rate-number medium number-font";
@@ -1848,6 +2053,9 @@
         actionHint.className = "pain-action-hint medium";
         actionHint.textContent = "👉 추가 액션 카드로 목표 지점 달성하기";
         statusMsg.innerHTML = `현재 주의 상태입니다. 안전마진이 <strong>${safetyMarginRate}%</strong>까지 확보되어 리스크가 상당 부분 감소하였으나, 안정적인 장기 성장을 위해 목표 지점인 75%에 도달해야 합니다.`;
+        
+        wasSuccessReached = false;
+        SoundEngine.stopWarningPulse();
       } else {
         // Success Goal zone reached!
         numEl.className = "pain-rate-number high number-font";
@@ -1866,6 +2074,12 @@
         
         const chartPath = document.getElementById('chartMainPath');
         chartPath.style.stroke = "var(--bds-growth-green)";
+        
+        SoundEngine.stopWarningPulse();
+        if (!wasSuccessReached) {
+          wasSuccessReached = true;
+          SoundEngine.playSuccessChime();
+        }
       }
     }
 
