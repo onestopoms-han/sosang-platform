@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 15. 오후 1:51:43_
+_업데이트: 2026. 6. 15. 오후 2:06:34_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,13 +11,13 @@ _업데이트: 2026. 6. 15. 오후 1:51:43_
 - [2026-06-13] 확정된 디자인 시스템(Deep Blue/Growth Green)을 적용하여 Week 1 콘텐츠(PainGauge 이미지 및 릴스)에 대한 최종 게시 전략, 최적의 게시 시간, 해시태그를 확정하고 즉시 포스팅 실행 계획을 수립하라. → 산출물 sessions/2026-06-13T16-30/instagram.md
 - [2026-06-15] 최종 확정된 디자인 시스템(Deep Blue/Growth Green)과 수정된 온보딩 시나리오를 기반으로, Week 1 콘텐츠의 게시 시간, 해시태그, 그리고 '위기감 → 해결책' 스토리텔링이 자연스럽게 반영된 최종 포스팅 실행 계획을 즉시 수립하고 예약하라. → 산출물 sessions/2026-06-15T03-33/instagram.md
 ### 🎨 Designer
-- [2026-06-15] Business 에이전트가 정의한 KPI와 수익화 목표를 기반으로, 플랫폼 상세페이지의 A/B 테스트 결과에 맞춰 Trust Widget 및 PainGauge의 시각적 표현(V4.0 가이드)이 위기감 자극 및 신뢰 부여 효과를 최대화하도록 디자인 요소를 최종 조정하라. → 산출물 sessions/2026-06-15T04-03/designer.md
 - [2026-06-15] 코다리로부터 받은 Mock Data Set과 Trust Widget 최종 핸드오프 매뉴얼(sessions/2026-06-15T03-33/designer.md)을 기반으로, API 구현에 선행하여 Trust Widget 및 PainGauge의 최종 디자인 스펙이 실제 데이터 흐름과 시각적으로 일치하는지 통합 테스트 결과를 검증하고 불일치 지점을 수정하여 최종 프로토타입을 확정하라. → 산출물 sessions/2026-06-15T04-33/designer.md
 - [2026-06-15] Trust Widget 및 PainGauge의 최종 디자인 스펙(V5.0)과 코다리로부터 받은 Mock Data Set을 기반으로, 플랫폼 상세페이지에 적용 시 위기감 자극 및 신뢰 부여 효과를 최대화하는 프로토타입 검증 계획(A/B 테스트 시나리오 포함)을 수립하라. → 산출물 sessions/2026-06-15T04-48/designer.md
+- [2026-06-15] Writer가 작성한 60초 영상 스토리라인(V1.0)을 기반으로, 각 장면별 시각화 가이드(이미지 프롬프트 및 색상 코드)를 제작하여 스토리보드 시각화를 즉시 시작할 것. → 산출물 sessions/2026-06-15T05-03/designer.md
 ### 💻 코다리
-- [2026-06-15] Trust Widget 및 PainGauge의 백엔드 API 스텁 명세서(sessions/2026-06-15T00-02/developer.md)를 기반으로, 최종 디자인 스펙(V4.1)에 완벽히 부합하는 데이터 흐름 구현을 위한 초기 백엔드 구조 및 API 개발 착수 계획을 구체화하고 코드를 작성하라. → 산출물 sessions/2026-06-15T04-18/developer.md
 - [2026-06-15] Trust Widget 및 PainGauge의 백엔드 API 스텁 명세서(sessions/2026-06-15T00-02/developer.md)를 기반으로, 핵심 데이터 추적 로직(IP-01~IP-04)에 필요한 최소한의 백엔드 구조 및 Mock API Endpoint 구현을 즉시 착수하라. → 산출물 sessions/2026-06-15T04-33/developer.md
 - [2026-06-15] Trust Widget 및 PainGauge의 Mock API 구현 명세서(`trust_widget_pain_gauge_api_spec_v1.md`)를 기반으로, 프론트엔드 디자인 검증에 필요한 최소한의 데이터 흐름을 테스트할 수 있는 백엔드 구조(Mock Endpoint)의 초기 개발을 착수하라. → 산출물 sessions/2026-06-15T04-48/developer.md
+- [2026-06-15] Trust Widget 및 PainGauge의 Mock API 명세서(V4.1)와 최종 디자인 스펙을 기반으로, 핵심 데이터 추적 로직(IP-01~IP-04)에 필요한 초기 백엔드 구조 및 Mock API 구현을 병행하여 진행할 것. → 산출물 sessions/2026-06-15T05-03/developer.md
 ### 💼 현빈
 - [2026-06-14] 개발 및 디자인 작업에 앞서, 데이터 추적 로직(IP-01~IP-04)이 설정된 KPI와 수익 전환 지점(Trust Widget/PainGauge)과 어떻게 연결되는지에 대한 최종 실행 전략과 목표치(Actionable Roadmap)를 구체화하라. → 산출물 sessions/2026-06-14T04-40/business.md
 - [2026-06-15] 설계된 A/B 테스트의 성공 기준(KPI)과 예상되는 사용자 행동 전환 지점을 정의하고, 이에 따른 수익화 전략의 변화를 예측하여 보고하라. → 산출물 sessions/2026-06-15T03-48/business.md
