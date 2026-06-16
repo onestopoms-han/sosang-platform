@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 17. 오전 4:02:57_
+_업데이트: 2026. 6. 17. 오전 4:57:57_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -15,9 +15,9 @@ _업데이트: 2026. 6. 17. 오전 4:02:57_
 - [2026-06-16] 기존 ' → 산출물 sessions/2026-06-16T11-57/designer.md
 - [2026-06-16] 기존의 '옆집 선배' 및 '아이디어 그래프' 캐릭터 콘셉트를 바탕으로, BDS소상공인플렛폼의 핵심 가치(신뢰, 실용성, AI 네이티브)를 시각적으로 구현하는 상세 디자인 브리프 → 산출물 sessions/2026-06-16T13-22/designer.md
 ### 💻 코다리
-- [2026-06-15] Trust Widget 및 PainGauge의 Mock API 명세서(`trust_widget_pain_gauge_api_spec_v1.md`)를 기반으로, 핵심 데이터 추적 로직(IP-01~IP-04)에 필요한 최소한의 백엔드 구조 및 Mock Endpoint 개발을 즉시 착수하라. → 산출물 sessions/2026-06-15T05-33/developer.md
 - [2026-06-15] Trust Widget 및 PainGauge 기능에 대한 Mock Data Set 기반의 최종 데이터 흐름 및 API 연동 통합 테스트 계획을 수립하고, 모든 핵심 데이터 추적 로직이 의도대로 작동하는지 검증할 수 있는 자동화 스크립트 초안을 준비하라. → 산출물 sessions/2026-06-15T05-48/developer.md
 - [2026-06-15] Trust Widget 및 PainGauge의 Mock API 명세서(V4.1)와 Designer가 정의한 시각적 가이드라인을 기반으로, 핵심 데이터 추적 로직(IP-01~IP-04)에 대한 최종 통합 테스트 환경을 구축하고 Mock 데이터 흐름을 완벽히 검증하라. → 산출물 sessions/2026-06-15T06-03/developer.md
+- [2026-06-16] Trust Widget 및 PainGauge 기능에 대한 Mock API 명세서(`trust_widget_pain_gauge_api_spec_v1.md`)와 Designer가 정의한 시각적 가이드라인을 기반으로, 핵심 데이터 추적 로직(IP-01~IP-04)에 대한 최종 통합 테스트 환경을 구축하고 Mock 데이터 흐름을 완벽히 검증하라. → 산출물 sessions/2026-06-16T19-27/developer.md
 ### 💼 현빈
 - [2026-06-15] 설계된 A/B 테스트의 성공 기준(KPI)과 예상되는 사용자 행동 전환 지점을 정의하고, 이에 따른 수익화 전략의 변화를 예측하여 보고하라. → 산출물 sessions/2026-06-15T03-48/business.md
 - [2026-06-15] 코다리가 생성한 A/B 테스트 KPI 결과(`developer_ab_test_kpi_and_revenue.md`)를 분석하고, 신뢰 구축형 디자인(Trust Widget/PainGauge)이 실제 수익 전환 지점(Monetization Point)에 미치는 영향을 분석하여 다음 단계의 수익화 전략을 구체화하라. → 산출물 sessions/2026-06-15T04-03/business.md
