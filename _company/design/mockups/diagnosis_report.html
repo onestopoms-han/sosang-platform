@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+
+<html lang="ko"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>2단계: AI 진단 리포트 | BDS AI Diagnostic</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary": "#ffffff",
+                    "background": "#f8fafb",
+                    "primary-fixed": "#6bfe9c",
+                    "inverse-primary": "#4ae183",
+                    "surface-tint": "#006d37",
+                    "tertiary-container": "#5fbaff",
+                    "on-background": "#191c1d",
+                    "surface-container-high": "#e6e8e9",
+                    "on-surface": "#191c1d",
+                    "on-error": "#ffffff",
+                    "secondary": "#555f6f",
+                    "inverse-surface": "#2e3132",
+                    "outline-variant": "#bbcbbb",
+                    "primary": "#006d37",
+                    "surface-dim": "#d8dadb",
+                    "surface-container-lowest": "#ffffff",
+                    "outline": "#6c7b6d",
+                    "tertiary": "#006397",
+                    "surface-container-low": "#f2f4f5",
+                    "primary-container": "#2ecc71",
+                    "surface-container-highest": "#e1e3e4",
+                    "on-tertiary-fixed": "#001d31",
+                    "secondary-fixed-dim": "#bdc7d9",
+                    "on-secondary-container": "#596373",
+                    "on-secondary-fixed-variant": "#3d4756",
+                    "surface-bright": "#f8fafb",
+                    "on-secondary-fixed": "#121c2a",
+                    "tertiary-fixed-dim": "#92ccff",
+                    "surface-container": "#eceeef",
+                    "on-primary-fixed-variant": "#005228",
+                    "secondary-container": "#d6e0f3",
+                    "error-container": "#ffdad6",
+                    "tertiary-fixed": "#cce5ff",
+                    "on-tertiary-container": "#004970",
+                    "on-tertiary": "#ffffff",
+                    "on-primary": "#ffffff",
+                    "on-primary-fixed": "#00210c",
+                    "inverse-on-surface": "#eff1f2",
+                    "on-tertiary-fixed-variant": "#004b73",
+                    "primary-fixed-dim": "#4ae183",
+                    "on-primary-container": "#005027",
+                    "error": "#FF4D4D",
+                    "surface-variant": "#e1e3e4",
+                    "on-error-container": "#93000a",
+                    "surface": "#f8fafb",
+                    "secondary-fixed": "#d9e3f6",
+                    "on-surface-variant": "#3d4a3e"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "xl": "64px",
+                    "sm": "12px",
+                    "lg": "40px",
+                    "container-max": "1280px",
+                    "gutter": "24px",
+                    "xs": "4px",
+                    "md": "24px",
+                    "base": "8px"
+            },
+            "fontFamily": {
+                    "headline-md": ["Inter"],
+                    "headline-lg-mobile": ["Inter"],
+                    "label-md": ["Inter"],
+                    "headline-lg": ["Inter"],
+                    "body-lg": ["Inter"],
+                    "display-lg": ["Inter"],
+                    "body-md": ["Inter"],
+                    "headline-sm": ["Inter"],
+                    "body-sm": ["Inter"],
+                    "label-sm": ["Inter"]
+            },
+            "fontSize": {
+                    "headline-md": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                    "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "700"}],
+                    "label-md": ["14px", {"lineHeight": "20px", "fontWeight": "600"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                    "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                    "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f8fafb;
+        color: #191c1d;
+      }
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-effect {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+      }
+      .ambient-shadow {
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+      }
+      .ambient-shadow-hover:hover {
+        box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.08);
+      }
+      .scroll-hide::-webkit-scrollbar {
+        display: none;
+      }
+      .progress-fill {
+        transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col overflow-x-hidden">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-gutter py-4 max-w-container-max mx-auto bg-surface-container-lowest shadow-sm">
+<div class="flex items-center gap-base">
+<span class="font-headline-md text-headline-md font-bold text-primary">BDS AI Diagnostic</span>
+</div>
+<div class="flex items-center gap-md">
+<div class="flex gap-md">
+<button class="text-primary font-bold border-b-2 border-primary py-1 font-label-md text-label-md">Dashboard</button>
+<button class="text-secondary hover:bg-surface-container-low transition-colors px-2 py-1 font-label-md text-label-md">Analysis</button>
+<button class="text-secondary hover:bg-surface-container-low transition-colors px-2 py-1 font-label-md text-label-md">Reports</button>
+</div>
+<div class="flex items-center gap-sm">
+<span class="material-symbols-outlined text-secondary cursor-pointer hover:bg-surface-container-low p-2 rounded-full transition-colors">notifications</span>
+<span class="material-symbols-outlined text-secondary cursor-pointer hover:bg-surface-container-low p-2 rounded-full transition-colors">help</span>
+<div class="w-10 h-10 rounded-full bg-secondary-container overflow-hidden ml-2 border border-outline-variant">
+<img alt="Business owner profile" data-alt="A professional headshot of a modern entrepreneur with a friendly and confident expression, set against a clean and minimalist office background. The lighting is bright and high-key, conveying a sense of success and innovative business leadership. The overall aesthetic is professional corporate with a warm, accessible tone." src="https://lh3.googleusercontent.com/aida-public/AB6AXuARADNV4FqpS-TXU8fjqlFDAX7WvwfwmQGSDzDDuXCVPNtokmfewb2YkvAIqIMMK_-GwPJQ1ZR8aUwdGlqvLCi4WYAOQRgL1KMwnmvntvPhgZd7gkzfv9VO6mHuSK-dsRvxHg-MpoyfmE8fr4g2Ou-afCrrZP3fScK7AotD8ICwLifJB3SvNiR9URNdQYKkvAzPGWL-n0flyy0StIusSMnDMyk5M6_J0Cf8zlcCXxiTxw4mV7rd1_ZfG9MP6X_-h8Cs9_PZb_W8R9Ej"/>
+</div>
+</div>
+</div>
+</nav>
+<div class="flex pt-[72px] h-screen overflow-hidden">
+<!-- SideNavBar -->
+<aside class="hidden lg:flex flex-col h-full border-r border-outline-variant w-64 bg-surface-container-low p-md">
+<div class="flex flex-col gap-xs mb-xl">
+<div class="flex items-center gap-base mb-2">
+<div class="w-8 h-8 bg-primary rounded flex items-center justify-center text-white font-bold">B</div>
+<span class="font-headline-sm text-headline-sm font-black text-primary">BDS Premium</span>
+</div>
+<span class="text-label-sm font-label-sm text-secondary opacity-70">Real-time Diagnostics</span>
+</div>
+<nav class="flex flex-col gap-xs flex-1">
+<a class="flex items-center gap-base text-secondary px-4 py-3 hover:bg-surface-variant transition-all rounded-lg font-label-md text-label-md" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span>Dashboard</span>
+</a>
+<a class="flex items-center gap-base bg-primary-container text-on-primary-container px-4 py-3 rounded-lg font-label-md text-label-md shadow-sm transition-transform active:translate-x-1" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">analytics</span>
+<span>Data Analysis</span>
+</a>
+<a class="flex items-center gap-base text-secondary px-4 py-3 hover:bg-surface-variant transition-all rounded-lg font-label-md text-label-md" href="#">
+<span class="material-symbols-outlined">warning</span>
+<span>Risk Reports</span>
+</a>
+<a class="flex items-center gap-base text-secondary px-4 py-3 hover:bg-surface-variant transition-all rounded-lg font-label-md text-label-md" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span>Settings</span>
+</a>
+</nav>
+<div class="mt-auto flex flex-col gap-sm">
+<button class="bg-primary text-on-primary font-label-md text-label-md py-3 rounded-lg w-full shadow-md hover:brightness-110 active:scale-95 transition-all">New Analysis</button>
+<a class="flex items-center gap-base text-secondary px-4 py-3 hover:bg-surface-variant transition-all rounded-lg font-label-md text-label-md" href="#">
+<span class="material-symbols-outlined">contact_support</span>
+<span>Support</span>
+</a>
+</div>
+</aside>
+<!-- Main Content -->
+<main class="flex-1 overflow-y-auto bg-background p-lg scroll-hide">
+<div class="max-w-6xl mx-auto">
+<header class="mb-xl">
+<div class="flex items-center gap-sm mb-base">
+<span class="bg-primary-container text-on-primary-container px-3 py-1 rounded-full font-label-sm text-label-sm">Step 02</span>
+<h1 class="font-headline-lg text-headline-lg">AI 진단 리포트</h1>
+</div>
+<p class="text-secondary font-body-md text-body-md max-w-2xl">입력하신 데이터를 기반으로 AI가 분석한 귀사의 비즈니스 성적표입니다. 잠재적 손실을 막고 성장을 가속화할 수 있는 전략을 확인하세요.</p>
+</header>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-lg items-start">
+<!-- Left Column (Summary) -->
+<div class="lg:col-span-4 space-y-md">
+<section class="bg-white p-md rounded-xl ambient-shadow border border-outline-variant/30 relative overflow-hidden group">
+<div class="absolute top-0 left-0 w-1 h-full bg-primary transition-all duration-300 group-hover:w-2"></div>
+<h2 class="font-headline-sm text-headline-sm mb-lg flex items-center gap-sm">
+<span class="material-symbols-outlined text-primary">analytics</span>
+                                진단 데이터 요약
+                            </h2>
+<div class="space-y-base">
+<div class="flex justify-between items-center py-3 border-b border-surface-container">
+<span class="text-secondary font-label-md text-label-md">Industry</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">외식업 (Food/Beverage)</span>
+</div>
+<div class="flex justify-between items-center py-3 border-b border-surface-container">
+<span class="text-secondary font-label-md text-label-md">Revenue</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">5,000만원</span>
+</div>
+<div class="flex justify-between items-center py-3 border-b border-surface-container">
+<span class="text-secondary font-label-md text-label-md">Staff</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">2명</span>
+</div>
+<div class="pt-lg">
+<span class="text-secondary font-label-sm text-label-sm uppercase tracking-wider mb-2 block">Main Challenge</span>
+<div class="bg-surface-container-low p-4 rounded-lg border-l-4 border-error">
+<p class="font-headline-sm text-headline-sm text-error">운영 비효율 (Operational inefficiency)</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Promotion/Info Area -->
+<div class="bg-secondary-container/50 p-md rounded-xl border border-outline-variant/20 flex items-center gap-md">
+<div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-primary">auto_awesome</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-secondary-container">데이터 정합성 98.4%</p>
+<p class="text-body-sm text-body-sm text-secondary">유사 업종 12,000개 사의 공공 데이터를 대조 분석하였습니다.</p>
+</div>
+</div>
+</div>
+<!-- Right Column (AI Report Cards) -->
+<div class="lg:col-span-8 space-y-md">
+<!-- High Impact Loss Card -->
+<div class="bg-white p-lg rounded-xl ambient-shadow border-2 border-error relative overflow-hidden">
+<div class="absolute -right-10 -top-10 w-40 h-40 bg-error/5 rounded-full blur-3xl"></div>
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-md relative z-10">
+<div>
+<h3 class="font-label-md text-label-md text-error flex items-center gap-xs mb-base">
+<span class="material-symbols-outlined text-sm">warning</span>
+                                        연간 숨은 잠재적 손실 금액 (추정)
+                                    </h3>
+<p class="font-display-lg text-display-lg text-error tracking-tighter">₩40,000,000원</p>
+</div>
+<div class="bg-error/10 px-md py-4 rounded-xl border border-error/20 text-center">
+<span class="text-error font-headline-sm text-headline-sm block">Critical Risk</span>
+<span class="text-error/70 font-label-sm text-label-sm">매출액의 약 8% 누수</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-md">
+<!-- Growth Potential -->
+<div class="bg-white p-md rounded-xl ambient-shadow border border-outline-variant/30 ambient-shadow-hover transition-all">
+<h3 class="text-secondary font-label-md text-label-md mb-base">성장 잠재력</h3>
+<div class="flex items-end justify-between">
+<div class="flex items-center gap-base">
+<span class="w-3 h-3 bg-primary rounded-full animate-pulse"></span>
+<span class="font-headline-lg text-headline-lg text-primary">High Growth</span>
+</div>
+<span class="bg-primary-container/20 text-on-primary-container px-3 py-1 rounded-full font-label-sm text-label-sm font-bold">Top 15%</span>
+</div>
+<p class="mt-md text-body-sm text-body-sm text-secondary">현재 인력 효율성을 디지털로 개선할 경우 전년 대비 22% 성장이 가능합니다.</p>
+</div>
+<!-- Diagnostic Text/Status -->
+<div class="bg-white p-md rounded-xl ambient-shadow border border-outline-variant/30 flex items-center justify-center text-center">
+<div class="space-y-xs">
+<span class="material-symbols-outlined text-primary text-4xl mb-2">verified_user</span>
+<p class="font-headline-sm text-headline-sm">AI 정밀 분석 완료</p>
+<p class="text-body-sm text-body-sm text-secondary">3개 영역에서 즉각적인 개선 권고</p>
+</div>
+</div>
+</div>
+<!-- Detailed Risk Diagnostics -->
+<section class="bg-white p-lg rounded-xl ambient-shadow border border-outline-variant/30">
+<h3 class="font-headline-sm text-headline-sm mb-xl flex items-center gap-sm">
+<span class="material-symbols-outlined text-primary">radar</span>
+                                리스크 정밀 진단
+                            </h3>
+<div class="space-y-xl">
+<!-- Risk 1 -->
+<div class="space-y-base">
+<div class="flex justify-between items-end">
+<div>
+<span class="text-on-surface font-label-md text-label-md block mb-1">운영비효율 리스크</span>
+<span class="text-body-sm text-body-sm text-secondary">인력 배치 최적화 실패로 인한 초과 비용 발생</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface">₩18,000,000</span>
+</div>
+<div class="h-2 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="progress-fill h-full bg-primary" style="width: 85%;"></div>
+</div>
+<div class="flex justify-between text-label-sm font-label-sm text-secondary">
+<span>심각도: 높음</span>
+<span>85%</span>
+</div>
+</div>
+<!-- Risk 2 -->
+<div class="space-y-base">
+<div class="flex justify-between items-end">
+<div>
+<span class="text-on-surface font-label-md text-label-md block mb-1">디지털전환부재 리스크</span>
+<span class="text-body-sm text-body-sm text-secondary">수동 주문/결제 시스템으로 인한 시간 손실</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface">₩14,000,000</span>
+</div>
+<div class="h-2 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="progress-fill h-full bg-primary" style="width: 90%;"></div>
+</div>
+<div class="flex justify-between text-label-sm font-label-sm text-secondary">
+<span>심각도: 매우 높음</span>
+<span>90%</span>
+</div>
+</div>
+<!-- Risk 3 -->
+<div class="space-y-base">
+<div class="flex justify-between items-end">
+<div>
+<span class="text-on-surface font-label-md text-label-md block mb-1">마케팅성과미흡 리스크</span>
+<span class="text-body-sm text-body-sm text-secondary">신규 고객 유입 채널 부족 및 재방문율 정체</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface">₩8,000,000</span>
+</div>
+<div class="h-2 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="progress-fill h-full bg-primary" style="width: 75%;"></div>
+</div>
+<div class="flex justify-between text-label-sm font-label-sm text-secondary">
+<span>심각도: 보통</span>
+<span>75%</span>
+</div>
+</div>
+</div>
+</section>
+<!-- AI Growth Roadmap -->
+<section class="bg-primary-container/10 p-lg rounded-xl border border-primary-container/30 relative overflow-hidden">
+<div class="absolute right-0 bottom-0 opacity-10">
+<span class="material-symbols-outlined text-[120px] transform rotate-12">trending_up</span>
+</div>
+<div class="relative z-10">
+<h3 class="font-headline-sm text-headline-sm text-on-primary-container mb-md flex items-center gap-sm">
+<span class="material-symbols-outlined">map</span>
+                                    AI 처방 성장 로드맵
+                                </h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-md">
+<div class="bg-white/50 p-4 rounded-lg border border-primary-container/20">
+<span class="font-label-sm text-label-sm text-primary block mb-2">Short Term</span>
+<p class="text-body-sm text-body-sm text-on-surface-variant">디지털 키오스크 도입을 통한 홀 인원 효율화 (손실 1,400만원 즉시 절감)</p>
+</div>
+<div class="bg-white/50 p-4 rounded-lg border border-primary-container/20">
+<span class="font-label-sm text-label-sm text-primary block mb-2">Mid Term</span>
+<p class="text-body-sm text-body-sm text-on-surface-variant">AI 기반 식자재 발주 예측 시스템 구축으로 폐기율 15% 감소</p>
+</div>
+<div class="bg-white/50 p-4 rounded-lg border border-primary-container/20">
+<span class="font-label-sm text-label-sm text-primary block mb-2">Long Term</span>
+<p class="text-body-sm text-body-sm text-on-surface-variant">로컬 타겟 광고 자동화 솔루션 도입으로 매출 20% 증대 목표</p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Area -->
+<div class="flex flex-col md:flex-row gap-md items-center justify-between bg-on-background p-lg rounded-xl">
+<div>
+<p class="text-white font-headline-sm text-headline-sm mb-1">상세한 진단 결과와 실행 방안이 궁금하신가요?</p>
+<p class="text-secondary-fixed-dim text-body-sm text-body-sm">전문 컨설턴트가 AI 리포트를 바탕으로 1:1 맞춤 상담을 도와드립니다.</p>
+</div>
+<button class="bg-[#FEE500] text-[#191919] px-xl py-4 rounded-lg font-headline-sm text-headline-sm font-bold flex items-center gap-base hover:scale-105 active:scale-95 transition-all shadow-lg whitespace-nowrap">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">chat</span>
+                                카톡 상담 시작
+                            </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Spacing -->
+<div class="h-xl"></div>
+</main>
+</div>
+<script>
+        // Micro-interaction for progress bars
+        window.addEventListener('DOMContentLoaded', () => {
+            const progressBars = document.querySelectorAll('.progress-fill');
+            progressBars.forEach(bar => {
+                const width = bar.style.width;
+                bar.style.width = '0%';
+                setTimeout(() => {
+                    bar.style.width = width;
+                }, 300);
+            });
+        });
+    </script>
+</body></html>

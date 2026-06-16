@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 15. 오후 2:34:24_
+_업데이트: 2026. 6. 15. 오후 2:52:28_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,17 +11,17 @@ _업데이트: 2026. 6. 15. 오후 2:34:24_
 - [2026-06-13] 확정된 디자인 시스템(Deep Blue/Growth Green)을 적용하여 Week 1 콘텐츠(PainGauge 이미지 및 릴스)에 대한 최종 게시 전략, 최적의 게시 시간, 해시태그를 확정하고 즉시 포스팅 실행 계획을 수립하라. → 산출물 sessions/2026-06-13T16-30/instagram.md
 - [2026-06-15] 최종 확정된 디자인 시스템(Deep Blue/Growth Green)과 수정된 온보딩 시나리오를 기반으로, Week 1 콘텐츠의 게시 시간, 해시태그, 그리고 '위기감 → 해결책' 스토리텔링이 자연스럽게 반영된 최종 포스팅 실행 계획을 즉시 수립하고 예약하라. → 산출물 sessions/2026-06-15T03-33/instagram.md
 ### 🎨 Designer
-- [2026-06-15] Trust Widget 및 PainGauge의 최종 디자인 스펙(V5.0)과 코다리로부터 받은 Mock Data Set을 기반으로, 플랫폼 상세페이지에 적용 시 위기감 자극 및 신뢰 부여 효과를 최대화하는 프로토타입 검증 계획(A/B 테스트 시나리오 포함)을 수립하라. → 산출물 sessions/2026-06-15T04-48/designer.md
 - [2026-06-15] Writer가 작성한 60초 영상 스토리라인(V1.0)을 기반으로, 각 장면별 시각화 가이드(이미지 프롬프트 및 색상 코드)를 제작하여 스토리보드 시각화를 즉시 시작할 것. → 산출물 sessions/2026-06-15T05-03/designer.md
 - [2026-06-15] Writer가 완성한 스토리라인 및 Trust Widget/PainGauge의 V5.0 디자인 명세서를 기반으로, 마케팅 랜딩 페이지에 적용될 최종 비주얼 컴포넌트의 일관성과 위기감-해결책의 흐름을 극대화하는 최종 시각적 가이드(프롬프트 포함)를 확정하고 준비하라. → 산출물 sessions/2026-06-15T05-18/designer.md
+- [2026-06-15] Trust Widget 및 PainGauge의 최종 디자인 명세서(V5.0)와 개발팀의 API 명세서를 기반으로, 데이터 흐름이 시각적 요소에 완벽하게 일치하는지 검증하기 위한 통합 시각화 체크리스트를 작성하라. → 산출물 sessions/2026-06-15T05-48/designer.md
 ### 💻 코다리
-- [2026-06-15] Trust Widget 및 PainGauge의 Mock API 구현 명세서(`trust_widget_pain_gauge_api_spec_v1.md`)를 기반으로, 프론트엔드 디자인 검증에 필요한 최소한의 데이터 흐름을 테스트할 수 있는 백엔드 구조(Mock Endpoint)의 초기 개발을 착수하라. → 산출물 sessions/2026-06-15T04-48/developer.md
 - [2026-06-15] Trust Widget 및 PainGauge의 Mock API 명세서(V4.1)와 최종 디자인 스펙을 기반으로, 핵심 데이터 추적 로직(IP-01~IP-04)에 필요한 초기 백엔드 구조 및 Mock API 구현을 병행하여 진행할 것. → 산출물 sessions/2026-06-15T05-03/developer.md
 - [2026-06-15] Trust Widget 및 PainGauge의 Mock API 명세서(`trust_widget_pain_gauge_api_spec_v1.md`)를 기반으로, 핵심 데이터 추적 로직(IP-01~IP-04)에 필요한 최소한의 백엔드 구조 및 Mock Endpoint 개발을 즉시 착수하라. → 산출물 sessions/2026-06-15T05-33/developer.md
+- [2026-06-15] Trust Widget 및 PainGauge 기능에 대한 Mock Data Set 기반의 최종 데이터 흐름 및 API 연동 통합 테스트 계획을 수립하고, 모든 핵심 데이터 추적 로직이 의도대로 작동하는지 검증할 수 있는 자동화 스크립트 초안을 준비하라. → 산출물 sessions/2026-06-15T05-48/developer.md
 ### 💼 현빈
-- [2026-06-14] 개발 및 디자인 작업에 앞서, 데이터 추적 로직(IP-01~IP-04)이 설정된 KPI와 수익 전환 지점(Trust Widget/PainGauge)과 어떻게 연결되는지에 대한 최종 실행 전략과 목표치(Actionable Roadmap)를 구체화하라. → 산출물 sessions/2026-06-14T04-40/business.md
 - [2026-06-15] 설계된 A/B 테스트의 성공 기준(KPI)과 예상되는 사용자 행동 전환 지점을 정의하고, 이에 따른 수익화 전략의 변화를 예측하여 보고하라. → 산출물 sessions/2026-06-15T03-48/business.md
 - [2026-06-15] 코다리가 생성한 A/B 테스트 KPI 결과(`developer_ab_test_kpi_and_revenue.md`)를 분석하고, 신뢰 구축형 디자인(Trust Widget/PainGauge)이 실제 수익 전환 지점(Monetization Point)에 미치는 영향을 분석하여 다음 단계의 수익화 전략을 구체화하라. → 산출물 sessions/2026-06-15T04-03/business.md
+- [2026-06-15] 플랫폼 상세페이지 핵심 랜딩 경험에 대한 A/B 테스트 전략을 확정하고, Trust Widget 및 PainGauge의 데이터 기반 결과를 측정할 구체적인 KPI(성공 기준)와 초기 가설을 정의하라. → 산출물 sessions/2026-06-15T05-48/business.md
 ### 📱 영숙
 - [2026-06-13] 회사 목표, 각 에이전트의 개인 목표, 최근 의사결정 및 메모리를 즉시 검토하여 현재 가장 가치 있는 단일 작업 1개를 결정하고, 해당 작업을 실행할 최적의 에이전트 1~2명을 추천하여 보고하라. → 산출물 sessions/2026-06-13T15-30/secretary.md
 - [2026-06-13] 최근 의사결정 기록, 회사 목표, 각 에이전트의 개인 목표(goal.md), 그리고 최근 메모리를 검토하여 현재 가장 가치 있는 단일 작업 1개를 식별하고 그 근거를 요약하라. → 산출물 sessions/2026-06-13T17-30/secretary.md
