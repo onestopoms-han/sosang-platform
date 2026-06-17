@@ -5789,6 +5789,91 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-17T13-51/_report.md\n- 코다리: Designer가 최종 확정한 UI/UX 흐름 및 스타일링 정의를 바탕으로, '옆집선배' 캐릭터 컴포넌트의 초기 React/Vue 스켈레톤 구현\n- Designer: 코다리가 구현할 최종 핸드오버 패키지(Visual & Interaction Guide)에 따라, 캐릭터 컴포넌트의 최종 스타일링 및 애니메이션 \n- Instagram: MVP 출시 목표 달성을 위해, 베타 테스트 참여자 모집을 위한 홍보 콘텐츠 실행 계획을 확정하고 즉시 시작하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 최종 확정한 UI/UX 흐름 및 스타일링 정의를 바탕으로, '옆집선배' 캐릭터 컴포넌트의 초기 React/Vue 스켈레톤 구현과 데이터 흐름을 즉시 시작하고 개발을 진행하라.\n> 🔧 **도구 실행**: _(없음 — LLM ",
       "completedAt": "2026-06-17T13:56:28.830Z"
+    },
+    {
+      "id": "20260617144042-d5d6",
+      "title": "포스트 게시 직후 스토리 업로드 완료",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-17T14:40:42.477Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T14-36",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T14-36/_report.md\n- 코다리: Designer가 승인한 최종 핸드오버 패키지(Visual & Interaction Guide)를 기반으로 '옆집선배' 캐릭터 컴포넌트의 Moc\n- Designer: 개발팀(코다리)으로부터 전달받은 캐릭터 컴포넌트의 구현 결과에 대해 시각적 일관성(Pixel-level Consistency) 최종 승인(Sig\n- Instagram: 확정된 베타 테스트 참여자 모집 홍보 콘텐츠(초안, 해시태그 전략 포함)를 즉시 게시하고 초기 사용자 반응을 모니터링할 준비를 하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 승인한 최종 핸드오버 패키지(Visual & Interaction Guide)를 기반으로 '옆집선배' 캐릭터 컴포넌트의 Mock API 데이터 흐름 동기화 및 최종 애니메이션 구현을 완료하고 통합 테스트 결과를 보고하라.\n>",
+      "completedAt": "2026-06-17T14:41:42.435Z"
+    },
+    {
+      "id": "20260617144042-7zyc",
+      "title": "DM 자동 응답 준비 완료",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-17T14:40:42.491Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T14-36",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T14-36/_report.md\n- 코다리: Designer가 승인한 최종 핸드오버 패키지(Visual & Interaction Guide)를 기반으로 '옆집선배' 캐릭터 컴포넌트의 Moc\n- Designer: 개발팀(코다리)으로부터 전달받은 캐릭터 컴포넌트의 구현 결과에 대해 시각적 일관성(Pixel-level Consistency) 최종 승인(Sig\n- Instagram: 확정된 베타 테스트 참여자 모집 홍보 콘텐츠(초안, 해시태그 전략 포함)를 즉시 게시하고 초기 사용자 반응을 모니터링할 준비를 하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 승인한 최종 핸드오버 패키지(Visual & Interaction Guide)를 기반으로 '옆집선배' 캐릭터 컴포넌트의 Mock API 데이터 흐름 동기화 및 최종 애니메이션 구현을 완료하고 통합 테스트 결과를 보고하라.\n>",
+      "completedAt": "2026-06-17T14:41:42.479Z"
+    },
+    {
+      "id": "20260617144042-bopl",
+      "title": "링크 클릭율 및 반응 수 1 시간마다 확인",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-17T14:40:42.502Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T14-36",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T14-36/_report.md\n- 코다리: Designer가 승인한 최종 핸드오버 패키지(Visual & Interaction Guide)를 기반으로 '옆집선배' 캐릭터 컴포넌트의 Moc\n- Designer: 개발팀(코다리)으로부터 전달받은 캐릭터 컴포넌트의 구현 결과에 대해 시각적 일관성(Pixel-level Consistency) 최종 승인(Sig\n- Instagram: 확정된 베타 테스트 참여자 모집 홍보 콘텐츠(초안, 해시태그 전략 포함)를 즉시 게시하고 초기 사용자 반응을 모니터링할 준비를 하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 승인한 최종 핸드오버 패키지(Visual & Interaction Guide)를 기반으로 '옆집선배' 캐릭터 컴포넌트의 Mock API 데이터 흐름 동기화 및 최종 애니메이션 구현을 완료하고 통합 테스트 결과를 보고하라.\n>",
+      "completedAt": "2026-06-17T14:41:42.520Z"
+    },
+    {
+      "id": "20260617144042-2tpp",
+      "title": "댓글 반응에 따라 추가 스토리/피드 업데이트 계획 수립",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-17T14:40:42.513Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T14-36",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T14-36/_report.md\n- 코다리: Designer가 승인한 최종 핸드오버 패키지(Visual & Interaction Guide)를 기반으로 '옆집선배' 캐릭터 컴포넌트의 Moc\n- Designer: 개발팀(코다리)으로부터 전달받은 캐릭터 컴포넌트의 구현 결과에 대해 시각적 일관성(Pixel-level Consistency) 최종 승인(Sig\n- Instagram: 확정된 베타 테스트 참여자 모집 홍보 콘텐츠(초안, 해시태그 전략 포함)를 즉시 게시하고 초기 사용자 반응을 모니터링할 준비를 하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 승인한 최종 핸드오버 패키지(Visual & Interaction Guide)를 기반으로 '옆집선배' 캐릭터 컴포넌트의 Mock API 데이터 흐름 동기화 및 최종 애니메이션 구현을 완료하고 통합 테스트 결과를 보고하라.\n>",
+      "completedAt": "2026-06-17T14:41:42.557Z"
+    },
+    {
+      "id": "20260617144042-bpr8",
+      "title": "베타 테스트 참여 신청 폼 (또는 DM) 으로 전환되는 비율 모니터링</replace></create_file>",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-17T14:40:42.523Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T14-36",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T14-36/_report.md\n- 코다리: Designer가 승인한 최종 핸드오버 패키지(Visual & Interaction Guide)를 기반으로 '옆집선배' 캐릭터 컴포넌트의 Moc\n- Designer: 개발팀(코다리)으로부터 전달받은 캐릭터 컴포넌트의 구현 결과에 대해 시각적 일관성(Pixel-level Consistency) 최종 승인(Sig\n- Instagram: 확정된 베타 테스트 참여자 모집 홍보 콘텐츠(초안, 해시태그 전략 포함)를 즉시 게시하고 초기 사용자 반응을 모니터링할 준비를 하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 승인한 최종 핸드오버 패키지(Visual & Interaction Guide)를 기반으로 '옆집선배' 캐릭터 컴포넌트의 Mock API 데이터 흐름 동기화 및 최종 애니메이션 구현을 완료하고 통합 테스트 결과를 보고하라.\n>",
+      "completedAt": "2026-06-17T14:41:42.592Z"
     }
   ]
 }
