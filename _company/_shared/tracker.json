@@ -5612,11 +5612,13 @@
         "instagram"
       ],
       "createdAt": "2026-06-17T11:23:23.588Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-06-17T11-21",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T11-21/_report.md\n- Instagram: 개발 준비가 완료된 만큼, 다음 단계인 MVP 출시 일정(7월 중순)에 맞춰 사용자 온보딩 스토리라인의 최종 영상 기획을 재점검하고 실행 계획을\n- Writer: Instagram의 기획안을 바탕으로, Trust Widget과 PainGauge의 기능(신뢰감/위기감)이 자연스럽게 녹아든 60초 영상 스토리\n- 영숙: Instagram과 Writer의 작업 결과를 취합하여, MVP 출시 일정에 맞춘 온보딩 영상 기획의 마일스톤을 정리하고 다음 단계 실행 일정을\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📷 Instagram _(Head of Instagram)_\n> 📋 **지시**: 개발 준비가 완료된 만큼, 다음 단계인 MVP 출시 일정(7월 중순)에 맞춰 사용자 온보딩 스토리라인의 최종 영상 기획을 재점검하고 실행 계획을 확정하세요.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> \ud83d",
+      "completedAt": "2026-06-17T11:37:13.742Z"
     },
     {
       "id": "20260617112323-1h0g",
@@ -5627,11 +5629,13 @@
         "instagram"
       ],
       "createdAt": "2026-06-17T11:23:23.601Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-06-17T11-21",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T11-21/_report.md\n- Instagram: 개발 준비가 완료된 만큼, 다음 단계인 MVP 출시 일정(7월 중순)에 맞춰 사용자 온보딩 스토리라인의 최종 영상 기획을 재점검하고 실행 계획을\n- Writer: Instagram의 기획안을 바탕으로, Trust Widget과 PainGauge의 기능(신뢰감/위기감)이 자연스럽게 녹아든 60초 영상 스토리\n- 영숙: Instagram과 Writer의 작업 결과를 취합하여, MVP 출시 일정에 맞춘 온보딩 영상 기획의 마일스톤을 정리하고 다음 단계 실행 일정을\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📷 Instagram _(Head of Instagram)_\n> 📋 **지시**: 개발 준비가 완료된 만큼, 다음 단계인 MVP 출시 일정(7월 중순)에 맞춰 사용자 온보딩 스토리라인의 최종 영상 기획을 재점검하고 실행 계획을 확정하세요.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> \ud83d",
+      "completedAt": "2026-06-17T11:37:13.759Z"
     },
     {
       "id": "20260617112323-33ak",
@@ -5642,11 +5646,13 @@
         "instagram"
       ],
       "createdAt": "2026-06-17T11:23:23.612Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-06-17T11-21",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T11-21/_report.md\n- Instagram: 개발 준비가 완료된 만큼, 다음 단계인 MVP 출시 일정(7월 중순)에 맞춰 사용자 온보딩 스토리라인의 최종 영상 기획을 재점검하고 실행 계획을\n- Writer: Instagram의 기획안을 바탕으로, Trust Widget과 PainGauge의 기능(신뢰감/위기감)이 자연스럽게 녹아든 60초 영상 스토리\n- 영숙: Instagram과 Writer의 작업 결과를 취합하여, MVP 출시 일정에 맞춘 온보딩 영상 기획의 마일스톤을 정리하고 다음 단계 실행 일정을\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📷 Instagram _(Head of Instagram)_\n> 📋 **지시**: 개발 준비가 완료된 만큼, 다음 단계인 MVP 출시 일정(7월 중순)에 맞춰 사용자 온보딩 스토리라인의 최종 영상 기획을 재점검하고 실행 계획을 확정하세요.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> \ud83d",
+      "completedAt": "2026-06-17T11:37:13.777Z"
     }
   ]
 }
