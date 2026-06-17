@@ -5517,6 +5517,91 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-13T09-35/_report.md\n- 영숙: 코다리와 디자이너가 완료한 최종 QA 및 시각적 승인 자료를 취합하여, 플랫폼 Go-Live 전 기술 안정성 보고서와 디자인 승인 보고서를 통합\n- 코다리: 코다리가 수행 중인 최종 기술 안정성 보고서(데이터 분석 포함)와 Designer가 완료한 시각적 승인 자료를 비교하여, Trust Widget\n- Designer: 최종 QA 승인 보고서(`Design_Signoff_Report_V1.0.md`)를 공식적으로 최종 승인하고, 개발팀 인계 절차에 필요한 모든 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 코다리와 디자이너가 완료한 최종 QA 및 시각적 승인 자료를 취합하여, 플랫폼 Go-Live 전 기술 안정성 보고서와 디자인 승인 보고서를 통합하고 개발팀에 인계하는 공식 절차를 수립하라.\n> 🔧 **도구 실행**: _(없",
       "completedAt": "2026-06-13T09:39:15.052Z"
+    },
+    {
+      "id": "20260617063457-9zk8",
+      "title": "로고 파일 준비 (.svg, .png 투명 배경)",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-17T06:34:57.867Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T06-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T06-25/_report.md\n- Researcher: 소상공인의 구체적인 어려움과 AI 활용 니즈에 대한 최신 데이터를 수집하고, 이를 바탕으로 플랫폼의 핵심 가치와 연결할 수 있는 'Pain Po\n- Designer: Researcher가 도출한 Pain Point 5가지를 시각적으로 표현하기 위한 Trust Widget 및 PainGauge의 구체적인 디자인\n- Writer: Designer가 제시한 시각 가이드라인과 Researcher의 데이터 기반 Pain Point를 활용하여, 플랫폼의 핵심 기능을 소개하는 60\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 소상공인의 구체적인 어려움과 AI 활용 니즈에 대한 최신 데이터를 수집하고, 이를 바탕으로 플랫폼의 핵심 가치와 연결할 수 있는 'Pain Point' 목록 5가지를 도출하라.\n> 🔧 **도구 실행**: _(",
+      "completedAt": "2026-06-17T06:35:46.870Z"
+    },
+    {
+      "id": "20260617063457-49oe",
+      "title": "테스트폰으로 미리보기 확인 (모바일 최적화)",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-17T06:34:57.887Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T06-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T06-25/_report.md\n- Researcher: 소상공인의 구체적인 어려움과 AI 활용 니즈에 대한 최신 데이터를 수집하고, 이를 바탕으로 플랫폼의 핵심 가치와 연결할 수 있는 'Pain Po\n- Designer: Researcher가 도출한 Pain Point 5가지를 시각적으로 표현하기 위한 Trust Widget 및 PainGauge의 구체적인 디자인\n- Writer: Designer가 제시한 시각 가이드라인과 Researcher의 데이터 기반 Pain Point를 활용하여, 플랫폼의 핵심 기능을 소개하는 60\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 소상공인의 구체적인 어려움과 AI 활용 니즈에 대한 최신 데이터를 수집하고, 이를 바탕으로 플랫폼의 핵심 가치와 연결할 수 있는 'Pain Point' 목록 5가지를 도출하라.\n> 🔧 **도구 실행**: _(",
+      "completedAt": "2026-06-17T06:35:46.886Z"
+    },
+    {
+      "id": "20260617063457-8qz6",
+      "title": "저작권-free 음악 및 사운드 효과선정",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-17T06:34:57.905Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T06-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T06-25/_report.md\n- Researcher: 소상공인의 구체적인 어려움과 AI 활용 니즈에 대한 최신 데이터를 수집하고, 이를 바탕으로 플랫폼의 핵심 가치와 연결할 수 있는 'Pain Po\n- Designer: Researcher가 도출한 Pain Point 5가지를 시각적으로 표현하기 위한 Trust Widget 및 PainGauge의 구체적인 디자인\n- Writer: Designer가 제시한 시각 가이드라인과 Researcher의 데이터 기반 Pain Point를 활용하여, 플랫폼의 핵심 기능을 소개하는 60\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 소상공인의 구체적인 어려움과 AI 활용 니즈에 대한 최신 데이터를 수집하고, 이를 바탕으로 플랫폼의 핵심 가치와 연결할 수 있는 'Pain Point' 목록 5가지를 도출하라.\n> 🔧 **도구 실행**: _(",
+      "completedAt": "2026-06-17T06:35:46.902Z"
+    },
+    {
+      "id": "20260617063457-oj8h",
+      "title": "장면별 타임코드 정확히 맞추기",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-17T06:34:57.922Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T06-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T06-25/_report.md\n- Researcher: 소상공인의 구체적인 어려움과 AI 활용 니즈에 대한 최신 데이터를 수집하고, 이를 바탕으로 플랫폼의 핵심 가치와 연결할 수 있는 'Pain Po\n- Designer: Researcher가 도출한 Pain Point 5가지를 시각적으로 표현하기 위한 Trust Widget 및 PainGauge의 구체적인 디자인\n- Writer: Designer가 제시한 시각 가이드라인과 Researcher의 데이터 기반 Pain Point를 활용하여, 플랫폼의 핵심 기능을 소개하는 60\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 소상공인의 구체적인 어려움과 AI 활용 니즈에 대한 최신 데이터를 수집하고, 이를 바탕으로 플랫폼의 핵심 가치와 연결할 수 있는 'Pain Point' 목록 5가지를 도출하라.\n> 🔧 **도구 실행**: _(",
+      "completedAt": "2026-06-17T06:35:46.917Z"
+    },
+    {
+      "id": "20260617063457-f6wy",
+      "title": "자막 위치 (안전 영역: 하단 25% 이내 피하기)",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-17T06:34:57.940Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T06-25",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T06-25/_report.md\n- Researcher: 소상공인의 구체적인 어려움과 AI 활용 니즈에 대한 최신 데이터를 수집하고, 이를 바탕으로 플랫폼의 핵심 가치와 연결할 수 있는 'Pain Po\n- Designer: Researcher가 도출한 Pain Point 5가지를 시각적으로 표현하기 위한 Trust Widget 및 PainGauge의 구체적인 디자인\n- Writer: Designer가 제시한 시각 가이드라인과 Researcher의 데이터 기반 Pain Point를 활용하여, 플랫폼의 핵심 기능을 소개하는 60\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 소상공인의 구체적인 어려움과 AI 활용 니즈에 대한 최신 데이터를 수집하고, 이를 바탕으로 플랫폼의 핵심 가치와 연결할 수 있는 'Pain Point' 목록 5가지를 도출하라.\n> 🔧 **도구 실행**: _(",
+      "completedAt": "2026-06-17T06:35:46.934Z"
     }
   ]
 }
