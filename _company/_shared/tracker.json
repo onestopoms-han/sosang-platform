@@ -5976,6 +5976,74 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-17T17-51/_report.md\n- 현빈: MVP 출시를 위한 최종 GTM 실행 계획(베타테스터 모집 후 초기 사용자 반응 예측 및 KPI 설정)을 확정하고, 개발팀의 다음 스프린트 우선\n- 영숙: business 에이전트의 최종 GTM 계획과 코다리 에이전트의 개발 우선순위를 통합하여 다음 스프린트의 마스터 플랜(V1.0)을 작성하고, 이\n- Writer: 사업 및 개발 팀이 확정한 다음 스프린트 목표에 맞춰, 베타테스터 대상 '초기 가이드' 콘텐츠 스토리라인 및 핵심 메시지를 작성하여 마케팅 실행\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 출시를 위한 최종 GTM 실행 계획(베타테스터 모집 후 초기 사용자 반응 예측 및 KPI 설정)을 확정하고, 개발팀의 다음 스프린트 우선순위(PainGauge 데이터 연동 강화 및 Onboarding 개선)를 ",
       "completedAt": "2026-06-17T18:17:15.540Z"
+    },
+    {
+      "id": "20260617184745-2cm0",
+      "title": "KPI (온보딩 완료율 70%, AI 추천 채택률 30%) 언급 여부",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-17T18:47:45.120Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T18-36",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T18-36/_report.md\n- 현빈: 확정된 KPI(온보딩 완료율 70%, AI 추천 채택률 30%)와 'AI 진단서 → 매출 최적화 팁 → 실제 사례' 스토리텔링을 기반으로, 베타\n\nCEO 종합 요점: 💼 현빈: CEO 지시대로 확정된 KPI 와 스토리텔링을 반영한 최종 홍보 콘텐츠를 즉시 제작합니다. 기존 기획안을 바탕으로 비즈니스적 타당성을 강화하고 시각적·언어적 매력을 극대화하여 릴스와 블로그용 콘텐츠 파일 `business_content_final.md` 를 생성하겠습니다.\n\n<create_file path=\"C:\\Users\\PJH\\소상공인플렛폼",
+      "completedAt": "2026-06-17T18:47:45.189Z"
+    },
+    {
+      "id": "20260617184745-9i53",
+      "title": "스토리텔링 구조 (AI 진단서 → 최적화 팁 → 실제 사례) 준수 여부",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-17T18:47:45.137Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T18-36",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T18-36/_report.md\n- 현빈: 확정된 KPI(온보딩 완료율 70%, AI 추천 채택률 30%)와 'AI 진단서 → 매출 최적화 팁 → 실제 사례' 스토리텔링을 기반으로, 베타\n\nCEO 종합 요점: 💼 현빈: CEO 지시대로 확정된 KPI 와 스토리텔링을 반영한 최종 홍보 콘텐츠를 즉시 제작합니다. 기존 기획안을 바탕으로 비즈니스적 타당성을 강화하고 시각적·언어적 매력을 극대화하여 릴스와 블로그용 콘텐츠 파일 `business_content_final.md` 를 생성하겠습니다.\n\n<create_file path=\"C:\\Users\\PJH\\소상공인플렛폼",
+      "completedAt": "2026-06-17T18:47:45.204Z"
+    },
+    {
+      "id": "20260617184745-lq7y",
+      "title": "시각적·언어적 매력 극대화 여부 (문구, 디자인 요소 등)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-17T18:47:45.152Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T18-36",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T18-36/_report.md\n- 현빈: 확정된 KPI(온보딩 완료율 70%, AI 추천 채택률 30%)와 'AI 진단서 → 매출 최적화 팁 → 실제 사례' 스토리텔링을 기반으로, 베타\n\nCEO 종합 요점: 💼 현빈: CEO 지시대로 확정된 KPI 와 스토리텔링을 반영한 최종 홍보 콘텐츠를 즉시 제작합니다. 기존 기획안을 바탕으로 비즈니스적 타당성을 강화하고 시각적·언어적 매력을 극대화하여 릴스와 블로그용 콘텐츠 파일 `business_content_final.md` 를 생성하겠습니다.\n\n<create_file path=\"C:\\Users\\PJH\\소상공인플렛폼",
+      "completedAt": "2026-06-17T18:47:45.216Z"
+    },
+    {
+      "id": "20260617184745-jb23",
+      "title": "비즈니스적 타당성 (ROI, 전환율 예측) 반영 여부",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-17T18:47:45.165Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T18-36",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T18-36/_report.md\n- 현빈: 확정된 KPI(온보딩 완료율 70%, AI 추천 채택률 30%)와 'AI 진단서 → 매출 최적화 팁 → 실제 사례' 스토리텔링을 기반으로, 베타\n\nCEO 종합 요점: 💼 현빈: CEO 지시대로 확정된 KPI 와 스토리텔링을 반영한 최종 홍보 콘텐츠를 즉시 제작합니다. 기존 기획안을 바탕으로 비즈니스적 타당성을 강화하고 시각적·언어적 매력을 극대화하여 릴스와 블로그용 콘텐츠 파일 `business_content_final.md` 를 생성하겠습니다.\n\n<create_file path=\"C:\\Users\\PJH\\소상공인플렛폼",
+      "completedAt": "2026-06-17T18:47:45.236Z"
     }
   ]
 }
