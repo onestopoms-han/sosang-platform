@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 17. 오후 7:57:43_
+_업데이트: 2026. 6. 17. 오후 8:10:01_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,13 +11,13 @@ _업데이트: 2026. 6. 17. 오후 7:57:43_
 - [2026-06-13] 확정된 디자인 시스템(Deep Blue/Growth Green)을 적용하여 Week 1 콘텐츠(PainGauge 이미지 및 릴스)에 대한 최종 게시 전략, 최적의 게시 시간, 해시태그를 확정하고 즉시 포스팅 실행 계획을 수립하라. → 산출물 sessions/2026-06-13T16-30/instagram.md
 - [2026-06-15] 최종 확정된 디자인 시스템(Deep Blue/Growth Green)과 수정된 온보딩 시나리오를 기반으로, Week 1 콘텐츠의 게시 시간, 해시태그, 그리고 '위기감 → 해결책' 스토리텔링이 자연스럽게 반영된 최종 포스팅 실행 계획을 즉시 수립하고 예약하라. → 산출물 sessions/2026-06-15T03-33/instagram.md
 ### 🎨 Designer
-- [2026-06-17] Trust Widget 및 PainGauge의 최종 UI/UX 통합 명세서(`Integration_Prototype_Spec.md`)와 Writer의 스토리라인을 기반으로, 랜딩 페이지에 적용할 시각적 일관성(Deep Blue/Growth Green 톤)이 완벽히 반영된 최종 목업 디자인 방향 및 핵심 비주얼 가이드라인을 확정하고 제공하라. → 산출물 sessions/2026-06-17T08-10/designer.md
 - [2026-06-17] Trust Widget 및 PainGauge의 최종 UI/UX 통합 명세서(`Integration_Prototype_Spec.md`)와 확정된 디자인 시스템(Deep Blue/Growth Green)을 기반으로, 실제 목업 디자인을 적용하여 시각적 일관성 검증을 위한 최종 목업을 즉시 제작하라. → 산출물 sessions/2026-06-17T08-33/designer.md
 - [2026-06-17] 확정된 컴포넌트 매뉴얼(`BDS_DesignSystem_ComponentManual_v1.0.md`)과 통합 명세서(`Integration_Prototype_Spec.md`)를 기반으로, Trust Widget 및 PainGauge의 실제 Mock API 응답 예시를 정의하는 데이터 계약서(Schema) 작업을 시작하라. → 산출물 sessions/2026-06-17T10-51/designer.md
+- [2026-06-17] Trust Widget 및 PainGauge에 대한 최종 Mock API 응답 예시(`API_Data_Contract_Schema_v1.0.md`)와 통합 명세서(`Integration_Prototype_Spec.md`)를 기반으로, 개발팀(코다리)이 즉시 작업을 시작할 수 있도록 모든 시각적 및 데이터 요구사항을 최종 검토하고 핸드오프 문서를 확정하라. → 산출물 sessions/2026-06-17T11-06/designer.md
 ### 💻 코다리
-- [2026-06-17] Designer가 제공한 최종 통합 명세서(`Integration_Prototype_Spec.md`)를 기반으로, Trust Widget 및 PainGauge 컴포넌트의 React/Vue 스켈레톤 코드와 데이터 플로우 가이드라인을 정리하여 개발 착수에 필요한 초기 코드를 준비하라. → 산출물 sessions/2026-06-17T08-10/developer.md
 - [2026-06-17] Designer가 제공한 통합 명세서(`Integration_Prototype_Spec.md`)를 기반으로 Trust Widget 및 PainGauge의 React/Vue 컴포넌트 구현에 필요한 초기 상태 머신과 데이터 플로우 정의를 최종 확인하고, 실제 코딩을 시작할 수 있도록 환경을 준비하라. → 산출물 sessions/2026-06-17T08-33/developer.md
 - [2026-06-17] Designer가 제공한 컴포넌트 매뉴얼(`BDS_DesignSystem_ComponentManual_v1.0.md`)과 통합 명세서(`Integration_Prototype_Spec.md`)를 기반으로, Trust Widget 및 PainGauge 컴포넌트 구현에 필요한 초기 상태 머신(State Machine) 및 데이터 플로우 정의 파일(`ComponentStateFlow_Definition.md`)을 생성하라. → 산출물 sessions/2026-06-17T10-51/developer.md
+- [2026-06-17] Designer가 제공한 API Data Contract Schema(`API_Data_Contract_Schema_v1.0.md`)와 컴포넌트 상태 머신 정의(`ComponentStateFlow_Definition.md`)를 기반으로 Trust Widget 및 PainGauge의 초기 React/Vue 스켈레톤 코드 구현을 즉시 시작하고, 데이터 플로우 검증 루프를 적용하라. → 산출물 sessions/2026-06-17T11-06/developer.md
 ### 💼 현빈
 - [2026-06-15] 플랫폼 상세페이지 핵심 랜딩 경험에 대한 A/B 테스트 전략을 확정하고, Trust Widget 및 PainGauge의 데이터 기반 결과를 측정할 구체적인 KPI(성공 기준)와 초기 가설을 정의하라. → 산출물 sessions/2026-06-15T05-48/business.md
 - [2026-06-17] 작성될 콘텐츠의 핵심 KPI(신뢰도 상승, 전환율)를 설정하고, Writer와 Designer가 제안한 스토리텔링이 이 목표 달성에 어떻게 기여하는지 비즈니스 관점에서 최종 검토 및 승인하라. → 산출물 sessions/2026-06-17T07-40/business.md
