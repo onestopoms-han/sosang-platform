@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 17. 오후 3:35:46_
+_업데이트: 2026. 6. 17. 오후 3:41:51_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,9 +11,9 @@ _업데이트: 2026. 6. 17. 오후 3:35:46_
 - [2026-06-13] 확정된 디자인 시스템(Deep Blue/Growth Green)을 적용하여 Week 1 콘텐츠(PainGauge 이미지 및 릴스)에 대한 최종 게시 전략, 최적의 게시 시간, 해시태그를 확정하고 즉시 포스팅 실행 계획을 수립하라. → 산출물 sessions/2026-06-13T16-30/instagram.md
 - [2026-06-15] 최종 확정된 디자인 시스템(Deep Blue/Growth Green)과 수정된 온보딩 시나리오를 기반으로, Week 1 콘텐츠의 게시 시간, 해시태그, 그리고 '위기감 → 해결책' 스토리텔링이 자연스럽게 반영된 최종 포스팅 실행 계획을 즉시 수립하고 예약하라. → 산출물 sessions/2026-06-15T03-33/instagram.md
 ### 🎨 Designer
-- [2026-06-16] 기존 ' → 산출물 sessions/2026-06-16T11-57/designer.md
 - [2026-06-16] 기존의 '옆집 선배' 및 '아이디어 그래프' 캐릭터 콘셉트를 바탕으로, BDS소상공인플렛폼의 핵심 가치(신뢰, 실용성, AI 네이티브)를 시각적으로 구현하는 상세 디자인 브리프 → 산출물 sessions/2026-06-16T13-22/designer.md
 - [2026-06-17] Researcher가 도출한 Pain Point 5가지를 시각적으로 표현하기 위한 Trust Widget 및 PainGauge의 구체적인 디자인 변수(색상, 아이콘, 레이블)에 대한 초기 시각 가이드라인 초안을 작성하라. → 산출물 sessions/2026-06-17T06-25/designer.md
+- [2026-06-17] Researcher가 도출한 Pain Point와 Designer가 작성한 시각 가이드라인(Trust Widget 및 PainGauge 디자인 변수)을 기반으로, Trust Widget 및 PainGauge의 최종 프로토타입 UI 구현에 필요한 상세 컴포넌트 명세와 초기 목업(Mockup) 디자인을 즉시 시작하라. → 산출물 sessions/2026-06-17T06-40/designer.md
 ### 💻 코다리
 - [2026-06-15] Trust Widget 및 PainGauge 기능에 대한 Mock Data Set 기반의 최종 데이터 흐름 및 API 연동 통합 테스트 계획을 수립하고, 모든 핵심 데이터 추적 로직이 의도대로 작동하는지 검증할 수 있는 자동화 스크립트 초안을 준비하라. → 산출물 sessions/2026-06-15T05-48/developer.md
 - [2026-06-15] Trust Widget 및 PainGauge의 Mock API 명세서(V4.1)와 Designer가 정의한 시각적 가이드라인을 기반으로, 핵심 데이터 추적 로직(IP-01~IP-04)에 대한 최종 통합 테스트 환경을 구축하고 Mock 데이터 흐름을 완벽히 검증하라. → 산출물 sessions/2026-06-15T06-03/developer.md
