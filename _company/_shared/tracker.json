@@ -5602,6 +5602,51 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-17T06-25/_report.md\n- Researcher: 소상공인의 구체적인 어려움과 AI 활용 니즈에 대한 최신 데이터를 수집하고, 이를 바탕으로 플랫폼의 핵심 가치와 연결할 수 있는 'Pain Po\n- Designer: Researcher가 도출한 Pain Point 5가지를 시각적으로 표현하기 위한 Trust Widget 및 PainGauge의 구체적인 디자인\n- Writer: Designer가 제시한 시각 가이드라인과 Researcher의 데이터 기반 Pain Point를 활용하여, 플랫폼의 핵심 기능을 소개하는 60\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 소상공인의 구체적인 어려움과 AI 활용 니즈에 대한 최신 데이터를 수집하고, 이를 바탕으로 플랫폼의 핵심 가치와 연결할 수 있는 'Pain Point' 목록 5가지를 도출하라.\n> 🔧 **도구 실행**: _(",
       "completedAt": "2026-06-17T06:35:46.934Z"
+    },
+    {
+      "id": "20260617112323-roy5",
+      "title": "**Designer:** 스토리보드에 따라 실제 목업 디자인 및 UI 일관성 검토 완료. (Deadline: 6월 30일)",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-17T11:23:23.588Z",
+      "status": "pending",
+      "sessionDir": "2026-06-17T11-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260617112323-1h0g",
+      "title": "**Writer:** 영상 대본을 바탕으로 홈페이지용 랜딩 페이지 카피 작성. (Deadline: 7월 1일)",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-17T11:23:23.601Z",
+      "status": "pending",
+      "sessionDir": "2026-06-17T11-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260617112323-33ak",
+      "title": "**Developer:** 비디오 자동 재생 로직 및 Deep Link 연동 구현. (Deadline: 7월 5일)",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-17T11:23:23.612Z",
+      "status": "pending",
+      "sessionDir": "2026-06-17T11-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
     }
   ]
 }
