@@ -5721,6 +5721,74 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-17T12-06/_report.md\n- 레오: 기존 교육 커리큘럼을 바탕으로 '소상공인 성공 여정 추적' 관점에 초점을 맞춘 베타 테스트 프로토콜(`Beta_Test_Protocol_V1.0\n- Instagram: 베타 테스트에 참여할 소상공인 그룹을 정의하고, 그들에게 접근할 수 있는 맞춤형 홍보 콘텐츠와 초기 접촉 메시지 초안(`Beta_Target_L\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 기존 교육 커리큘럼을 바탕으로 '소상공인 성공 여정 추적' 관점에 초점을 맞춘 베타 테스트 프로토콜(`Beta_Test_Protocol_V1.0.md`)의 초안을 작성하고, 핵심 측정 지표(KPI)를 포함하여 정리하세요.\n> 🔧 **도구",
       "completedAt": "2026-06-17T12:10:51.629Z"
+    },
+    {
+      "id": "20260617135532-dd15",
+      "title": "고객 찾기 어렵다",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-17T13:55:32.336Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T13-51",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T13-51/_report.md\n- 코다리: Designer가 최종 확정한 UI/UX 흐름 및 스타일링 정의를 바탕으로, '옆집선배' 캐릭터 컴포넌트의 초기 React/Vue 스켈레톤 구현\n- Designer: 코다리가 구현할 최종 핸드오버 패키지(Visual & Interaction Guide)에 따라, 캐릭터 컴포넌트의 최종 스타일링 및 애니메이션 \n- Instagram: MVP 출시 목표 달성을 위해, 베타 테스트 참여자 모집을 위한 홍보 콘텐츠 실행 계획을 확정하고 즉시 시작하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 최종 확정한 UI/UX 흐름 및 스타일링 정의를 바탕으로, '옆집선배' 캐릭터 컴포넌트의 초기 React/Vue 스켈레톤 구현과 데이터 흐름을 즉시 시작하고 개발을 진행하라.\n> 🔧 **도구 실행**: _(없음 — LLM ",
+      "completedAt": "2026-06-17T13:56:28.698Z"
+    },
+    {
+      "id": "20260617135532-etwu",
+      "title": "재고 관리가 복잡하다",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-17T13:55:32.357Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T13-51",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T13-51/_report.md\n- 코다리: Designer가 최종 확정한 UI/UX 흐름 및 스타일링 정의를 바탕으로, '옆집선배' 캐릭터 컴포넌트의 초기 React/Vue 스켈레톤 구현\n- Designer: 코다리가 구현할 최종 핸드오버 패키지(Visual & Interaction Guide)에 따라, 캐릭터 컴포넌트의 최종 스타일링 및 애니메이션 \n- Instagram: MVP 출시 목표 달성을 위해, 베타 테스트 참여자 모집을 위한 홍보 콘텐츠 실행 계획을 확정하고 즉시 시작하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 최종 확정한 UI/UX 흐름 및 스타일링 정의를 바탕으로, '옆집선배' 캐릭터 컴포넌트의 초기 React/Vue 스켈레톤 구현과 데이터 흐름을 즉시 시작하고 개발을 진행하라.\n> 🔧 **도구 실행**: _(없음 — LLM ",
+      "completedAt": "2026-06-17T13:56:28.748Z"
+    },
+    {
+      "id": "20260617135532-y97u",
+      "title": "마케팅 비용이 너무 높다",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-17T13:55:32.375Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T13-51",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T13-51/_report.md\n- 코다리: Designer가 최종 확정한 UI/UX 흐름 및 스타일링 정의를 바탕으로, '옆집선배' 캐릭터 컴포넌트의 초기 React/Vue 스켈레톤 구현\n- Designer: 코다리가 구현할 최종 핸드오버 패키지(Visual & Interaction Guide)에 따라, 캐릭터 컴포넌트의 최종 스타일링 및 애니메이션 \n- Instagram: MVP 출시 목표 달성을 위해, 베타 테스트 참여자 모집을 위한 홍보 콘텐츠 실행 계획을 확정하고 즉시 시작하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 최종 확정한 UI/UX 흐름 및 스타일링 정의를 바탕으로, '옆집선배' 캐릭터 컴포넌트의 초기 React/Vue 스켈레톤 구현과 데이터 흐름을 즉시 시작하고 개발을 진행하라.\n> 🔧 **도구 실행**: _(없음 — LLM ",
+      "completedAt": "2026-06-17T13:56:28.791Z"
+    },
+    {
+      "id": "20260617135532-teqp",
+      "title": "아, 그냥 돈이 잘 들어오지 않는다",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-17T13:55:32.396Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T13-51",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T13-51/_report.md\n- 코다리: Designer가 최종 확정한 UI/UX 흐름 및 스타일링 정의를 바탕으로, '옆집선배' 캐릭터 컴포넌트의 초기 React/Vue 스켈레톤 구현\n- Designer: 코다리가 구현할 최종 핸드오버 패키지(Visual & Interaction Guide)에 따라, 캐릭터 컴포넌트의 최종 스타일링 및 애니메이션 \n- Instagram: MVP 출시 목표 달성을 위해, 베타 테스트 참여자 모집을 위한 홍보 콘텐츠 실행 계획을 확정하고 즉시 시작하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 최종 확정한 UI/UX 흐름 및 스타일링 정의를 바탕으로, '옆집선배' 캐릭터 컴포넌트의 초기 React/Vue 스켈레톤 구현과 데이터 흐름을 즉시 시작하고 개발을 진행하라.\n> 🔧 **도구 실행**: _(없음 — LLM ",
+      "completedAt": "2026-06-17T13:56:28.830Z"
     }
   ]
 }
