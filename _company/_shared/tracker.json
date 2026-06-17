@@ -5925,6 +5925,51 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-17T15-21/_report.md\n- 현빈: 최종 서비스 모델(Pricing Plan), 계약 조건, 그리고 결제 시스템 구축 및 법률 검토를 위한 구체적인 요구사항을 작성하고 우선순위를 \n- 영숙: 개발 및 디자인의 최종 핸드오버 완료 상태를 점검하여 MVP 출시 패키지 준비 마일스톤(기술 테스트, 마케팅 자료 준비, 법률 검토)을 정리하고\n- Writer: 베타 테스터 온보딩 가이드라인 및 최초 CS 스크립트 셋을 작성하여, Instagram 콘텐츠 게시를 위한 마케팅 자료 준비를 즉시 시작하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 최종 서비스 모델(Pricing Plan), 계약 조건, 그리고 결제 시스템 구축 및 법률 검토를 위한 구체적인 요구사항을 작성하고 우선순위를 설정하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> ",
       "completedAt": "2026-06-17T15:34:06.524Z"
+    },
+    {
+      "id": "20260617180159-ebb1",
+      "title": "베타테스터 모집용 최종 홍보 콘텐츠 및 채널 가이드라인 (Instagram, 커뮤니티)",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-06-17T18:01:59.437Z",
+      "status": "pending",
+      "sessionDir": "2026-06-17T17-51",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260617180159-7jm7",
+      "title": "'AI 진단서 발급'을 중심으로 재설계된 온보딩 플로우 와이어프레임.",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-06-17T18:01:59.459Z",
+      "status": "pending",
+      "sessionDir": "2026-06-17T17-51",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260617180159-nqz7",
+      "title": "핵심 모듈(회원가입/데이터 연동)의 E2E 테스트 리포트 및 버그 수정 내역.",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-06-17T18:01:59.475Z",
+      "status": "pending",
+      "sessionDir": "2026-06-17T17-51",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
     }
   ]
 }
