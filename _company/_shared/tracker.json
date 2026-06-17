@@ -5935,11 +5935,13 @@
         "secretary"
       ],
       "createdAt": "2026-06-17T18:01:59.437Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-06-17T17-51",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T17-51/_report.md\n- 현빈: MVP 출시를 위한 최종 GTM 실행 계획(베타테스터 모집 후 초기 사용자 반응 예측 및 KPI 설정)을 확정하고, 개발팀의 다음 스프린트 우선\n- 영숙: business 에이전트의 최종 GTM 계획과 코다리 에이전트의 개발 우선순위를 통합하여 다음 스프린트의 마스터 플랜(V1.0)을 작성하고, 이\n- Writer: 사업 및 개발 팀이 확정한 다음 스프린트 목표에 맞춰, 베타테스터 대상 '초기 가이드' 콘텐츠 스토리라인 및 핵심 메시지를 작성하여 마케팅 실행\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 출시를 위한 최종 GTM 실행 계획(베타테스터 모집 후 초기 사용자 반응 예측 및 KPI 설정)을 확정하고, 개발팀의 다음 스프린트 우선순위(PainGauge 데이터 연동 강화 및 Onboarding 개선)를 ",
+      "completedAt": "2026-06-17T18:17:15.439Z"
     },
     {
       "id": "20260617180159-7jm7",
@@ -5950,11 +5952,13 @@
         "secretary"
       ],
       "createdAt": "2026-06-17T18:01:59.459Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-06-17T17-51",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T17-51/_report.md\n- 현빈: MVP 출시를 위한 최종 GTM 실행 계획(베타테스터 모집 후 초기 사용자 반응 예측 및 KPI 설정)을 확정하고, 개발팀의 다음 스프린트 우선\n- 영숙: business 에이전트의 최종 GTM 계획과 코다리 에이전트의 개발 우선순위를 통합하여 다음 스프린트의 마스터 플랜(V1.0)을 작성하고, 이\n- Writer: 사업 및 개발 팀이 확정한 다음 스프린트 목표에 맞춰, 베타테스터 대상 '초기 가이드' 콘텐츠 스토리라인 및 핵심 메시지를 작성하여 마케팅 실행\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 출시를 위한 최종 GTM 실행 계획(베타테스터 모집 후 초기 사용자 반응 예측 및 KPI 설정)을 확정하고, 개발팀의 다음 스프린트 우선순위(PainGauge 데이터 연동 강화 및 Onboarding 개선)를 ",
+      "completedAt": "2026-06-17T18:17:15.487Z"
     },
     {
       "id": "20260617180159-nqz7",
@@ -5965,11 +5969,13 @@
         "secretary"
       ],
       "createdAt": "2026-06-17T18:01:59.475Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-06-17T17-51",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T17-51/_report.md\n- 현빈: MVP 출시를 위한 최종 GTM 실행 계획(베타테스터 모집 후 초기 사용자 반응 예측 및 KPI 설정)을 확정하고, 개발팀의 다음 스프린트 우선\n- 영숙: business 에이전트의 최종 GTM 계획과 코다리 에이전트의 개발 우선순위를 통합하여 다음 스프린트의 마스터 플랜(V1.0)을 작성하고, 이\n- Writer: 사업 및 개발 팀이 확정한 다음 스프린트 목표에 맞춰, 베타테스터 대상 '초기 가이드' 콘텐츠 스토리라인 및 핵심 메시지를 작성하여 마케팅 실행\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 출시를 위한 최종 GTM 실행 계획(베타테스터 모집 후 초기 사용자 반응 예측 및 KPI 설정)을 확정하고, 개발팀의 다음 스프린트 우선순위(PainGauge 데이터 연동 강화 및 Onboarding 개선)를 ",
+      "completedAt": "2026-06-17T18:17:15.540Z"
     }
   ]
 }
