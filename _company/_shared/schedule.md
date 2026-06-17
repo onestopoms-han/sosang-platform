@@ -1,15 +1,15 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 17. 오후 8:53:11_
+_업데이트: 2026. 6. 17. 오후 9:10:51_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
-- [2026-06-13] Pilot 프로그램 참여 대상 소상공인(Target SME) 선정 기준과 그들에게 전달할 '가치 제안 메시지'에 대한 초안을 작성하여 레오 에이전트에게 전달할 준비를 하라. → 산출물 sessions/2026-06-13T15-45/youtube.md
 - [2026-06-13] 재구성된 교육 커리큘럼(Pilot_Education_Curriculum_Draft_v1.md)과 UX 흐름을 바탕으로, Pilot 참여 소상공인 대상 초기 온보딩 시나리오 및 AI 챗봇 대화 흐름을 구체화하여 레오 에이전트에게 전달할 자료를 작성하라. → 산출물 sessions/2026-06-13T16-30/youtube.md
 - [2026-06-15] Writer가 작성한 온보딩 시나리오를 기반으로, Pilot 프로그램 참여 소상공인의 성공 여정을 담는 60초 영상 스토리라인의 핵심 메시지와 장면 구성을 기획하라. → OAuth 자동 트리거 발동
+- [2026-06-17] 기존 교육 커리큘럼을 바탕으로 '소상공인 성공 여정 추적' 관점에 초점을 맞춘 베타 테스트 프로토콜(`Beta_Test_Protocol_V1.0.md`)의 초안을 작성하고, 핵심 측정 지표(KPI)를 포함하여 정리하세요. → 산출물 sessions/2026-06-17T12-06/youtube.md
 ### 📷 Instagram
-- [2026-06-13] 확정된 디자인 시스템(Deep Blue/Growth Green)을 적용하여 Week 1 콘텐츠(PainGauge 이미지 및 릴스)에 대한 최종 게시 전략, 최적의 게시 시간, 해시태그를 확정하고 즉시 포스팅 실행 계획을 수립하라. → 산출물 sessions/2026-06-13T16-30/instagram.md
 - [2026-06-15] 최종 확정된 디자인 시스템(Deep Blue/Growth Green)과 수정된 온보딩 시나리오를 기반으로, Week 1 콘텐츠의 게시 시간, 해시태그, 그리고 '위기감 → 해결책' 스토리텔링이 자연스럽게 반영된 최종 포스팅 실행 계획을 즉시 수립하고 예약하라. → 산출물 sessions/2026-06-15T03-33/instagram.md
 - [2026-06-17] 개발 준비가 완료된 만큼, 다음 단계인 MVP 출시 일정(7월 중순)에 맞춰 사용자 온보딩 스토리라인의 최종 영상 기획을 재점검하고 실행 계획을 확정하세요. → 산출물 sessions/2026-06-17T11-21/instagram.md
+- [2026-06-17] 베타 테스트에 참여할 소상공인 그룹을 정의하고, 그들에게 접근할 수 있는 맞춤형 홍보 콘텐츠와 초기 접촉 메시지 초안(`Beta_Target_List_and_Pitch_Materials.md`)을 준비하세요. → 산출물 sessions/2026-06-17T12-06/instagram.md
 ### 🎨 Designer
 - [2026-06-17] Trust Widget 및 PainGauge의 최종 UI/UX 통합 명세서(`Integration_Prototype_Spec.md`)와 확정된 디자인 시스템(Deep Blue/Growth Green)을 기반으로, 실제 목업 디자인을 적용하여 시각적 일관성 검증을 위한 최종 목업을 즉시 제작하라. → 산출물 sessions/2026-06-17T08-33/designer.md
 - [2026-06-17] 확정된 컴포넌트 매뉴얼(`BDS_DesignSystem_ComponentManual_v1.0.md`)과 통합 명세서(`Integration_Prototype_Spec.md`)를 기반으로, Trust Widget 및 PainGauge의 실제 Mock API 응답 예시를 정의하는 데이터 계약서(Schema) 작업을 시작하라. → 산출물 sessions/2026-06-17T10-51/designer.md

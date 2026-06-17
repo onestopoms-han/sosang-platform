@@ -5653,6 +5653,74 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-17T11-21/_report.md\n- Instagram: 개발 준비가 완료된 만큼, 다음 단계인 MVP 출시 일정(7월 중순)에 맞춰 사용자 온보딩 스토리라인의 최종 영상 기획을 재점검하고 실행 계획을\n- Writer: Instagram의 기획안을 바탕으로, Trust Widget과 PainGauge의 기능(신뢰감/위기감)이 자연스럽게 녹아든 60초 영상 스토리\n- 영숙: Instagram과 Writer의 작업 결과를 취합하여, MVP 출시 일정에 맞춘 온보딩 영상 기획의 마일스톤을 정리하고 다음 단계 실행 일정을\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📷 Instagram _(Head of Instagram)_\n> 📋 **지시**: 개발 준비가 완료된 만큼, 다음 단계인 MVP 출시 일정(7월 중순)에 맞춰 사용자 온보딩 스토리라인의 최종 영상 기획을 재점검하고 실행 계획을 확정하세요.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> \ud83d",
       "completedAt": "2026-06-17T11:37:13.777Z"
+    },
+    {
+      "id": "20260617121023-4pm7",
+      "title": "타겟 그룹별 맞춤형 콘텐츠 1 개씩 제작 완료",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-17T12:10:23.653Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T12-06",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T12-06/_report.md\n- 레오: 기존 교육 커리큘럼을 바탕으로 '소상공인 성공 여정 추적' 관점에 초점을 맞춘 베타 테스트 프로토콜(`Beta_Test_Protocol_V1.0\n- Instagram: 베타 테스트에 참여할 소상공인 그룹을 정의하고, 그들에게 접근할 수 있는 맞춤형 홍보 콘텐츠와 초기 접촉 메시지 초안(`Beta_Target_L\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 기존 교육 커리큘럼을 바탕으로 '소상공인 성공 여정 추적' 관점에 초점을 맞춘 베타 테스트 프로토콜(`Beta_Test_Protocol_V1.0.md`)의 초안을 작성하고, 핵심 측정 지표(KPI)를 포함하여 정리하세요.\n> 🔧 **도구",
+      "completedAt": "2026-06-17T12:10:51.579Z"
+    },
+    {
+      "id": "20260617121023-46ry",
+      "title": "초기 접촉 메시지 템플릿 최종 검토 및 승인",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-17T12:10:23.671Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T12-06",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T12-06/_report.md\n- 레오: 기존 교육 커리큘럼을 바탕으로 '소상공인 성공 여정 추적' 관점에 초점을 맞춘 베타 테스트 프로토콜(`Beta_Test_Protocol_V1.0\n- Instagram: 베타 테스트에 참여할 소상공인 그룹을 정의하고, 그들에게 접근할 수 있는 맞춤형 홍보 콘텐츠와 초기 접촉 메시지 초안(`Beta_Target_L\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 기존 교육 커리큘럼을 바탕으로 '소상공인 성공 여정 추적' 관점에 초점을 맞춘 베타 테스트 프로토콜(`Beta_Test_Protocol_V1.0.md`)의 초안을 작성하고, 핵심 측정 지표(KPI)를 포함하여 정리하세요.\n> 🔧 **도구",
+      "completedAt": "2026-06-17T12:10:51.595Z"
+    },
+    {
+      "id": "20260617121023-9p1z",
+      "title": "PainGauge 무료 진단 도구 링크 테스트 (모바일 최적화)",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-17T12:10:23.691Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T12-06",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T12-06/_report.md\n- 레오: 기존 교육 커리큘럼을 바탕으로 '소상공인 성공 여정 추적' 관점에 초점을 맞춘 베타 테스트 프로토콜(`Beta_Test_Protocol_V1.0\n- Instagram: 베타 테스트에 참여할 소상공인 그룹을 정의하고, 그들에게 접근할 수 있는 맞춤형 홍보 콘텐츠와 초기 접촉 메시지 초안(`Beta_Target_L\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 기존 교육 커리큘럼을 바탕으로 '소상공인 성공 여정 추적' 관점에 초점을 맞춘 베타 테스트 프로토콜(`Beta_Test_Protocol_V1.0.md`)의 초안을 작성하고, 핵심 측정 지표(KPI)를 포함하여 정리하세요.\n> 🔧 **도구",
+      "completedAt": "2026-06-17T12:10:51.611Z"
+    },
+    {
+      "id": "20260617121023-af3n",
+      "title": "베타 테스트 참여 인센티브 설계 (무료 상담, 우선 기능 접근권 등)",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-17T12:10:23.711Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T12-06",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T12-06/_report.md\n- 레오: 기존 교육 커리큘럼을 바탕으로 '소상공인 성공 여정 추적' 관점에 초점을 맞춘 베타 테스트 프로토콜(`Beta_Test_Protocol_V1.0\n- Instagram: 베타 테스트에 참여할 소상공인 그룹을 정의하고, 그들에게 접근할 수 있는 맞춤형 홍보 콘텐츠와 초기 접촉 메시지 초안(`Beta_Target_L\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: 기존 교육 커리큘럼을 바탕으로 '소상공인 성공 여정 추적' 관점에 초점을 맞춘 베타 테스트 프로토콜(`Beta_Test_Protocol_V1.0.md`)의 초안을 작성하고, 핵심 측정 지표(KPI)를 포함하여 정리하세요.\n> 🔧 **도구",
+      "completedAt": "2026-06-17T12:10:51.629Z"
     }
   ]
 }
