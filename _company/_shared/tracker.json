@@ -6044,6 +6044,74 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-17T18-36/_report.md\n- 현빈: 확정된 KPI(온보딩 완료율 70%, AI 추천 채택률 30%)와 'AI 진단서 → 매출 최적화 팁 → 실제 사례' 스토리텔링을 기반으로, 베타\n\nCEO 종합 요점: 💼 현빈: CEO 지시대로 확정된 KPI 와 스토리텔링을 반영한 최종 홍보 콘텐츠를 즉시 제작합니다. 기존 기획안을 바탕으로 비즈니스적 타당성을 강화하고 시각적·언어적 매력을 극대화하여 릴스와 블로그용 콘텐츠 파일 `business_content_final.md` 를 생성하겠습니다.\n\n<create_file path=\"C:\\Users\\PJH\\소상공인플렛폼",
       "completedAt": "2026-06-17T18:47:45.236Z"
+    },
+    {
+      "id": "20260618032405-fn0b",
+      "title": "API 스크린샷 준비 (Frame 2, Frame 3)",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-18T03:24:05.693Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T21-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T21-21/_report.md\n- 코다리: 실패한 `pack_apply.py` 실행 오류 원인을 분석하고, Actionability 연동에 필요한 API 명세 및 구조 정보를 수동으로 확\n- Writer: 개발팀으로부터 확보된 API 명세(또는 임시 정보)를 기반으로, 'AI 진단서 → 구체적 해결책 → 실제 성과 사례' 스토리텔링에 맞춰 인스타그\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 실패한 `pack_apply.py` 실행 오류 원인을 분석하고, Actionability 연동에 필요한 API 명세 및 구조 정보를 수동으로 확보하여 즉시 제공하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심",
+      "completedAt": "2026-06-18T04:38:20.798Z"
+    },
+    {
+      "id": "20260618032405-e9zd",
+      "title": "김치전골집 오모 사례 영상 클립 확보",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-18T03:24:05.719Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T21-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T21-21/_report.md\n- 코다리: 실패한 `pack_apply.py` 실행 오류 원인을 분석하고, Actionability 연동에 필요한 API 명세 및 구조 정보를 수동으로 확\n- Writer: 개발팀으로부터 확보된 API 명세(또는 임시 정보)를 기반으로, 'AI 진단서 → 구체적 해결책 → 실제 성과 사례' 스토리텔링에 맞춰 인스타그\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 실패한 `pack_apply.py` 실행 오류 원인을 분석하고, Actionability 연동에 필요한 API 명세 및 구조 정보를 수동으로 확보하여 즉시 제공하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심",
+      "completedAt": "2026-06-18T04:38:20.879Z"
+    },
+    {
+      "id": "20260618032405-cmrk",
+      "title": "BDS AI 추천 전략 아이콘 디자인",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-18T03:24:05.750Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T21-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T21-21/_report.md\n- 코다리: 실패한 `pack_apply.py` 실행 오류 원인을 분석하고, Actionability 연동에 필요한 API 명세 및 구조 정보를 수동으로 확\n- Writer: 개발팀으로부터 확보된 API 명세(또는 임시 정보)를 기반으로, 'AI 진단서 → 구체적 해결책 → 실제 성과 사례' 스토리텔링에 맞춰 인스타그\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 실패한 `pack_apply.py` 실행 오류 원인을 분석하고, Actionability 연동에 필요한 API 명세 및 구조 정보를 수동으로 확보하여 즉시 제공하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심",
+      "completedAt": "2026-06-18T04:38:20.994Z"
+    },
+    {
+      "id": "20260618032405-m405",
+      "title": "링크 및 CTA 버튼 테스트",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-18T03:24:05.787Z",
+      "status": "done",
+      "sessionDir": "2026-06-17T21-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-17T21-21/_report.md\n- 코다리: 실패한 `pack_apply.py` 실행 오류 원인을 분석하고, Actionability 연동에 필요한 API 명세 및 구조 정보를 수동으로 확\n- Writer: 개발팀으로부터 확보된 API 명세(또는 임시 정보)를 기반으로, 'AI 진단서 → 구체적 해결책 → 실제 성과 사례' 스토리텔링에 맞춰 인스타그\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 실패한 `pack_apply.py` 실행 오류 원인을 분석하고, Actionability 연동에 필요한 API 명세 및 구조 정보를 수동으로 확보하여 즉시 제공하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심",
+      "completedAt": "2026-06-18T04:38:21.057Z"
     }
   ]
 }
