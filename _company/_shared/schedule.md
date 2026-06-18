@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 18. 오후 11:01:54_
+_업데이트: 2026. 6. 18. 오후 11:41:54_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,13 +11,13 @@ _업데이트: 2026. 6. 18. 오후 11:01:54_
 - [2026-06-17] Designer가 승인한 최종 디자인 가이드라인과 코다리의 구현 결과를 반영하여, 베타테스터 모집을 위한 최종 홍보 콘텐츠(릴스 스토리라인, 캡션, 해시태그 전략)를 즉시 통합하고 게시 일정을 확정하라. → 산출물 sessions/2026-06-17T17-06/instagram.md
 - [2026-06-17] Designer가 승인한 최종 디자인 가이드라인과 Writer의 스토리텔링(AI 진단서 → 최적화 팁 → 실제 사례)을 통합하여, 베타테스터 모집에 최적화된 릴스 및 피드 콘텐츠를 즉시 게시 일정을 확정하고 실행하라. → 산출물 sessions/2026-06-17T19-06/instagram.md
 ### 🎨 Designer
-- [2026-06-18] 코다리의 API 명세를 기반으로 Trust Widget 및 PainGauge의 UI Mockup 구현에 필요한 디자인 시스템 일관성 검토를 완료하고, 개발팀에 최종 구현 가능성을 보고할 자료를 준비할 것. → 산출물 sessions/2026-06-18T07-59/designer.md
-- [2026-06-18] 코다리 및 영숙으로부터 확보된 API 명세와 데이터 흐름도를 바탕으로 Trust Widget 및 PainGauge의 최종 디자인 시스템 일관성 검토를 완료하고, 프로토타입 구현을 위한 시각적 요구사항을 확정하라. → 산출물 sessions/2026-06-18T13-37/designer.md
-- [2026-06-18] 개발팀이 제시한 Mock API 구조와 기술 검토 결과를 반영하여, Trust Widget 및 PainGauge 프로토타입 구현에 필요한 최종 디자인 스펙(Mockup 포함)을 업데이트하고 시각적 일관성을 점검하라. → 산출물 sessions/2026-06-18T13-52/designer.md
+- [2026-06-18] 확정된 디자인 스펙(Trust Widget/PainGauge)을 기반으로 실제 프로토타입 구현에 필요한 최종 컴포넌트 개발 요구사항 및 Mockup 지침을 정리하라. → 산출물 sessions/2026-06-18T14-07/designer.md
+- [2026-06-18] 확정된 디자인 스펙(Trust Widget/PainGauge)을 기반으로 실제 프로토타입 구현에 필요한 최종 컴포넌트 개발 요구사항 및 Mockup 지침을 정리하여 코다리에게 전달하세요. → 산출물 sessions/2026-06-18T14-22/designer.md
+- [2026-06-18] Trust Widget 및 PainGauge의 최종 개발 요구사항, 색상 팔레트(`#4CAF50`, `#F44336` 등), 상태별 시각화 규칙 및 텍스트 가이드라인을 확정하여 프론트엔드 컴포넌트 개발 착수를 위한 최종 설계 사양을 정리하라. → 산출물 sessions/2026-06-18T14-37/designer.md
 ### 💻 코다리
-- [2026-06-18] Designer가 제공한 시나리오 파일과 Interaction Checklist를 바탕으로 Trust Widget 및 PainGauge의 UI/UX 구현 가능성을 최종적으로 검증하고, API 명세와의 연동 가능성을 점검하여 기술적 병목 지점을 재확인할 것. → 산출물 sessions/2026-06-18T07-59/developer.md
-- [2026-06-18] 디자이너가 제시한 UI/UX 요구사항과 API 명세를 기반으로 Trust Widget 및 PainGauge의 기술적 구현 가능성을 최종 점검하고, Actionability 연동에 필요한 Mock API 구조를 확정하라. → 산출물 sessions/2026-06-18T13-37/developer.md
-- [2026-06-18] Actionability API 명세(`actionability_api_spec.md`)와 Designer의 UI/UX 요구사항을 기반으로 Trust Widget 및 PainGauge에 필요한 Mock API 구조 및 디자인 시스템 연동 방안을 최종 확정하고 산출물로 정리하라. → 산출물 sessions/2026-06-18T13-52/developer.md
+- [2026-06-18] Actionability API 명세(`actionability_api_spec.md`) 파일 경로 오류를 수정하고, Mock API 구조와 디자인 시스템 연동 방안에 대한 기술적 구현 가능성 보고서를 작성하라. → 산출물 sessions/2026-06-18T14-07/developer.md
+- [2026-06-18] Actionability API 명세(`actionability_api_spec.md`)와 Designer가 제시한 Trust Widget/PainGauge 디자인 스펙을 통합하여 Mock API 구조 및 디자인 시스템 연동 방안을 최종 확정하고 개발팀에 보고할 자료를 완성하세요. → 산출물 sessions/2026-06-18T14-22/developer.md
+- [2026-06-18] Actionability API 명세(`actionability_api_spec.md`)와 Designer가 제시한 Trust Widget/PainGauge 디자인 스펙을 통합하여 Mock API 구조 및 디자인 시스템 연동 방안에 대한 기술적 구현 요구사항과 최종 Mockup 지침을 확정하고 코다리에게 전달하라. → 산출물 sessions/2026-06-18T14-37/developer.md
 ### 💼 현빈
 - [2026-06-17] 확정된 KPI(온보딩 완료율 70%, AI 추천 채택률 30%)를 기반으로 베타테스터 모집 캠페인의 구체적인 목표와 실행 계획을 최종 확정하고, 초기 사용자 반응 분석 로드맵을 수립하라. → 산출물 sessions/2026-06-17T19-06/business.md
 - [2026-06-17] 베타테스터 모집 캠페인에서 수집된 초기 사용자 반응 데이터(KPI, 피드백)를 분석하고, 이를 기반으로 다음 스프린트의 기능 개선 우선순위(PainGauge 및 Onboarding 개선)를 구체적인 액션 플랜으로 도출하라. → 산출물 sessions/2026-06-17T19-51/business.md
