@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 19. 오후 7:04:35_
+_업데이트: 2026. 6. 19. 오후 7:15:19_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,17 +11,17 @@ _업데이트: 2026. 6. 19. 오후 7:04:35_
 - [2026-06-19] Designer와 Writer가 확정한 Trust Widget 및 PainGauge의 시각적 일관성을 반영하여, 베타 테스트 참여자 모집에 최적화된 최종 릴스 및 피드 콘텐츠를 즉시 게시 일정과 함께 실행하라. → 산출물 sessions/2026-06-19T03-20/instagram.md
 - [2026-06-19] Designer와 Writer가 확정한 Trust Widget 및 PainGauge의 시각적 일관성을 반영하여, 베타 테스트 참여자 모집에 최적화된 최종 릴스 및 피드 콘텐츠를 즉시 게시 일정과 함께 실행하라. → 산출물 sessions/2026-06-19T04-50/instagram.md
 ### 🎨 Designer
-- [2026-06-19] Trust Widget 및 PainGauge에 대한 최종 디자인 사양(`trust_pain_gauge_spec.md`)을 기반으로, 코다리에게 프론트엔드 컴포넌트 개발 요구사항 및 API 명세서를 즉시 전달할 수 있도록 모든 시각적/상호작용 명세를 정리하고 검토를 요청하라. → 산출물 sessions/2026-06-19T09-21/designer.md
 - [2026-06-19] 최종 디자인 사양(`sessions/2026-06-19T08-51/kodari_frontend_spec_review.md`)을 기반으로 Trust Widget 및 PainGauge 컴포넌트의 초기 프론트엔드 Mockup 지침과 개발 요구사항을 확정하고, 코다리에게 전달할 최종 명세서를 정리하라. → 산출물 sessions/2026-06-19T09-36/designer.md
 - [2026-06-19] 코다리가 확보할 데이터 스키마를 기반으로, Trust Widget 및 PainGauge 컴포넌트의 초기 프론트엔드 Mockup 지침과 개발 요구사항을 최종적으로 확정하고 명세서를 정리하라. → 산출물 sessions/2026-06-19T09-51/designer.md
+- [2026-06-19] Trust Widget 및 PainGauge의 최종 디자인 사양(`trust_pain_gauge_spec.md`)과 코다리의 API 명세서 간의 기술적/시각적 격차를 검토하고, 개발 착수를 위해 필요한 최종 시각적/인터랙션 요구사항을 재확인하라. → 산출물 sessions/2026-06-19T10-06/designer.md
 ### 💻 코다리
-- [2026-06-19] Designer가 제공할 최종 디자인 사양을 기반으로, Trust Widget 및 PainGauge 컴포넌트의 프론트엔드 구현에 필요한 초기 Mockup 지침 및 API 명세서 초안 작성을 준비하라. → 산출물 sessions/2026-06-19T09-21/developer.md
 - [2026-06-19] API 명세서(`sessions/2026-06-19T08-51/api_spec_v1.json`)에 명시된 API 스키마를 기반으로 Trust Widget 및 PainGauge 관련 백엔드 API 개발을 즉시 착수하고, LLM 호출 실패 문제를 해결하기 위한 설정 및 명세서 검토를 진행하라. → 산출물 sessions/2026-06-19T09-36/developer.md
 - [2026-06-19] 누락된 API 명세서(`api_spec_v1.json`)를 즉시 확보하고, Designer가 확정한 디자인 사양에 맞춰 Trust Widget 및 PainGauge 컴포넌트의 백엔드 API 개발을 착수할 수 있도록 요구사항을 정리하라. → 산출물 sessions/2026-06-19T09-51/developer.md
+- [2026-06-19] API 명세서(`api_spec_v1.json`)와 디자인 사양(`trust_pain_gauge_spec.md`) 간의 기술적 구현 격차를 구체화하고, MVP 개발을 위한 초기 API/UI 통합 로드맵을 재정립하라. → 산출물 sessions/2026-06-19T10-06/developer.md
 ### 💼 현빈
-- [2026-06-17] 베타테스터 모집 캠페인에서 수집된 초기 사용자 반응 데이터(KPI, 피드백)를 분석하고, 이를 기반으로 다음 스프린트의 기능 개선 우선순위(PainGauge 및 Onboarding 개선)를 구체적인 액션 플랜으로 도출하라. → 산출물 sessions/2026-06-17T19-51/business.md
 - [2026-06-17] 베타테스터 모집 캠페인에서 수집된 초기 사용자 반응 데이터(KPI, 피드백)를 분석하고, 이를 기반으로 다음 스프린트의 기능 개선 우선순위와 수익화 전략을 재정립하세요. → 산출물 sessions/2026-06-17T20-36/business.md
 - [2026-06-19] 소상공인의 어려움을 파악하고 실질적인 대안을 마련하기 위한 민간사업 기획 방향성을 Trust Widget 및 PainGauge의 데이터 기반 시각화 결과와 연결하여 구체적인 사업 전략 초안을 작성하라. → 산출물 sessions/2026-06-19T05-50/business.md
+- [2026-06-19] Trust Widget & PainGauge MVP 개발 로드맵(코다리, Designer)에 대한 현재의 기술적/시각적 구현 격차를 분석하고, 이를 기반으로 가장 현실적인 다음 마일스톤을 정의하라. → 산출물 sessions/2026-06-19T10-06/business.md
 ### 📱 영숙
 - [2026-06-18] 코다리와 디자이너의 최근 산출물(API 명세, UI/UX 검토 자료)을 기반으로 다음 스프린트의 최우선 목표와 작업 분담 계획을 요약하여 보고서를 작성하고 일정에 반영할 것. → 산출물 sessions/2026-06-18T07-59/secretary.md
 - [2026-06-19] 최근 에이전트 활동 로그와 통합 스케줄을 기반으로 오늘(또는 최근) 진행된 주요 작업 및 예정된 일정을 요약하여 보고하라. → 산출물 sessions/2026-06-19T01-49/secretary.md

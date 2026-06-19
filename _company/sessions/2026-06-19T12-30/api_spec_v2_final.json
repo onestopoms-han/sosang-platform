@@ -1,0 +1,45 @@
+{
+  "version": "2.0",
+  "date": "2026-06-19",
+  "description": "Trust Widget & PainGauge 컴포넌트 MVP 구현을 위한 최종 API 명세서 (Designer/Developer 협업본)",
+  "endpoints": [
+    {
+      "resource": "trust_widget",
+      "method": "GET",
+      "path": "/api/v1/user/{userId}/trust-score",
+      "description": "사용자별 신뢰 점수(Trust Score) 조회. 0~100 범위의 정수 값 반환.",
+      "parameters": {
+        "userId": {"type": "string", "required": true, "description": "사용자 고유 ID"},
+        "metricType": {"type": "string", "required": false, "default": "overall"}
+      },
+      "response": {
+        "status_code": 200,
+        "body": {
+          "trustScore": {"type": "integer", "description": "신뢰 점수 (0-100)"},
+          "statusMessage": {"type": "string", "description": "현재 신뢰 상태 ('Success', 'Warning', 'Error' 등)"}
+        }
+      }
+    },
+    {
+      "resource": "pain_gauge",
+      "method": "GET",
+      "path": "/api/v1/user/{userId}/pain-level",
+      "description": "사용자별 문제 인지 수준(Pain Level) 조회. 1~5 범위의 값 반환.",
+      "parameters": {
+        "userId": {"type": "string", "required": true},
+        "painMetric": {"type": "string", "required": false, "default": "core_business"}
+      },
+      "response": {
+        "status_code": 200,
+        "body": {
+          "painLevel": {"type": "integer", "description": "문제 수준 (1=낮음, 5=매우 높음)"},
+          "thresholdMet": {"type": "boolean", "description": "위험 임계값 도달 여부"}
+        }
+      }
+    }
+  ],
+  "notes": [
+    "모든 API 응답은 표준화된 JSON 포맷을 따라야 합니다.",
+    "에러 처리(4xx, 5xx) 시에는 명확한 에러 코드와 메시지를 포함해야 합니다."
+  ]
+}
