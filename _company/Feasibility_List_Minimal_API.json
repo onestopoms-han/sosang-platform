@@ -1,0 +1,69 @@
+{
+  "api_name": "BDS Platform Minimal API (Mock)",
+  "version": "1.0",
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/v1/trust-pain-data",
+      "description": "Designer 의 시각적 기준과 Developer 의 스펙을 통합한 Mock Data 를 반환합니다.",
+      "request_body": null,
+      "response_schema": {
+        "type": "object",
+        "properties": {
+          "batch_id": {"type": "string"},
+          "generated_at": {"type": "string", "format": "date-time"},
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/MockDataPoint"
+            }
+          }
+        },
+        "required": ["batch_id", "generated_at", "data"]
+      },
+      "mock_data_source": "python/mock_data_generator.py",
+      "feasibility_status": "IMPLEMENTED_IN_SCRIPT"
+    },
+    {
+      "method": "GET",
+      "path": "/v1/story-flow/{stage_id}",
+      "description": "특정 스토리 흐름 단계에 대한 상세 정보를 반환합니다.",
+      "request_body": null,
+      "response_schema": {
+        "type": "object",
+        "properties": {
+          "stage_id": {"type": "integer"},
+          "stage_name": {"type": "string"},
+          "cta_message": {"type": "string"}
+        },
+        "required": ["stage_id", "stage_name", "cta_message"]
+      },
+      "mock_data_source": "python/mock_data_generator.py (STORY_FLOW_STAGES)",
+      "feasibility_status": "IMPLEMENTED_IN_SCRIPT"
+    }
+  ],
+  "definitions": {
+    "MockDataPoint": {
+      "type": "object",
+      "properties": {
+        "timestamp": {"type": "string", "format": "date-time"},
+        "trust_score": {"type": "integer"},
+        "pain_level": {"type": "number"},
+        "visual_guideline": {
+          "color_hex": {"type": "string", "pattern": "^#[0-9A-F]{6}$"},
+          "label_text": {"type": "string"}
+        },
+        "story_flow": {
+          "stage_id": {"type": "integer"},
+          "stage_name": {"type": "string"},
+          "cta_message": {"type": "string"}
+        },
+        "premium_value_proposition": {
+          "time_saved_per_month": {"type": "integer"},
+          "roi_improvement_ratio": {"type": "number"}
+        }
+      },
+      "required": ["timestamp", "trust_score", "pain_level", "visual_guideline", "story_flow", "premium_value_proposition"]
+    }
+  }
+}
