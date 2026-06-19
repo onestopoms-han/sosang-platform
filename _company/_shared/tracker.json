@@ -6265,6 +6265,91 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-19T04-20/_report.md\n- 코다리: Designer가 확정한 Trust Widget 및 PainGauge의 최종 디자인 사양(V1.0)과 Actionability API 명세를 기\n- 레오: 확정된 KPI 검증 프로토콜에 따라 초기 사용자 반응 모니터링 데이터 수집을 시작하고, 플랫폼 활성화율 및 전환 함널 분석을 위한 측정 로직을 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 확정한 Trust Widget 및 PainGauge의 최종 디자인 사양(V1.0)과 Actionability API 명세를 기반으로, 프론트엔드 컴포넌트 개발 착수를 위한 Mockup 지침 및 API 명세서를 즉시 정리하여 ",
       "completedAt": "2026-06-19T04:41:29.111Z"
+    },
+    {
+      "id": "20260619093024-joe8",
+      "title": "디자인 색상 팔레트 (`#4CAF50`, `#F44336`) 를 정확히 적용했는가?",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-19T09:30:24.700Z",
+      "status": "done",
+      "sessionDir": "2026-06-19T09-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-19T09-21/_report.md\n- Designer: Trust Widget 및 PainGauge에 대한 최종 디자인 사양(`trust_pain_gauge_spec.md`)을 기반으로, 코다리에게 \n- 코다리: Designer가 제공할 최종 디자인 사양을 기반으로, Trust Widget 및 PainGauge 컴포넌트의 프론트엔드 구현에 필요한 초기 M\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Trust Widget 및 PainGauge에 대한 최종 디자인 사양(`trust_pain_gauge_spec.md`)을 기반으로, 코다리에게 프론트엔드 컴포넌트 개발 요구사항 및 API 명세서를 즉시 전달할 수 있도록 모든 시각적",
+      "completedAt": "2026-06-19T09:35:21.985Z"
+    },
+    {
+      "id": "20260619093024-43he",
+      "title": "Success/Danger 상태별 배경색과 테두리 색상이 일관되는가?",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-19T09:30:24.720Z",
+      "status": "done",
+      "sessionDir": "2026-06-19T09-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-19T09-21/_report.md\n- Designer: Trust Widget 및 PainGauge에 대한 최종 디자인 사양(`trust_pain_gauge_spec.md`)을 기반으로, 코다리에게 \n- 코다리: Designer가 제공할 최종 디자인 사양을 기반으로, Trust Widget 및 PainGauge 컴포넌트의 프론트엔드 구현에 필요한 초기 M\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Trust Widget 및 PainGauge에 대한 최종 디자인 사양(`trust_pain_gauge_spec.md`)을 기반으로, 코다리에게 프론트엔드 컴포넌트 개발 요구사항 및 API 명세서를 즉시 전달할 수 있도록 모든 시각적",
+      "completedAt": "2026-06-19T09:35:22.016Z"
+    },
+    {
+      "id": "20260619093024-23ot",
+      "title": "Hover/Active 상태를 위한 애니메이션 (scale, shadow) 이 부드럽게 작동하는가?",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-19T09:30:24.748Z",
+      "status": "done",
+      "sessionDir": "2026-06-19T09-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-19T09-21/_report.md\n- Designer: Trust Widget 및 PainGauge에 대한 최종 디자인 사양(`trust_pain_gauge_spec.md`)을 기반으로, 코다리에게 \n- 코다리: Designer가 제공할 최종 디자인 사양을 기반으로, Trust Widget 및 PainGauge 컴포넌트의 프론트엔드 구현에 필요한 초기 M\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Trust Widget 및 PainGauge에 대한 최종 디자인 사양(`trust_pain_gauge_spec.md`)을 기반으로, 코다리에게 프론트엔드 컴포넌트 개발 요구사항 및 API 명세서를 즉시 전달할 수 있도록 모든 시각적",
+      "completedAt": "2026-06-19T09:35:22.040Z"
+    },
+    {
+      "id": "20260619093024-6gct",
+      "title": "API 스키마 (`api_spec_v1.json`) 와 프론트엔드 데이터 구조가 일치하는가?",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-19T09:30:24.774Z",
+      "status": "done",
+      "sessionDir": "2026-06-19T09-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-19T09-21/_report.md\n- Designer: Trust Widget 및 PainGauge에 대한 최종 디자인 사양(`trust_pain_gauge_spec.md`)을 기반으로, 코다리에게 \n- 코다리: Designer가 제공할 최종 디자인 사양을 기반으로, Trust Widget 및 PainGauge 컴포넌트의 프론트엔드 구현에 필요한 초기 M\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Trust Widget 및 PainGauge에 대한 최종 디자인 사양(`trust_pain_gauge_spec.md`)을 기반으로, 코다리에게 프론트엔드 컴포넌트 개발 요구사항 및 API 명세서를 즉시 전달할 수 있도록 모든 시각적",
+      "completedAt": "2026-06-19T09:35:22.068Z"
+    },
+    {
+      "id": "20260619093024-ckvz",
+      "title": "컴포넌트가 반응형으로 작동하며, 모바일에서도 가독성이 있는가?",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-19T09:30:24.800Z",
+      "status": "done",
+      "sessionDir": "2026-06-19T09-21",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-19T09-21/_report.md\n- Designer: Trust Widget 및 PainGauge에 대한 최종 디자인 사양(`trust_pain_gauge_spec.md`)을 기반으로, 코다리에게 \n- 코다리: Designer가 제공할 최종 디자인 사양을 기반으로, Trust Widget 및 PainGauge 컴포넌트의 프론트엔드 구현에 필요한 초기 M\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Trust Widget 및 PainGauge에 대한 최종 디자인 사양(`trust_pain_gauge_spec.md`)을 기반으로, 코다리에게 프론트엔드 컴포넌트 개발 요구사항 및 API 명세서를 즉시 전달할 수 있도록 모든 시각적",
+      "completedAt": "2026-06-19T09:35:22.093Z"
     }
   ]
 }

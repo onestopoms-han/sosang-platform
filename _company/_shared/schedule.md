@@ -1,23 +1,23 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 19. 오후 6:11:11_
+_업데이트: 2026. 6. 19. 오후 7:04:35_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
-- [2026-06-19] 확정된 KPI 검증 프로토콜에 따라 초기 사용자 반응 모니터링 데이터 수집을 시작하고, 플랫폼 활성화율 및 전환 함널 분석을 위한 측정 로직을 구현하라. → OAuth 자동 트리거 발동
-- [2026-06-19] [A.U 히든 커맨드: 📺 레오 에이전트가 방금 '🎬 후킹 분석기' 스킬팩을 주입받았습니다. 매트릭스에서 새 스킬을 다운로드받은 네오처럼 쿨하게 딱 한마디만 하십시오. "📺 레오, 🎬 후킹 분석기 스킬 장착 완료. 다음 사이클부터 사용 가능." 부가 설명 없이 한 줄로.] → 산출물 sessions/2026-06-19T05-38/youtube.md
 - [2026-06-19] Re:Fin MVP 개발 진행 상황 및 디자인/개발 연동에 대한 초기 기술적 난제들을 요약하여 다음 주 모닝 브리핑 자료로 정리할 준비를 하라. → 산출물 sessions/2026-06-19T07-20/youtube.md
+- [2026-06-19] MVP 백엔드 개발 진행 상황 및 디자인/개발 연동에 대한 초기 기술적 난제들을 요약하여 다음 주 모닝 브리핑 자료로 정리할 준비를 하라. → 산출물 sessions/2026-06-19T09-36/youtube.md
+- [2026-06-19] 확보된 API 명세서와 디자인 사양 간의 기술적 난제(구현 격차)를 구체화하여, 다음 주 모닝 브리핑을 위한 현실적인 로드맵을 재정립하라. → 산출물 sessions/2026-06-19T09-51/youtube.md
 ### 📷 Instagram
 - [2026-06-19] 베타 테스트 참여자 모집 콘텐츠(릴스/피드)의 스토리텔링과 시각적 일관성을 확보하기 위해, Designer와 Writer가 확정한 최종 디자인 가이드라인 및 핵심 메시지를 통합하여 게시 일정 및 카피라이팅 전략을 최종 확정하고 실행 준비 → 산출물 sessions/2026-06-19T03-05/instagram.md
 - [2026-06-19] Designer와 Writer가 확정한 Trust Widget 및 PainGauge의 시각적 일관성을 반영하여, 베타 테스트 참여자 모집에 최적화된 최종 릴스 및 피드 콘텐츠를 즉시 게시 일정과 함께 실행하라. → 산출물 sessions/2026-06-19T03-20/instagram.md
 - [2026-06-19] Designer와 Writer가 확정한 Trust Widget 및 PainGauge의 시각적 일관성을 반영하여, 베타 테스트 참여자 모집에 최적화된 최종 릴스 및 피드 콘텐츠를 즉시 게시 일정과 함께 실행하라. → 산출물 sessions/2026-06-19T04-50/instagram.md
 ### 🎨 Designer
-- [2026-06-19] Re:Fin 기능에 대한 최종 설계 사양과 확정된 브랜드 컬러 팔레트(#4CAF50, #F44336)를 기반으로, 코다리가 개발을 즉시 착수할 수 있도록 최종 디자인 사양 및 Mockup 지침을 정리하여 전달하라. → 산출물 sessions/2026-06-19T06-35/designer.md
-- [2026-06-19] Trust Widget 및 PainGauge의 최종 디자인 사양과 브랜드 컬러 팔레트(#4CAF50, #F44336)를 기반으로, 프론트엔드 컴포넌트(Trust Widget, PainGauge)의 프로토타입 구현을 시작하라. → 산출물 sessions/2026-06-19T07-20/designer.md
-- [2026-06-19] Trust Widget 및 PainGauge의 최종 디자인 사양(`trust_pain_gauge_spec.md`)을 기반으로, 사용자의 심리적 동기 부여(Pain/Trust) 목표가 시각적으로 가장 강력하게 전달되도록 핵심 문구와 아이콘 배치에 대한 최종 검토안을 작성하고 정리하라. → 산출물 sessions/2026-06-19T08-51/designer.md
+- [2026-06-19] Trust Widget 및 PainGauge에 대한 최종 디자인 사양(`trust_pain_gauge_spec.md`)을 기반으로, 코다리에게 프론트엔드 컴포넌트 개발 요구사항 및 API 명세서를 즉시 전달할 수 있도록 모든 시각적/상호작용 명세를 정리하고 검토를 요청하라. → 산출물 sessions/2026-06-19T09-21/designer.md
+- [2026-06-19] 최종 디자인 사양(`sessions/2026-06-19T08-51/kodari_frontend_spec_review.md`)을 기반으로 Trust Widget 및 PainGauge 컴포넌트의 초기 프론트엔드 Mockup 지침과 개발 요구사항을 확정하고, 코다리에게 전달할 최종 명세서를 정리하라. → 산출물 sessions/2026-06-19T09-36/designer.md
+- [2026-06-19] 코다리가 확보할 데이터 스키마를 기반으로, Trust Widget 및 PainGauge 컴포넌트의 초기 프론트엔드 Mockup 지침과 개발 요구사항을 최종적으로 확정하고 명세서를 정리하라. → 산출물 sessions/2026-06-19T09-51/designer.md
 ### 💻 코다리
-- [2026-06-19] [A.U 히든 커맨드: 💻 코다리 에이전트가 방금 '강아지사주 (Korean Astrology AI Service)' 템플릿 팩 주입받았습니다. 코드 boilerplate 1개 파일 + README. 매트릭스 톤으로 한 줄. "💻 코다리, 강아지사주 (Korean Astrology AI Service) 템플릿 1개 파일 장착. 다음 작업에 자동 활용." 부가 설명 X.] → 산출물 sessions/2026-06-19T05-40/developer.md
-- [2026-06-19] Designer가 확정한 Re:Fin 기능 기반의 프론트엔드 컴포넌트 개발 요구사항과 색상 팔레트를 최종 확인하고, 이를 바탕으로 API 명세서와 연동될 수 있는 초기 Mockup 지침을 즉시 준비하라. → 산출물 sessions/2026-06-19T06-35/developer.md
-- [2026-06-19] Designer가 확정한 Re:Fin 기능 기반의 최종 디자인 사양 및 Mockup 지침을 바탕으로, Trust Widget 및 PainGauge를 위한 실제 백엔드 API 명세서(`GET /api/v1/finance/trust-score`, `GET /api/v1/finance/pain-level` 포함)를 기반으로 실제 API 개발을 즉시 착수하라. → 산출물 sessions/2026-06-19T07-20/developer.md
+- [2026-06-19] Designer가 제공할 최종 디자인 사양을 기반으로, Trust Widget 및 PainGauge 컴포넌트의 프론트엔드 구현에 필요한 초기 Mockup 지침 및 API 명세서 초안 작성을 준비하라. → 산출물 sessions/2026-06-19T09-21/developer.md
+- [2026-06-19] API 명세서(`sessions/2026-06-19T08-51/api_spec_v1.json`)에 명시된 API 스키마를 기반으로 Trust Widget 및 PainGauge 관련 백엔드 API 개발을 즉시 착수하고, LLM 호출 실패 문제를 해결하기 위한 설정 및 명세서 검토를 진행하라. → 산출물 sessions/2026-06-19T09-36/developer.md
+- [2026-06-19] 누락된 API 명세서(`api_spec_v1.json`)를 즉시 확보하고, Designer가 확정한 디자인 사양에 맞춰 Trust Widget 및 PainGauge 컴포넌트의 백엔드 API 개발을 착수할 수 있도록 요구사항을 정리하라. → 산출물 sessions/2026-06-19T09-51/developer.md
 ### 💼 현빈
 - [2026-06-17] 베타테스터 모집 캠페인에서 수집된 초기 사용자 반응 데이터(KPI, 피드백)를 분석하고, 이를 기반으로 다음 스프린트의 기능 개선 우선순위(PainGauge 및 Onboarding 개선)를 구체적인 액션 플랜으로 도출하라. → 산출물 sessions/2026-06-17T19-51/business.md
 - [2026-06-17] 베타테스터 모집 캠페인에서 수집된 초기 사용자 반응 데이터(KPI, 피드백)를 분석하고, 이를 기반으로 다음 스프린트의 기능 개선 우선순위와 수익화 전략을 재정립하세요. → 산출물 sessions/2026-06-17T20-36/business.md
