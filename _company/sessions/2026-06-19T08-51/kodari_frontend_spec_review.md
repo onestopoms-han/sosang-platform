@@ -1,0 +1,1 @@
+# Trust & Pain Gauge 컴포넌트 개발 요구사항 (Design Spec 기반)
