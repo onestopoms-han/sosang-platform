@@ -1,0 +1,15 @@
+# 🎨 Designer — 개발팀이 확보한 Mock Data 및 API 스키마의 기술적 제약을 반영하여 Trust Widget과 PainGauge의 시각적 일관성(컬러 팔레트, 레이아웃)을 최종 검토하고 디자인 시스템을 확정하라.
+
+🎨 Designer: 작업 시작합니다.
+
+개발팀이 확보한 Mock Data 및 API 스키마의 기술적 제약을 반영하여 Trust Widget과 PainGauge의 시각적 일관성을 최종 검토하고 디자인 시스템을 확정하겠습니다.
+
+이를 위해 기존에 작성된 디자인 가이드라인, 컴포넌트 명세, 그리고 데이터 제약사항을 통합하여 최종 **디자인 시스템 명세서**를 확정합니다.
+
+<edit_file path="sessions/2026-06-20T15-33/designer.md"><find>기존</find><replace>최종 디자인 시스템 명세서 업데이트</replace></edit_file>
+<create_file path="sessions/2026-06-20T15-33/Final_TrustWidget_PainGauge_DesignSystem.md"># Trust Widget & PainGauge 최종 디자인 시스템 명세서 (V1.0)<br><br>## 🎯 목표<br>Mock Data 및 API 스키마의 기술적 제약을 기반으로, Trust Widget과 PainGauge의 시각적 일관성을 100% 확보하고, 개발팀이 즉시 구현 가능한 최종 디자인 시스템을 확정한다.<br><br>## 🎨 브랜드 컬러 팔레트 (Color Palette)<br>기술적 제약(데이터 상태별 감성 피드백)에 따라 세 가지 핵심 상태를 정의하며, 전체 플랫폼의 메인 컬러와 조화시킨다.<br>### Primary Color (플랫폼): `#007bff` (신뢰/긍정)<br>### Secondary Color (경고/주의): `#ffc107` (보통/주의)<br>### Tertiary Color (위험/부정): `#dc3545` (낮음/위험)<br>### Neutral Colors (배경/텍스트): `#f8f9fa` (배경), `#212529` (주요 텍스트)<br><br>## ✒️ 타이포그래피 시스템 (Typography System)<br>플랫폼의 신뢰성을 반영하여 가독성이 높은 산세리프 계열을 사용한다.<br>### Font Family: 'Inter', Sans-serif<br>### H1/Title: 28px, Bold (Platform Core Message)<br>### Widget Title (Trust/Pain): 16px, SemiBold (Component Header)<br>### Value Display (Metric): 32px, Regular (Key Data Point)<br>### Subtext/Label: 14px, Medium (Contextual Information)<br><br>## 📐 레이아웃 및 컴포넌트 명세 (Layout & Component Specs)<br>### 1. Trust Widget<br>**목적:** 사용자 신뢰도 시각화 (Trust Level Visualization)<br>**레이아웃:** 수평 막대형 바(Horizontal Bar) 구조.<br>**구성 요소:**<br>1. **Trust Score Display:** 중앙에 현재 점수(`Trust Score`)를 가장 크게 표시.<br>2. **Visual Meter:** 배경으로 사용된 컬러 팔레트의 진행률을 시각적으로 표현하는 막대.<br>3. **Contextual Label:** 아래에 `신뢰도 지표` 또는 관련 설명 텍스트를 배치.<br>**기술 제약 반영:** Mock Data의 '높음/보통/낮음' 상태는 각각 Primary, Secondary, Tertiary 컬러로 명확히 매핑되어야 하며, 막대의 길이는 데이터 값(0~100%)에 비례하여 동적으로 조정된다.<br><br>### 2. PainGauge<br>**목적:** 핵심 애로 지표 파악 (Pain Point Identification)<br>**레이아웃:** 원형 게이지(Radial Gauge) 또는 도넛 차트 형태.<br>**구성 요소:**<br>1. **Pain Score Display:** 중앙에 현재 고통 지수(`Pain Score`)를 표시.<br>2. **Gauge Visualization:** 원형 영역을 채우는 색상 변화.<br>3. **Status Indicator:** 점수에 따라 텍스트 상태(예: '낮음', '보통', '높음')를 명시적으로 표시.<br>**기술 제약 반영:** API에서 제공하는 감성 피드백 데이터(`감성 피드백`)는 Pain Score의 영역 채움 색상과 함께, 최종 상태에 따른 텍스트 레이블로 즉시 매핑되어야 한다. (예: Pain Score가 높으면 Tertiary Color 배경 적용 및 '높음' 텍스트 표시).<br><br>## ✨ 디자인 시스템 규칙 (Design System Rules)<br>1. **일관성:** 모든 Widget은 동일한 타이포그래피와 컬러 팔레트를 공유해야 한다.<br>2. **반응형:** 모바일 환경에서는 수직 배열(Vertical Stacking)로 전환하며, 막대형 구조는 가로 공간에 맞춰 유연하게 조정된다.<br>3. **상태 관리:** 데이터 상태(`높음/보통/낮음`)는 반드시 정의된 컬러와 텍스트 레이블을 통해 사용자에게 즉각적인 감성적 피드백을 제공해야 한다.<br><br>## 🛠️ 개발 가이드라인 (Development Guidelines)<br>개발팀은 이 명세서를 기반으로 `TrustWidget.tsx`와 `PainGauge.tsx` 컴포넌트를 구현한다. 모든 컬러 값과 레이아웃 좌표는 Figma에서 확인 후 적용한다.<br><br>---<br>## 📝 다음 단계<br>최종 디자인 시스템 명세서(V1.0)를 기반으로, 실제 컴포넌트 코드(`PainGaugeComponentSpec_v2.0.md` 및 관련 TS 파일)에 디자인 규칙을 최종적으로 반영하고 코다리에게 Mock Data 생성을 요청한다.
+
+---
+## 📁 파일 액션 결과
+
+⚠️ sessions/2026-06-20T15-33/designer.md: 매칭 실패 — `기존…` (정확/fuzzy 둘 다 실패)
