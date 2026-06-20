@@ -1,57 +1,6 @@
 {
   "tasks": [
     {
-      "id": "20260521041356-4uh5",
-      "title": "**교육 완료:** 생산자 대상 프로세스 교육이 완료되었는가?",
-      "description": "자동 등록 (영숙 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "secretary"
-      ],
-      "createdAt": "2026-05-21T04:13:56.832Z",
-      "status": "done",
-      "sessionDir": "2026-05-21T04-12",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-21T04-12/_report.md\n- 영숙: 영숙 에이전트가 정리한 지역 생산자 데이터 수집 프로세스(Step 3, 4) 및 Writer 에이전트가 작성한 핵심 용어 가이드라인을 통합하여,\n- Designer: Writer의 핵심 용어 가이드라인과 Designer의 브랜드 컨셉을 기반으로, 지역 생산자용 온보딩 매뉴얼(PDF) 초안 제작에 필요한 최종 \n- 코다리: 현빈/레오가 준비할 가상 테스트 케이스 5종의 구체적인 요구사항(Input Data Schema)을 정의하고, 데이터 수집 프로세스(Secret\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 영숙 에이전트가 정리한 지역 생산자 데이터 수집 프로세스(Step 3, 4) 및 Writer 에이전트가 작성한 핵심 용어 가이드라인을 통합하여, 파일럿 테스트를 위한 최종 실행 To-do List와 체크리스트를 즉시 생성하고",
-      "completedAt": "2026-05-21T04:15:01.824Z"
-    },
-    {
-      "id": "20260521041356-d7kv",
-      "title": "**데이터 확보:** 스토리와 원산지 정보 등 필수 데이터 세트가 모두 수집되었는가?",
-      "description": "자동 등록 (영숙 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "secretary"
-      ],
-      "createdAt": "2026-05-21T04:13:56.837Z",
-      "status": "done",
-      "sessionDir": "2026-05-21T04-12",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-21T04-12/_report.md\n- 영숙: 영숙 에이전트가 정리한 지역 생산자 데이터 수집 프로세스(Step 3, 4) 및 Writer 에이전트가 작성한 핵심 용어 가이드라인을 통합하여,\n- Designer: Writer의 핵심 용어 가이드라인과 Designer의 브랜드 컨셉을 기반으로, 지역 생산자용 온보딩 매뉴얼(PDF) 초안 제작에 필요한 최종 \n- 코다리: 현빈/레오가 준비할 가상 테스트 케이스 5종의 구체적인 요구사항(Input Data Schema)을 정의하고, 데이터 수집 프로세스(Secret\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 영숙 에이전트가 정리한 지역 생산자 데이터 수집 프로세스(Step 3, 4) 및 Writer 에이전트가 작성한 핵심 용어 가이드라인을 통합하여, 파일럿 테스트를 위한 최종 실행 To-do List와 체크리스트를 즉시 생성하고",
-      "completedAt": "2026-05-21T04:15:01.831Z"
-    },
-    {
-      "id": "20260521041356-o0un",
-      "title": "**표준화 준수:** 모든 기록물에 Writer의 용어 가이드라인을 적용했는가?",
-      "description": "자동 등록 (영숙 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "secretary"
-      ],
-      "createdAt": "2026-05-21T04:13:56.843Z",
-      "status": "done",
-      "sessionDir": "2026-05-21T04-12",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-21T04-12/_report.md\n- 영숙: 영숙 에이전트가 정리한 지역 생산자 데이터 수집 프로세스(Step 3, 4) 및 Writer 에이전트가 작성한 핵심 용어 가이드라인을 통합하여,\n- Designer: Writer의 핵심 용어 가이드라인과 Designer의 브랜드 컨셉을 기반으로, 지역 생산자용 온보딩 매뉴얼(PDF) 초안 제작에 필요한 최종 \n- 코다리: 현빈/레오가 준비할 가상 테스트 케이스 5종의 구체적인 요구사항(Input Data Schema)을 정의하고, 데이터 수집 프로세스(Secret\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 영숙 에이전트가 정리한 지역 생산자 데이터 수집 프로세스(Step 3, 4) 및 Writer 에이전트가 작성한 핵심 용어 가이드라인을 통합하여, 파일럿 테스트를 위한 최종 실행 To-do List와 체크리스트를 즉시 생성하고",
-      "completedAt": "2026-05-21T04:15:01.836Z"
-    },
-    {
       "id": "20260521072941-eef9",
       "title": "Standard 플랜의 핵심 기능 3가지 정의 및 근거 확보 (현빈)",
       "description": "자동 등록 (현빈 산출물에서 추출)",
@@ -6350,6 +6299,91 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-19T09-21/_report.md\n- Designer: Trust Widget 및 PainGauge에 대한 최종 디자인 사양(`trust_pain_gauge_spec.md`)을 기반으로, 코다리에게 \n- 코다리: Designer가 제공할 최종 디자인 사양을 기반으로, Trust Widget 및 PainGauge 컴포넌트의 프론트엔드 구현에 필요한 초기 M\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Trust Widget 및 PainGauge에 대한 최종 디자인 사양(`trust_pain_gauge_spec.md`)을 기반으로, 코다리에게 프론트엔드 컴포넌트 개발 요구사항 및 API 명세서를 즉시 전달할 수 있도록 모든 시각적",
       "completedAt": "2026-06-19T09:35:22.093Z"
+    },
+    {
+      "id": "20260620055421-hwjp",
+      "title": "Trust Widget 및 Pain Gauge 의 시각적 일관성 확보",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-20T05:54:21.518Z",
+      "status": "done",
+      "sessionDir": "2026-06-20T05-50",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-20T05-50/_report.md\n- 현빈: MVP 핵심 기능(Trust/Pain 시각화)에 대한 최종 사용자 흐름 명세서(PRD 초안) 작성을 위해 현빈에게 필요한 요구사항을 정리하고, \n- 코다리: 핵심 기능 구현의 첫 단계로, `GET /v1/trust-pain-data` 엔드포인트 및 Mock Data(`mock_trust_pain_da\n- 영숙: business팀이 요청한 PRD 초안 작업과 developer의 API 구현 작업을 시작하기 위해 Designer와 writer에게 현재 진행\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 핵심 기능(Trust/Pain 시각화)에 대한 최종 사용자 흐름 명세서(PRD 초안) 작성을 위해 현빈에게 필요한 요구사항을 정리하고, 개발 우선순위를 재확인한다.\n> 🔧 **도구 실행**: _(없음 — LL",
+      "completedAt": "2026-06-20T06:33:48.752Z"
+    },
+    {
+      "id": "20260620055421-xnyj",
+      "title": "최소 기능 API 엔드포인트 구현 (데이터 수집 → 분석 → 결과 시각화)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-20T05:54:21.545Z",
+      "status": "done",
+      "sessionDir": "2026-06-20T05-50",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-20T05-50/_report.md\n- 현빈: MVP 핵심 기능(Trust/Pain 시각화)에 대한 최종 사용자 흐름 명세서(PRD 초안) 작성을 위해 현빈에게 필요한 요구사항을 정리하고, \n- 코다리: 핵심 기능 구현의 첫 단계로, `GET /v1/trust-pain-data` 엔드포인트 및 Mock Data(`mock_trust_pain_da\n- 영숙: business팀이 요청한 PRD 초안 작업과 developer의 API 구현 작업을 시작하기 위해 Designer와 writer에게 현재 진행\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 핵심 기능(Trust/Pain 시각화)에 대한 최종 사용자 흐름 명세서(PRD 초안) 작성을 위해 현빈에게 필요한 요구사항을 정리하고, 개발 우선순위를 재확인한다.\n> 🔧 **도구 실행**: _(없음 — LL",
+      "completedAt": "2026-06-20T06:33:48.785Z"
+    },
+    {
+      "id": "20260620055421-4ml0",
+      "title": "Mock Data 기반의 레이아웃 검증 완료",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-20T05:54:21.569Z",
+      "status": "done",
+      "sessionDir": "2026-06-20T05-50",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-20T05-50/_report.md\n- 현빈: MVP 핵심 기능(Trust/Pain 시각화)에 대한 최종 사용자 흐름 명세서(PRD 초안) 작성을 위해 현빈에게 필요한 요구사항을 정리하고, \n- 코다리: 핵심 기능 구현의 첫 단계로, `GET /v1/trust-pain-data` 엔드포인트 및 Mock Data(`mock_trust_pain_da\n- 영숙: business팀이 요청한 PRD 초안 작업과 developer의 API 구현 작업을 시작하기 위해 Designer와 writer에게 현재 진행\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 핵심 기능(Trust/Pain 시각화)에 대한 최종 사용자 흐름 명세서(PRD 초안) 작성을 위해 현빈에게 필요한 요구사항을 정리하고, 개발 우선순위를 재확인한다.\n> 🔧 **도구 실행**: _(없음 — LL",
+      "completedAt": "2026-06-20T06:33:48.812Z"
+    },
+    {
+      "id": "20260620055421-uhj8",
+      "title": "실제 PayPal 거래 데이터 연동 (Transaction Search API)",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-20T05:54:21.589Z",
+      "status": "done",
+      "sessionDir": "2026-06-20T05-50",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-20T05-50/_report.md\n- 현빈: MVP 핵심 기능(Trust/Pain 시각화)에 대한 최종 사용자 흐름 명세서(PRD 초안) 작성을 위해 현빈에게 필요한 요구사항을 정리하고, \n- 코다리: 핵심 기능 구현의 첫 단계로, `GET /v1/trust-pain-data` 엔드포인트 및 Mock Data(`mock_trust_pain_da\n- 영숙: business팀이 요청한 PRD 초안 작업과 developer의 API 구현 작업을 시작하기 위해 Designer와 writer에게 현재 진행\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 핵심 기능(Trust/Pain 시각화)에 대한 최종 사용자 흐름 명세서(PRD 초안) 작성을 위해 현빈에게 필요한 요구사항을 정리하고, 개발 우선순위를 재확인한다.\n> 🔧 **도구 실행**: _(없음 — LL",
+      "completedAt": "2026-06-20T06:33:48.840Z"
+    },
+    {
+      "id": "20260620055421-417c",
+      "title": "사용자별 맞춤형 솔루션 추천 알고리즘 최적화",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-20T05:54:21.613Z",
+      "status": "done",
+      "sessionDir": "2026-06-20T05-50",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-20T05-50/_report.md\n- 현빈: MVP 핵심 기능(Trust/Pain 시각화)에 대한 최종 사용자 흐름 명세서(PRD 초안) 작성을 위해 현빈에게 필요한 요구사항을 정리하고, \n- 코다리: 핵심 기능 구현의 첫 단계로, `GET /v1/trust-pain-data` 엔드포인트 및 Mock Data(`mock_trust_pain_da\n- 영숙: business팀이 요청한 PRD 초안 작업과 developer의 API 구현 작업을 시작하기 위해 Designer와 writer에게 현재 진행\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 핵심 기능(Trust/Pain 시각화)에 대한 최종 사용자 흐름 명세서(PRD 초안) 작성을 위해 현빈에게 필요한 요구사항을 정리하고, 개발 우선순위를 재확인한다.\n> 🔧 **도구 실행**: _(없음 — LL",
+      "completedAt": "2026-06-20T06:33:48.870Z"
     }
   ]
 }
