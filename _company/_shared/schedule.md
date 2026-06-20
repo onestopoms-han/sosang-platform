@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 20. 오후 2:35:49_
+_업데이트: 2026. 6. 20. 오후 2:44:56_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -15,13 +15,13 @@ _업데이트: 2026. 6. 20. 오후 2:35:49_
 - [2026-06-19] Writer가 제시한 최종 스토리보드(Flow 1, 2)의 각 단계에 맞춰, Trust Widget 및 PainGauge 인터랙션의 최종 레이아웃 및 애니메이션 정의를 완료하여 Figma 구현을 위한 최종 명세서를 제출하라. → 산출물 sessions/2026-06-19T15-22/designer.md
 - [2026-06-19] 코다리로부터 받은 Mock Data 구조(`mock_trust_pain_data.json`)를 기반으로, Trust/Pain 시각화의 최종 레이아웃 검증 및 Figma 프로토타입 연동을 즉시 시작하라. → 산출물 sessions/2026-06-19T15-52/designer.md
 ### 💻 코다리
-- [2026-06-19] 확정된 디자인 시스템 가이드라인과 API 스키마(`api_spec_v3_trust_pain.json`)를 기반으로, 최소 기능 API 엔드포인트와 Mock Data 구조를 정의하여 기술적 구현 가능성(Feasibility) 리스트를 작성하라. → 산출물 sessions/2026-06-19T14-52/developer.md
 - [2026-06-19] Designer와 Writer가 확정한 시각적/스토리텔링 기준을 기반으로, API 스키마(`api_spec_v3_trust_pain.json`)와 디자인 시스템 가이드라인에 완벽하게 일치하는 Mock Data 구조 및 최소 기능 API 엔드포인트 구현 우선순위를 최종 재정립하라. → 산출물 sessions/2026-06-19T15-22/developer.md
 - [2026-06-19] Designer가 제시한 최종 디자인 시스템 가이드라인과 Mock Data 구조를 바탕으로, 최소 기능 API 엔드포인트 구현 가능성 리스트(Feasibility List)를 최종적으로 확정하고 Mock Data 생성을 위한 코드를 준비하라. → 산출물 sessions/2026-06-19T15-52/developer.md
+- [2026-06-20] Business팀이 선정한 핵심 기능에 맞춰 Mock Data(`mock_trust_pain_data.json`) 생성을 위한 최소 기능 API 엔드포인트 및 데이터 구조를 코다리 수준에서 최종 확정하고, 즉시 개발 착수할 수 있는 초기 스크립트 환경을 준비하라. → 산출물 sessions/2026-06-20T05-38/developer.md
 ### 💼 현빈
-- [2026-06-17] 베타테스터 모집 캠페인에서 수집된 초기 사용자 반응 데이터(KPI, 피드백)를 분석하고, 이를 기반으로 다음 스프린트의 기능 개선 우선순위와 수익화 전략을 재정립하세요. → 산출물 sessions/2026-06-17T20-36/business.md
 - [2026-06-19] 소상공인의 어려움을 파악하고 실질적인 대안을 마련하기 위한 민간사업 기획 방향성을 Trust Widget 및 PainGauge의 데이터 기반 시각화 결과와 연결하여 구체적인 사업 전략 초안을 작성하라. → 산출물 sessions/2026-06-19T05-50/business.md
 - [2026-06-19] Trust Widget & PainGauge MVP 개발 로드맵(코다리, Designer)에 대한 현재의 기술적/시각적 구현 격차를 분석하고, 이를 기반으로 가장 현실적인 다음 마일스톤을 정의하라. → 산출물 sessions/2026-06-19T10-06/business.md
+- [2026-06-20] Trust Widget 및 PainGauge의 Mock Data와 API Feasibility List를 검토하여, MVP 단계에서 가장 높은 사용자 가치(Pain Point 해결)를 제공할 핵심 기능 1~2개를 선정하고 개발 우선순위를 확정하라. → 산출물 sessions/2026-06-20T05-38/business.md
 ### 📱 영숙
 - [2026-06-19] Designer와 Developer 간의 작업 진행 상황과 다음 단계(워크숍 일정 최종 확정)에 대한 업데이트 사항을 취합하여 CEO에게 보고할 준비를 하라. → 산출물 sessions/2026-06-19T13-37/secretary.md
 - [2026-06-19] Designer와 Codari로부터 Trust/Pain Score 매핑 규칙 관련 의견을 취합하여 Workshop_Conflict_Resolution_Agenda.md에 반영할 준비를 하라. → 산출물 sessions/2026-06-19T13-52/secretary.md
