@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 21. 오후 7:58:15_
+_업데이트: 2026. 6. 21. 오후 8:55:14_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,17 +11,17 @@ _업데이트: 2026. 6. 21. 오후 7:58:15_
 - [2026-06-19] Designer와 Writer가 확정한 Trust Widget 및 PainGauge의 시각적 일관성을 반영하여, 베타 테스트 참여자 모집에 최적화된 최종 릴스 및 피드 콘텐츠를 즉시 게시 일정과 함께 실행하라. → 산출물 sessions/2026-06-19T04-50/instagram.md
 - [2026-06-19] Designer와 Writer가 확정한 최종 디자인 가이드라인을 반영하여, Trust Widget 및 PainGauge의 시각적 일관성을 확보하는 베타 테스트 참여자 모집용 릴스 및 피드 콘텐츠 초안을 즉시 제작하라. → 산출물 sessions/2026-06-19T11-06/instagram.md
 ### 🎨 Designer
-- [2026-06-21] Trust Widget 및 PainGauge의 최종 디자인 시스템 명세서(V3.0)와 기술 사양을 완벽히 반영하여, 실제 인터랙션과 데이터 상태 변화를 시뮬레이션한 통합 Figma 프로토타입 파일 생성을 즉시 시작하라. → 산출물 sessions/2026-06-21T09-47/designer.md
-- [2026-06-21] Trust Widget 및 PainGauge의 최종 디자인 시스템 명세서(V3.0)를 기반으로, 핵심 화면(Dashboard)의 최종 Figma 프로토타입 구성을 즉시 진행하여 개발팀이 시각적 목표를 정확히 이해하고 작업할 수 있도록 준비하라. → 산출물 sessions/2026-06-21T10-02/designer.md
-- [2026-06-21] 개발팀이 시각적 목표를 정확히 이해하고 작업할 수 있도록, Trust Widget 및 PainGauge의 최종 UI/UX 명세서와 반응형 디자인 가이드라인을 최종적으로 확정하여 제공할 것. → 산출물 sessions/2026-06-21T10-17/designer.md
+- [2026-06-21] Trust Widget 및 PainGauge의 최종 디자인 시스템 명세서(V3.0)에 기반하여, 모든 페르소나별 데이터 흐름이 시각적으로 완벽하게 반영된 핵심 대시보드 UI 프로토타입 구성을 즉시 시작하고 개발팀에 전달할 수 있도록 준비하라. → 산출물 sessions/2026-06-21T11-02/designer.md
+- [2026-06-21] Trust Widget 및 PainGauge의 최종 디자인 시스템 명세서(V3.0)를 기반으로, 개발팀이 즉시 착수할 수 있도록 핵심 대시보드 UI 프로토타입 구조(`Dashboard_Prototype_Spec`)와 모든 컴포넌트의 최종 디자인 가이드라인을 확정하여 제공하라. → 산출물 sessions/2026-06-21T11-17/designer.md
+- [2026-06-21] Trust Widget 및 PainGauge의 최종 디자인 시스템 명세서(V3.0)를 기반으로, 데이터 상태 변화에 따른 사용자 행동 유도 흐름이 완벽하게 반영된 핵심 대시보드 UI 프로토타입(`Dashboard_Prototype_Spec`)을 최종 Figma 프로토타입으로 구체화하라. → 산출물 sessions/2026-06-21T11-47/designer.md
 ### 💻 코다리
-- [2026-06-21] Designer가 제공할 최종 UI/UX 명세서(Trust Widget & PainGauge)를 기반으로, 확정된 API 스키마 및 신호등 로직을 통합하여 실제 데이터 상태 변화에 반응하는 인터랙티브 프로토타입 구현을 위한 초기 기술 구조 및 Mockup 코드를 준비하라. → 산출물 sessions/2026-06-21T09-47/developer.md
-- [2026-06-21] Trust Widget 및 PainGauge의 실제 데이터 흐름(API Mock Data)을 통합하여, 상태 변화에 따른 UI 렌더링 로직 구현을 시작하고, Designer가 제공한 V3.0 명세서를 기반으로 TypeScript 컴포넌트 스텁 개발을 즉시 진행하라. → 산출물 sessions/2026-06-21T10-02/developer.md
-- [2026-06-21] Trust Widget 및 PainGauge 컴포넌트의 실제 데이터 상태 변화(신호등 색상) 로직을 Mockup 코드에 통합하여 인터랙티브 프로토타입 구현을 시작하고, 확정된 디자인 시스템 명세서(V3.0)를 기반으로 기능을 구현할 것. → 산출물 sessions/2026-06-21T10-17/developer.md
+- [2026-06-21] Designer가 제공한 Trust Widget 및 PainGauge의 최종 UI/UX 명세서(V3.0)와 확정된 API 스키마를 기반으로, 실제 데이터 상태 변화에 반응하는 인터랙티브 프로토타입 구현을 위한 초기 기술 구조 및 Mockup 코드를 즉시 준비하라. → 산출물 sessions/2026-06-21T11-17/developer.md
+- [2026-06-21] Designer가 제공한 Trust Widget 및 PainGauge의 최종 디자인 시스템(V3.0) 명세서를 기반으로, 실제 컴포넌트 구현(`trust-widget-proto` 디렉토리 초기화 및 TypeScript 타입 정의)을 즉시 착수하고 Mockup 코드를 통합하여 인터랙티브 프로토타입 구현에 필요한 기술 구조를 완성하라. → 산출물 sessions/2026-06-21T11-32/developer.md
+- [2026-06-21] Designer가 제공한 Trust Widget 및 PainGauge의 최종 디자인 시스템 명세서(V3.0)와 API 스키마를 기반으로, 핵심 대시보드 UI 프로토타입(`Dashboard_Prototype_Spec`) 구현을 위한 상세 개발 로드맵과 기술 검증 계획을 수립하고 코드를 준비하라. → 산출물 sessions/2026-06-21T11-47/developer.md
 ### 💼 현빈
-- [2026-06-20] Developer가 제시한 기술적 제약사항 보고서를 바탕으로, 신뢰도 시각화 기능(Trust Widget)의 MVP 범위와 핵심 지표를 정의하고, 이를 기반으로 초기 잠재 고객 테스트에 필요한 최소 기능 집합(Minimum Viable Features)을 도출하라. → 산출물 sessions/2026-06-20T23-50/business.md
 - [2026-06-21] 소상공인 플랫폼의 핵심 가치(Trust Widget, PainGauge)를 기반으로, 잠재 고객이 겪는 주요 어려움(Pain Point)과 이를 해결했을 때 얻을 수 있는 이점(Gain)을 명확히 정의하고 초기 테스트 시나리오의 프레임워크를 설계하라. → 산출물 sessions/2026-06-21T09-02/business.md
 - [2026-06-21] 소상공인의 핵심 어려움을 파악하고, 이를 해결할 수 있는 실질적인 대안과 민간 사업 기획을 위한 데이터 기반 스토리보드 및 초기 잠재 고객 테스트 시나리오의 프레임워크를 구축해줘. → 산출물 sessions/2026-06-21T10-32/business.md
+- [2026-06-21] 개발 로드맵과 디자인 프로토타입 구현에 필요한 MVP 기능의 우선순위 및 시장 검증(A/B 테스트) 시나리오를 정의하여, 기술적 실행 가능성과 비즈니스 목표를 연결하라. → 산출물 sessions/2026-06-21T11-47/business.md
 ### 📱 영숙
 - [2026-06-20] Writer가 제작할 콘텐츠의 초안을 바탕으로, 다음 주 마케팅 캠페인 일정에 맞춰 예상 게시 날짜 및 최종 검토 일정을 설정하고 보고하라. → 산출물 sessions/2026-06-20T14-48/secretary.md
 - [2026-06-20] Codari와 Designer의 작업 진행 상황 및 기술적 제약사항 보고서를 취합하여 다음 주 모닝 브리핑 자료를 준비하도록 레오에게 요청하고, 모든 관련 작업을 추적하라. → 산출물 sessions/2026-06-20T16-03/secretary.md
