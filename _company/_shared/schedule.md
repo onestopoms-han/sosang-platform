@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 21. 오전 8:58:09_
+_업데이트: 2026. 6. 21. 오전 9:07:07_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,9 +11,9 @@ _업데이트: 2026. 6. 21. 오전 8:58:09_
 - [2026-06-19] Designer와 Writer가 확정한 Trust Widget 및 PainGauge의 시각적 일관성을 반영하여, 베타 테스트 참여자 모집에 최적화된 최종 릴스 및 피드 콘텐츠를 즉시 게시 일정과 함께 실행하라. → 산출물 sessions/2026-06-19T04-50/instagram.md
 - [2026-06-19] Designer와 Writer가 확정한 최종 디자인 가이드라인을 반영하여, Trust Widget 및 PainGauge의 시각적 일관성을 확보하는 베타 테스트 참여자 모집용 릴스 및 피드 콘텐츠 초안을 즉시 제작하라. → 산출물 sessions/2026-06-19T11-06/instagram.md
 ### 🎨 Designer
-- [2026-06-20] 개발팀이 확보한 Mock Data 및 API 스키마의 기술적 제약을 반영하여 Trust Widget과 PainGauge의 시각적 일관성(컬러 팔레트, 레이아웃)을 최종 검토하고 디자인 시스템을 확정하라. → 산출물 sessions/2026-06-20T16-48/designer.md
 - [2026-06-20] 개발팀이 제공한 데이터 구조와 기술적 제약을 바탕으로 Trust Widget 및 PainGauge의 시각적 요구사항(컬러 팔레트, 레이아웃)과의 완벽한 일치 여부를 최종 QA하고 디자인 시스템을 확정하라. → 산출물 sessions/2026-06-20T17-03/designer.md
 - [2026-06-20] Writer가 제시한 스토리보드 개요에 맞춰, Trust Widget과 PainGauge의 시각적 변화(컬러, 애니메이션)가 사용자 여정 지도(Journey Map) 상에서 어떻게 감성적 효과를 극대화하는지에 대한 최종 UX Flow 프로토타입 구조를 설계하라. → 산출물 sessions/2026-06-20T18-21/designer.md
+- [2026-06-21] MVP 명세서(`trust_widget_mvp_spec.md`)에 따라, 가장 핵심적인 '실시간 매출 안심 신호등' 기능의 시각적 프로토타입(Wireframe)을 즉시 구현하라. → 산출물 sessions/2026-06-21T00-05/designer.md
 ### 💻 코다리
 - [2026-06-20] Designer가 제공한 인터랙션 가이드라인과 Vision을 바탕으로 Trust Widget 및 PainGauge의 Mock Data와 API 스키마를 최종 확정하여 개발팀에 전달할 준비를 완료하라. → 산출물 sessions/2026-06-20T16-48/developer.md
 - [2026-06-20] 확정된 Mock Data 및 API 스키마를 기반으로 테스트 서버 환경을 즉시 구축하고 성능을 측정하여 기능 구현 가능 여부를 확인하라. → 산출물 sessions/2026-06-20T17-03/developer.md
