@@ -1,0 +1,1 @@
+<find>Trust_Widget_Technical_Spec_V1.0</find><replace>Trust_Widget_Robust_Test_Framework_Spec_V1.0</replace>
