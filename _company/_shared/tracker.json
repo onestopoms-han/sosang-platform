@@ -6333,6 +6333,74 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-21T17-26/_report.md\n- 현빈: Trust Widget 및 PainGauge 기능이 소상공인의 '불안 해소'라는 단일 감정 목표에 얼마나 직접적으로 기여하는지 KPI와 비즈니스\n- Researcher: 소상공인의 실질적인 어려움과 시장 트렌드를 조사하여, 현재 디자인된 Trust Widget 및 PainGauge가 가장 강력하게 해결해야 할 P\n- Writer: Researcher가 도출한 Pain Point와 Business가 정의한 가설을 바탕으로, 초기 잠재 고객(소상공인)의 시선을 즉시 사로잡을 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Trust Widget 및 PainGauge 기능이 소상공인의 '불안 해소'라는 단일 감정 목표에 얼마나 직접적으로 기여하는지 KPI와 비즈니스 가설을 재검토하고, MVP의 핵심 가치 제안(Value Propositi",
       "completedAt": "2026-06-21T17:40:04.860Z"
+    },
+    {
+      "id": "20260622062629-256r",
+      "title": "녹음 파일 저장 및 텍스트 변환 완료",
+      "description": "자동 등록 (Researcher 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "researcher"
+      ],
+      "createdAt": "2026-06-22T06:26:29.298Z",
+      "status": "done",
+      "sessionDir": "2026-06-22T06-19",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-22T06-19/_report.md\n- 코다리: Trust Widget 및 PainGauge의 점수 산출 로직(Score Calculation Logic)을 기술적으로 명확히 정의하고, 이를 \n- Researcher: 소상공인의 Pain Point 검증을 위한 인터뷰 가이드라인(`mini_pilot_interview_guide_v2.0.md`)을 재정비하고, \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Trust Widget 및 PainGauge의 점수 산출 로직(Score Calculation Logic)을 기술적으로 명확히 정의하고, 이를 기반으로 테스트 API 엔드포인트 초안을 확정하여 개발을 착수할 준비를 하라.\n> 🔧 **도구 실",
+      "completedAt": "2026-06-22T06:32:20.098Z"
+    },
+    {
+      "id": "20260622062629-8x9g",
+      "title": "키워드 매칭을 통한 Pain Point Score 산출 (개발팀과 연동)",
+      "description": "자동 등록 (Researcher 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "researcher"
+      ],
+      "createdAt": "2026-06-22T06:26:29.504Z",
+      "status": "done",
+      "sessionDir": "2026-06-22T06-19",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-22T06-19/_report.md\n- 코다리: Trust Widget 및 PainGauge의 점수 산출 로직(Score Calculation Logic)을 기술적으로 명확히 정의하고, 이를 \n- Researcher: 소상공인의 Pain Point 검증을 위한 인터뷰 가이드라인(`mini_pilot_interview_guide_v2.0.md`)을 재정비하고, \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Trust Widget 및 PainGauge의 점수 산출 로직(Score Calculation Logic)을 기술적으로 명확히 정의하고, 이를 기반으로 테스트 API 엔드포인트 초안을 확정하여 개발을 착수할 준비를 하라.\n> 🔧 **도구 실",
+      "completedAt": "2026-06-22T06:32:20.121Z"
+    },
+    {
+      "id": "20260622062629-4z7g",
+      "title": "신뢰도 점수 계산 공식 적용",
+      "description": "자동 등록 (Researcher 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "researcher"
+      ],
+      "createdAt": "2026-06-22T06:26:29.523Z",
+      "status": "done",
+      "sessionDir": "2026-06-22T06-19",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-22T06-19/_report.md\n- 코다리: Trust Widget 및 PainGauge의 점수 산출 로직(Score Calculation Logic)을 기술적으로 명확히 정의하고, 이를 \n- Researcher: 소상공인의 Pain Point 검증을 위한 인터뷰 가이드라인(`mini_pilot_interview_guide_v2.0.md`)을 재정비하고, \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Trust Widget 및 PainGauge의 점수 산출 로직(Score Calculation Logic)을 기술적으로 명확히 정의하고, 이를 기반으로 테스트 API 엔드포인트 초안을 확정하여 개발을 착수할 준비를 하라.\n> 🔧 **도구 실",
+      "completedAt": "2026-06-22T06:32:20.158Z"
+    },
+    {
+      "id": "20260622062629-oxqh",
+      "title": "개발팀이 UI 에 표시할 수 있는 JSON 형식 데이터 생성",
+      "description": "자동 등록 (Researcher 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "researcher"
+      ],
+      "createdAt": "2026-06-22T06:26:29.555Z",
+      "status": "done",
+      "sessionDir": "2026-06-22T06-19",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-22T06-19/_report.md\n- 코다리: Trust Widget 및 PainGauge의 점수 산출 로직(Score Calculation Logic)을 기술적으로 명확히 정의하고, 이를 \n- Researcher: 소상공인의 Pain Point 검증을 위한 인터뷰 가이드라인(`mini_pilot_interview_guide_v2.0.md`)을 재정비하고, \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Trust Widget 및 PainGauge의 점수 산출 로직(Score Calculation Logic)을 기술적으로 명확히 정의하고, 이를 기반으로 테스트 API 엔드포인트 초안을 확정하여 개발을 착수할 준비를 하라.\n> 🔧 **도구 실",
+      "completedAt": "2026-06-22T06:32:20.182Z"
     }
   ]
 }
