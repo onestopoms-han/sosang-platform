@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 23. 오전 2:08:56_
+_업데이트: 2026. 6. 23. 오전 8:54:27_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -7,25 +7,25 @@ _업데이트: 2026. 6. 23. 오전 2:08:56_
 - [2026-06-19] MVP 백엔드 개발 진행 상황 및 디자인/개발 연동에 대한 초기 기술적 난제들을 요약하여 다음 주 모닝 브리핑 자료로 정리할 준비를 하라. → 산출물 sessions/2026-06-19T09-36/youtube.md
 - [2026-06-19] 확보된 API 명세서와 디자인 사양 간의 기술적 난제(구현 격차)를 구체화하여, 다음 주 모닝 브리핑을 위한 현실적인 로드맵을 재정립하라. → 산출물 sessions/2026-06-19T09-51/youtube.md
 ### 📷 Instagram
-- [2026-06-22] 최종 확정된 Trust Widget 및 PainGauge 비주얼 에셋(썸네일 포함)을 기반으로 베타 참여자 모집용 릴스 및 피드 콘텐츠 초안을 작성하고 게시 일정을 최종 확정하세요. → 산출물 sessions/2026-06-22T04-06/instagram.md
 - [2026-06-22] business 에이전트가 도출한 GTM 목표에 맞춰, 현재 진행 중인 릴스 및 피드 콘텐츠의 CTA(Call to Action) 전략을 수익화 흐름에 맞게 재구성할 방안을 제시하라. → 산출물 sessions/2026-06-22T04-34/instagram.md
 - [2026-06-22] Writer가 작성한 콘텐츠 초안을 기반으로, 플랫폼 베타 참여자 모집에 가장 효과적인 게시 시간과 해시태그 전략을 설정하고 콘텐츠 발행 일정을 확정하라. → 산출물 sessions/2026-06-22T05-04/instagram.md
+- [2026-06-22] Top 3 액션 중 세 번째 목표인 '레오/Instagram'에게 플랫폼 베타 참여자 모집에 최적화된 콘텐츠 전략(CTA, 게시 시간)을 확정하고 즉시 실행하도록 지시하라. → 산출물 sessions/2026-06-22T17-34/instagram.md
 ### 🎨 Designer
-- [2026-06-22] Trust Widget 및 PainGauge 컴포넌트의 최종 디자인 명세(V3.0)와 Trust/Pain 지표가 제공하는 경제적 이익(ROI)을 시각화하는 논리(`Trust_Widget_Technical_Spec_V1.0.md`, `Trust_Widget_Mockup_Spec_V2.0.md`)를 기반으로, 개발팀이 즉시 구현할 수 있도록 최종 UI/UX 사양을 확정하고 명세서에 반영하라. → 산출물 sessions/2026-06-22T16-19/designer.md
-- [2026-06-22] Trust Widget 및 PainGauge의 최종 UI/UX 사양(V3.0)과 데이터 연동 로직(`Trust_Widget_Technical_Spec_V1.0.md`)을 기반으로, 개발팀이 즉시 구현할 수 있도록 상세 API 명세 초안을 작성하라. → 산출물 sessions/2026-06-22T16-49/designer.md
-- [2026-06-22] Trust Widget 및 PainGauge의 최종 UI/UX 사양(V3.0)과 Trust/Pain 지표가 제공하는 경제적 이익(ROI)을 시각화하는 논리(`Trust_Widget_Technical_Spec_V1.0.md`)를 기반으로, 프론트엔드 구현을 위한 컴포넌트의 최종 시각적/상호작용 사양(`Trust_Widget_Mockup_Spec_V2.0.md`)과 기술 사양 간의 완벽한 일치 여부를 최종 검토하고 명세에 반영하라. → 산출물 sessions/2026-06-22T17-04/designer.md
+- [2026-06-22] Trust Widget Mockup Spec V3.0을 업데이트하고, 현빈이 정의한 ROI 지표(CVR, AOV)가 시각적으로 어떻게 표현되어야 하는지에 대한 인터랙션 및 데이터 연동 사양을 추가하여 UI/UX 명세를 확정하라. → 산출물 sessions/2026-06-22T22-19/designer.md
+- [2026-06-22] 개발팀이 제공할 새로운 ROI 계산 결과 데이터 포맷(API Output Schema)을 기반으로, Trust Widget 및 PainGauge의 최종 UI/UX 사양(V3.0)을 확정하고 프론트엔드 컴포넌트 구현에 필요한 시각적 명세를 즉시 작성하여 전달하라. → 산출물 sessions/2026-06-22T22-49/designer.md
+- [2026-06-22] Trust Widget 및 PainGauge의 최종 V3.0 디자인 사양과 데이터 연동 명세를 바탕으로, 프론트엔드 컴포넌트 구현에 필요한 시각적 명세(Visual Specification)를 즉시 작성하여 개발팀에 전달할 준비를 하라. → 산출물 sessions/2026-06-22T23-49/designer.md
 ### 💻 코다리
-- [2026-06-22] Designer가 제공한 Trust Widget 및 PainGauge의 디자인 명세(V3.0)와 기술 스펙(`Trust_Widget_Technical_Spec_V1.0.md`, `Trust_Widget_Mockup_Spec_V2.0.md`)을 검토하고, PainGauge 색상 매핑 로직과 Trust Widget 데이터 연동 API 흐름의 기술적 구현 가능성을 최종적으로 확인 및 확정하여 개발 준비를 완료하라. → 산출물 sessions/2026-06-22T16-19/developer.md
-- [2026-06-22] Designer가 제공할 Trust Widget 및 PainGauge의 최종 디자인 명세(V3.0)와 기술 사양을 검토하고, 데이터 연동 로직에 대한 구현 가능성을 확인하여 코다리(Developer) 관점에서 초기 API 흐름 초안을 작성하라. → 산출물 sessions/2026-06-22T16-49/developer.md
-- [2026-06-22] Designer가 제공한 Trust Widget 및 PainGauge의 디자인 명세(V3.0)와 기술 스펙(`Trust_Widget_Technical_Spec_V1.0.md`)을 검토하고, PainGauge 색상 매핑 로직과 Trust Widget 데이터 연동 API 흐름의 기술적 구현 가능성을 최종적으로 확인하여 개발 준비를 완료하라. → 산출물 sessions/2026-06-22T17-04/developer.md
+- [2026-06-22] Designer가 업데이트한 명세(V3.0)와 Business의 ROI 논리를 기반으로, Trust Widget 및 PainGauge의 계산 결과를 API가 처리하고 전달할 수 있도록 기술 스펙(`Trust_Widget_Technical_Spec_V2.0.md`)을 재설계하라. → 산출물 sessions/2026-06-22T22-19/developer.md
+- [2026-06-22] Business가 정의한 수익화 지표를 기반으로, Trust Widget 및 PainGauge API 결과가 실제 경제적 이익(ROI)과 어떻게 연동되어야 하는지에 대한 백엔드 테스트 시나리오 초안을 제시하라. → 산출물 sessions/2026-06-22T22-34/developer.md
+- [2026-06-22] ROI 계산 로직(`ROI_Measurement_Loic_Final.md`)을 기반으로, 백엔드 API 엔드포인트(`/api/v1/roi-calculate`)의 최종 구현 및 End-to-End (E2E) 단위 테스트 코드를 완성하여 배포 준비를 마쳐라. → 산출물 sessions/2026-06-22T22-49/developer.md
 ### 💼 현빈
-- [2026-06-22] Pain Point 분석 결과(`pain_point_analysis_result_v1.0.md`)와 개발팀의 기술적 검토 결과를 바탕으로, Trust Widget과 PainGauge가 소상공인의 '성장 여정 시각화'라는 핵심 목표를 달성하는 데 기여하는지 KPI 관점에서 최종적으로 검증하고, 마케팅 메시지에 반영할 수 있는 ROI 중심의 논리를 재확인하세요. → 산출물 sessions/2026-06-22T06-49/business.md
-- [2026-06-22] Pain Point 분석 결과(`pain_point_analysis_result_v1.0.md`)와 디자인 명세(V3.0)를 검토하여, Trust/Pain 지표가 소상공인에게 제공하는 경제적 이익(ROI)을 정량화하는 최종 논리를 확정하고 이를 기술 구현에 반영할 수 있도록 정리하라. → 산출물 sessions/2026-06-22T07-04/business.md
-- [2026-06-22] Trust/Pain 지표가 제공하는 경제적 이익(ROI) 정량화 논리와 Trust Widget/PainGauge의 기술 명세(`Trust_Widget_Technical_Spec_V1.0.md`)를 기반으로, 사용자에게 신뢰와 위기감을 효과적으로 전달하는 시각적 컴포넌트 구현이 비즈니스 목표에 부합하는지 최종 검증하고 개발 우선순위를 재확인하라. → 산출물 sessions/2026-06-22T16-19/business.md
+- [2026-06-22] 코다리가 정의한 ROI 논리(base_CVR, AOV)를 기반으로, 플랫폼 성공을 측정할 수 있는 최종 수익화 지표와 검증 기준을 확정하고 테스트 프레임워크의 핵심 요구사항을 명시하라. → 산출물 sessions/2026-06-22T22-34/business.md
+- [2026-06-22] 개발 및 디자인 작업이 진행되는 동안, 측정된 ROI 지표가 실제 소상공인의 손익분기점 시나리오와 어떻게 연계되어야 하는지에 대한 구체적인 비즈니스 검증 자료(Use Case)를 보강하여 확보하라. → 산출물 sessions/2026-06-22T22-49/business.md
+- [2026-06-22] 손익분기점 시나리오 검증을 위해 초기 가정값(AOV, 비용) 확정 작업이 완료되었는지 확인하고, 만약 미완료라면 이를 명확히 정리하여 개발팀에 전달할 준비를 하라. → 산출물 sessions/2026-06-22T23-49/business.md
 ### 📱 영숙
-- [2026-06-21] Researcher가 산출한 기술 구현 우선순위 로드맵 초안을 정리하여, 다음 주 모닝 브리핑 자료로 준비하라. 필요한 데이터와 요약 사항을 포함해야 한다. → 산출물 sessions/2026-06-21T23-25/secretary.md
-- [2026-06-22] 최근 모든 에이전트 활동 로그 및 CEO 개인 메모리를 요약하여 현재 시점의 가장 가치 있는 단일 작업 1개를 결정하고, 이를 실행할 최적의 에이전트를 지정하라. → 산출물 sessions/2026-06-22T01-58/secretary.md
-- [2026-06-22] 개발 및 마케팅 작업의 병목 지점을 확인하고, 코다리(Developer)와 Writer의 진행 상황을 모니터링하여 다음 24시간 동안 발생할 수 있는 모든 잠재적 지연 요소를 식별하고 보고하라. → 산출물 sessions/2026-06-22T05-49/secretary.md
+- [2026-06-22] 오늘의 최우선 작업 및 진행 상황을 요약하여 텔레그램 보고를 준비하라. → 산출물 sessions/2026-06-22T17-34/secretary.md
+- [2026-06-22] 위 두 작업의 진행 상황을 모니터링하고 다음 단계 액션 플랜을 정리하여 CEO에게 보고할 준비를 하라. → 산출물 sessions/2026-06-22T22-04/secretary.md
+- [2026-06-22] 상기 작업에 필요한 모든 논의 내용을 요약하여 CEO에게 보고할 데일리 브리핑 자료를 준비하고, 관련 팀원들의 다음 액션 항목을 정리하라. → 산출물 sessions/2026-06-22T22-34/secretary.md
 ### ✍️ Writer
 - [2026-06-22] business 에이전트가 도출한 액션 플랜을 바탕으로, '불안 해소' 메시지에서 '비용 절감 ROI' 메시지로 전환하는 구체적인 카피라이팅 초안 3가지를 작성하라. → 산출물 sessions/2026-06-22T04-34/writer.md
 - [2026-06-22] Designer가 제공한 최종 시각적 에셋과 CEO의 ROI 중심 논리를 통합하여, 베타 참여자 모집에 최적화된 Instagram 피드 및 릴스용 카피(Hook, Body, CTA) 초안을 즉시 작성하라. → 산출물 sessions/2026-06-22T05-04/writer.md

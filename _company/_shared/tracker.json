@@ -6401,6 +6401,57 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-22T06-19/_report.md\n- 코다리: Trust Widget 및 PainGauge의 점수 산출 로직(Score Calculation Logic)을 기술적으로 명확히 정의하고, 이를 \n- Researcher: 소상공인의 Pain Point 검증을 위한 인터뷰 가이드라인(`mini_pilot_interview_guide_v2.0.md`)을 재정비하고, \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Trust Widget 및 PainGauge의 점수 산출 로직(Score Calculation Logic)을 기술적으로 명확히 정의하고, 이를 기반으로 테스트 API 엔드포인트 초안을 확정하여 개발을 착수할 준비를 하라.\n> 🔧 **도구 실",
       "completedAt": "2026-06-22T06:32:20.182Z"
+    },
+    {
+      "id": "20260622173846-1lgu",
+      "title": "Leo(MVP 개발): 베타 참여 신청 링크 최적화 및 페이지 로딩 속도 개선 완료.",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-22T17:38:46.374Z",
+      "status": "done",
+      "sessionDir": "2026-06-22T17-34",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-22T17-34/_report.md\n- 현빈: Top 3 액션 중 첫 번째 목표인 '코다리'에게 Trust Widget 및 PainGauge의 A/B 테스트 로직을 기반으로 실제 데이터 흐름\n- Instagram: Top 3 액션 중 세 번째 목표인 '레오/Instagram'에게 플랫폼 베타 참여자 모집에 최적화된 콘텐츠 전략(CTA, 게시 시간)을 확정하\n- 영숙: 오늘의 최우선 작업 및 진행 상황을 요약하여 텔레그램 보고를 준비하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Top 3 액션 중 첫 번째 목표인 '코다리'에게 Trust Widget 및 PainGauge의 A/B 테스트 로직을 기반으로 실제 데이터 흐름을 구현하는 백엔드 API를 즉시 개발 착수하도록 지시하고 우선순위를 재확",
+      "completedAt": "2026-06-22T17:41:04.186Z"
+    },
+    {
+      "id": "20260622173846-t34u",
+      "title": "Instagram: 오늘 오후 6 시에 첫 번째 CTA 릴스 게시.",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-22T17:38:46.405Z",
+      "status": "done",
+      "sessionDir": "2026-06-22T17-34",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-22T17-34/_report.md\n- 현빈: Top 3 액션 중 첫 번째 목표인 '코다리'에게 Trust Widget 및 PainGauge의 A/B 테스트 로직을 기반으로 실제 데이터 흐름\n- Instagram: Top 3 액션 중 세 번째 목표인 '레오/Instagram'에게 플랫폼 베타 참여자 모집에 최적화된 콘텐츠 전략(CTA, 게시 시간)을 확정하\n- 영숙: 오늘의 최우선 작업 및 진행 상황을 요약하여 텔레그램 보고를 준비하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Top 3 액션 중 첫 번째 목표인 '코다리'에게 Trust Widget 및 PainGauge의 A/B 테스트 로직을 기반으로 실제 데이터 흐름을 구현하는 백엔드 API를 즉시 개발 착수하도록 지시하고 우선순위를 재확",
+      "completedAt": "2026-06-22T17:41:04.254Z"
+    },
+    {
+      "id": "20260622173846-a879",
+      "title": "Designer: Trust Widget 데모 영상 (30 초) 제작.",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-22T17:38:46.442Z",
+      "status": "done",
+      "sessionDir": "2026-06-22T17-34",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-22T17-34/_report.md\n- 현빈: Top 3 액션 중 첫 번째 목표인 '코다리'에게 Trust Widget 및 PainGauge의 A/B 테스트 로직을 기반으로 실제 데이터 흐름\n- Instagram: Top 3 액션 중 세 번째 목표인 '레오/Instagram'에게 플랫폼 베타 참여자 모집에 최적화된 콘텐츠 전략(CTA, 게시 시간)을 확정하\n- 영숙: 오늘의 최우선 작업 및 진행 상황을 요약하여 텔레그램 보고를 준비하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: Top 3 액션 중 첫 번째 목표인 '코다리'에게 Trust Widget 및 PainGauge의 A/B 테스트 로직을 기반으로 실제 데이터 흐름을 구현하는 백엔드 API를 즉시 개발 착수하도록 지시하고 우선순위를 재확",
+      "completedAt": "2026-06-22T17:41:04.303Z"
     }
   ]
 }
