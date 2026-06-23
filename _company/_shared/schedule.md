@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 23. 오전 9:09:50_
+_업데이트: 2026. 6. 23. 오전 9:26:24_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,17 +11,17 @@ _업데이트: 2026. 6. 23. 오전 9:09:50_
 - [2026-06-22] Writer가 작성한 콘텐츠 초안을 기반으로, 플랫폼 베타 참여자 모집에 가장 효과적인 게시 시간과 해시태그 전략을 설정하고 콘텐츠 발행 일정을 확정하라. → 산출물 sessions/2026-06-22T05-04/instagram.md
 - [2026-06-22] Top 3 액션 중 세 번째 목표인 '레오/Instagram'에게 플랫폼 베타 참여자 모집에 최적화된 콘텐츠 전략(CTA, 게시 시간)을 확정하고 즉시 실행하도록 지시하라. → 산출물 sessions/2026-06-22T17-34/instagram.md
 ### 🎨 Designer
-- [2026-06-22] Trust Widget Mockup Spec V3.0을 업데이트하고, 현빈이 정의한 ROI 지표(CVR, AOV)가 시각적으로 어떻게 표현되어야 하는지에 대한 인터랙션 및 데이터 연동 사양을 추가하여 UI/UX 명세를 확정하라. → 산출물 sessions/2026-06-22T22-19/designer.md
 - [2026-06-22] 개발팀이 제공할 새로운 ROI 계산 결과 데이터 포맷(API Output Schema)을 기반으로, Trust Widget 및 PainGauge의 최종 UI/UX 사양(V3.0)을 확정하고 프론트엔드 컴포넌트 구현에 필요한 시각적 명세를 즉시 작성하여 전달하라. → 산출물 sessions/2026-06-22T22-49/designer.md
 - [2026-06-22] Trust Widget 및 PainGauge의 최종 V3.0 디자인 사양과 데이터 연동 명세를 바탕으로, 프론트엔드 컴포넌트 구현에 필요한 시각적 명세(Visual Specification)를 즉시 작성하여 개발팀에 전달할 준비를 하라. → 산출물 sessions/2026-06-22T23-49/designer.md
+- [2026-06-23] Trust Widget 및 PainGauge의 V3.0 시각 명세(`design_specs\BDS_Component_System_Spec_v3.0.md`)를 기반으로, Business팀이 제시할 ROI 지표(손익분기점 잔여 고객 수, LTV:CAC 게이지)가 사용자에게 가장 효과적으로 전달될 수 있는 최종 대시보드 프로토타입의 핵심 레이아웃을 구상하라. → 산출물 sessions/2026-06-23T00-19/designer.md
 ### 💻 코다리
-- [2026-06-22] Designer가 업데이트한 명세(V3.0)와 Business의 ROI 논리를 기반으로, Trust Widget 및 PainGauge의 계산 결과를 API가 처리하고 전달할 수 있도록 기술 스펙(`Trust_Widget_Technical_Spec_V2.0.md`)을 재설계하라. → 산출물 sessions/2026-06-22T22-19/developer.md
 - [2026-06-22] Business가 정의한 수익화 지표를 기반으로, Trust Widget 및 PainGauge API 결과가 실제 경제적 이익(ROI)과 어떻게 연동되어야 하는지에 대한 백엔드 테스트 시나리오 초안을 제시하라. → 산출물 sessions/2026-06-22T22-34/developer.md
 - [2026-06-22] ROI 계산 로직(`ROI_Measurement_Loic_Final.md`)을 기반으로, 백엔드 API 엔드포인트(`/api/v1/roi-calculate`)의 최종 구현 및 End-to-End (E2E) 단위 테스트 코드를 완성하여 배포 준비를 마쳐라. → 산출물 sessions/2026-06-22T22-49/developer.md
+- [2026-06-23] ROI 계산 로직(`ROI_Measurement_Loic_Final.md`) 및 API 엔드포인트(`/api/v1/roi-calculate`)에 필요한 최종 입력 파라미터 스키마를 확정하고, 비즈니스 목표(AOV, 마진율)와의 연동 방식을 명세화하라. → 산출물 sessions/2026-06-23T00-19/developer.md
 ### 💼 현빈
-- [2026-06-22] 개발 및 디자인 작업이 진행되는 동안, 측정된 ROI 지표가 실제 소상공인의 손익분기점 시나리오와 어떻게 연계되어야 하는지에 대한 구체적인 비즈니스 검증 자료(Use Case)를 보강하여 확보하라. → 산출물 sessions/2026-06-22T22-49/business.md
 - [2026-06-22] 손익분기점 시나리오 검증을 위해 초기 가정값(AOV, 비용) 확정 작업이 완료되었는지 확인하고, 만약 미완료라면 이를 명확히 정리하여 개발팀에 전달할 준비를 하라. → 산출물 sessions/2026-06-22T23-49/business.md
 - [2026-06-23] ROI 지표 검증에 필요한 손익분기점 시나리오를 위해 Trust Widget 및 PainGauge의 초기 가정값(AOV, 비용)을 최종 확정하고 산출물을 준비하라. → 산출물 sessions/2026-06-23T00-04/business.md
+- [2026-06-23] Trust Widget 및 PainGauge KPI(AOV 목표 $90, LTV:CAC 4:1)에 대한 실제 시장 데이터 검증을 위한 리서치 계획을 수립하고, 초기 가정값(AOV, 비용 등)의 현실성을 재검토할 자료를 준비하라. → 산출물 sessions/2026-06-23T00-19/business.md
 ### 📱 영숙
 - [2026-06-22] 오늘의 최우선 작업 및 진행 상황을 요약하여 텔레그램 보고를 준비하라. → 산출물 sessions/2026-06-22T17-34/secretary.md
 - [2026-06-22] 위 두 작업의 진행 상황을 모니터링하고 다음 단계 액션 플랜을 정리하여 CEO에게 보고할 준비를 하라. → 산출물 sessions/2026-06-22T22-04/secretary.md
