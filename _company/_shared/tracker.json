@@ -6452,6 +6452,66 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-23T04-22/_report.md\n- Writer: 플랫폼 베타 참여자 모집을 위한 초기 광고 및 게시물 초안(CTA 포함)을 채널별 전략에 맞춰 작성하고, Instagram 게시물 발행 일정을 \n- 현빈: AOV $90 달성을 위한 마케팅 비용 시나리오와 LTV:CAC 개선 전략을 최종 검증하고, 이를 기반으로 플랫폼 베타 참여자 모집에 필요한 구\n- Designer: Trust Widget 및 PainGauge의 V3.0 시각 명세(`design_specs\\BDS_Component_System_Spec_v3.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 플랫폼 베타 참여자 모집을 위한 초기 광고 및 게시물 초안(CTA 포함)을 채널별 전략에 맞춰 작성하고, Instagram 게시물 발행 일정을 확정하세요.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**",
       "completedAt": "2026-06-23T05:12:30.271Z"
+    },
+    {
+      "id": "20260623064804-fb45",
+      "title": "이미지 생성 완료 확인",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-23T06:48:04.737Z",
+      "status": "pending",
+      "sessionDir": "2026-06-23T06-36",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260623064804-j46q",
+      "title": "캡션 텍스트 최종 검토",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-23T06:48:04.764Z",
+      "status": "pending",
+      "sessionDir": "2026-06-23T06-36",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260623064804-7irg",
+      "title": "해시태그 및 CTA 전략 확정 (코다리 에이전트와 공유)",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-23T06:48:04.789Z",
+      "status": "pending",
+      "sessionDir": "2026-06-23T06-36",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260623064804-0ufb",
+      "title": "게시 시간 최적화 (Designer/Instagram 에이전트와 협업)",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-23T06:48:04.813Z",
+      "status": "pending",
+      "sessionDir": "2026-06-23T06-36",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
     }
   ]
 }
