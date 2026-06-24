@@ -6520,6 +6520,57 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-23T16-07/_report.md\n- Designer: 코다리 및 영숙님의 QA 보고서 초안과 기술 수정 결과를 바탕으로, 플랫폼 베타 모집에 필요한 최종 통합 QA 사이클(`MeetingAgenda\n- 코다리: TrustWidget 코드 수정 및 관련 컴포넌트 연동 테스트 결과를 최종 보고하고, 시스템 안정성 확보에 필요한 모든 디버깅 사항이 완료되었음\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리 및 영숙님의 QA 보고서 초안과 기술 수정 결과를 바탕으로, 플랫폼 베타 모집에 필요한 최종 통합 QA 사이클(`MeetingAgenda_Integrated_QA_SignOff_V1.0.md`)에 반영할 최종 승인(Sign-",
       "completedAt": "2026-06-23T16:12:33.677Z"
+    },
+    {
+      "id": "20260624095814-ietw",
+      "title": "콘텐츠 제작 완료 확인 (Designer)",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-24T09:58:14.475Z",
+      "status": "done",
+      "sessionDir": "2026-06-24T09-52",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-24T09-52/_report.md\n- Designer: 최종 통합 QA 결과(`MeetingAgenda_Integrated_QA_SignOff_V1.0.md`)를 바탕으로 시각적/기술적 통합에 대한 \n- Instagram: Designer와 Hyunbin이 확정한 결과물을 기반으로 플랫폼 베타 참여자 모집에 최적화된 콘텐츠(게시 시간, 해시태그) 전략을 즉시 실행하\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 최종 통합 QA 결과(`MeetingAgenda_Integrated_QA_SignOff_V1.0.md`)를 바탕으로 시각적/기술적 통합에 대한 공식 Sign-off를 완료하고, 마케팅 자료 초안 작업을 즉시 시작하라.\n> 🔧 **",
+      "completedAt": "2026-06-24T09:59:44.950Z"
+    },
+    {
+      "id": "20260624095814-ybsc",
+      "title": "가격 정책 및 SLA 보상 메시지 최종 검토 (Hyunbin)",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-24T09:58:14.494Z",
+      "status": "done",
+      "sessionDir": "2026-06-24T09-52",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-24T09-52/_report.md\n- Designer: 최종 통합 QA 결과(`MeetingAgenda_Integrated_QA_SignOff_V1.0.md`)를 바탕으로 시각적/기술적 통합에 대한 \n- Instagram: Designer와 Hyunbin이 확정한 결과물을 기반으로 플랫폼 베타 참여자 모집에 최적화된 콘텐츠(게시 시간, 해시태그) 전략을 즉시 실행하\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 최종 통합 QA 결과(`MeetingAgenda_Integrated_QA_SignOff_V1.0.md`)를 바탕으로 시각적/기술적 통합에 대한 공식 Sign-off를 완료하고, 마케팅 자료 초안 작업을 즉시 시작하라.\n> 🔧 **",
+      "completedAt": "2026-06-24T09:59:44.982Z"
+    },
+    {
+      "id": "20260624095814-ymdq",
+      "title": "발행 일정 자동 스케줄링 툴 연동 준비",
+      "description": "자동 등록 (Instagram 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "instagram"
+      ],
+      "createdAt": "2026-06-24T09:58:14.515Z",
+      "status": "done",
+      "sessionDir": "2026-06-24T09-52",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-24T09-52/_report.md\n- Designer: 최종 통합 QA 결과(`MeetingAgenda_Integrated_QA_SignOff_V1.0.md`)를 바탕으로 시각적/기술적 통합에 대한 \n- Instagram: Designer와 Hyunbin이 확정한 결과물을 기반으로 플랫폼 베타 참여자 모집에 최적화된 콘텐츠(게시 시간, 해시태그) 전략을 즉시 실행하\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 최종 통합 QA 결과(`MeetingAgenda_Integrated_QA_SignOff_V1.0.md`)를 바탕으로 시각적/기술적 통합에 대한 공식 Sign-off를 완료하고, 마케팅 자료 초안 작업을 즉시 시작하라.\n> 🔧 **",
+      "completedAt": "2026-06-24T09:59:45.005Z"
     }
   ]
 }
