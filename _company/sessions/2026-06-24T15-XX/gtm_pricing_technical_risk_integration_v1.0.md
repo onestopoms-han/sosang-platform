@@ -1,0 +1,1 @@
+<find>이 파일은 처음 생성됩니다</find><replace>[기술적 리스크 기반 수익화 전략 및 GTM 최종 검토 의견]</replace>
