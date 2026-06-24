@@ -1,91 +1,6 @@
 {
   "tasks": [
     {
-      "id": "20260524153248-tzo6",
-      "title": "**데이터 흐름**: 콘텐츠 시청 → Loss Gauge 확인 → 진단 툴 사용률 측정까지의 데이터가 끊김 없이 기록되는지? (KPI 추적 로직)",
-      "description": "자동 등록 (영숙 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "secretary"
-      ],
-      "createdAt": "2026-05-24T15:32:48.802Z",
-      "status": "done",
-      "sessionDir": "2026-05-24T15-31",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-24T15-31/_report.md\n- 영숙: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 \n- 코다리: 코다리는 통합 테스트 시나리오 및 QA 체크리스트에 맞춰, Paywall 및 Loss Gauge 기능 연동 로직의 End-to-End 통합 테스\n- Designer: Designer는 최종 UI 목업과 개발팀의 QA 체크리스트를 기반으로, 시스템 안정성을 저해하지 않는 선에서 모든 컴포넌트의 반응형 및 기능적\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 전달할 'End-to-End 통합 검증 마일스톤'과 'QA 체크리스트' 초안을 작",
-      "completedAt": "2026-05-24T15:34:49.243Z"
-    },
-    {
-      "id": "20260524153248-gn66",
-      "title": "**사용자 인터랙션**: 모든 버튼과 링크(CTA)가 의도한 페이지와 기능을 정확히 수행하는지? (반응형 웹 검토 포함)",
-      "description": "자동 등록 (영숙 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "secretary"
-      ],
-      "createdAt": "2026-05-24T15:32:48.810Z",
-      "status": "done",
-      "sessionDir": "2026-05-24T15-31",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-24T15-31/_report.md\n- 영숙: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 \n- 코다리: 코다리는 통합 테스트 시나리오 및 QA 체크리스트에 맞춰, Paywall 및 Loss Gauge 기능 연동 로직의 End-to-End 통합 테스\n- Designer: Designer는 최종 UI 목업과 개발팀의 QA 체크리스트를 기반으로, 시스템 안정성을 저해하지 않는 선에서 모든 컴포넌트의 반응형 및 기능적\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 전달할 'End-to-End 통합 검증 마일스톤'과 'QA 체크리스트' 초안을 작",
-      "completedAt": "2026-05-24T15:34:49.256Z"
-    },
-    {
-      "id": "20260524153248-xxjr",
-      "title": "**에러 핸들링**: LLM 호출 실패, API 연결 오류 등 비정상 상황 발생 시 Fallback 화면이 정상적으로 작동하고 사용자에게 혼란을 주지 않는지?",
-      "description": "자동 등록 (영숙 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "secretary"
-      ],
-      "createdAt": "2026-05-24T15:32:48.819Z",
-      "status": "done",
-      "sessionDir": "2026-05-24T15-31",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-24T15-31/_report.md\n- 영숙: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 \n- 코다리: 코다리는 통합 테스트 시나리오 및 QA 체크리스트에 맞춰, Paywall 및 Loss Gauge 기능 연동 로직의 End-to-End 통합 테스\n- Designer: Designer는 최종 UI 목업과 개발팀의 QA 체크리스트를 기반으로, 시스템 안정성을 저해하지 않는 선에서 모든 컴포넌트의 반응형 및 기능적\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 전달할 'End-to-End 통합 검증 마일스톤'과 'QA 체크리스트' 초안을 작",
-      "completedAt": "2026-05-24T15:34:49.263Z"
-    },
-    {
-      "id": "20260524153248-8ahu",
-      "title": "**보안/결제**: 결제 모듈 연동 과정에서 개인 정보가 암호화되고, 트랜잭션 기록에 누락된 부분이 없는지?",
-      "description": "자동 등록 (영숙 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "secretary"
-      ],
-      "createdAt": "2026-05-24T15:32:48.827Z",
-      "status": "done",
-      "sessionDir": "2026-05-24T15-31",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-24T15-31/_report.md\n- 영숙: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 \n- 코다리: 코다리는 통합 테스트 시나리오 및 QA 체크리스트에 맞춰, Paywall 및 Loss Gauge 기능 연동 로직의 End-to-End 통합 테스\n- Designer: Designer는 최종 UI 목업과 개발팀의 QA 체크리스트를 기반으로, 시스템 안정성을 저해하지 않는 선에서 모든 컴포넌트의 반응형 및 기능적\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 전달할 'End-to-End 통합 검증 마일스톤'과 'QA 체크리스트' 초안을 작",
-      "completedAt": "2026-05-24T15:34:49.270Z"
-    },
-    {
-      "id": "20260524153248-pfyd",
-      "title": "**심리적 이득 극대화**: 사용자가 '불안감(Loss)'을 느낀 지점에서 '해결책/희망'으로 전환되는 스토리텔링의 흐름이 자연스러운지?",
-      "description": "자동 등록 (영숙 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "secretary"
-      ],
-      "createdAt": "2026-05-24T15:32:48.837Z",
-      "status": "done",
-      "sessionDir": "2026-05-24T15-31",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-24T15-31/_report.md\n- 영숙: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 \n- 코다리: 코다리는 통합 테스트 시나리오 및 QA 체크리스트에 맞춰, Paywall 및 Loss Gauge 기능 연동 로직의 End-to-End 통합 테스\n- Designer: Designer는 최종 UI 목업과 개발팀의 QA 체크리스트를 기반으로, 시스템 안정성을 저해하지 않는 선에서 모든 컴포넌트의 반응형 및 기능적\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 코다리, Designer, Writer 에이전트가 산출한 모든 자료(통합 시나리오, 디자인 목업, A/B 테스트 시나리오)를 취합하여 개발팀에 전달할 'End-to-End 통합 검증 마일스톤'과 'QA 체크리스트' 초안을 작",
-      "completedAt": "2026-05-24T15:34:49.277Z"
-    },
-    {
       "id": "20260525000452-qa70",
       "title": "소상공인 카카오톡 채널 활성화 방안 검토",
       "description": "소상공인하고 활성화되어있는 카톡으로 소통하면좋겠는데",
@@ -6520,6 +6435,91 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-23T06-36/_report.md\n- 코다리: Designer가 확정한 시각 사양(`design_specs\\BDS_Component_System_Spec_v3.0.md`) 및 Writer의 \n- Writer: 최종 확정된 시각 가이드와 연동하여, 플랫폼 베타 참여자 모집을 위한 인스타그램 콘텐츠(이미지 및 캡션)의 최종 버전 제작을 실행하고 배포 준비\n- 영숙: 개발팀과 디자인팀이 확정한 모든 산출물(컴포넌트 명세, 비주얼 에셋 가이드)을 통합하여, 플랫폼 최종 완성 단계로의 GTM 로드맵을 즉시 업데이\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 확정한 시각 사양(`design_specs\\BDS_Component_System_Spec_v3.0.md`) 및 Writer의 콘텐츠 가이드라인을 기반으로, 플랫폼 베타 모집에 필요한 랜딩페이지 최적화 컴포넌트 구현 명세를 최",
       "completedAt": "2026-06-23T07:24:37.062Z"
+    },
+    {
+      "id": "20260623160957-qu9j",
+      "title": "AOV 추적 로직 (코다리 보고서 기반): 리드 확보(Lead Acquisition)부터 최종 전환까지의 데이터 흐름이 정확하며, API 연동에 오류가 없다.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-23T16:09:57.559Z",
+      "status": "done",
+      "sessionDir": "2026-06-23T16-07",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-23T16-07/_report.md\n- Designer: 코다리 및 영숙님의 QA 보고서 초안과 기술 수정 결과를 바탕으로, 플랫폼 베타 모집에 필요한 최종 통합 QA 사이클(`MeetingAgenda\n- 코다리: TrustWidget 코드 수정 및 관련 컴포넌트 연동 테스트 결과를 최종 보고하고, 시스템 안정성 확보에 필요한 모든 디버깅 사항이 완료되었음\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리 및 영숙님의 QA 보고서 초안과 기술 수정 결과를 바탕으로, 플랫폼 베타 모집에 필요한 최종 통합 QA 사이클(`MeetingAgenda_Integrated_QA_SignOff_V1.0.md`)에 반영할 최종 승인(Sign-",
+      "completedAt": "2026-06-23T16:12:33.514Z"
+    },
+    {
+      "id": "20260623160957-116t",
+      "title": "LTV:CAC 시뮬레이션 반영: 마케팅 목표 설정과 실제 데이터 흐름 간의 연결고리가 논리적으로 일치한다.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-23T16:09:57.574Z",
+      "status": "done",
+      "sessionDir": "2026-06-23T16-07",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-23T16-07/_report.md\n- Designer: 코다리 및 영숙님의 QA 보고서 초안과 기술 수정 결과를 바탕으로, 플랫폼 베타 모집에 필요한 최종 통합 QA 사이클(`MeetingAgenda\n- 코다리: TrustWidget 코드 수정 및 관련 컴포넌트 연동 테스트 결과를 최종 보고하고, 시스템 안정성 확보에 필요한 모든 디버깅 사항이 완료되었음\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리 및 영숙님의 QA 보고서 초안과 기술 수정 결과를 바탕으로, 플랫폼 베타 모집에 필요한 최종 통합 QA 사이클(`MeetingAgenda_Integrated_QA_SignOff_V1.0.md`)에 반영할 최종 승인(Sign-",
+      "completedAt": "2026-06-23T16:12:33.553Z"
+    },
+    {
+      "id": "20260623160957-ok0r",
+      "title": "시스템 상태 관리 (State Management): 사용자 여정(A~D 단계)에 따른 데이터 상태 변경이 정확하게 반영된다.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-23T16:09:57.588Z",
+      "status": "done",
+      "sessionDir": "2026-06-23T16-07",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-23T16-07/_report.md\n- Designer: 코다리 및 영숙님의 QA 보고서 초안과 기술 수정 결과를 바탕으로, 플랫폼 베타 모집에 필요한 최종 통합 QA 사이클(`MeetingAgenda\n- 코다리: TrustWidget 코드 수정 및 관련 컴포넌트 연동 테스트 결과를 최종 보고하고, 시스템 안정성 확보에 필요한 모든 디버깅 사항이 완료되었음\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리 및 영숙님의 QA 보고서 초안과 기술 수정 결과를 바탕으로, 플랫폼 베타 모집에 필요한 최종 통합 QA 사이클(`MeetingAgenda_Integrated_QA_SignOff_V1.0.md`)에 반영할 최종 승인(Sign-",
+      "completedAt": "2026-06-23T16:12:33.587Z"
+    },
+    {
+      "id": "20260623160957-f0oz",
+      "title": "컴포넌트 정합성: Trust Widget, PainGauge V3.0의 시각 명세(`design_specs\\BDS_Component_System_Spec_v3.0.md`)와 실제 구현된 컴포넌트 간의 Pixel Perfect 일치 여부 확인.",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-23T16:09:57.603Z",
+      "status": "done",
+      "sessionDir": "2026-06-23T16-07",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-23T16-07/_report.md\n- Designer: 코다리 및 영숙님의 QA 보고서 초안과 기술 수정 결과를 바탕으로, 플랫폼 베타 모집에 필요한 최종 통합 QA 사이클(`MeetingAgenda\n- 코다리: TrustWidget 코드 수정 및 관련 컴포넌트 연동 테스트 결과를 최종 보고하고, 시스템 안정성 확보에 필요한 모든 디버깅 사항이 완료되었음\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리 및 영숙님의 QA 보고서 초안과 기술 수정 결과를 바탕으로, 플랫폼 베타 모집에 필요한 최종 통합 QA 사이클(`MeetingAgenda_Integrated_QA_SignOff_V1.0.md`)에 반영할 최종 승인(Sign-",
+      "completedAt": "2026-06-23T16:12:33.619Z"
+    },
+    {
+      "id": "20260623160957-xk0g",
+      "title": "브랜드 시스템 적용: Deep Blue(#004D66) 및 Growth Green(#3CB371) 컬러 팔레트가 전체 랜딩페이지 디자인에 일관성 있게 적용되었는가?",
+      "description": "자동 등록 (Designer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "designer"
+      ],
+      "createdAt": "2026-06-23T16:09:57.618Z",
+      "status": "done",
+      "sessionDir": "2026-06-23T16-07",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-23T16-07/_report.md\n- Designer: 코다리 및 영숙님의 QA 보고서 초안과 기술 수정 결과를 바탕으로, 플랫폼 베타 모집에 필요한 최종 통합 QA 사이클(`MeetingAgenda\n- 코다리: TrustWidget 코드 수정 및 관련 컴포넌트 연동 테스트 결과를 최종 보고하고, 시스템 안정성 확보에 필요한 모든 디버깅 사항이 완료되었음\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리 및 영숙님의 QA 보고서 초안과 기술 수정 결과를 바탕으로, 플랫폼 베타 모집에 필요한 최종 통합 QA 사이클(`MeetingAgenda_Integrated_QA_SignOff_V1.0.md`)에 반영할 최종 승인(Sign-",
+      "completedAt": "2026-06-23T16:12:33.677Z"
     }
   ]
 }
