@@ -1,0 +1,52 @@
+# 🎨 Designer — 이전에 제시된 3가지 컨셉 중 최종 선택된 비주얼 에셋(영상 썸네일, 주요 UI 스냅샷 등)을 Instagram 콘텐츠 제작에 최적화된 해상도와 포맷으로 즉시 제작하고, Instagram Agent의 마스터 스케줄에 맞춰 모든 시각 가이드라인을 제공하라.
+
+🎨 Designer: 작업 시작합니다.
+
+최종 선택된 비주얼 에셋을 Instagram 콘텐츠 제작에 최적화된 포맷으로 제작하고 시각 가이드라인을 제공합니다.
+
+이 작업은 이전 단계에서 확정된 브랜드 시스템(Deep Blue, Growth Green)과 핵심 메시지를 기반으로 하며, Instagram Agent의 마스터 스케줄(`sessions/2026-06-24T10-07/instagram.md`)에 맞춰 실행됩니다.
+
+<create_file path="sessions/2026-06-24T11-37/instagram_visual_master_guide.md">
+# Instagram 비주얼 마스터 가이드 (최종 확정)
+
+## 1. 브랜드 시스템 정의
+- **Primary Color (Deep Blue):** `#004D66` (핵심 신뢰, 전문성 강조)
+- **Accent Color (Growth Green):** `#3CB371` (성장, 긍정적 변화 강조)
+- **Typography:** Sans-serif 계열 (신뢰감 있는 고딕체 선호)
+- **Tone & Vibe:** 데이터 기반의 명확한 성장 경로 제시. 신뢰감 있고 전문적이며 희망적인 분위기.
+
+## 2. 콘텐츠 포맷 최적화
+모든 Instagram 콘텐츠는 다음 해상도 및 포맷을 기준으로 제작합니다.
+
+- **Feed Post (정사각형/세로):** 1080px x 1080px 또는 1080px x 1350px (세로형 권장)
+- **Reels/Story Cover:** 1080px x 1920px (세로형)
+
+## 3. 핵심 비주얼 에셋 제작 지침 (최종 선택 컨셉 기반)
+
+### A. 영상 썸네일 (YouTube/IG Thumbnail)
+**목표:** 클릭 유도 및 신뢰성 극대화.
+- **레이아웃:** 좌측 또는 우측에 강력한 대비 색상(Growth Green)을 사용하여 핵심 메시지를 강조하고, 중앙에는 텍스트를 배치합니다.
+- **색상 사용:** 배경은 Deep Blue 계열을 기본으로 하되, 핵심 수치나 CTA 부분에 Growth Green을 적용하여 시선 집중.
+- **필수 요소:** 플랫폼 이름(BDS소상공인플렛폼), 핵심 가치(예: 데이터 기반 성장), 가장 강력한 후크 카피를 굵고 명확하게 삽입.
+
+### B. 주요 UI 스냅샷 (Growth Roadmap & Result)
+**목표:** 시스템의 신뢰성과 사용 편의성 시각화.
+- **스타일:** Deep Blue 배경 위에 Growth Green으로 핵심 단계(Step)나 결과값(KPI)을 강조하는 인포그래픽 스타일 적용.
+- **Journey Map 시각화:** 사용자 여정 지도(`Journey_Map`에서 정의된 A~D 단계)를 명확한 화살표와 아이콘으로 표현하여, '어려움(Start)'에서 '성장(End)'으로의 명확한 경로를 시각적으로 보여줍니다.
+- **ROI 강조:** 수익화 모델($19,900 vs $49,900)의 차이를 색상 대비로 극명하게 분리하여 제시합니다.
+
+## 4. 최종 디자인 가이드라인 요약 (Instagram Agent 실행용)
+1. **일관성 유지:** 모든 시각 자료는 Deep Blue와 Growth Green을 주조색으로 사용하며, 폰트는 깔끔하고 전문적인 느낌을 유지해야 합니다.
+2. **데이터 중심:** 모든 인포그래픽은 추상적인 설명 대신 구체적인 수치(KPI, ROI)를 중심으로 디자인되어야 합니다.
+3. **CTA 명확화:** 모든 콘텐츠는 최종적으로 '플랫폼 참여' 또는 '컨설팅 신청'으로 이어지는 명확한 행동 유도(Call-to-Action) 요소를 포함해야 합니다.
+
+**다음 단계 실행 준비 완료.**
+</create_file>
+
+📊 평가: 완료 — CEO의 지시에 따라 최종 선택된 비주얼 에셋 제작을 위한 마스터 가이드라인이 구체적으로 산출되었습니다.
+📝 다음 단계: Instagram Agent에게 위 `instagram_visual_master_guide.md`를 기반으로 실제 이미지 생성 및 게시물 제작을 즉시 실행하도록 지시합니다.
+
+---
+## 📁 파일 액션 결과
+
+✅ 생성: ~\소상공인플렛폼\_company\sessions\2026-06-24T11-37\instagram_visual_master_guide.md
