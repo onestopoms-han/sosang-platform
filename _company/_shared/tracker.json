@@ -6874,11 +6874,13 @@
         "business"
       ],
       "createdAt": "2026-06-25T11:13:19.461Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-06-25T11-07",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-25T11-07/_report.md\n- 현빈: 현빈이 정리한 FSD(Final Feature Specification Document)와 코다리가 설계한 API 스키마/모델링을 기반으로, M\n- Designer: 개발팀과 비즈니스팀이 확정한 MVP 범위와 KPI(PainPoint/WTP 매핑)에 맞춰, Trust Widget 및 PainGauge 컴포넌트\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 현빈이 정리한 FSD(Final Feature Specification Document)와 코다리가 설계한 API 스키마/모델링을 기반으로, MVP의 핵심 기능에 대한 최종 KPI 및 비즈니스 목표를 재확인하고 기술 ",
+      "completedAt": "2026-06-25T11:15:43.276Z"
     },
     {
       "id": "20260625111319-9se1",
@@ -6889,11 +6891,13 @@
         "business"
       ],
       "createdAt": "2026-06-25T11:13:19.478Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-06-25T11-07",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-25T11-07/_report.md\n- 현빈: 현빈이 정리한 FSD(Final Feature Specification Document)와 코다리가 설계한 API 스키마/모델링을 기반으로, M\n- Designer: 개발팀과 비즈니스팀이 확정한 MVP 범위와 KPI(PainPoint/WTP 매핑)에 맞춰, Trust Widget 및 PainGauge 컴포넌트\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 현빈이 정리한 FSD(Final Feature Specification Document)와 코다리가 설계한 API 스키마/모델링을 기반으로, MVP의 핵심 기능에 대한 최종 KPI 및 비즈니스 목표를 재확인하고 기술 ",
+      "completedAt": "2026-06-25T11:15:43.307Z"
     },
     {
       "id": "20260625111319-te3a",
@@ -6904,11 +6908,13 @@
         "business"
       ],
       "createdAt": "2026-06-25T11:13:19.493Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-06-25T11-07",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-25T11-07/_report.md\n- 현빈: 현빈이 정리한 FSD(Final Feature Specification Document)와 코다리가 설계한 API 스키마/모델링을 기반으로, M\n- Designer: 개발팀과 비즈니스팀이 확정한 MVP 범위와 KPI(PainPoint/WTP 매핑)에 맞춰, Trust Widget 및 PainGauge 컴포넌트\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 현빈이 정리한 FSD(Final Feature Specification Document)와 코다리가 설계한 API 스키마/모델링을 기반으로, MVP의 핵심 기능에 대한 최종 KPI 및 비즈니스 목표를 재확인하고 기술 ",
+      "completedAt": "2026-06-25T11:15:43.336Z"
     },
     {
       "id": "20260625111319-it6s",
@@ -6919,11 +6925,13 @@
         "business"
       ],
       "createdAt": "2026-06-25T11:13:19.507Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-06-25T11-07",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-25T11-07/_report.md\n- 현빈: 현빈이 정리한 FSD(Final Feature Specification Document)와 코다리가 설계한 API 스키마/모델링을 기반으로, M\n- Designer: 개발팀과 비즈니스팀이 확정한 MVP 범위와 KPI(PainPoint/WTP 매핑)에 맞춰, Trust Widget 및 PainGauge 컴포넌트\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 현빈이 정리한 FSD(Final Feature Specification Document)와 코다리가 설계한 API 스키마/모델링을 기반으로, MVP의 핵심 기능에 대한 최종 KPI 및 비즈니스 목표를 재확인하고 기술 ",
+      "completedAt": "2026-06-25T11:15:43.391Z"
     },
     {
       "id": "20260625111319-gzdd",
@@ -6934,11 +6942,13 @@
         "business"
       ],
       "createdAt": "2026-06-25T11:13:19.523Z",
-      "status": "pending",
+      "status": "done",
       "sessionDir": "2026-06-25T11-07",
       "nudges": 0,
       "priority": "normal",
-      "preAlarmsSent": []
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-25T11-07/_report.md\n- 현빈: 현빈이 정리한 FSD(Final Feature Specification Document)와 코다리가 설계한 API 스키마/모델링을 기반으로, M\n- Designer: 개발팀과 비즈니스팀이 확정한 MVP 범위와 KPI(PainPoint/WTP 매핑)에 맞춰, Trust Widget 및 PainGauge 컴포넌트\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 현빈이 정리한 FSD(Final Feature Specification Document)와 코다리가 설계한 API 스키마/모델링을 기반으로, MVP의 핵심 기능에 대한 최종 KPI 및 비즈니스 목표를 재확인하고 기술 ",
+      "completedAt": "2026-06-25T11:15:43.473Z"
     }
   ]
 }
