@@ -1,227 +1,6 @@
 {
   "tasks": [
     {
-      "id": "20260526123211-v6a9",
-      "title": "컨설팅 시장 관련 최신 통계 (KOSTAT 등) 를 수집하고 보고서에 추가.",
-      "description": "자동 등록 (Researcher 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "researcher"
-      ],
-      "createdAt": "2026-05-26T12:32:11.616Z",
-      "status": "done",
-      "sessionDir": "2026-05-26T12-16",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-26T12-16/_report.md\n- Researcher: 40년 경력 소상공인 컨설팅 시장에서 현재 존재하는 '전문가 집단'의 포지셔닝, 성공 사례, 그리고 AI/플랫폼 도입에 대한 소상공인의 미충족 \n- 현빈: 조사된 데이터를 기반으로 '전문가 집단'으로서의 새로운 비즈니스 모델, 차별화된 서비스 패키지(컨설팅 vs. 단순 도구), 그리고 수익화 전략을\n- Writer: 새롭게 정의된 전문가 집단의 정체성(Identity)과 핵심 가치를 담아, 소상공인에게 신뢰를 주고 행동을 유도하는 새로운 브랜드 메시지 및 플\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 40년 경력 소상공인 컨설팅 시장에서 현재 존재하는 '전문가 집단'의 포지셔닝, 성공 사례, 그리고 AI/플랫폼 도입에 대한 소상공인의 미충족 니즈(Unmet Needs)를 심층적으로 조사하고 데이터화하라.\n>",
-      "completedAt": "2026-05-26T12:53:18.059Z"
-    },
-    {
-      "id": "20260526123211-eb7k",
-      "title": "BDS 플랫폼의 핵심 기능 (데이터 기반 액션 아이템, 지속형 구독 모델) 을 구체화한 기획서 작성.",
-      "description": "자동 등록 (Researcher 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "researcher"
-      ],
-      "createdAt": "2026-05-26T12:32:11.626Z",
-      "status": "done",
-      "sessionDir": "2026-05-26T12-16",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-26T12-16/_report.md\n- Researcher: 40년 경력 소상공인 컨설팅 시장에서 현재 존재하는 '전문가 집단'의 포지셔닝, 성공 사례, 그리고 AI/플랫폼 도입에 대한 소상공인의 미충족 \n- 현빈: 조사된 데이터를 기반으로 '전문가 집단'으로서의 새로운 비즈니스 모델, 차별화된 서비스 패키지(컨설팅 vs. 단순 도구), 그리고 수익화 전략을\n- Writer: 새롭게 정의된 전문가 집단의 정체성(Identity)과 핵심 가치를 담아, 소상공인에게 신뢰를 주고 행동을 유도하는 새로운 브랜드 메시지 및 플\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🔍 Researcher _(Trend & Data Researcher)_\n> 📋 **지시**: 40년 경력 소상공인 컨설팅 시장에서 현재 존재하는 '전문가 집단'의 포지셔닝, 성공 사례, 그리고 AI/플랫폼 도입에 대한 소상공인의 미충족 니즈(Unmet Needs)를 심층적으로 조사하고 데이터화하라.\n>",
-      "completedAt": "2026-05-26T12:53:18.071Z"
-    },
-    {
-      "id": "20260526162056-ot76",
-      "title": "**React 컴포넌트 구현:** 위 스펙에 따른 `<PaymentFailureScreen />` 컴포넌트를 `components/` 폴더에 생성.",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-26T16:20:56.694Z",
-      "status": "done",
-      "sessionDir": "2026-05-26T15-51",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-26T15-51/_report.md\n- Designer: 코다리가 구현한 시스템 안정성 지표(PRSR, ERT 등)가 적용된 UX 목업을 기반으로, 최종 디자인 가이드라인(V3.0)에 따라 시각적 규칙\n- 코다리: Designer가 확정한 시스템 안정성 지표(PRSR/ERT) 인터랙션 스펙(`Payment_Failure_Screen_Interaction_S\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리가 구현한 시스템 안정성 지표(PRSR, ERT 등)가 적용된 UX 목업을 기반으로, 최종 디자인 가이드라인(V3.0)에 따라 시각적 규칙을 완벽하게 적용하고 개발팀에 전달할 최종 사양서를 완성하라.\n> 🔧 **도구 실행**",
-      "completedAt": "2026-05-26T16:23:16.932Z"
-    },
-    {
-      "id": "20260526162056-aq6e",
-      "title": "**상태 관리 로직 추가:** Redux/Zustand 에 `uiState` 를 직접 저장하지 말고, API 응답을 바로 받아 렌더링하는 '무가중 상태'를 유지. (시스템이 안정적이면 UI 가 즉시 정상화됨)",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-26T16:20:56.704Z",
-      "status": "done",
-      "sessionDir": "2026-05-26T15-51",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-26T15-51/_report.md\n- Designer: 코다리가 구현한 시스템 안정성 지표(PRSR, ERT 등)가 적용된 UX 목업을 기반으로, 최종 디자인 가이드라인(V3.0)에 따라 시각적 규칙\n- 코다리: Designer가 확정한 시스템 안정성 지표(PRSR/ERT) 인터랙션 스펙(`Payment_Failure_Screen_Interaction_S\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리가 구현한 시스템 안정성 지표(PRSR, ERT 등)가 적용된 UX 목업을 기반으로, 최종 디자인 가이드라인(V3.0)에 따라 시각적 규칙을 완벽하게 적용하고 개발팀에 전달할 최종 사양서를 완성하라.\n> 🔧 **도구 실행**",
-      "completedAt": "2026-05-26T16:23:16.942Z"
-    },
-    {
-      "id": "20260526162056-jgpo",
-      "title": "**테스트 케이스 작성:** 시스템 점수가 임계값 근처에서 변할 때 UI 전환이 부드럽게 일어나는지 모의 테스트 수행.",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-26T16:20:56.711Z",
-      "status": "done",
-      "sessionDir": "2026-05-26T15-51",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-26T15-51/_report.md\n- Designer: 코다리가 구현한 시스템 안정성 지표(PRSR, ERT 등)가 적용된 UX 목업을 기반으로, 최종 디자인 가이드라인(V3.0)에 따라 시각적 규칙\n- 코다리: Designer가 확정한 시스템 안정성 지표(PRSR/ERT) 인터랙션 스펙(`Payment_Failure_Screen_Interaction_S\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리가 구현한 시스템 안정성 지표(PRSR, ERT 등)가 적용된 UX 목업을 기반으로, 최종 디자인 가이드라인(V3.0)에 따라 시각적 규칙을 완벽하게 적용하고 개발팀에 전달할 최종 사양서를 완성하라.\n> 🔧 **도구 실행**",
-      "completedAt": "2026-05-26T16:23:16.950Z"
-    },
-    {
-      "id": "20260527055101-0bls",
-      "title": "피치 덱 슬라이드 PDF 버전 준비",
-      "description": "자동 등록 (Writer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "writer"
-      ],
-      "createdAt": "2026-05-27T05:51:01.084Z",
-      "status": "done",
-      "sessionDir": "2026-05-27T05-30",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-27T05-30/_report.md\n- Writer: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(\n- Designer: Designer는 Writer가 제공한 스토리라인을 기반으로 '안정성 증명 흐름도'의 최종 시각화 디자인 방향을 확정하고, 피치 덱 레이아웃에 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(Speaker Notes)를 완성하여 제공하라.\n> 🔧 **도구 실행**: _(없음 — LLM ",
-      "completedAt": "2026-05-27T05:55:16.808Z"
-    },
-    {
-      "id": "20260527055101-umhy",
-      "title": "Q&A 질문 및 답변 사전 연습",
-      "description": "자동 등록 (Writer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "writer"
-      ],
-      "createdAt": "2026-05-27T05:51:01.093Z",
-      "status": "done",
-      "sessionDir": "2026-05-27T05-30",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-27T05-30/_report.md\n- Writer: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(\n- Designer: Designer는 Writer가 제공한 스토리라인을 기반으로 '안정성 증명 흐름도'의 최종 시각화 디자인 방향을 확정하고, 피치 덱 레이아웃에 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(Speaker Notes)를 완성하여 제공하라.\n> 🔧 **도구 실행**: _(없음 — LLM ",
-      "completedAt": "2026-05-27T05:55:16.821Z"
-    },
-    {
-      "id": "20260527055101-p8za",
-      "title": "투자자 명단 확인 (초기 투자, 액셀러레이터, 업계 전문가)",
-      "description": "자동 등록 (Writer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "writer"
-      ],
-      "createdAt": "2026-05-27T05:51:01.106Z",
-      "status": "done",
-      "sessionDir": "2026-05-27T05-30",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-27T05-30/_report.md\n- Writer: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(\n- Designer: Designer는 Writer가 제공한 스토리라인을 기반으로 '안정성 증명 흐름도'의 최종 시각화 디자인 방향을 확정하고, 피치 덱 레이아웃에 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(Speaker Notes)를 완성하여 제공하라.\n> 🔧 **도구 실행**: _(없음 — LLM ",
-      "completedAt": "2026-05-27T05:55:16.832Z"
-    },
-    {
-      "id": "20260527055101-d7wn",
-      "title": "BDS 소상인플랫폼 로고 및 브랜드 가이드라인 적용",
-      "description": "자동 등록 (Writer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "writer"
-      ],
-      "createdAt": "2026-05-27T05:51:01.118Z",
-      "status": "done",
-      "sessionDir": "2026-05-27T05-30",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-27T05-30/_report.md\n- Writer: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(\n- Designer: Designer는 Writer가 제공한 스토리라인을 기반으로 '안정성 증명 흐름도'의 최종 시각화 디자인 방향을 확정하고, 피치 덱 레이아웃에 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(Speaker Notes)를 완성하여 제공하라.\n> 🔧 **도구 실행**: _(없음 — LLM ",
-      "completedAt": "2026-05-27T05:55:16.842Z"
-    },
-    {
-      "id": "20260527055101-jyim",
-      "title": "시스템 안정성 지표 (PRSR/ERT) 정확도 검증 완료",
-      "description": "자동 등록 (Writer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "writer"
-      ],
-      "createdAt": "2026-05-27T05:51:01.128Z",
-      "status": "done",
-      "sessionDir": "2026-05-27T05-30",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-27T05-30/_report.md\n- Writer: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(\n- Designer: Designer는 Writer가 제공한 스토리라인을 기반으로 '안정성 증명 흐름도'의 최종 시각화 디자인 방향을 확정하고, 피치 덱 레이아웃에 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: Writer는 이전 단계에서 작성한 PRSR 기반의 투자 설득 스토리라인 초안을 바탕으로, 피치 덱에 들어갈 최종 핵심 메시지 및 발표자 노트(Speaker Notes)를 완성하여 제공하라.\n> 🔧 **도구 실행**: _(없음 — LLM ",
-      "completedAt": "2026-05-27T05:55:16.851Z"
-    },
-    {
-      "id": "20260527104028-8zyx",
-      "title": "PRSR/ERT 데이터 연동 시, 실시간 경고색(`Alert Red`) 처리 로직 명확화.",
-      "description": "자동 등록 (Designer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "designer"
-      ],
-      "createdAt": "2026-05-27T10:40:28.450Z",
-      "status": "done",
-      "sessionDir": "2026-05-27T10-30",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-27T10-30/_report.md\n- Designer: Writer가 완성한 스토리텔링 흐름('불안 $\rightarrow$ 안전망')과 'BDS 비주얼 디자인 시스템 가이드라인'을 기반으로, 피치 덱\n- 레오: Writer가 완성한 영상 스크립트와 Designer가 정의한 감성 컬러 시스템을 반영하여, 유튜브 영상 제작을 위한 최종 스토리텔링과 후킹 카\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Writer가 완성한 스토리텔링 흐름('불안 $\rightarrow$ 안전망')과 'BDS 비주얼 디자인 시스템 가이드라인'을 기반으로, 피치 덱 및 웹 시뮬레이터 목업에 최종 시각적 일관성을 확보하도록 즉시 수정하고 적용하라.\n> ",
-      "completedAt": "2026-05-27T10:59:02.425Z"
-    },
-    {
-      "id": "20260527104028-djaz",
-      "title": "'안전망' 트랜지션 애니메이션(State 1 $\\rightarrow$ State 2)의 CSS/JS 구현 가이드라인 제공 필요.",
-      "description": "자동 등록 (Designer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "designer"
-      ],
-      "createdAt": "2026-05-27T10:40:28.461Z",
-      "status": "done",
-      "sessionDir": "2026-05-27T10-30",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-27T10-30/_report.md\n- Designer: Writer가 완성한 스토리텔링 흐름('불안 $\rightarrow$ 안전망')과 'BDS 비주얼 디자인 시스템 가이드라인'을 기반으로, 피치 덱\n- 레오: Writer가 완성한 영상 스크립트와 Designer가 정의한 감성 컬러 시스템을 반영하여, 유튜브 영상 제작을 위한 최종 스토리텔링과 후킹 카\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Writer가 완성한 스토리텔링 흐름('불안 $\rightarrow$ 안전망')과 'BDS 비주얼 디자인 시스템 가이드라인'을 기반으로, 피치 덱 및 웹 시뮬레이터 목업에 최종 시각적 일관성을 확보하도록 즉시 수정하고 적용하라.\n> ",
-      "completedAt": "2026-05-27T10:59:02.438Z"
-    },
-    {
-      "id": "20260527104028-kh1x",
-      "title": "모든 컴포넌트가 반응형 웹 디자인(Responsive Web Design, RWD)에 적합하도록 모바일 우선(Mobile-First) 구조를 유지해야 함.",
-      "description": "자동 등록 (Designer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "designer"
-      ],
-      "createdAt": "2026-05-27T10:40:28.472Z",
-      "status": "done",
-      "sessionDir": "2026-05-27T10-30",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-27T10-30/_report.md\n- Designer: Writer가 완성한 스토리텔링 흐름('불안 $\rightarrow$ 안전망')과 'BDS 비주얼 디자인 시스템 가이드라인'을 기반으로, 피치 덱\n- 레오: Writer가 완성한 영상 스크립트와 Designer가 정의한 감성 컬러 시스템을 반영하여, 유튜브 영상 제작을 위한 최종 스토리텔링과 후킹 카\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: Writer가 완성한 스토리텔링 흐름('불안 $\rightarrow$ 안전망')과 'BDS 비주얼 디자인 시스템 가이드라인'을 기반으로, 피치 덱 및 웹 시뮬레이터 목업에 최종 시각적 일관성을 확보하도록 즉시 수정하고 적용하라.\n> ",
-      "completedAt": "2026-05-27T10:59:02.450Z"
-    },
-    {
       "id": "20260527180145-luf6",
       "title": "모든 슬라이드에서 Deep Blue 와 Growth Green 이 주된 색상으로 사용됨.",
       "description": "자동 등록 (Writer 산출물에서 추출)",
@@ -7000,6 +6779,91 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-25T12-07/_report.md\n- 영숙: 개발 착수를 위한 최종 QA 및 Sign-off 워크숍 일정을 CEO 승인에 맞추어 확정하고, 모든 참석자에게 관련 파일과 준비 항목을 공식적으\n- 현빈: QA/Sign-off 워크숍에서 논의할 핵심 비즈니스 목표(KPI)와 기술 구현 가능성 간의 연결성을 최종 점검하고, 개발 범위 확정의 근거 자\n- Writer: QA 및 Sign-off 워크숍에서 사용될 전체 아젠다와 발표 자료의 초안을 작성하여, 모든 팀원이 논의할 명확한 프레임을 제공하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 개발 착수를 위한 최종 QA 및 Sign-off 워크숍 일정을 CEO 승인에 맞추어 확정하고, 모든 참석자에게 관련 파일과 준비 항목을 공식적으로 공유할 계획을 수립하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론",
       "completedAt": "2026-06-25T12:18:15.046Z"
+    },
+    {
+      "id": "20260626161801-ivek",
+      "title": "**컬러 일치:** `Trust Widget` 및 `PainGauge` 의 모든 컬러가 브랜드 가이드라인과 일치하는지 확인.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-26T16:18:01.159Z",
+      "status": "done",
+      "sessionDir": "2026-06-26T16-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-26T16-12/_report.md\n- 코다리: 통합 안정성 매트릭스 작성을 완료하여 기술과 시각의 일관성을 최종적으로 검증하고, 이 결과를 바탕으로 디자인 및 카피라이팅 에이전트들에게 최종 \n\nCEO 종합 요점: 💻 코다리: 통합 안정성 매트릭스 작성을 완료하고 기술과 시각의 일관성을 최종 검증하는 작업을 진행합니다. 이를 바탕으로 디자인 및 카피라이팅 에이전트에게 최종 QA 준비를 위한 데이터를 제공하는 문서 (V1.0) 를 생성하겠습니다. ⚙️\n\n<create_file path=\"BDS_소상공인플랫폼_통합안정성매트릭스_V1.0.md\">\n# BDS 소상공인플랫폼",
+      "completedAt": "2026-06-26T16:18:01.253Z"
+    },
+    {
+      "id": "20260626161801-85i3",
+      "title": "**레이아웃:** 컴포넌트가 다양한 화면 크기 (모바일, 태블릿, 데스크탑) 에서 정상적으로 동작하는지 테스트.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-26T16:18:01.183Z",
+      "status": "done",
+      "sessionDir": "2026-06-26T16-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-26T16-12/_report.md\n- 코다리: 통합 안정성 매트릭스 작성을 완료하여 기술과 시각의 일관성을 최종적으로 검증하고, 이 결과를 바탕으로 디자인 및 카피라이팅 에이전트들에게 최종 \n\nCEO 종합 요점: 💻 코다리: 통합 안정성 매트릭스 작성을 완료하고 기술과 시각의 일관성을 최종 검증하는 작업을 진행합니다. 이를 바탕으로 디자인 및 카피라이팅 에이전트에게 최종 QA 준비를 위한 데이터를 제공하는 문서 (V1.0) 를 생성하겠습니다. ⚙️\n\n<create_file path=\"BDS_소상공인플랫폼_통합안정성매트릭스_V1.0.md\">\n# BDS 소상공인플랫폼",
+      "completedAt": "2026-06-26T16:18:01.269Z"
+    },
+    {
+      "id": "20260626161801-jhxb",
+      "title": "**타이포그래피:** 헤드라인 및 본문 텍스트의 가독성과 일관성을 검증.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-26T16:18:01.199Z",
+      "status": "done",
+      "sessionDir": "2026-06-26T16-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-26T16-12/_report.md\n- 코다리: 통합 안정성 매트릭스 작성을 완료하여 기술과 시각의 일관성을 최종적으로 검증하고, 이 결과를 바탕으로 디자인 및 카피라이팅 에이전트들에게 최종 \n\nCEO 종합 요점: 💻 코다리: 통합 안정성 매트릭스 작성을 완료하고 기술과 시각의 일관성을 최종 검증하는 작업을 진행합니다. 이를 바탕으로 디자인 및 카피라이팅 에이전트에게 최종 QA 준비를 위한 데이터를 제공하는 문서 (V1.0) 를 생성하겠습니다. ⚙️\n\n<create_file path=\"BDS_소상공인플랫폼_통합안정성매트릭스_V1.0.md\">\n# BDS 소상공인플랫폼",
+      "completedAt": "2026-06-26T16:18:01.288Z"
+    },
+    {
+      "id": "20260626161801-yf9l",
+      "title": "**메시지 명확성:** 각 컴포넌트의 메시지가 소상공인의 이해하기 쉬운 언어로 표현되는지 검토.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-26T16:18:01.214Z",
+      "status": "done",
+      "sessionDir": "2026-06-26T16-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-26T16-12/_report.md\n- 코다리: 통합 안정성 매트릭스 작성을 완료하여 기술과 시각의 일관성을 최종적으로 검증하고, 이 결과를 바탕으로 디자인 및 카피라이팅 에이전트들에게 최종 \n\nCEO 종합 요점: 💻 코다리: 통합 안정성 매트릭스 작성을 완료하고 기술과 시각의 일관성을 최종 검증하는 작업을 진행합니다. 이를 바탕으로 디자인 및 카피라이팅 에이전트에게 최종 QA 준비를 위한 데이터를 제공하는 문서 (V1.0) 를 생성하겠습니다. ⚙️\n\n<create_file path=\"BDS_소상공인플랫폼_통합안정성매트릭스_V1.0.md\">\n# BDS 소상공인플랫폼",
+      "completedAt": "2026-06-26T16:18:01.303Z"
+    },
+    {
+      "id": "20260626161801-3fwr",
+      "title": "**톤앤매너:** 브랜드 톤 (신뢰감, 친근함) 과 일치하는지 확인.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-26T16:18:01.231Z",
+      "status": "done",
+      "sessionDir": "2026-06-26T16-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-26T16-12/_report.md\n- 코다리: 통합 안정성 매트릭스 작성을 완료하여 기술과 시각의 일관성을 최종적으로 검증하고, 이 결과를 바탕으로 디자인 및 카피라이팅 에이전트들에게 최종 \n\nCEO 종합 요점: 💻 코다리: 통합 안정성 매트릭스 작성을 완료하고 기술과 시각의 일관성을 최종 검증하는 작업을 진행합니다. 이를 바탕으로 디자인 및 카피라이팅 에이전트에게 최종 QA 준비를 위한 데이터를 제공하는 문서 (V1.0) 를 생성하겠습니다. ⚙️\n\n<create_file path=\"BDS_소상공인플랫폼_통합안정성매트릭스_V1.0.md\">\n# BDS 소상공인플랫폼",
+      "completedAt": "2026-06-26T16:18:01.322Z"
     }
   ]
 }
