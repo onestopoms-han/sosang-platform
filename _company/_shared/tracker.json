@@ -1,108 +1,6 @@
 {
   "tasks": [
     {
-      "id": "20260528065826-wqmq",
-      "title": "모든 색상 코드가 지정된 Design Tokens를 따르는가?",
-      "description": "자동 등록 (Designer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "designer"
-      ],
-      "createdAt": "2026-05-28T06:58:26.820Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T06-55",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T06-55/_report.md\n- 코다리: EdgeCase_Flow_Spec_v1.0.md 파일을 기반으로 Mock Data 환경에서 'Critical', 'Warning' 상태 변화를 \n- 현빈: 통합 테스트 결과와 KPI 임계값 로직이 소상공인의 실질적 Pain Point(재정, 공급망 리스크)와 명확하게 연결되는지 최종 검증하고 KPI\n- Designer: 최종 통합 검증 블루프린트(`Final_Integration_Review_Blueprint_v1.0.md`)를 기반으로 UI/UX 가이드라인과 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: EdgeCase_Flow_Spec_v1.0.md 파일을 기반으로 Mock Data 환경에서 'Critical', 'Warning' 상태 변화를 검증하는 통합 자동화 테스트 스크립트 구현을 재개하고 실행하라.\n> 🔧 **도구 실행**: _(없",
-      "completedAt": "2026-05-28T06:59:03.916Z"
-    },
-    {
-      "id": "20260528065826-fruh",
-      "title": "Critical/Warning 상태 변화에 따른 UI 컴포넌트의 시각적 경고(색상, 아이콘)가 즉시 반영되는가?",
-      "description": "자동 등록 (Designer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "designer"
-      ],
-      "createdAt": "2026-05-28T06:58:26.840Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T06-55",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T06-55/_report.md\n- 코다리: EdgeCase_Flow_Spec_v1.0.md 파일을 기반으로 Mock Data 환경에서 'Critical', 'Warning' 상태 변화를 \n- 현빈: 통합 테스트 결과와 KPI 임계값 로직이 소상공인의 실질적 Pain Point(재정, 공급망 리스크)와 명확하게 연결되는지 최종 검증하고 KPI\n- Designer: 최종 통합 검증 블루프린트(`Final_Integration_Review_Blueprint_v1.0.md`)를 기반으로 UI/UX 가이드라인과 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: EdgeCase_Flow_Spec_v1.0.md 파일을 기반으로 Mock Data 환경에서 'Critical', 'Warning' 상태 변화를 검증하는 통합 자동화 테스트 스크립트 구현을 재개하고 실행하라.\n> 🔧 **도구 실행**: _(없",
-      "completedAt": "2026-05-28T06:59:03.955Z"
-    },
-    {
-      "id": "20260528065826-v5oa",
-      "title": "API 에러나 데이터 부재 상황에서 사용자에게 당황하지 않도록 돕는 '친절한 안내'가 구현되었는가?",
-      "description": "자동 등록 (Designer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "designer"
-      ],
-      "createdAt": "2026-05-28T06:58:26.854Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T06-55",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T06-55/_report.md\n- 코다리: EdgeCase_Flow_Spec_v1.0.md 파일을 기반으로 Mock Data 환경에서 'Critical', 'Warning' 상태 변화를 \n- 현빈: 통합 테스트 결과와 KPI 임계값 로직이 소상공인의 실질적 Pain Point(재정, 공급망 리스크)와 명확하게 연결되는지 최종 검증하고 KPI\n- Designer: 최종 통합 검증 블루프린트(`Final_Integration_Review_Blueprint_v1.0.md`)를 기반으로 UI/UX 가이드라인과 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: EdgeCase_Flow_Spec_v1.0.md 파일을 기반으로 Mock Data 환경에서 'Critical', 'Warning' 상태 변화를 검증하는 통합 자동화 테스트 스크립트 구현을 재개하고 실행하라.\n> 🔧 **도구 실행**: _(없",
-      "completedAt": "2026-05-28T06:59:03.984Z"
-    },
-    {
-      "id": "20260528071353-d5hm",
-      "title": "위 명세서를 바탕으로 Mock API 스키마를 최종 확정합니다.",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-28T07:13:53.676Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T07-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T07-10/_report.md\n- 코다리: 파일 경로 오류(`tests/edge_case_qa.py` 누락)를 해결하고, Mock Data 환경에서 'Critical', 'Warning'\n- 현빈: 개발팀이 구현하는 KPI 임계값 로직(`Critical < 3`)이 소상공인의 실질적 Pain Point(재정 불안 및 공급망 리스크)를 명확히\n- Designer: 최종 통합 검증 블루프린트(`Final_Integration_Review_Blueprint_v1.0.md`)와 `Design_System_Han\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 파일 경로 오류(`tests/edge_case_qa.py` 누락)를 해결하고, Mock Data 환경에서 'Critical', 'Warning' 상태 변화 검증 자동화 테스트 스크립트의 실행을 즉시 재개하여 시스템 안정성을 최종 검증한다.\n>",
-      "completedAt": "2026-05-28T07:15:34.439Z"
-    },
-    {
-      "id": "20260528071353-zuyk",
-      "title": "임계값 로직을 반영한 프론트엔드 컴포넌트 (KPI-Card, TrendGraph) 를 구현합니다.",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-28T07:13:53.683Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T07-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T07-10/_report.md\n- 코다리: 파일 경로 오류(`tests/edge_case_qa.py` 누락)를 해결하고, Mock Data 환경에서 'Critical', 'Warning'\n- 현빈: 개발팀이 구현하는 KPI 임계값 로직(`Critical < 3`)이 소상공인의 실질적 Pain Point(재정 불안 및 공급망 리스크)를 명확히\n- Designer: 최종 통합 검증 블루프린트(`Final_Integration_Review_Blueprint_v1.0.md`)와 `Design_System_Han\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 파일 경로 오류(`tests/edge_case_qa.py` 누락)를 해결하고, Mock Data 환경에서 'Critical', 'Warning' 상태 변화 검증 자동화 테스트 스크립트의 실행을 즉시 재개하여 시스템 안정성을 최종 검증한다.\n>",
-      "completedAt": "2026-05-28T07:15:34.456Z"
-    },
-    {
-      "id": "20260528071353-pil0",
-      "title": "Mock Data 와 실제 유사 시나리오 데이터를 통해 로직의 정확성을 검증합니다.",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-28T07:13:53.703Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T07-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T07-10/_report.md\n- 코다리: 파일 경로 오류(`tests/edge_case_qa.py` 누락)를 해결하고, Mock Data 환경에서 'Critical', 'Warning'\n- 현빈: 개발팀이 구현하는 KPI 임계값 로직(`Critical < 3`)이 소상공인의 실질적 Pain Point(재정 불안 및 공급망 리스크)를 명확히\n- Designer: 최종 통합 검증 블루프린트(`Final_Integration_Review_Blueprint_v1.0.md`)와 `Design_System_Han\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 파일 경로 오류(`tests/edge_case_qa.py` 누락)를 해결하고, Mock Data 환경에서 'Critical', 'Warning' 상태 변화 검증 자동화 테스트 스크립트의 실행을 즉시 재개하여 시스템 안정성을 최종 검증한다.\n>",
-      "completedAt": "2026-05-28T07:15:34.477Z"
-    },
-    {
       "id": "20260528081232-j0j2",
       "title": "**후크 선택:** 후크 A 를 기본으로 하되, 테스트용으로 B/C도 준비",
       "description": "자동 등록 (Writer 산출물에서 추출)",
@@ -6694,6 +6592,74 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-27T05-57/_report.md\n- 코다리: SaaS API 엔드포인트 `POST /upload-diagnosis-data` 구현 및 보안 테스트를 위한 상세 기술 사양(JSON 스키마 포\n- Writer: 법률팀 검토에 필요한 리스크 분석 자료와 계약서 초안을 기반으로, 개발팀의 기술 스펙과 통합하여 법적 안전성 검토 보고서 초안을 작성하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: SaaS API 엔드포인트 `POST /upload-diagnosis-data` 구현 및 보안 테스트를 위한 상세 기술 사양(JSON 스키마 포함)을 최종 확정하고 개발 착수 준비를 완료하라.\n> 🔧 **도구 실행**: _(없음 — LLM ",
       "completedAt": "2026-06-27T06:05:05.523Z"
+    },
+    {
+      "id": "20260627071941-w9hq",
+      "title": "API 응답에 PII 데이터는 TLS 1.3 암호화 + AES-256 마스킹 적용 여부",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-27T07:19:41.757Z",
+      "status": "done",
+      "sessionDir": "2026-06-27T07-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-27T07-12/_report.md\n- 코다리: SaaS API 명세(`POST /upload-diagnosis-data`) 및 보안 테스트 계획을 기반으로 실제 코드 구현 착수(router.\n- Designer: Trust Widget과 PainGauge의 최종 디자인 시스템(`PM_Dashboard_Component_System_Guide_v1.0`)을\n- 현빈: 코다리의 기술 구현 진행 상황과 디자인팀의 UI 요구사항을 통합하여, 현재 MVP 기능 구현에 필요한 리소스와 예상 마일스톤을 재검토하고 법적 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: SaaS API 명세(`POST /upload-diagnosis-data`) 및 보안 테스트 계획을 기반으로 실제 코드 구현 착수(router.py, service.py)를 시작하고, PII 암호화/마스킹 원칙을 즉시 적용하여 개발을 진행하라",
+      "completedAt": "2026-06-27T07:41:09.272Z"
+    },
+    {
+      "id": "20260627071941-mjif",
+      "title": "Trust Widget/PainGauge 색상 매핑이 Risk Level A/B/C와 정확히 일치하는지 시각적/기술적 검증 완료",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-27T07:19:41.774Z",
+      "status": "done",
+      "sessionDir": "2026-06-27T07-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-27T07-12/_report.md\n- 코다리: SaaS API 명세(`POST /upload-diagnosis-data`) 및 보안 테스트 계획을 기반으로 실제 코드 구현 착수(router.\n- Designer: Trust Widget과 PainGauge의 최종 디자인 시스템(`PM_Dashboard_Component_System_Guide_v1.0`)을\n- 현빈: 코다리의 기술 구현 진행 상황과 디자인팀의 UI 요구사항을 통합하여, 현재 MVP 기능 구현에 필요한 리소스와 예상 마일스톤을 재검토하고 법적 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: SaaS API 명세(`POST /upload-diagnosis-data`) 및 보안 테스트 계획을 기반으로 실제 코드 구현 착수(router.py, service.py)를 시작하고, PII 암호화/마스킹 원칙을 즉시 적용하여 개발을 진행하라",
+      "completedAt": "2026-06-27T07:41:09.294Z"
+    },
+    {
+      "id": "20260627071941-9qqy",
+      "title": "Consent Prompt 텍스트가 개인정보보호법(PIPA) 요구사항에 부합하는지 법무팀 승인 확보",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-27T07:19:41.791Z",
+      "status": "done",
+      "sessionDir": "2026-06-27T07-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-27T07-12/_report.md\n- 코다리: SaaS API 명세(`POST /upload-diagnosis-data`) 및 보안 테스트 계획을 기반으로 실제 코드 구현 착수(router.\n- Designer: Trust Widget과 PainGauge의 최종 디자인 시스템(`PM_Dashboard_Component_System_Guide_v1.0`)을\n- 현빈: 코다리의 기술 구현 진행 상황과 디자인팀의 UI 요구사항을 통합하여, 현재 MVP 기능 구현에 필요한 리소스와 예상 마일스톤을 재검토하고 법적 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: SaaS API 명세(`POST /upload-diagnosis-data`) 및 보안 테스트 계획을 기반으로 실제 코드 구현 착수(router.py, service.py)를 시작하고, PII 암호화/마스킹 원칙을 즉시 적용하여 개발을 진행하라",
+      "completedAt": "2026-06-27T07:41:09.319Z"
+    },
+    {
+      "id": "20260627071941-7hba",
+      "title": "API 명세 문서에 \"사용자 동의 없이 PII 수집 금지\" 조항 명시 및 자동 검증 스크립트 작성",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-27T07:19:41.810Z",
+      "status": "done",
+      "sessionDir": "2026-06-27T07-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-27T07-12/_report.md\n- 코다리: SaaS API 명세(`POST /upload-diagnosis-data`) 및 보안 테스트 계획을 기반으로 실제 코드 구현 착수(router.\n- Designer: Trust Widget과 PainGauge의 최종 디자인 시스템(`PM_Dashboard_Component_System_Guide_v1.0`)을\n- 현빈: 코다리의 기술 구현 진행 상황과 디자인팀의 UI 요구사항을 통합하여, 현재 MVP 기능 구현에 필요한 리소스와 예상 마일스톤을 재검토하고 법적 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: SaaS API 명세(`POST /upload-diagnosis-data`) 및 보안 테스트 계획을 기반으로 실제 코드 구현 착수(router.py, service.py)를 시작하고, PII 암호화/마스킹 원칙을 즉시 적용하여 개발을 진행하라",
+      "completedAt": "2026-06-27T07:41:09.340Z"
     }
   ]
 }
