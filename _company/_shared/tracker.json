@@ -1,57 +1,6 @@
 {
   "tasks": [
     {
-      "id": "20260528051425-dmqw",
-      "title": "모든 KPI 의 `thresholdStatus` 가 실제 `currentValue` 에 따라 올바르게 분류됨?",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-28T05:14:25.256Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T05-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T05-10/_report.md\n- 코다리: Designer가 확정한 UI/UX 가이드라인 및 데이터 모델(`PM_Dashboard_Data_Model_Spec_v1.0.md`)을 기반으로\n- Designer: 확정된 디자인 토큰과 데이터 모델을 기반으로 개발팀이 활용할 수 있는 최종 UI/UX 가이드라인 및 컴포넌트 명세서를 완성하고, 코드 리뷰를 준\n- 현빈: KPI 임계값 로직(`Critical < 30`, `Warning 30-70`)에 맞춰 백엔드 API 응답 스키마(`dashboardRespon\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 확정한 UI/UX 가이드라인 및 데이터 모델(`PM_Dashboard_Data_Model_Spec_v1.0.md`)을 기반으로, 실제 프론트엔드 컴포넌트(`KPI-Card`, `TrendGraph`) 구현을 즉시 착수하라.\n",
-      "completedAt": "2026-05-28T05:14:59.859Z"
-    },
-    {
-      "id": "20260528051425-tt8g",
-      "title": "`trendDirection` 이 프론트엔드 차트(`TrendGraph`) 로 전달될 수 있는 타입인지 확인했는가?",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-28T05:14:25.293Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T05-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T05-10/_report.md\n- 코다리: Designer가 확정한 UI/UX 가이드라인 및 데이터 모델(`PM_Dashboard_Data_Model_Spec_v1.0.md`)을 기반으로\n- Designer: 확정된 디자인 토큰과 데이터 모델을 기반으로 개발팀이 활용할 수 있는 최종 UI/UX 가이드라인 및 컴포넌트 명세서를 완성하고, 코드 리뷰를 준\n- 현빈: KPI 임계값 로직(`Critical < 30`, `Warning 30-70`)에 맞춰 백엔드 API 응답 스키마(`dashboardRespon\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 확정한 UI/UX 가이드라인 및 데이터 모델(`PM_Dashboard_Data_Model_Spec_v1.0.md`)을 기반으로, 실제 프론트엔드 컴포넌트(`KPI-Card`, `TrendGraph`) 구현을 즉시 착수하라.\n",
-      "completedAt": "2026-05-28T05:14:59.903Z"
-    },
-    {
-      "id": "20260528051425-myzy",
-      "title": "예외 처리 (`status: 'error'`) 시에도 스키마가 깨지지 않는지 테스트 가능한가?",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-28T05:14:25.323Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T05-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T05-10/_report.md\n- 코다리: Designer가 확정한 UI/UX 가이드라인 및 데이터 모델(`PM_Dashboard_Data_Model_Spec_v1.0.md`)을 기반으로\n- Designer: 확정된 디자인 토큰과 데이터 모델을 기반으로 개발팀이 활용할 수 있는 최종 UI/UX 가이드라인 및 컴포넌트 명세서를 완성하고, 코드 리뷰를 준\n- 현빈: KPI 임계값 로직(`Critical < 30`, `Warning 30-70`)에 맞춰 백엔드 API 응답 스키마(`dashboardRespon\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 확정한 UI/UX 가이드라인 및 데이터 모델(`PM_Dashboard_Data_Model_Spec_v1.0.md`)을 기반으로, 실제 프론트엔드 컴포넌트(`KPI-Card`, `TrendGraph`) 구현을 즉시 착수하라.\n",
-      "completedAt": "2026-05-28T05:14:59.934Z"
-    },
-    {
       "id": "20260528054254-6t5j",
       "title": "**API 스키마:** 모든 KPI 상태 및 에러 코드는 명시된 JSON Schema를 벗어나지 않아야 함.",
       "description": "자동 등록 (Designer 산출물에서 추출)",
@@ -6626,6 +6575,91 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-27T04-12/_report.md\n- 현빈: SaaS API 모델(구독/라이선스)에 따른 초기 가격 프레임워크와 핵심 성과 지표(KPI)를 최종 확정하고, 법률팀 검토에 필요한 데이터를 정\n- 코다리: SaaS API Phase 1 기능의 상세 엔드포인트 명세(JSON 스키마 포함) 작성을 완료하고, 수익화 모델을 반영하여 기술 구현 착수 준비\n- Writer: 법률 검토 자료와 개발팀의 답변 초안을 바탕으로 팀 간 협업 미팅 일정을 최종 확정하고, 모든 참석자에게 공식 초대장을 발송할 준비를 하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: SaaS API 모델(구독/라이선스)에 따른 초기 가격 프레임워크와 핵심 성과 지표(KPI)를 최종 확정하고, 법률팀 검토에 필요한 데이터를 정리하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> \ud83d",
       "completedAt": "2026-06-27T04:30:39.271Z"
+    },
+    {
+      "id": "20260627051829-r3pl",
+      "title": "API 엔드포인트 명세가 기술적 구현 범위와 일치하는지 확인",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-27T05:18:29.155Z",
+      "status": "done",
+      "sessionDir": "2026-06-27T04-57",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-27T04-57/_report.md\n- Writer: 법률 검토팀과 개발팀이 검토할 수 있도록, SaaS API 수익화 모델에 대한 핵심 내러티브(Storytelling)를 최종적으로 다듬고 논리적\n- 코다리: Writer가 제공한 내용 및 본인 분석을 바탕으로, 기술 구현의 리스크와 대응 방안에 대한 구체적인 검증 보고서 초안을 완성하십시오. 특히 법\n- Designer: Writer와 Developer가 제공한 최종 텍스트 및 데이터(리스크 분석 포함)를 바탕으로 CEO 승인을 위한 최종 PPT 레이아웃과 디자인\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 법률 검토팀과 개발팀이 검토할 수 있도록, SaaS API 수익화 모델에 대한 핵심 내러티브(Storytelling)를 최종적으로 다듬고 논리적 흐름을 명확히 하십시오.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 *",
+      "completedAt": "2026-06-27T05:26:29.924Z"
+    },
+    {
+      "id": "20260627051829-vr5r",
+      "title": "데이터 암호화 및 보안 프로세스가 실제 구현 가능한 수준인지 검토",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-27T05:18:29.173Z",
+      "status": "done",
+      "sessionDir": "2026-06-27T04-57",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-27T04-57/_report.md\n- Writer: 법률 검토팀과 개발팀이 검토할 수 있도록, SaaS API 수익화 모델에 대한 핵심 내러티브(Storytelling)를 최종적으로 다듬고 논리적\n- 코다리: Writer가 제공한 내용 및 본인 분석을 바탕으로, 기술 구현의 리스크와 대응 방안에 대한 구체적인 검증 보고서 초안을 완성하십시오. 특히 법\n- Designer: Writer와 Developer가 제공한 최종 텍스트 및 데이터(리스크 분석 포함)를 바탕으로 CEO 승인을 위한 최종 PPT 레이아웃과 디자인\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 법률 검토팀과 개발팀이 검토할 수 있도록, SaaS API 수익화 모델에 대한 핵심 내러티브(Storytelling)를 최종적으로 다듬고 논리적 흐름을 명확히 하십시오.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 *",
+      "completedAt": "2026-06-27T05:26:29.955Z"
+    },
+    {
+      "id": "20260627051829-jldy",
+      "title": "초기 엔드포인트 Mockup 의 타당성을 재확인",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-27T05:18:29.193Z",
+      "status": "done",
+      "sessionDir": "2026-06-27T04-57",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-27T04-57/_report.md\n- Writer: 법률 검토팀과 개발팀이 검토할 수 있도록, SaaS API 수익화 모델에 대한 핵심 내러티브(Storytelling)를 최종적으로 다듬고 논리적\n- 코다리: Writer가 제공한 내용 및 본인 분석을 바탕으로, 기술 구현의 리스크와 대응 방안에 대한 구체적인 검증 보고서 초안을 완성하십시오. 특히 법\n- Designer: Writer와 Developer가 제공한 최종 텍스트 및 데이터(리스크 분석 포함)를 바탕으로 CEO 승인을 위한 최종 PPT 레이아웃과 디자인\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 법률 검토팀과 개발팀이 검토할 수 있도록, SaaS API 수익화 모델에 대한 핵심 내러티브(Storytelling)를 최종적으로 다듬고 논리적 흐름을 명확히 하십시오.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 *",
+      "completedAt": "2026-06-27T05:26:29.983Z"
+    },
+    {
+      "id": "20260627051829-8ffw",
+      "title": "계약 조항이 정보보호 관련 법규를 준수하는지 확인",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-27T05:18:29.217Z",
+      "status": "done",
+      "sessionDir": "2026-06-27T04-57",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-27T04-57/_report.md\n- Writer: 법률 검토팀과 개발팀이 검토할 수 있도록, SaaS API 수익화 모델에 대한 핵심 내러티브(Storytelling)를 최종적으로 다듬고 논리적\n- 코다리: Writer가 제공한 내용 및 본인 분석을 바탕으로, 기술 구현의 리스크와 대응 방안에 대한 구체적인 검증 보고서 초안을 완성하십시오. 특히 법\n- Designer: Writer와 Developer가 제공한 최종 텍스트 및 데이터(리스크 분석 포함)를 바탕으로 CEO 승인을 위한 최종 PPT 레이아웃과 디자인\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 법률 검토팀과 개발팀이 검토할 수 있도록, SaaS API 수익화 모델에 대한 핵심 내러티브(Storytelling)를 최종적으로 다듬고 논리적 흐름을 명확히 하십시오.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 *",
+      "completedAt": "2026-06-27T05:26:30.014Z"
+    },
+    {
+      "id": "20260627051829-yrzi",
+      "title": "API 사용 권한 및 데이터 소유권 관련 리스크가 충분히 방어 가능한지 평가",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-06-27T05:18:29.256Z",
+      "status": "done",
+      "sessionDir": "2026-06-27T04-57",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-27T04-57/_report.md\n- Writer: 법률 검토팀과 개발팀이 검토할 수 있도록, SaaS API 수익화 모델에 대한 핵심 내러티브(Storytelling)를 최종적으로 다듬고 논리적\n- 코다리: Writer가 제공한 내용 및 본인 분석을 바탕으로, 기술 구현의 리스크와 대응 방안에 대한 구체적인 검증 보고서 초안을 완성하십시오. 특히 법\n- Designer: Writer와 Developer가 제공한 최종 텍스트 및 데이터(리스크 분석 포함)를 바탕으로 CEO 승인을 위한 최종 PPT 레이아웃과 디자인\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 법률 검토팀과 개발팀이 검토할 수 있도록, SaaS API 수익화 모델에 대한 핵심 내러티브(Storytelling)를 최종적으로 다듬고 논리적 흐름을 명확히 하십시오.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 *",
+      "completedAt": "2026-06-27T05:26:30.042Z"
     }
   ]
 }
