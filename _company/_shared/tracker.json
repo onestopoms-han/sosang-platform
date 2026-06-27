@@ -1,193 +1,6 @@
 {
   "tasks": [
     {
-      "id": "20260528024259-lkao",
-      "title": "JSON 스키마를 Pydantic 모델로 변환하여 유효성 검사 실행 (`pydantic.validate_json` 사용).",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-28T02:42:59.378Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T02-40",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T02-40/_report.md\n- 현빈: 재정 안정성 변수(R01, R02 등)에 대해 AI가 실시간으로 대안을 제안할 수 있는 최소한의 조건 및 임계값(Thresholds)을 구체화하\n- 코다리: 현빈이 정의한 수학적 공식을 기반으로, PM 대시보드 데이터 모델 연동에 필요한 핵심 API 필드와 기술적 상태 변수 구조를 최종 설계하고 데이\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 재정 안정성 변수(R01, R02 등)에 대해 AI가 실시간으로 대안을 제안할 수 있는 최소한의 조건 및 임계값(Thresholds)을 구체화하고 논리적 규칙을 추가로 정의하라.\n> 🔧 **도구 실행**: _(없음 ",
-      "completedAt": "2026-05-28T02:43:29.569Z"
-    },
-    {
-      "id": "20260528024259-strx",
-      "title": "`calculate_r01` 함수의 Edge Case 테스트: `variable_cost = 0`, `cash_flow < fixed_cost`.",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-28T02:42:59.400Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T02-40",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T02-40/_report.md\n- 현빈: 재정 안정성 변수(R01, R02 등)에 대해 AI가 실시간으로 대안을 제안할 수 있는 최소한의 조건 및 임계값(Thresholds)을 구체화하\n- 코다리: 현빈이 정의한 수학적 공식을 기반으로, PM 대시보드 데이터 모델 연동에 필요한 핵심 API 필드와 기술적 상태 변수 구조를 최종 설계하고 데이\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 재정 안정성 변수(R01, R02 등)에 대해 AI가 실시간으로 대안을 제안할 수 있는 최소한의 조건 및 임계값(Thresholds)을 구체화하고 논리적 규칙을 추가로 정의하라.\n> 🔧 **도구 실행**: _(없음 ",
-      "completedAt": "2026-05-28T02:43:29.598Z"
-    },
-    {
-      "id": "20260528024259-4nta",
-      "title": "API 응답 헤더에 `Cache-Control: no-cache, no-store` 추가 (실시간 대시보드 특성상 캐싱 금지).",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-28T02:42:59.417Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T02-40",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T02-40/_report.md\n- 현빈: 재정 안정성 변수(R01, R02 등)에 대해 AI가 실시간으로 대안을 제안할 수 있는 최소한의 조건 및 임계값(Thresholds)을 구체화하\n- 코다리: 현빈이 정의한 수학적 공식을 기반으로, PM 대시보드 데이터 모델 연동에 필요한 핵심 API 필드와 기술적 상태 변수 구조를 최종 설계하고 데이\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 재정 안정성 변수(R01, R02 등)에 대해 AI가 실시간으로 대안을 제안할 수 있는 최소한의 조건 및 임계값(Thresholds)을 구체화하고 논리적 규칙을 추가로 정의하라.\n> 🔧 **도구 실행**: _(없음 ",
-      "completedAt": "2026-05-28T02:43:29.615Z"
-    },
-    {
-      "id": "20260528024259-p7pk",
-      "title": "프론트엔드 컴포넌트가 Schema 에 정의된 필드만 렌더링하는지 확인 (`PropTypes` 또는 Zod 유효성 검사 적용).",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-28T02:42:59.434Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T02-40",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T02-40/_report.md\n- 현빈: 재정 안정성 변수(R01, R02 등)에 대해 AI가 실시간으로 대안을 제안할 수 있는 최소한의 조건 및 임계값(Thresholds)을 구체화하\n- 코다리: 현빈이 정의한 수학적 공식을 기반으로, PM 대시보드 데이터 모델 연동에 필요한 핵심 API 필드와 기술적 상태 변수 구조를 최종 설계하고 데이\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 재정 안정성 변수(R01, R02 등)에 대해 AI가 실시간으로 대안을 제안할 수 있는 최소한의 조건 및 임계값(Thresholds)을 구체화하고 논리적 규칙을 추가로 정의하라.\n> 🔧 **도구 실행**: _(없음 ",
-      "completedAt": "2026-05-28T02:43:29.639Z"
-    },
-    {
-      "id": "20260528031312-c4zp",
-      "title": "API 응답에서 모든 필드가 유효성 검사를 통과하는지 확인 (JSON Schema validate)",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-28T03:13:12.844Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T03-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T03-10/_report.md\n- 코다리: Designer가 정의한 UI 컴포넌트 시스템 가이드(`PM_Dashboard_Component_System_Guide_v1.0.md`)에 맞춰\n- Designer: Developer가 확정한 최종 API 스키마(`PM_Dashboard_Data_Model_Spec_v1.0.md`)와 시각화 가이드라인을 기반\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 정의한 UI 컴포넌트 시스템 가이드(`PM_Dashboard_Component_System_Guide_v1.0.md`)에 맞춰, 핵심 지표(R01, S01 등)별 시각화 레이아웃을 구체적으로 설계하고, 이에 필요한 API 데",
-      "completedAt": "2026-05-28T03:15:04.221Z"
-    },
-    {
-      "id": "20260528031312-25h1",
-      "title": "각 차트 타입에 대한 UI 컴포넌트가 존재하고, Props 명세가 일치하는지 검증",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-28T03:13:12.863Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T03-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T03-10/_report.md\n- 코다리: Designer가 정의한 UI 컴포넌트 시스템 가이드(`PM_Dashboard_Component_System_Guide_v1.0.md`)에 맞춰\n- Designer: Developer가 확정한 최종 API 스키마(`PM_Dashboard_Data_Model_Spec_v1.0.md`)와 시각화 가이드라인을 기반\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 정의한 UI 컴포넌트 시스템 가이드(`PM_Dashboard_Component_System_Guide_v1.0.md`)에 맞춰, 핵심 지표(R01, S01 등)별 시각화 레이아웃을 구체적으로 설계하고, 이에 필요한 API 데",
-      "completedAt": "2026-05-28T03:15:04.247Z"
-    },
-    {
-      "id": "20260528031312-uxqb",
-      "title": "실시간 데이터 스트림이 5 분마다 업데이트되고, 프론트엔드에서 자동 재렌더링 되는지 테스트",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-28T03:13:12.881Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T03-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T03-10/_report.md\n- 코다리: Designer가 정의한 UI 컴포넌트 시스템 가이드(`PM_Dashboard_Component_System_Guide_v1.0.md`)에 맞춰\n- Designer: Developer가 확정한 최종 API 스키마(`PM_Dashboard_Data_Model_Spec_v1.0.md`)와 시각화 가이드라인을 기반\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 정의한 UI 컴포넌트 시스템 가이드(`PM_Dashboard_Component_System_Guide_v1.0.md`)에 맞춰, 핵심 지표(R01, S01 등)별 시각화 레이아웃을 구체적으로 설계하고, 이에 필요한 API 데",
-      "completedAt": "2026-05-28T03:15:04.269Z"
-    },
-    {
-      "id": "20260528031312-2bly",
-      "title": "호버, Zoom, 기간 선택 등 상호작용이 정상 작동하는지 기능 테스트",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-28T03:13:12.896Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T03-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T03-10/_report.md\n- 코다리: Designer가 정의한 UI 컴포넌트 시스템 가이드(`PM_Dashboard_Component_System_Guide_v1.0.md`)에 맞춰\n- Designer: Developer가 확정한 최종 API 스키마(`PM_Dashboard_Data_Model_Spec_v1.0.md`)와 시각화 가이드라인을 기반\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 정의한 UI 컴포넌트 시스템 가이드(`PM_Dashboard_Component_System_Guide_v1.0.md`)에 맞춰, 핵심 지표(R01, S01 등)별 시각화 레이아웃을 구체적으로 설계하고, 이에 필요한 API 데",
-      "completedAt": "2026-05-28T03:15:04.289Z"
-    },
-    {
-      "id": "20260528034316-cxz6",
-      "title": "**반응형 설계(Responsiveness):** 모든 컴포넌트는 모바일, 태블릿, 데스크톱 환경에서 뷰포트 크기에 맞춰 유연하게 축소/확대되도록 구현되어야 합니다. (Breakpoint: 768px, 1200px)",
-      "description": "자동 등록 (Designer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "designer"
-      ],
-      "createdAt": "2026-05-28T03:43:16.685Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T03-40",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T03-40/_report.md\n- 코다리: PM 대시보드 구현 청사진(`PM_Dashboard_Implementation_Blueprint_v1.0.md`)을 기반으로, 정의된 API 스\n- Designer: 최종 API 스키마와 컴포넌트 명세를 바탕으로, 재사용 가능한 UI 컴포넌트 시스템 전체의 기술적 일관성(Design System Consist\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: PM 대시보드 구현 청사진(`PM_Dashboard_Implementation_Blueprint_v1.0.md`)을 기반으로, 정의된 API 스키마에 따른 실제 데이터 스트림 연동 로직 초안을 작성하고 초기 프론트엔드 컴포넌트 구현을 즉시 시",
-      "completedAt": "2026-05-28T03:44:09.362Z"
-    },
-    {
-      "id": "20260528034316-o8z7",
-      "title": "**접근성(Accessibility):** 모든 컴포넌트는 ARIA 속성을 포함하여 스크린 리더를 사용하는 사용자도 내용을 이해할 수 있도록 설계해야 합니다. (특히 색상 대비율 WCAG AA 이상 준수).",
-      "description": "자동 등록 (Designer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "designer"
-      ],
-      "createdAt": "2026-05-28T03:43:16.696Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T03-40",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T03-40/_report.md\n- 코다리: PM 대시보드 구현 청사진(`PM_Dashboard_Implementation_Blueprint_v1.0.md`)을 기반으로, 정의된 API 스\n- Designer: 최종 API 스키마와 컴포넌트 명세를 바탕으로, 재사용 가능한 UI 컴포넌트 시스템 전체의 기술적 일관성(Design System Consist\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: PM 대시보드 구현 청사진(`PM_Dashboard_Implementation_Blueprint_v1.0.md`)을 기반으로, 정의된 API 스키마에 따른 실제 데이터 스트림 연동 로직 초안을 작성하고 초기 프론트엔드 컴포넌트 구현을 즉시 시",
-      "completedAt": "2026-05-28T03:44:09.418Z"
-    },
-    {
-      "id": "20260528034316-ehph",
-      "title": "**코드 구조:** 각 컴포넌트(`<KPI-Card>`, `<TrendGraph>`)는 독립적이며, 명확한 Props 인터페이스(TypeScript)를 정의하고 테스트 코드를 동반하여 작성해야 합니다.",
-      "description": "자동 등록 (Designer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "designer"
-      ],
-      "createdAt": "2026-05-28T03:43:16.709Z",
-      "status": "done",
-      "sessionDir": "2026-05-28T03-40",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-28T03-40/_report.md\n- 코다리: PM 대시보드 구현 청사진(`PM_Dashboard_Implementation_Blueprint_v1.0.md`)을 기반으로, 정의된 API 스\n- Designer: 최종 API 스키마와 컴포넌트 명세를 바탕으로, 재사용 가능한 UI 컴포넌트 시스템 전체의 기술적 일관성(Design System Consist\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: PM 대시보드 구현 청사진(`PM_Dashboard_Implementation_Blueprint_v1.0.md`)을 기반으로, 정의된 API 스키마에 따른 실제 데이터 스트림 연동 로직 초안을 작성하고 초기 프론트엔드 컴포넌트 구현을 즉시 시",
-      "completedAt": "2026-05-28T03:44:09.440Z"
-    },
-    {
       "id": "20260528051425-dmqw",
       "title": "모든 KPI 의 `thresholdStatus` 가 실제 `currentValue` 에 따라 올바르게 분류됨?",
       "description": "자동 등록 (현빈 산출물에서 추출)",
@@ -6728,6 +6541,81 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-27T02-12/_report.md\n- 현빈: 법률 자문 결과를 분석하여 기존의 수익화 로드맵(구독/라이선스 모델)에 대한 재검토 및 수정 방향을 제시할 전략적 분석 초안을 작성하라.\n- Writer: business 에이전트의 분석 결과를 바탕으로, 법률 자문 내용을 반영하여 수익화 로드맵(구독/라이선스 모델)의 수정된 버전 초안을 작성하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 법률 자문 결과를 분석하여 기존의 수익화 로드맵(구독/라이선스 모델)에 대한 재검토 및 수정 방향을 제시할 전략적 분석 초안을 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 📊 **수집 데",
       "completedAt": "2026-06-27T02:32:28.241Z"
+    },
+    {
+      "id": "20260627042108-xoyw",
+      "title": "Git 초기화 및 `.gitignore` 설정",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-27T04:21:08.295Z",
+      "status": "pending",
+      "sessionDir": "2026-06-27T04-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260627042108-g78t",
+      "title": "프로젝트 디렉토리 구조 생성 (`/src/api`, `/docs/specs`)",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-27T04:21:08.324Z",
+      "status": "pending",
+      "sessionDir": "2026-06-27T04-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260627042108-w6rl",
+      "title": "TypeScript strict mode 활성화 (`tsconfig.json`)",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-27T04:21:08.350Z",
+      "status": "pending",
+      "sessionDir": "2026-06-27T04-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260627042108-laeg",
+      "title": "API 명세 문서 버전 관리 (`SaaS_API_Spec_V1.0.md` 커밋)",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-27T04:21:08.374Z",
+      "status": "pending",
+      "sessionDir": "2026-06-27T04-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
+    },
+    {
+      "id": "20260627042108-bxdf",
+      "title": "JSON 스키마 파일 작성 (`api_schema_v1.0.json`)",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-27T04:21:08.403Z",
+      "status": "pending",
+      "sessionDir": "2026-06-27T04-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": []
     }
   ]
 }
