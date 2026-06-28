@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 28. 오후 4:55:53_
+_업데이트: 2026. 6. 28. 오후 5:16:11_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,17 +11,17 @@ _업데이트: 2026. 6. 28. 오후 4:55:53_
 - [2026-06-24] Designer와 Writer가 제공한 최종 카피라이팅 및 시각 에셋을 바탕으로 플랫폼 베타 참여자 모집 콘텐츠의 초안(이미지/릴스 스크립트)을 마스터 스케줄에 따라 즉시 제작하고, 최적의 시간 및 해시태그 전략을 적용하여 발행 준비를 완료하라. → 산출물 sessions/2026-06-24T22-22/instagram.md
 - [2026-06-28] 기획된 콘텐츠 테마를 기반으로 인스타그램 릴스/피드 게시물 형식에 최적화된 시각적 컨셉과 해시태그 전략을 개발하라. → 산출물 sessions/2026-06-28T00-56/instagram.md
 ### 🎨 Designer
-- [2026-06-28] 확정된 디자인 시스템 사양(Deep Blue/Growth Green/Red 색상 코드 및 레이아웃 구조)과 API 스키마 요구사항을 기반으로 Trust Widget 및 PainGauge의 Figma 목업(Mockup) 구현에 필요한 최종 시각 자료를 즉시 준비하라. → 산출물 sessions/2026-06-28T04-57/designer.md
-- [2026-06-28] sessions/2026-06-28T03-42/designer_final_mockup_spec.md 파일을 기반으로 Trust Widget 및 PainGauge의 실제 Figma 목업(Mockup) 구현을 즉시 시작하고 시각적 일관성을 확보하라. → 산출물 sessions/2026-06-28T07-12/designer.md
 - [2026-06-28] Business에서 확정될 사용자 여정을 기반으로, 실제 사용자의 상호작용 흐름(Key Flow)에 대한 인터랙티브 목업(Prototype)의 초기 구조 및 요구사항을 준비하라. → 산출물 sessions/2026-06-28T07-42/designer.md
+- [2026-06-28] 코다리가 제공한 API 스키마와 현빈의 가격 모델을 기반으로 Trust Widget/PainGauge 컴포넌트의 Figma 목업(Mockup) 최종 버전을 제작하여 시각적 일관성을 확보한다. → 산출물 sessions/2026-06-28T07-57/designer.md
+- [2026-06-28] 코다리가 제공한 API 스키마 및 디자인 시스템 사양을 기반으로 Trust Widget의 실시간 동적 상태 변화(Green/Yellow/Red)에 대한 최종 시각적 인터랙션 정의를 확정하고, 이를 개발팀에게 전달할 최종 명세서를 작성하라. → 산출물 sessions/2026-06-28T08-12/designer.md
 ### 💻 코다리
-- [2026-06-28] Researcher가 준비한 테스트 데이터셋 구조와 JSON 형식, 그리고 Designer가 정의한 색상 매핑 규칙(Deep Blue/Growth Green/Red 상태 반영)을 기반으로 TrustWidget 및 PainGauge에 대한 실제 데이터 샘플(Payload)을 생성하여 Mock Server에 적용할 수 있도록 준비하라. → 산출물 sessions/2026-06-28T06-57/developer.md
-- [2026-06-28] Designer가 정의한 API 스키마 및 디자인 시스템 사양을 기반으로 TrustWidget과 PainGauge 컴포넌트의 초기 React 컴포넌트 구현을 시작하고, 동적 상태 변화(Green/Yellow/Red)가 정확히 반영되도록 기술적 병목 지점을 해소하라. → 산출물 sessions/2026-06-28T07-12/developer.md
 - [2026-06-28] Business가 확정할 로직과 Designer가 제시할 흐름을 기반으로, Mock API 계약 내에서 해당 시나리오가 기술적으로 실행 가능한지 검증할 초기 기술적 제약사항(Constraint) 목록을 준비하라. → 산출물 sessions/2026-06-28T07-42/developer.md
+- [2026-06-28] 확정된 가격 전략과 사용자 여정을 기반으로, Mock API 계약(`pricing_schema_v1.py`)에 실제 데이터 적용 및 실시간 검증을 위한 백엔드 API 구현을 즉시 시작한다. → 산출물 sessions/2026-06-28T07-57/developer.md
+- [2026-06-28] Designer가 확정한 Trust Widget 및 PainGauge의 디자인 사양(색상 코드 포함)을 기반으로, 현재 구현된 React 컴포넌트의 동적 상태 변화 로직(Green/Yellow/Red)이 시각적으로 완벽히 일치하는지 통합 테스트를 즉시 수행하고 결과를 보고하라. → 산출물 sessions/2026-06-28T08-12/developer.md
 ### 💼 현빈
-- [2026-06-28] 개발팀의 재무 마일스톤과 디자인 시스템 적용 결과를 기반으로, 플랫폼 성공 가능성을 숫자로 입증하는 최종 실행 보고서(KPI 연동)를 작성하라. → 산출물 sessions/2026-06-28T01-57/business.md
 - [2026-06-28] 회사 목표와 각 에이전트의 개인 목표를 검토하여 현재 가장 시급하고 가치 있는 단일 작업 1개를 식별하라. → 산출물 sessions/2026-06-28T07-27/business.md
 - [2026-06-28] MVP 베타 테스트에 가장 적합한 고객 시나리오(User Story)와 Option B 기반의 가격/번들링 로직을 최종 확정하고 문서화하여 디자인 및 개발팀에 전달할 준비를 하라. → 산출물 sessions/2026-06-28T07-42/business.md
+- [2026-06-28] 확정된 가격 전략과 사용자 여정을 바탕으로 MVP 기능 우선순위를 재조정하고, 초기 공급자 Pilot 그룹 모집 전략을 구체화한다. → 산출물 sessions/2026-06-28T07-57/business.md
 ### 📱 영숙
 - [2026-06-27] 코다리와 현빈이 제시한 데이터 검증 워크숍을 위한 구체적인 실행 계획(Agenda) 초안 및 참여자(코다리, 현빈 포함)의 최적 회의 일정을 조율하여 다음 단계로 진행할 수 있도록 준비하라. → 자격증명 부족으로 차단됨
 - [2026-06-27] Writer에게 작업에 필요한 모든 데이터(재무 모델, 디자인 사양)가 완벽하게 통합되었는지 확인하고, 다음 단계의 실행 일정 및 마일스톤을 정리하여 보고하라. → 산출물 sessions/2026-06-27T17-27/secretary.md
