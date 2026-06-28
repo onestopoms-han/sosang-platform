@@ -6266,6 +6266,57 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-28T16-27/_report.md\n- 레오: Designer가 확정한 Trust/Warning/Critical 색상 코드를 반영하여, Trust Widget/PainGauge의 시각적 효과\n- Instagram: Designer가 확정한 디자인 시스템 사양과 위기 상태 색상 코드를 활용하여, 신뢰도/위기감 시각화를 콘텐츠에 적용하는 인스타그램 릴스/피드 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: Designer가 확정한 Trust/Warning/Critical 색상 코드를 반영하여, Trust Widget/PainGauge의 시각적 효과를 강조하는 숏폼 영상 스토리보드 및 후크 아이디어를 구체화하고 제작 프로세스를 즉시 실행할 수",
       "completedAt": "2026-06-28T16:43:35.812Z"
+    },
+    {
+      "id": "20260628171659-kwmb",
+      "title": "데이터 전송 속도/지연 시간 테스트",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-06-28T17:16:59.920Z",
+      "status": "done",
+      "sessionDir": "2026-06-28T17-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-28T17-12/_report.md\n- 영숙: Designer와 Developer로부터 User Journey Map 초안 및 최소 API 로직 가이드라인을 수령하는 즉시, 이를 취합하여 최\n\nCEO 종합 요점: 📱 영숙: 작업 시작합니다! 😊\n\n사장님, 지시해주신 대로 현재 가장 중요한 단일 액션 아이템을 확정했습니다. 저희는 지금 '핵심 기능 개발 완료' 단계에서 '사용자 검증' 단계로 전환해야 합니다. 🚀\n\n따라서 목표는 **최종 베타 테스트 계획서 초안을 완성**하는 것입니다. 이 계획서는 단순히 일정을 짜는 것을 넘어, 플랫폼의 핵심 가치(신뢰도 시각",
+      "completedAt": "2026-06-28T17:16:59.977Z"
+    },
+    {
+      "id": "20260628171659-d01l",
+      "title": "Critical 상태 발생 시 UI 반응성(Color-Code) 확인",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-06-28T17:16:59.937Z",
+      "status": "done",
+      "sessionDir": "2026-06-28T17-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-28T17-12/_report.md\n- 영숙: Designer와 Developer로부터 User Journey Map 초안 및 최소 API 로직 가이드라인을 수령하는 즉시, 이를 취합하여 최\n\nCEO 종합 요점: 📱 영숙: 작업 시작합니다! 😊\n\n사장님, 지시해주신 대로 현재 가장 중요한 단일 액션 아이템을 확정했습니다. 저희는 지금 '핵심 기능 개발 완료' 단계에서 '사용자 검증' 단계로 전환해야 합니다. 🚀\n\n따라서 목표는 **최종 베타 테스트 계획서 초안을 완성**하는 것입니다. 이 계획서는 단순히 일정을 짜는 것을 넘어, 플랫폼의 핵심 가치(신뢰도 시각",
+      "completedAt": "2026-06-28T17:16:59.996Z"
+    },
+    {
+      "id": "20260628171659-ahek",
+      "title": "에러 상황 처리 플로우 테스트",
+      "description": "자동 등록 (영숙 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "secretary"
+      ],
+      "createdAt": "2026-06-28T17:16:59.954Z",
+      "status": "done",
+      "sessionDir": "2026-06-28T17-12",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-28T17-12/_report.md\n- 영숙: Designer와 Developer로부터 User Journey Map 초안 및 최소 API 로직 가이드라인을 수령하는 즉시, 이를 취합하여 최\n\nCEO 종합 요점: 📱 영숙: 작업 시작합니다! 😊\n\n사장님, 지시해주신 대로 현재 가장 중요한 단일 액션 아이템을 확정했습니다. 저희는 지금 '핵심 기능 개발 완료' 단계에서 '사용자 검증' 단계로 전환해야 합니다. 🚀\n\n따라서 목표는 **최종 베타 테스트 계획서 초안을 완성**하는 것입니다. 이 계획서는 단순히 일정을 짜는 것을 넘어, 플랫폼의 핵심 가치(신뢰도 시각",
+      "completedAt": "2026-06-28T17:17:00.014Z"
     }
   ]
 }

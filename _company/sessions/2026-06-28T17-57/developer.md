@@ -1,0 +1,208 @@
+# 💻 코다리 — Designer가 정의한 디자인 시스템 사양(`BDS_Component_System_Spec_v3.0`) 및 Trust Widget/PainGauge의 시각적 요구사항을 기반으로, 백엔드 API 상태 전이 로직과 완벽하게 일치하는 프론트엔드 컴포넌트 구현을 즉시 시작하라.
+
+
+
+💻 코다리: 작업 시작합니다.
+
+CEO 지시대로 Designer 의 V3.0 디자인 시스템 사양을 완벽히 따르는 백엔드 API 로직과 스키마를 즉시 구현하겠습니다. 기존 코드베이스의 구조와 컨벤션을 먼저 파악하고, 상태 전이(`trust`, `warning`, `critical`) 로직이 프론트엔드 색상 매핑과 일치하는지 검증해야 합니다.
+
+먼저 프로젝트 루트의 존재 여부를 확인하고, 기존 API 스키마 파일이 있는지 검색하겠습니다.
+
+<list_files path="C:\Users\PJH\소상공인플렛폼\_company">
+</list_files>
+
+---
+## 📁 파일 액션 결과
+
+📂 목록: ~\소상공인플렛폼\_company/
+```
+📁 00_Raw/
+📄 ActionPlan_QA_Finalization_Memo.md
+📁 action_plan_service/
+📁 agents/
+📁 api/
+📁 approvals/
+📁 assets/
+📁 backend/
+📄 BDS_Final_PT_Master_Design_Guide.md
+📄 BDS_Final_Visual_Asset_Handoff_Guide.md
+📄 BDS_Integrated_Design_System_v3.0.md
+📄 BDS_Integrated_Standard_Audit_Report_v1.0.md
+📁 bds_platform/
+📄 BDS_소상공인플랫폼_통합안정성매트릭스_V1.0.md
+📄 CEO_Report_Minimal_API_Feasibility.md
+📄 ComponentSpec_V3.0_SafetyMargin.md
+📄 Component_Asset_Inventory_V1.0.md
+📄 Daily_Briefing_Report_2026-06-01.md
+📁 data/
+📁 DecisionLogs/
+📁 design/
+📁 DesignSystem/
+📄 design_review_final_guideline.md
+📄 Design_SignOff_Checklist_KPI_v1.0.md
+📁 design_specs/
+📁 design_system/
+📄 Design_System_V1.0_Manual.md
+📁 developer_handover/
+📄 diagnosis_input_schema.ts
+📄 Draft_Guidebook_v1.0_소상공인_생존매뉴얼.md
+📄 e2e_test_suite.py
+📄 Feasibility_List_Minimal_API.json
+📄 Figma_Integration_Spec_TrustPain.md
+📄 final_asset_inventory_and_guide_v1.0.md
+📄 final_insta_caption_set.md
+📄 final_lp_copy.md
+📄 Final_Onboarding_Manual_v1.0_DRAFT.md
+📄 final_review_for_coder.md
+📄 Final_UX_Spec_TrustGauge_v4.0.md
+📄 final_visual_review_checklist_v3.md
+📄 final_visual_review_checklist_v4.md
+📄 Form_Build_Plan_v2.md
+📄 KPI_Dev_Spec.md
+📄 KPI_Dev_Spec_Final_Verification_Plan.md
+📄 KPI_Master_Sheet.xlsx
+📁 marketing/
+📄 Marketing_Assets_Final_Consistency_Checklist_v1.0.md
+📄 marketing_draft_v1.md
+📄 Master_CRM_Interview_Tracker_V1.xlsx
+📁 mock_data/
+📄 mock_data.json
+📄 mock_data_generator.py
+📄 Monetization_Strategy_Final_Roadmap.md
+📄 MVP2_POS_Data_Acquisition_Plan_V1.0.md
+📄 PaymentFailure_Component_Dictionary_v2.md
+📄 PaymentFailure_Component_Library_Handoff.md
+📄 PaymentFailure_Upsell_Mockup_Guide.md
+📄 Payment_Failure_Screen_Final_Design_System_Spec.md
+📄 PilotTest_Execution_Checklist_v1.0.md
+📄 Pilot_Applicant_Form_Draft_v1.md
+📄 Pilot_Education_Curriculum_Draft_v1.md
+📄 Pilot_KPI_and_Monetization_Report_v1.md
+📄 Pilot_Launch_Roadmap_v2.0.md
+📄 Pilot_Onboarding_Script_and_Bot_Flow_Draft_v1.md
+📄 Pilot_Program_Value_Proposition_and_Script_Draft_v1.md
+📁 projects/
+📄 PT_Draft_QA_Storytelling_Flow.md
+📄 QA_Meeting_Plan_v1.md
+📁 qa_reports/
+📁 roadmap/
+📄 SafetyMargin_Interaction_Design_System_v1.md
+📁 scripts/
+📁 services/
+📁 sessions/
+📄 Shiitake_MealKit_Master_Plan.md
+📁 specs/
+📁 src/
+📁 Storyboards/
+📄 TechnicalFeasibilityReport_V2.md
+📁 tests/
+📁 TestScenarios/
+📄 test_diagnosis.py
+📄 test_e2e_funnel.py
+📄 TrendGraph_Mockup_Spec_V1.md
+📄 trust_pain_gauge_final_review.md
+📄 trust_widget_wireframe_spec.md
+📄 UserFlowMap_V2.0_SafetyMargin.md
+📄 UserJourneyMap_BDS_v1.md
+📄 user_paywall_strategy_final_v1.md
+📄 Workshop_Agenda_v1.0_Draft.md
+📁 _agents/
+📁 _company/
+📁 _shared/
+```
+
+[시스템: list_files 결과]
+디렉토리: ~\소상공인플렛폼\_company/
+📁 00_Raw/
+📄 ActionPlan_QA_Finalization_Memo.md
+📁 action_plan_service/
+📁 agents/
+📁 api/
+📁 approvals/
+📁 assets/
+📁 backend/
+📄 BDS_Final_PT_Master_Design_Guide.md
+📄 BDS_Final_Visual_Asset_Handoff_Guide.md
+📄 BDS_Integrated_Design_System_v3.0.md
+📄 BDS_Integrated_Standard_Audit_Report_v1.0.md
+📁 bds_platform/
+📄 BDS_소상공인플랫폼_통합안정성매트릭스_V1.0.md
+📄 CEO_Report_Minimal_API_Feasibility.md
+📄 ComponentSpec_V3.0_SafetyMargin.md
+📄 Component_Asset_Inventory_V1.0.md
+📄 Daily_Briefing_Report_2026-06-01.md
+📁 data/
+📁 DecisionLogs/
+📁 design/
+📁 DesignSystem/
+📄 design_review_final_guideline.md
+📄 Design_SignOff_Checklist_KPI_v1.0.md
+📁 design_specs/
+📁 design_system/
+📄 Design_System_V1.0_Manual.md
+📁 developer_handover/
+📄 diagnosis_input_schema.ts
+📄 Draft_Guidebook_v1.0_소상공인_생존매뉴얼.md
+📄 e2e_test_suite.py
+📄 Feasibility_List_Minimal_API.json
+📄 Figma_Integration_Spec_TrustPain.md
+📄 final_asset_inventory_and_guide_v1.0.md
+📄 final_insta_caption_set.md
+📄 final_lp_copy.md
+📄 Final_Onboarding_Manual_v1.0_DRAFT.md
+📄 final_review_for_coder.md
+📄 Final_UX_Spec_TrustGauge_v4.0.md
+📄 final_visual_review_checklist_v3.md
+📄 final_visual_review_checklist_v4.md
+📄 Form_Build_Plan_v2.md
+📄 KPI_Dev_Spec.md
+📄 KPI_Dev_Spec_Final_Verification_Plan.md
+📄 KPI_Master_Sheet.xlsx
+📁 marketing/
+📄 Marketing_Assets_Final_Consistency_Checklist_v1.0.md
+📄 marketing_draft_v1.md
+📄 Master_CRM_Interview_Tracker_V1.xlsx
+📁 mock_data/
+📄 mock_data.json
+📄 mock_data_generator.py
+📄 Monetization_Strategy_Final_Roadmap.md
+📄 MVP2_POS_Data_Acquisition_Plan_V1.0.md
+📄 PaymentFailure_Component_Dictionary_v2.md
+📄 PaymentFailure_Component_Library_Handoff.md
+📄 PaymentFailure_Upsell_Mockup_Guide.md
+📄 Payment_Failure_Screen_Final_Design_System_Spec.md
+📄 PilotTest_Execution_Checklist_v1.0.md
+📄 Pilot_Applicant_Form_Draft_v1.md
+📄 Pilot_Education_Curriculum_Draft_v1.md
+📄 Pilot_KPI_and_Monetization_Report_v1.md
+📄 Pilot_Launch_Roadmap_v2.0.md
+📄 Pilot_Onboarding_Script_and_Bot_Flow_Draft_v1.md
+📄 Pilot_Program_Value_Proposition_and_Script_Draft_v1.md
+📁 projects/
+📄 PT_Draft_QA_Storytelling_Flow.md
+📄 QA_Meeting_Plan_v1.md
+📁 qa_reports/
+📁 roadmap/
+📄 SafetyMargin_Interaction_Design_System_v1.md
+📁 scripts/
+📁 services/
+📁 sessions/
+📄 Shiitake_MealKit_Master_Plan.md
+📁 specs/
+📁 src/
+📁 Storyboards/
+📄 TechnicalFeasibilityReport_V2.md
+📁 tests/
+📁 TestScenarios/
+📄 test_diagnosis.py
+📄 test_e2e_funnel.py
+📄 TrendGraph_Mockup_Spec_V1.md
+📄 trust_pain_gauge_final_review.md
+📄 trust_widget_wireframe_spec.md
+📄 UserFlowMap_V2.0_SafetyMargin.md
+📄 UserJourneyMap_BDS_v1.md
+📄 user_paywall_strategy_final_v1.md
+📄 Workshop_Agenda_v1.0_Draft.md
+📁 _agents/
+📁 _company/
+📁 _shared/

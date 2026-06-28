@@ -1,5 +1,5 @@
 # 📋 통합 스케줄
-_업데이트: 2026. 6. 29. 오전 2:02:10_
+_업데이트: 2026. 6. 29. 오전 4:16:27_
 
 ## 🤖 에이전트 최근 활동
 ### 📺 레오
@@ -11,21 +11,21 @@ _업데이트: 2026. 6. 29. 오전 2:02:10_
 - [2026-06-28] 확정된 디자인 시스템 사양과 위기 상태 색상 코드를 기반으로, 신뢰도/위기감 시각화를 활용한 인스타그램 릴스/피드 콘텐츠 컨셉 및 해시태그 전략을 개발하라. → 산출물 sessions/2026-06-28T15-27/instagram.md
 - [2026-06-28] Designer가 확정한 디자인 시스템 사양과 위기 상태 색상 코드를 활용하여, 신뢰도/위기감 시각화를 콘텐츠에 적용하는 인스타그램 릴스/피드 콘텐츠 컨셉 및 해시태그 전략을 개발하라. → 산출물 sessions/2026-06-28T16-27/instagram.md
 ### 🎨 Designer
-- [2026-06-28] Trust Widget 및 PainGauge의 최종 UI/UX 와이어프레임(V3.0)과 확정된 색상 코드를 기반으로 프론트엔드 컴포넌트의 시각적 구현 작업을 즉시 착수할 것. → 산출물 sessions/2026-06-28T14-57/designer.md
-- [2026-06-28] Trust Widget 및 PainGauge의 최종 UI/UX 와이어프레임(V3.0)과 확정된 색상 코드를 기반으로 실제 컴포넌트의 초기 CSS/레이아웃 프로토타입 개발을 즉시 시작하고, Developer가 구현할 API 구조를 참고하여 시각적 요구사항을 명확히 할 것. → 산출물 sessions/2026-06-28T15-12/designer.md
-- [2026-06-28] 코다리 에이전트가 구현할 API 구조와 시각적 요구사항(`prototype_spec.md`)을 최종 검토하고, 콘텐츠 제작에 필요한 모든 디자인 자산을 확정하도록 지시하라. → 산출물 sessions/2026-06-28T15-42/designer.md
+- [2026-06-28] Trust Widget 및 PainGauge에 대한 최종 UI/UX 가이드라인(V3.0)이 코다리에게 전달될 API 스키마와 완벽하게 일치하는지 검토하고, 모든 시각적 요소의 일관성을 최종적으로 확정하라. → 산출물 sessions/2026-06-28T17-27/designer.md
+- [2026-06-28] 확정된 디자인 시스템 사양(`BDS_Component_System_Spec_v3.0`)을 기반으로 Trust Widget 및 PainGauge 컴포넌트의 프론트엔드 시각적 구현 작업을 시작하고, Developer가 구현할 API 구조를 참고하여 시각적 요구사항을 명확히 할 것. → 산출물 sessions/2026-06-28T17-42/designer.md
+- [2026-06-28] Trust Widget 및 PainGauge의 최종 UI/UX 가이드라인(V3.0)을 기반으로, 개발자가 즉시 코드를 작성할 수 있도록 프론트엔드 컴포넌트 구현을 위한 구체적인 시각적 요구사항과 API 연동 가이드를 확정하여 전달하라. → 산출물 sessions/2026-06-28T17-57/designer.md
 ### 💻 코다리
-- [2026-06-28] Trust Widget 및 PainGauge의 API 엔드포인트 구현과 상태 전이 로직(trust, warning, critical) 개발을 즉시 착수하고, Designer가 제공한 V3.0 디자인 시스템 사양에 맞춰 백엔드 상태 매핑 로직을 완성할 것. → 산출물 sessions/2026-06-28T14-57/developer.md
-- [2026-06-28] Trust Widget 및 PainGauge의 API 엔드포인트에 상태 전이 로직(`trust`, `warning`, `critical`)를 반영하여 백엔드 구현을 착수하고, Designer가 준비한 시각적 사양과 연동할 수 있도록 초기 데이터 매핑 로직을 작성하라. → 산출물 sessions/2026-06-28T15-12/developer.md
-- [2026-06-28] Writer가 제안한 상태 전이 로직(trust/warning/critical)과 실제 백엔드 API 구현 간의 매핑 로직을 최종 점검하여 시스템 안정성을 확보하도록 지시하라. → 산출물 sessions/2026-06-28T15-42/developer.md
+- [2026-06-28] Designer가 정의한 디자인 시스템 사양과 Trust Widget/PainGauge의 상태 전이 로직(`trust`, `warning`, `critical`) 간의 매핑을 최종 검증하고, 백엔드 구현에 필요한 모든 시각적 요구사항(CSS/레이아웃)을 확정하라. → 산출물 sessions/2026-06-28T17-27/developer.md
+- [2026-06-28] Trust Widget 및 PainGauge의 상태 전이 로직(`trust`, `warning`, `critical`)에 맞춰 백엔드 API 구현을 즉시 착수하고, Designer가 정의한 시각적 요구사항(CSS/레이아웃)을 반영할 수 있도록 초기 데이터 매핑 로직을 작성하라. → 산출물 sessions/2026-06-28T17-42/developer.md
+- [2026-06-28] Designer가 정의한 디자인 시스템 사양(`BDS_Component_System_Spec_v3.0`) 및 Trust Widget/PainGauge의 시각적 요구사항을 기반으로, 백엔드 API 상태 전이 로직과 완벽하게 일치하는 프론트엔드 컴포넌트 구현을 즉시 시작하라. → 산출물 sessions/2026-06-28T17-57/developer.md
 ### 💼 현빈
 - [2026-06-28] 기술적 흐름 확정 및 디자인 요구사항이 MVP 기능 구현의 사업상 중요도와 개발 복잡성을 충족하는지 최종 검토하고, Phase 1 (Blueprint 확정) 목표 달성을 위한 핵심 KPI를 재확인하라. → 산출물 sessions/2026-06-28T12-12/business.md
 - [2026-06-28] 코다리 및 Designer의 작업에 기반하여, MVP 기능들의 기술적 난이도와 ROI 평가 결과를 최종적으로 검토하고, 플랫폼의 핵심 목표(신뢰도 가시화) 달성에 가장 기여하는 기능의 우선순위를 확정하라. → 산출물 sessions/2026-06-28T12-27/business.md
 - [2026-06-28] 개발팀의 초기 실행 계획과 디자인의 기술적 제약을 바탕으로, Trust Widget/PainGauge 기능 구현에 대한 MVP 기능의 최종 우선순위를 검토하고 승인할 것. → 산출물 sessions/2026-06-28T12-57/business.md
 ### 📱 영숙
-- [2026-06-28] 💼 현빈, 💻 코다리, 그리고 이전 논의된 모든 산출물(MVP 우선순위, 기술 리스크 분석, 의존성 보고서)을 통합하여 최종 MVP 실행 로드맵 및 다음 단계 작업 분배 계획을 수립하고 보고하라. → 산출물 sessions/2026-06-28T11-27/secretary.md
 - [2026-06-28] 위 세 에이전트의 검토 결과를 취합하여, 다음 단계인 '클릭 가능한 와이어프레임 테스트 스크립트' 완성을 위한 통합 마일스톤과 작업 분배 계획을 수립하고 보고하라. → 산출물 sessions/2026-06-28T11-42/secretary.md
 - [2026-06-28] 회사 목표, 각 에이전트의 개인 목표(_agents/{id}/goal.md), 최근 의사결정 및 메모리를 검토하여 현재 가장 가치 있는 단일 작업 1개를 결정하고, 이를 실행하기 위한 최적의 에이전트 1~2명을 지정하여 실행 계획을 수립하라. → 산출물 sessions/2026-06-28T16-57/secretary.md
+- [2026-06-28] Designer와 Developer로부터 User Journey Map 초안 및 최소 API 로직 가이드라인을 수령하는 즉시, 이를 취합하여 최종 '베타 테스트 계획서'를 작성할 준비를 하라. → 산출물 sessions/2026-06-28T17-12/secretary.md
 ### ✍️ Writer
 - [2026-06-28] Researcher가 제공한 스토리보드/후크 아이디어를 바탕으로, 소상공인의 Pain Point를 명확히 강조하는 숏폼 영상 스크립트와 인스타그램 게시물 카피라이팅 초안을 작성하라. → 산출물 sessions/2026-06-28T09-12/writer.md
 - [2026-06-28] Designer가 확정한 Red/Yellow/Green 색상 가이드라인과 Trust Widget의 핵심 메시지를 극대화할 수 있는 최종 영상 스크립트 및 Instagram 캡션(후크 포함)을 제작하여, Designer의 시각 자료와 완벽하게 일치하도록 준비하라. → 산출물 sessions/2026-06-28T09-57/writer.md
