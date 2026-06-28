@@ -1,193 +1,6 @@
 {
   "tasks": [
     {
-      "id": "20260529054355-xev9",
-      "title": "**State Manager 로직**: 비동기 호출 간의 순서 보장을 위한 `Promise.all` 또는 `async-await` 패턴이 적용되었는지 확인.",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-29T05:43:55.368Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T05-40",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T05-40/_report.md\n- 영숙: 최종 생산 실행 미팅(5월 30일 오전 10시)의 논의 사항 목록을 바탕으로, 개발 우선순위와 기술적 병목 해소 방안에 대한 발표 자료 구조를 \n- 코다리: KPI Gauge 컴포넌트 로직 안정성 검증 결과 및 모션 스펙에 대한 최종 기술 검토를 준비하기 위해, Motion Blueprint 및 KP\n- Designer: 통합 자산 제작 백로그(V1.0) 중 P1 항목('KPI Gauge', 'Producer Story Form')에 대한 구체적인 구현 난이도와 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 최종 생산 실행 미팅(5월 30일 오전 10시)의 논의 사항 목록을 바탕으로, 개발 우선순위와 기술적 병목 해소 방안에 대한 발표 자료 구조를 최종 점검하고 필요한 자료를 정리하라.\n> 🔧 **도구 실행**: _(없음 — ",
-      "completedAt": "2026-05-29T05:45:36.826Z"
-    },
-    {
-      "id": "20260529054355-7f6d",
-      "title": "**Canvas 렌더링 최적화**: 리사이즈 시 Canvas 크기를 동적으로 변경하는 로직이 누락되지 않았는지 확인.",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-29T05:43:55.399Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T05-40",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T05-40/_report.md\n- 영숙: 최종 생산 실행 미팅(5월 30일 오전 10시)의 논의 사항 목록을 바탕으로, 개발 우선순위와 기술적 병목 해소 방안에 대한 발표 자료 구조를 \n- 코다리: KPI Gauge 컴포넌트 로직 안정성 검증 결과 및 모션 스펙에 대한 최종 기술 검토를 준비하기 위해, Motion Blueprint 및 KP\n- Designer: 통합 자산 제작 백로그(V1.0) 중 P1 항목('KPI Gauge', 'Producer Story Form')에 대한 구체적인 구현 난이도와 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 최종 생산 실행 미팅(5월 30일 오전 10시)의 논의 사항 목록을 바탕으로, 개발 우선순위와 기술적 병목 해소 방안에 대한 발표 자료 구조를 최종 점검하고 필요한 자료를 정리하라.\n> 🔧 **도구 실행**: _(없음 — ",
-      "completedAt": "2026-05-29T05:45:36.848Z"
-    },
-    {
-      "id": "20260529054355-ho3o",
-      "title": "**애니메이션 타이밍**: Easing 함수와 Duration 설정이 Motion Blueprint 스펙과 일치하는지 확인.",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-29T05:43:55.429Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T05-40",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T05-40/_report.md\n- 영숙: 최종 생산 실행 미팅(5월 30일 오전 10시)의 논의 사항 목록을 바탕으로, 개발 우선순위와 기술적 병목 해소 방안에 대한 발표 자료 구조를 \n- 코다리: KPI Gauge 컴포넌트 로직 안정성 검증 결과 및 모션 스펙에 대한 최종 기술 검토를 준비하기 위해, Motion Blueprint 및 KP\n- Designer: 통합 자산 제작 백로그(V1.0) 중 P1 항목('KPI Gauge', 'Producer Story Form')에 대한 구체적인 구현 난이도와 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 최종 생산 실행 미팅(5월 30일 오전 10시)의 논의 사항 목록을 바탕으로, 개발 우선순위와 기술적 병목 해소 방안에 대한 발표 자료 구조를 최종 점검하고 필요한 자료를 정리하라.\n> 🔧 **도구 실행**: _(없음 — ",
-      "completedAt": "2026-05-29T05:45:36.870Z"
-    },
-    {
-      "id": "20260529061404-tqy4",
-      "title": "프론트엔드 컴포넌트 구조 (`KPIGauge`, `MotionBlueprint`) 정의 완료",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-29T06:14:04.568Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T06-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T06-10/_report.md\n- Designer: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉\n- 코다리: Designer가 제시한 최종 디자인 스펙과 우선순위에 기반하여, KPI Gauge 및 Motion Blueprint 구현에 필요한 최소 요구사\n- 영숙: Designer와 Developer의 통합 결과물을 바탕으로 다음 주 월요일 최종 생산 실행 미팅 일정을 확정하고, 논의할 핵심 기술적 병목 사\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉시 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵",
-      "completedAt": "2026-05-29T06:16:01.660Z"
-    },
-    {
-      "id": "20260529061404-5t3d",
-      "title": "상태 관리 로직 (`useReducer`/`Zustand`) 구현 및 테스트 통과",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-29T06:14:04.589Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T06-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T06-10/_report.md\n- Designer: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉\n- 코다리: Designer가 제시한 최종 디자인 스펙과 우선순위에 기반하여, KPI Gauge 및 Motion Blueprint 구현에 필요한 최소 요구사\n- 영숙: Designer와 Developer의 통합 결과물을 바탕으로 다음 주 월요일 최종 생산 실행 미팅 일정을 확정하고, 논의할 핵심 기술적 병목 사\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉시 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵",
-      "completedAt": "2026-05-29T06:16:01.678Z"
-    },
-    {
-      "id": "20260529061404-succ",
-      "title": "백엔드 API 응답 형식 (`kpi_gauge`, `motion_blueprint`) 검증 및 호환성 테스트",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-29T06:14:04.603Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T06-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T06-10/_report.md\n- Designer: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉\n- 코다리: Designer가 제시한 최종 디자인 스펙과 우선순위에 기반하여, KPI Gauge 및 Motion Blueprint 구현에 필요한 최소 요구사\n- 영숙: Designer와 Developer의 통합 결과물을 바탕으로 다음 주 월요일 최종 생산 실행 미팅 일정을 확정하고, 논의할 핵심 기술적 병목 사\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉시 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵",
-      "completedAt": "2026-05-29T06:16:01.694Z"
-    },
-    {
-      "id": "20260529061404-xscl",
-      "title": "UI/UX 가이드라인 (Tailwind CSS + Shadcn/UI) 준수 여부 확인",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-29T06:14:04.616Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T06-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T06-10/_report.md\n- Designer: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉\n- 코다리: Designer가 제시한 최종 디자인 스펙과 우선순위에 기반하여, KPI Gauge 및 Motion Blueprint 구현에 필요한 최소 요구사\n- 영숙: Designer와 Developer의 통합 결과물을 바탕으로 다음 주 월요일 최종 생산 실행 미팅 일정을 확정하고, 논의할 핵심 기술적 병목 사\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉시 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵",
-      "completedAt": "2026-05-29T06:16:01.708Z"
-    },
-    {
-      "id": "20260529061404-wepz",
-      "title": "로딩, 에러 처리 전략 (`Spinner`, `ErrorBoundary`) 구현 완료",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-29T06:14:04.629Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T06-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T06-10/_report.md\n- Designer: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉\n- 코다리: Designer가 제시한 최종 디자인 스펙과 우선순위에 기반하여, KPI Gauge 및 Motion Blueprint 구현에 필요한 최소 요구사\n- 영숙: Designer와 Developer의 통합 결과물을 바탕으로 다음 주 월요일 최종 생산 실행 미팅 일정을 확정하고, 논의할 핵심 기술적 병목 사\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 코다리의 기술 병목 분석 결과와 자산 백로그를 통합하여, 모든 채널 콘텐츠에 적용될 '최종 컴포넌트 디자인 명세서'와 개발 우선순위 로드맵을 즉시 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵",
-      "completedAt": "2026-05-29T06:16:01.723Z"
-    },
-    {
-      "id": "20260529071234-vgq5",
-      "title": "MRD-01 실시간 동기화 로직 구현",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-29T07:12:34.569Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T07-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T07-10/_report.md\n- 현빈: MRD-01(실시간 동기화)과 MRD-02(데이터 무결성 체크)를 반영하여, 개발 우선순위를 최종 확정하고 MVP 범위 축소에 따른 비즈니스 위\n- 코다리: business 에이전트가 제시한 최종 개발 우선순위와 MRD를 기반으로, Event Sourcing 아키텍처의 구체적인 기술 구현 방안 및 초\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MRD-01(실시간 동기화)과 MRD-02(데이터 무결성 체크)를 반영하여, 개발 우선순위를 최종 확정하고 MVP 범위 축소에 따른 비즈니스 위험도 분석을 통합한 실행 계획 및 리스크 관리 로드맵을 작성하라.\n> 🔧",
-      "completedAt": "2026-05-29T07:15:07.220Z"
-    },
-    {
-      "id": "20260529071234-h5mm",
-      "title": "MRD-02 데이터 무결성 체크 로직 구현",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-29T07:12:34.587Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T07-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T07-10/_report.md\n- 현빈: MRD-01(실시간 동기화)과 MRD-02(데이터 무결성 체크)를 반영하여, 개발 우선순위를 최종 확정하고 MVP 범위 축소에 따른 비즈니스 위\n- 코다리: business 에이전트가 제시한 최종 개발 우선순위와 MRD를 기반으로, Event Sourcing 아키텍처의 구체적인 기술 구현 방안 및 초\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MRD-01(실시간 동기화)과 MRD-02(데이터 무결성 체크)를 반영하여, 개발 우선순위를 최종 확정하고 MVP 범위 축소에 따른 비즈니스 위험도 분석을 통합한 실행 계획 및 리스크 관리 로드맵을 작성하라.\n> 🔧",
-      "completedAt": "2026-05-29T07:15:07.254Z"
-    },
-    {
-      "id": "20260529071234-dt8t",
-      "title": "Event Sourcing 기반 아키텍처 적용",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-29T07:12:34.602Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T07-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T07-10/_report.md\n- 현빈: MRD-01(실시간 동기화)과 MRD-02(데이터 무결성 체크)를 반영하여, 개발 우선순위를 최종 확정하고 MVP 범위 축소에 따른 비즈니스 위\n- 코다리: business 에이전트가 제시한 최종 개발 우선순위와 MRD를 기반으로, Event Sourcing 아키텍처의 구체적인 기술 구현 방안 및 초\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MRD-01(실시간 동기화)과 MRD-02(데이터 무결성 체크)를 반영하여, 개발 우선순위를 최종 확정하고 MVP 범위 축소에 따른 비즈니스 위험도 분석을 통합한 실행 계획 및 리스크 관리 로드맵을 작성하라.\n> 🔧",
-      "completedAt": "2026-05-29T07:15:07.269Z"
-    },
-    {
       "id": "20260529084536-g06m",
       "title": "**A/B 테스트 변수 명확화:** 현빈 에이전트가 제시한 수익 모델(예: 멤버십 옵션, 추가 서비스)이 P0 기능에서 시각적으로 구별 가능한가?",
       "description": "자동 등록 (영숙 산출물에서 추출)",
@@ -6283,6 +6096,91 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-28T04-57/_report.md\n- Designer: 확정된 디자인 시스템 사양(Deep Blue/Growth Green/Red 색상 코드 및 레이아웃 구조)과 API 스키마 요구사항을 기반으로 T\n- 코다리: Designer가 제시한 UI 목업 스타일과 API 스키마 정의를 바탕으로 React 컴포넌트(`TrustWidget`, `PainGauge`)\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 확정된 디자인 시스템 사양(Deep Blue/Growth Green/Red 색상 코드 및 레이아웃 구조)과 API 스키마 요구사항을 기반으로 Trust Widget 및 PainGauge의 Figma 목업(Mockup) 구현에 필요한",
       "completedAt": "2026-06-28T05:06:49.450Z"
+    },
+    {
+      "id": "20260628083411-91wy",
+      "title": "파일 탐색 실패 원인 해결 (권장: `list_files` 재실행 또는 경로 권한 확인).",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-28T08:34:11.464Z",
+      "status": "done",
+      "sessionDir": "2026-06-28T08-27",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-28T08-27/_report.md\n- 코다리: Designer가 확정한 Trust Widget 및 PainGauge 디자인 시스템 사양(V3.0)과 API 스키마를 기반으로, 파일 탐색 실패\n- Designer: Trust Widget 및 PainGauge의 최종 디자인 시스템 사양(V3.0)을 기반으로, 개발팀이 구현할 수 있는 명확한 API 스키마와 \n- 현빈: 개발 병목 해소에 따른 다음 MVP 기능 우선순위를 재조정하고, Pilot 그룹 모집 전략과 연계하여 개발 로드맵의 실행 가능성을 검토하여 보고\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 확정한 Trust Widget 및 PainGauge 디자인 시스템 사양(V3.0)과 API 스키마를 기반으로, 파일 탐색 실패 문제를 해결하고 React 컴포넌트의 동적 상태 변화 로직(Green/Yellow/Red)에 대한",
+      "completedAt": "2026-06-28T08:34:42.476Z"
+    },
+    {
+      "id": "20260628083411-kh0n",
+      "title": "컴포넌트 색상 코드 (`#28a745`, `#ffc107`, `#dc3545`) 검증 및 Figma 목업 연동.",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-28T08:34:11.551Z",
+      "status": "done",
+      "sessionDir": "2026-06-28T08-27",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-28T08-27/_report.md\n- 코다리: Designer가 확정한 Trust Widget 및 PainGauge 디자인 시스템 사양(V3.0)과 API 스키마를 기반으로, 파일 탐색 실패\n- Designer: Trust Widget 및 PainGauge의 최종 디자인 시스템 사양(V3.0)을 기반으로, 개발팀이 구현할 수 있는 명확한 API 스키마와 \n- 현빈: 개발 병목 해소에 따른 다음 MVP 기능 우선순위를 재조정하고, Pilot 그룹 모집 전략과 연계하여 개발 로드맵의 실행 가능성을 검토하여 보고\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 확정한 Trust Widget 및 PainGauge 디자인 시스템 사양(V3.0)과 API 스키마를 기반으로, 파일 탐색 실패 문제를 해결하고 React 컴포넌트의 동적 상태 변화 로직(Green/Yellow/Red)에 대한",
+      "completedAt": "2026-06-28T08:34:42.563Z"
+    },
+    {
+      "id": "20260628083411-mxms",
+      "title": "MVP 핵심 기능 리스트 정의: Trust Widget/PainGauge, Mock API 연동 우선순위 설정.",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-28T08:34:11.604Z",
+      "status": "done",
+      "sessionDir": "2026-06-28T08-27",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-28T08-27/_report.md\n- 코다리: Designer가 확정한 Trust Widget 및 PainGauge 디자인 시스템 사양(V3.0)과 API 스키마를 기반으로, 파일 탐색 실패\n- Designer: Trust Widget 및 PainGauge의 최종 디자인 시스템 사양(V3.0)을 기반으로, 개발팀이 구현할 수 있는 명확한 API 스키마와 \n- 현빈: 개발 병목 해소에 따른 다음 MVP 기능 우선순위를 재조정하고, Pilot 그룹 모집 전략과 연계하여 개발 로드맵의 실행 가능성을 검토하여 보고\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 확정한 Trust Widget 및 PainGauge 디자인 시스템 사양(V3.0)과 API 스키마를 기반으로, 파일 탐색 실패 문제를 해결하고 React 컴포넌트의 동적 상태 변화 로직(Green/Yellow/Red)에 대한",
+      "completedAt": "2026-06-28T08:34:42.645Z"
+    },
+    {
+      "id": "20260628083411-47im",
+      "title": "개발 로드맵 실행 가능성 검토 (Pilot 프로그램 테스트 계획, 데이터 수집 프로세스 설계).</code></pre>",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-28T08:34:11.653Z",
+      "status": "done",
+      "sessionDir": "2026-06-28T08-27",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-28T08-27/_report.md\n- 코다리: Designer가 확정한 Trust Widget 및 PainGauge 디자인 시스템 사양(V3.0)과 API 스키마를 기반으로, 파일 탐색 실패\n- Designer: Trust Widget 및 PainGauge의 최종 디자인 시스템 사양(V3.0)을 기반으로, 개발팀이 구현할 수 있는 명확한 API 스키마와 \n- 현빈: 개발 병목 해소에 따른 다음 MVP 기능 우선순위를 재조정하고, Pilot 그룹 모집 전략과 연계하여 개발 로드맵의 실행 가능성을 검토하여 보고\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 확정한 Trust Widget 및 PainGauge 디자인 시스템 사양(V3.0)과 API 스키마를 기반으로, 파일 탐색 실패 문제를 해결하고 React 컴포넌트의 동적 상태 변화 로직(Green/Yellow/Red)에 대한",
+      "completedAt": "2026-06-28T08:34:42.729Z"
+    },
+    {
+      "id": "20260628083411-qkyc",
+      "title": "가격 전략 (Option B) 기반 사용자 여정 정의 및 MVP 기능 우선순위 재조정.",
+      "description": "자동 등록 (현빈 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "business"
+      ],
+      "createdAt": "2026-06-28T08:34:11.712Z",
+      "status": "done",
+      "sessionDir": "2026-06-28T08-27",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-28T08-27/_report.md\n- 코다리: Designer가 확정한 Trust Widget 및 PainGauge 디자인 시스템 사양(V3.0)과 API 스키마를 기반으로, 파일 탐색 실패\n- Designer: Trust Widget 및 PainGauge의 최종 디자인 시스템 사양(V3.0)을 기반으로, 개발팀이 구현할 수 있는 명확한 API 스키마와 \n- 현빈: 개발 병목 해소에 따른 다음 MVP 기능 우선순위를 재조정하고, Pilot 그룹 모집 전략과 연계하여 개발 로드맵의 실행 가능성을 검토하여 보고\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 확정한 Trust Widget 및 PainGauge 디자인 시스템 사양(V3.0)과 API 스키마를 기반으로, 파일 탐색 실패 문제를 해결하고 React 컴포넌트의 동적 상태 변화 로직(Green/Yellow/Red)에 대한",
+      "completedAt": "2026-06-28T08:34:42.811Z"
     }
   ]
 }
