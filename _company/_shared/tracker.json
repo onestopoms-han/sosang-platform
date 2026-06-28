@@ -1,261 +1,6 @@
 {
   "tasks": [
     {
-      "id": "20260529191159-j2qw",
-      "title": "`data_collection_plan.md` 작성: 지역 생산자 정보 수집 방법, 품질 기준 정의.",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-29T19:11:59.699Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T19-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T19-10/_report.md\n- 현빈: 현빈의 역할에 따라, 분석된 3가지 민간 사업 모델 중 우선순위에 따라 가장 높은 잠재력을 가진 모델을 선정하고, 해당 모델에 대한 MVP 로드\n\nCEO 종합 요점: 💼 현빈: 송이버섯 유통 플랫폼 기반의 '투명 공급망 MVP' 모델을 선정하여 구체적인 로드맵과 초기 KPI를 기획합니다. 코다리와 Designer에게 분배할 작업을 명시합니다.\n\n---\n\n## 📊 MVP 로드맵 및 초기 핵심 성과 지표 (KPI) 기획서\n\n### 1️⃣ MVP 로드맵: 투명 공급망 기반 송이버섯 유통 플랫폼\n\n**목표**: 지역 생산자",
-      "completedAt": "2026-05-29T19:11:59.809Z"
-    },
-    {
-      "id": "20260529191159-rtsh",
-      "title": "`api_integration_mockup.json` 생성: PayPal 결제 시스템 연동 시뮬레이션 코드 및 API 명세서.",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-29T19:11:59.727Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T19-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T19-10/_report.md\n- 현빈: 현빈의 역할에 따라, 분석된 3가지 민간 사업 모델 중 우선순위에 따라 가장 높은 잠재력을 가진 모델을 선정하고, 해당 모델에 대한 MVP 로드\n\nCEO 종합 요점: 💼 현빈: 송이버섯 유통 플랫폼 기반의 '투명 공급망 MVP' 모델을 선정하여 구체적인 로드맵과 초기 KPI를 기획합니다. 코다리와 Designer에게 분배할 작업을 명시합니다.\n\n---\n\n## 📊 MVP 로드맵 및 초기 핵심 성과 지표 (KPI) 기획서\n\n### 1️⃣ MVP 로드맵: 투명 공급망 기반 송이버섯 유통 플랫폼\n\n**목표**: 지역 생산자",
-      "completedAt": "2026-05-29T19:11:59.824Z"
-    },
-    {
-      "id": "20260529191159-g94i",
-      "title": "MVP 테스트를 위한 데이터 무결성 보장 로직 구현 (예외 처리 가이드라인 준수).",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-29T19:11:59.754Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T19-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T19-10/_report.md\n- 현빈: 현빈의 역할에 따라, 분석된 3가지 민간 사업 모델 중 우선순위에 따라 가장 높은 잠재력을 가진 모델을 선정하고, 해당 모델에 대한 MVP 로드\n\nCEO 종합 요점: 💼 현빈: 송이버섯 유통 플랫폼 기반의 '투명 공급망 MVP' 모델을 선정하여 구체적인 로드맵과 초기 KPI를 기획합니다. 코다리와 Designer에게 분배할 작업을 명시합니다.\n\n---\n\n## 📊 MVP 로드맵 및 초기 핵심 성과 지표 (KPI) 기획서\n\n### 1️⃣ MVP 로드맵: 투명 공급망 기반 송이버섯 유통 플랫폼\n\n**목표**: 지역 생산자",
-      "completedAt": "2026-05-29T19:11:59.839Z"
-    },
-    {
-      "id": "20260529191159-pvjz",
-      "title": "플랫폼 UI/UX 가이드라인 작성: 생산자 정보, 품질 기준 등을 시각화하는 디자인 시스템 구축.",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-29T19:11:59.767Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T19-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T19-10/_report.md\n- 현빈: 현빈의 역할에 따라, 분석된 3가지 민간 사업 모델 중 우선순위에 따라 가장 높은 잠재력을 가진 모델을 선정하고, 해당 모델에 대한 MVP 로드\n\nCEO 종합 요점: 💼 현빈: 송이버섯 유통 플랫폼 기반의 '투명 공급망 MVP' 모델을 선정하여 구체적인 로드맵과 초기 KPI를 기획합니다. 코다리와 Designer에게 분배할 작업을 명시합니다.\n\n---\n\n## 📊 MVP 로드맵 및 초기 핵심 성과 지표 (KPI) 기획서\n\n### 1️⃣ MVP 로드맵: 투명 공급망 기반 송이버섯 유통 플랫폼\n\n**목표**: 지역 생산자",
-      "completedAt": "2026-05-29T19:11:59.859Z"
-    },
-    {
-      "id": "20260529191159-g4zt",
-      "title": "랜딩 페이지 및 앱 인터페이스 프로토타입 제작 (Figma 등 활용).",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-29T19:11:59.785Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T19-10",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T19-10/_report.md\n- 현빈: 현빈의 역할에 따라, 분석된 3가지 민간 사업 모델 중 우선순위에 따라 가장 높은 잠재력을 가진 모델을 선정하고, 해당 모델에 대한 MVP 로드\n\nCEO 종합 요점: 💼 현빈: 송이버섯 유통 플랫폼 기반의 '투명 공급망 MVP' 모델을 선정하여 구체적인 로드맵과 초기 KPI를 기획합니다. 코다리와 Designer에게 분배할 작업을 명시합니다.\n\n---\n\n## 📊 MVP 로드맵 및 초기 핵심 성과 지표 (KPI) 기획서\n\n### 1️⃣ MVP 로드맵: 투명 공급망 기반 송이버섯 유통 플랫폼\n\n**목표**: 지역 생산자",
-      "completedAt": "2026-05-29T19:11:59.876Z"
-    },
-    {
-      "id": "20260529192730-e9kk",
-      "title": "**코다리:** API 연동 시뮬레이션 및 DB 스키마 설계 완료",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-29T19:27:30.195Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T19-25",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T19-25/_report.md\n- 현빈: MVP 로드맵(개발/수익화)과 초기 KPI 목표치를 최종 검토하고, 코다리와 Designer에게 분배할 상세 작업 목록 및 우선순위를 확정하여 \n- 코다리: Business가 확정한 MVP 로드맵을 기반으로, 데이터 무결성 보장 로직(`data_collection_plan.md`)과 API 시뮬레이션\n- Designer: MVP 로드맵 및 KPI 목표치를 바탕으로, 플랫폼의 핵심 흐름(Pain $\rightarrow$ Solution)에 부합하는 UI/UX 가이드라\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 로드맵(개발/수익화)과 초기 KPI 목표치를 최종 검토하고, 코다리와 Designer에게 분배할 상세 작업 목록 및 우선순위를 확정하여 전달하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> ",
-      "completedAt": "2026-05-29T19:29:28.083Z"
-    },
-    {
-      "id": "20260529192730-3qbc",
-      "title": "**Designer:** 초기 UI/UX 와 색상, 타이포그래피 가이드라인 확정",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-29T19:27:30.213Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T19-25",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T19-25/_report.md\n- 현빈: MVP 로드맵(개발/수익화)과 초기 KPI 목표치를 최종 검토하고, 코다리와 Designer에게 분배할 상세 작업 목록 및 우선순위를 확정하여 \n- 코다리: Business가 확정한 MVP 로드맵을 기반으로, 데이터 무결성 보장 로직(`data_collection_plan.md`)과 API 시뮬레이션\n- Designer: MVP 로드맵 및 KPI 목표치를 바탕으로, 플랫폼의 핵심 흐름(Pain $\rightarrow$ Solution)에 부합하는 UI/UX 가이드라\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 로드맵(개발/수익화)과 초기 KPI 목표치를 최종 검토하고, 코다리와 Designer에게 분배할 상세 작업 목록 및 우선순위를 확정하여 전달하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> ",
-      "completedAt": "2026-05-29T19:29:28.109Z"
-    },
-    {
-      "id": "20260529192730-s88n",
-      "title": "**현빈:** 수익화 모델 A/B 테스트 기획 (가격 책정 전략)",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-29T19:27:30.225Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T19-25",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T19-25/_report.md\n- 현빈: MVP 로드맵(개발/수익화)과 초기 KPI 목표치를 최종 검토하고, 코다리와 Designer에게 분배할 상세 작업 목록 및 우선순위를 확정하여 \n- 코다리: Business가 확정한 MVP 로드맵을 기반으로, 데이터 무결성 보장 로직(`data_collection_plan.md`)과 API 시뮬레이션\n- Designer: MVP 로드맵 및 KPI 목표치를 바탕으로, 플랫폼의 핵심 흐름(Pain $\rightarrow$ Solution)에 부합하는 UI/UX 가이드라\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 로드맵(개발/수익화)과 초기 KPI 목표치를 최종 검토하고, 코다리와 Designer에게 분배할 상세 작업 목록 및 우선순위를 확정하여 전달하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> ",
-      "completedAt": "2026-05-29T19:29:28.126Z"
-    },
-    {
-      "id": "20260529192730-vzr2",
-      "title": "**코다리:** 핵심 기능 개발 (웹/모바일 앱)",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-29T19:27:30.240Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T19-25",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T19-25/_report.md\n- 현빈: MVP 로드맵(개발/수익화)과 초기 KPI 목표치를 최종 검토하고, 코다리와 Designer에게 분배할 상세 작업 목록 및 우선순위를 확정하여 \n- 코다리: Business가 확정한 MVP 로드맵을 기반으로, 데이터 무결성 보장 로직(`data_collection_plan.md`)과 API 시뮬레이션\n- Designer: MVP 로드맵 및 KPI 목표치를 바탕으로, 플랫폼의 핵심 흐름(Pain $\rightarrow$ Solution)에 부합하는 UI/UX 가이드라\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 로드맵(개발/수익화)과 초기 KPI 목표치를 최종 검토하고, 코다리와 Designer에게 분배할 상세 작업 목록 및 우선순위를 확정하여 전달하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> ",
-      "completedAt": "2026-05-29T19:29:28.140Z"
-    },
-    {
-      "id": "20260529192730-jrxg",
-      "title": "**Designer:** 실제 프론트엔드 구현 (React/Vue 기반 컴포넌트)",
-      "description": "자동 등록 (현빈 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "business"
-      ],
-      "createdAt": "2026-05-29T19:27:30.254Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T19-25",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T19-25/_report.md\n- 현빈: MVP 로드맵(개발/수익화)과 초기 KPI 목표치를 최종 검토하고, 코다리와 Designer에게 분배할 상세 작업 목록 및 우선순위를 확정하여 \n- 코다리: Business가 확정한 MVP 로드맵을 기반으로, 데이터 무결성 보장 로직(`data_collection_plan.md`)과 API 시뮬레이션\n- Designer: MVP 로드맵 및 KPI 목표치를 바탕으로, 플랫폼의 핵심 흐름(Pain $\rightarrow$ Solution)에 부합하는 UI/UX 가이드라\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: MVP 로드맵(개발/수익화)과 초기 KPI 목표치를 최종 검토하고, 코다리와 Designer에게 분배할 상세 작업 목록 및 우선순위를 확정하여 전달하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> ",
-      "completedAt": "2026-05-29T19:29:28.156Z"
-    },
-    {
-      "id": "20260529194900-zja1",
-      "title": "`/diagnosis/test` 엔드포인트 정상 동작 확인",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-29T19:49:00.079Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T19-40",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T19-40/_report.md\n- 코다리: 데이터 무결성 보장 로직을 우선 적용하여 MVP 핵심 기능 개발에 즉시 착수하고, API 연동 시뮬레이션 상세 명세서를 기반으로 구현을 시작하라\n- 현빈: 코다리의 개발 진행 상황과 KPI 목표치(AOV, CTR 등)를 상기시키며, 데이터 무결성을 확보하는 개발 로직이 수익화 목표에 어떻게 기여하는\n- 영숙: 개발 및 비즈니스 목표 달성을 위한 다음 주 핵심 마일스톤(주간 계획)을 수립하고, 코다리와 현빈의 진행 상황에 맞춰 일정을 조정하여 실행 동력\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 데이터 무결성 보장 로직을 우선 적용하여 MVP 핵심 기능 개발에 즉시 착수하고, API 연동 시뮬레이션 상세 명세서를 기반으로 구현을 시작하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: 그럼 먼",
-      "completedAt": "2026-05-29T19:51:36.030Z"
-    },
-    {
-      "id": "20260529194900-yxhq",
-      "title": "`/purchase` 엔드포인트 결제 성공/실패 시나리오 테스트 완료",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-29T19:49:00.104Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T19-40",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T19-40/_report.md\n- 코다리: 데이터 무결성 보장 로직을 우선 적용하여 MVP 핵심 기능 개발에 즉시 착수하고, API 연동 시뮬레이션 상세 명세서를 기반으로 구현을 시작하라\n- 현빈: 코다리의 개발 진행 상황과 KPI 목표치(AOV, CTR 등)를 상기시키며, 데이터 무결성을 확보하는 개발 로직이 수익화 목표에 어떻게 기여하는\n- 영숙: 개발 및 비즈니스 목표 달성을 위한 다음 주 핵심 마일스톤(주간 계획)을 수립하고, 코다리와 현빈의 진행 상황에 맞춰 일정을 조정하여 실행 동력\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 데이터 무결성 보장 로직을 우선 적용하여 MVP 핵심 기능 개발에 즉시 착수하고, API 연동 시뮬레이션 상세 명세서를 기반으로 구현을 시작하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: 그럼 먼",
-      "completedAt": "2026-05-29T19:51:36.056Z"
-    },
-    {
-      "id": "20260529194900-c3l2",
-      "title": "API 응답 스키마 (`StoryFlowSchema`) 와 프론트엔드 컴포넌트 데이터 구조 일치성 검증",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-29T19:49:00.121Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T19-40",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T19-40/_report.md\n- 코다리: 데이터 무결성 보장 로직을 우선 적용하여 MVP 핵심 기능 개발에 즉시 착수하고, API 연동 시뮬레이션 상세 명세서를 기반으로 구현을 시작하라\n- 현빈: 코다리의 개발 진행 상황과 KPI 목표치(AOV, CTR 등)를 상기시키며, 데이터 무결성을 확보하는 개발 로직이 수익화 목표에 어떻게 기여하는\n- 영숙: 개발 및 비즈니스 목표 달성을 위한 다음 주 핵심 마일스톤(주간 계획)을 수립하고, 코다리와 현빈의 진행 상황에 맞춰 일정을 조정하여 실행 동력\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 데이터 무결성 보장 로직을 우선 적용하여 MVP 핵심 기능 개발에 즉시 착수하고, API 연동 시뮬레이션 상세 명세서를 기반으로 구현을 시작하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: 그럼 먼",
-      "completedAt": "2026-05-29T19:51:36.072Z"
-    },
-    {
-      "id": "20260529194900-n6o7",
-      "title": "`SolutionRecommendationCard` 렌더링 정상 확인",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-29T19:49:00.136Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T19-40",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T19-40/_report.md\n- 코다리: 데이터 무결성 보장 로직을 우선 적용하여 MVP 핵심 기능 개발에 즉시 착수하고, API 연동 시뮬레이션 상세 명세서를 기반으로 구현을 시작하라\n- 현빈: 코다리의 개발 진행 상황과 KPI 목표치(AOV, CTR 등)를 상기시키며, 데이터 무결성을 확보하는 개발 로직이 수익화 목표에 어떻게 기여하는\n- 영숙: 개발 및 비즈니스 목표 달성을 위한 다음 주 핵심 마일스톤(주간 계획)을 수립하고, 코다리와 현빈의 진행 상황에 맞춰 일정을 조정하여 실행 동력\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 데이터 무결성 보장 로직을 우선 적용하여 MVP 핵심 기능 개발에 즉시 착수하고, API 연동 시뮬레이션 상세 명세서를 기반으로 구현을 시작하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: 그럼 먼",
-      "completedAt": "2026-05-29T19:51:36.090Z"
-    },
-    {
-      "id": "20260529194900-61di",
-      "title": "결제 실패 시 에러 메시지 표시 및 재시도 로직 동작 확인",
-      "description": "자동 등록 (코다리 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "developer"
-      ],
-      "createdAt": "2026-05-29T19:49:00.151Z",
-      "status": "done",
-      "sessionDir": "2026-05-29T19-40",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-05-29T19-40/_report.md\n- 코다리: 데이터 무결성 보장 로직을 우선 적용하여 MVP 핵심 기능 개발에 즉시 착수하고, API 연동 시뮬레이션 상세 명세서를 기반으로 구현을 시작하라\n- 현빈: 코다리의 개발 진행 상황과 KPI 목표치(AOV, CTR 등)를 상기시키며, 데이터 무결성을 확보하는 개발 로직이 수익화 목표에 어떻게 기여하는\n- 영숙: 개발 및 비즈니스 목표 달성을 위한 다음 주 핵심 마일스톤(주간 계획)을 수립하고, 코다리와 현빈의 진행 상황에 맞춰 일정을 조정하여 실행 동력\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 데이터 무결성 보장 로직을 우선 적용하여 MVP 핵심 기능 개발에 즉시 착수하고, API 연동 시뮬레이션 상세 명세서를 기반으로 구현을 시작하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 💡 **핵심 산출**: 그럼 먼",
-      "completedAt": "2026-05-29T19:51:36.107Z"
-    },
-    {
       "id": "20260601174308-gtx5",
       "title": "전화번호",
       "description": "자동 등록 (Writer 산출물에서 추출)",
@@ -6317,6 +6062,57 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-28T17-12/_report.md\n- 영숙: Designer와 Developer로부터 User Journey Map 초안 및 최소 API 로직 가이드라인을 수령하는 즉시, 이를 취합하여 최\n\nCEO 종합 요점: 📱 영숙: 작업 시작합니다! 😊\n\n사장님, 지시해주신 대로 현재 가장 중요한 단일 액션 아이템을 확정했습니다. 저희는 지금 '핵심 기능 개발 완료' 단계에서 '사용자 검증' 단계로 전환해야 합니다. 🚀\n\n따라서 목표는 **최종 베타 테스트 계획서 초안을 완성**하는 것입니다. 이 계획서는 단순히 일정을 짜는 것을 넘어, 플랫폼의 핵심 가치(신뢰도 시각",
       "completedAt": "2026-06-28T17:17:00.014Z"
+    },
+    {
+      "id": "20260628210617-s5jm",
+      "title": "백엔드 API 엔드포인트 `/api/v1/risk/status` 구현 완료 및 문서화.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-28T21:06:17.010Z",
+      "status": "done",
+      "sessionDir": "2026-06-28T20-57",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-28T20-57/_report.md\n- 코다리: Designer가 확정한 `BDS_Component_System_Spec_v3.0` 및 Trust Widget/PainGauge V3.0 가이드\n- Designer: 최종 확정된 디자인 시스템 사양(`BDS_Component_System_Spec_v3.0`)과 API 연동 명세(`Trust Widget/Pai\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 확정한 `BDS_Component_System_Spec_v3.0` 및 Trust Widget/PainGauge V3.0 가이드라인을 기반으로, 백엔드 상태 전이 로직과 API 매핑의 기술적 일관성을 재검증하고, 실제 프론트엔",
+      "completedAt": "2026-06-28T21:16:17.405Z"
+    },
+    {
+      "id": "20260628210617-tbl6",
+      "title": "프론트엔드 컴포넌트 `TrustWidget`, `PainGauge` 로직을 위 스펙에 따라 작성.",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-28T21:06:17.033Z",
+      "status": "done",
+      "sessionDir": "2026-06-28T20-57",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-28T20-57/_report.md\n- 코다리: Designer가 확정한 `BDS_Component_System_Spec_v3.0` 및 Trust Widget/PainGauge V3.0 가이드\n- Designer: 최종 확정된 디자인 시스템 사양(`BDS_Component_System_Spec_v3.0`)과 API 연동 명세(`Trust Widget/Pai\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 확정한 `BDS_Component_System_Spec_v3.0` 및 Trust Widget/PainGauge V3.0 가이드라인을 기반으로, 백엔드 상태 전이 로직과 API 매핑의 기술적 일관성을 재검증하고, 실제 프론트엔",
+      "completedAt": "2026-06-28T21:16:17.431Z"
+    },
+    {
+      "id": "20260628210617-hhzi",
+      "title": "상태 전이 로직의 경계 조건 (Edge Case) 을 위한 추가 테스트 케이스 작성 (예: 점수 70 과 69 의 차이).",
+      "description": "자동 등록 (코다리 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "developer"
+      ],
+      "createdAt": "2026-06-28T21:06:17.061Z",
+      "status": "done",
+      "sessionDir": "2026-06-28T20-57",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-28T20-57/_report.md\n- 코다리: Designer가 확정한 `BDS_Component_System_Spec_v3.0` 및 Trust Widget/PainGauge V3.0 가이드\n- Designer: 최종 확정된 디자인 시스템 사양(`BDS_Component_System_Spec_v3.0`)과 API 연동 명세(`Trust Widget/Pai\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Designer가 확정한 `BDS_Component_System_Spec_v3.0` 및 Trust Widget/PainGauge V3.0 가이드라인을 기반으로, 백엔드 상태 전이 로직과 API 매핑의 기술적 일관성을 재검증하고, 실제 프론트엔",
+      "completedAt": "2026-06-28T21:16:17.460Z"
     }
   ]
 }
