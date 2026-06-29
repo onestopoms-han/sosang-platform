@@ -22,9 +22,9 @@ BDS 소상공인 플랫폼은 기술적 안정성을 사용자에게 'Proof of T
 ## 🛠️ 주요 시스템 구성
 
 *   **디자인 시스템 및 UX/UI 가이드라인:** [DESIGN_SYSTEM_GUIDELINE_V1.0.md](file:///c:/Users/PJH/소상공인플렛폼/sessions/2026-06-02T15-10/DESIGN_SYSTEM_GUIDELINE_V1.0.md)
-*   **개발자 핸드오프 패키지:** [Developer_Handover_Package_v2.0.md](file:///c:/Users/PJH/소상공인플렛폼/sessions/Developer_Handover_Package_v2.0.md) 및 [dev_handoff/README.md](file:///c:/Users/PJH/소상공인플렛폼/dev_handoff/README.md)
-*   **QA 테스트 계획서:** [TestPlan_QA_v1.0.md](file:///c:/Users/PJH/소상공인플렛폼/TestPlan_QA_v1.0.md)
-*   **UAT 최종 승인 체크리스트:** [UAT_Final_SignOff_Checklist.md](file:///c:/Users/PJH/소상공인플렛폼/UAT_Final_SignOff_Checklist.md)
+*   **개발자 핸드오프 패키지:** [Developer_Handover_Package_v2.0.md](file:///c:/Users/PJH/소상공인플렛폼/sessions/Developer_Handover_Package_v2.0.md) 및 [handoff/dev/README.md](file:///c:/Users/PJH/소상공인플렛폼/handoff/dev/README.md)
+*   **QA 테스트 계획서:** [TestPlan_QA_v1.0.md](file:///c:/Users/PJH/소상공인플렛폼/qa/plans/TestPlan_QA_v1.0.md)
+*   **UAT 최종 승인 체크리스트:** [UAT_Final_SignOff_Checklist.md](file:///c:/Users/PJH/소상공인플렛폼/qa/checklist/UAT_Final_SignOff_Checklist.md)
 
 ---
 

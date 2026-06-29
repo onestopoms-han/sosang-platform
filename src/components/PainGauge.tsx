@@ -9,7 +9,7 @@ export const PainGauge: React.FC<PainGaugeProps> = ({ painLevel = 25 }) => {
   const getGaugeStyle = () => {
     if (painLevel < 40) return { backgroundColor: '#2ECC71', color: '#fff' }; // Low
     if (painLevel < 70) return { backgroundColor: '#F39C12', color: '#fff' }; // Medium
-    return { backgroundColor: '#E74C3C', color: '#fff'; animation: 'pulse 2s infinite' }; // High
+    return { backgroundColor: '#E74C3C', color: '#fff', animation: 'pulse 2s infinite' }; // High
   };
 
   const getLabel = () => {
