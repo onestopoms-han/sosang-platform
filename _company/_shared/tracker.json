@@ -6181,6 +6181,74 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-06-29T03-35/_report.md\n- 현빈: 소상공인 인공지능 네이티브시스템 베타 테스트를 위한 핵심 지표 설정, 참여자 모집 전략, 그리고 KPI를 정의하는 초기 로드맵 초안을 작성하라.\n- 레오: 베타 테스트의 핵심 가치(신뢰도, 성장)를 강조할 수 있는 숏폼 영상 스토리보드와 후크 아이디어를 기획하라. (Designer의 시각 자료를 참\n- Instagram: 베타 참여자 모집을 위한 인스타그램 콘텐츠 컨셉, 게시물 형식(릴스/피드), 최적의 해시태그 전략 초안을 작성하라.\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 소상공인 인공지능 네이티브시스템 베타 테스트를 위한 핵심 지표 설정, 참여자 모집 전략, 그리고 KPI를 정의하는 초기 로드맵 초안을 작성하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n> 📊 **",
       "completedAt": "2026-06-29T06:57:53.953Z"
+    },
+    {
+      "id": "20260630103739-0wei",
+      "title": "V3.0 색상 코드 (#E6F7FF, #FFEBEE, #3CB371 등) 정확히 적용",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-30T10:37:39.320Z",
+      "status": "done",
+      "sessionDir": "2026-06-30T10-07",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-30T10-07/_report.md\n- 코다리: Trust Widget/PainGauge의 백엔드 상태 전이 로직과 프론트엔드 타입 정의 간의 코드 일치성을 최종적으로 확보하고, Mock AP\n- Designer: Developer가 제공한 최종 코드 및 Mock 환경 데이터를 기반으로, Trust Widget/PainGauge 컴포넌트가 시각적 요구사항(\n- 레오: Designer가 확정한 시각적 가이드라인과 Developer의 구현 결과를 참고하여, Trust Widget/PainGauge의 신뢰도 및 위\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Trust Widget/PainGauge의 백엔드 상태 전이 로직과 프론트엔드 타입 정의 간의 코드 일치성을 최종적으로 확보하고, Mock API 서버 환경을 완성하여 실제 데이터 흐름 검증에 필요한 모든 준비를 완료하라.\n> 🔧 **도구 ",
+      "completedAt": "2026-06-30T10:47:35.900Z"
+    },
+    {
+      "id": "20260630103739-ivp7",
+      "title": "Trust Widget/PainGauge 애니메이션과 백엔드 상태 전이 로직 일치성 검증",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-30T10:37:39.364Z",
+      "status": "done",
+      "sessionDir": "2026-06-30T10-07",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-30T10-07/_report.md\n- 코다리: Trust Widget/PainGauge의 백엔드 상태 전이 로직과 프론트엔드 타입 정의 간의 코드 일치성을 최종적으로 확보하고, Mock AP\n- Designer: Developer가 제공한 최종 코드 및 Mock 환경 데이터를 기반으로, Trust Widget/PainGauge 컴포넌트가 시각적 요구사항(\n- 레오: Designer가 확정한 시각적 가이드라인과 Developer의 구현 결과를 참고하여, Trust Widget/PainGauge의 신뢰도 및 위\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Trust Widget/PainGauge의 백엔드 상태 전이 로직과 프론트엔드 타입 정의 간의 코드 일치성을 최종적으로 확보하고, Mock API 서버 환경을 완성하여 실제 데이터 흐름 검증에 필요한 모든 준비를 완료하라.\n> 🔧 **도구 ",
+      "completedAt": "2026-06-30T10:47:35.936Z"
+    },
+    {
+      "id": "20260630103739-ker5",
+      "title": "45 초 길이 내 모든 장치가 1 번만 반복 (시청 지속률 최적화)",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-30T10:37:39.398Z",
+      "status": "done",
+      "sessionDir": "2026-06-30T10-07",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-30T10-07/_report.md\n- 코다리: Trust Widget/PainGauge의 백엔드 상태 전이 로직과 프론트엔드 타입 정의 간의 코드 일치성을 최종적으로 확보하고, Mock AP\n- Designer: Developer가 제공한 최종 코드 및 Mock 환경 데이터를 기반으로, Trust Widget/PainGauge 컴포넌트가 시각적 요구사항(\n- 레오: Designer가 확정한 시각적 가이드라인과 Developer의 구현 결과를 참고하여, Trust Widget/PainGauge의 신뢰도 및 위\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Trust Widget/PainGauge의 백엔드 상태 전이 로직과 프론트엔드 타입 정의 간의 코드 일치성을 최종적으로 확보하고, Mock API 서버 환경을 완성하여 실제 데이터 흐름 검증에 필요한 모든 준비를 완료하라.\n> 🔧 **도구 ",
+      "completedAt": "2026-06-30T10:47:35.973Z"
+    },
+    {
+      "id": "20260630103739-79nl",
+      "title": "CTA 화면에서 QR 코드 + 플랫폼 URL 정확히 표시",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-06-30T10:37:39.439Z",
+      "status": "done",
+      "sessionDir": "2026-06-30T10-07",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-06-30T10-07/_report.md\n- 코다리: Trust Widget/PainGauge의 백엔드 상태 전이 로직과 프론트엔드 타입 정의 간의 코드 일치성을 최종적으로 확보하고, Mock AP\n- Designer: Developer가 제공한 최종 코드 및 Mock 환경 데이터를 기반으로, Trust Widget/PainGauge 컴포넌트가 시각적 요구사항(\n- 레오: Designer가 확정한 시각적 가이드라인과 Developer의 구현 결과를 참고하여, Trust Widget/PainGauge의 신뢰도 및 위\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: Trust Widget/PainGauge의 백엔드 상태 전이 로직과 프론트엔드 타입 정의 간의 코드 일치성을 최종적으로 확보하고, Mock API 서버 환경을 완성하여 실제 데이터 흐름 검증에 필요한 모든 준비를 완료하라.\n> 🔧 **도구 ",
+      "completedAt": "2026-06-30T10:47:36.008Z"
     }
   ]
 }
