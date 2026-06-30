@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "kpis": [
+    {
+      "name": "Cash Flow per Transaction",
+      "priority": 1,
+      "visualize": "real_time_transaction_profit",
+      "trust_widget": true,
+      "pain_gauge": false
+    },
+    {
+      "name": "LTV Growth Rate",
+      "priority": 2,
+      "visualize": "customer_lifetime_value_trend",
+      "trust_widget": false,
+      "pain_gauge": true
+    },
+    {
+      "name": "Churn Rate Reduction Impact",
+      "priority": 3,
+      "visualize": "region_based_churn_reduction_map",
+      "trust_widget": true,
+      "pain_gauge": true
+    }
+  ]
+}
