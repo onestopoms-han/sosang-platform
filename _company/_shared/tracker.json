@@ -6453,6 +6453,91 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-07-01T01-50/_report.md\n- 현빈: 소상공인 대상 파일럿 인터뷰(5~10명)를 즉시 시작하고 AOV 증대, CAC 절감, LTV 극대화에 대한 실질적인 피드백을 수집하여 다음 데이\n- 코다리: 수집된 비즈니스 피드백을 반영하여 Mock API 데이터 스키마(`kpi_schema_update.md`)를 확장하고, 실제 수익화 지표(AOV\n- Designer: 수집된 비즈니스 인사이트를 바탕으로 Trust Widget/PainGauge가 '신뢰도와 위기감'을 가장 효과적으로 전달하도록 대시보드 시각화 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: 소상공인 대상 파일럿 인터뷰(5~10명)를 즉시 시작하고 AOV 증대, CAC 절감, LTV 극대화에 대한 실질적인 피드백을 수집하여 다음 데이터 요구사항을 정의하라.\n> 🔧 **도구 실행**: _(없음 — LLM ",
       "completedAt": "2026-07-01T02:08:04.025Z"
+    },
+    {
+      "id": "20260701101619-ea6d",
+      "title": "1인 창업 / [ ] 2~5명 팀 / [ ] 그 외: ________________",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-07-01T10:16:19.823Z",
+      "status": "done",
+      "sessionDir": "2026-07-02T00-19",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-02T00-19/_report.md\n- 현빈: AOV, CAC, LTV 관련 Mock 데이터 검증 결과와 KPI 정의를 최종적으로 확인하고, 다음 단계의 수익화 전략에 필요한 핵심 지표 우선\n- Designer: Trust Widget 및 PainGauge의 V3.0 디자인 시스템을 기반으로, 데이터 신뢰도와 위기감을 가장 효과적으로 전달하는 수익화 대시\n- 레오: Designer가 확정한 비주얼 가이드라인과 Writer의 후크 아이디어를 참고하여, 플랫폼 베타 참여자 모집을 위한 핵심 숏폼 영상 스토리보드\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: AOV, CAC, LTV 관련 Mock 데이터 검증 결과와 KPI 정의를 최종적으로 확인하고, 다음 단계의 수익화 전략에 필요한 핵심 지표 우선순위를 확정하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)",
+      "completedAt": "2026-07-02T00:30:43.310Z"
+    },
+    {
+      "id": "20260701101619-yn18",
+      "title": "1 분 내에 기능을 찾았음 / [ ] 혼란스러웠음 / [ ] 그 외: ________________",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-07-01T10:16:19.865Z",
+      "status": "done",
+      "sessionDir": "2026-07-02T00-19",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-02T00-19/_report.md\n- 현빈: AOV, CAC, LTV 관련 Mock 데이터 검증 결과와 KPI 정의를 최종적으로 확인하고, 다음 단계의 수익화 전략에 필요한 핵심 지표 우선\n- Designer: Trust Widget 및 PainGauge의 V3.0 디자인 시스템을 기반으로, 데이터 신뢰도와 위기감을 가장 효과적으로 전달하는 수익화 대시\n- 레오: Designer가 확정한 비주얼 가이드라인과 Writer의 후크 아이디어를 참고하여, 플랫폼 베타 참여자 모집을 위한 핵심 숏폼 영상 스토리보드\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: AOV, CAC, LTV 관련 Mock 데이터 검증 결과와 KPI 정의를 최종적으로 확인하고, 다음 단계의 수익화 전략에 필요한 핵심 지표 우선순위를 확정하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)",
+      "completedAt": "2026-07-02T00:30:43.334Z"
+    },
+    {
+      "id": "20260701101619-dkfh",
+      "title": "즉시 실행 / [ ] 나중에 참고 / [ ] 다른 정보 확인",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-07-01T10:16:19.895Z",
+      "status": "done",
+      "sessionDir": "2026-07-02T00-19",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-02T00-19/_report.md\n- 현빈: AOV, CAC, LTV 관련 Mock 데이터 검증 결과와 KPI 정의를 최종적으로 확인하고, 다음 단계의 수익화 전략에 필요한 핵심 지표 우선\n- Designer: Trust Widget 및 PainGauge의 V3.0 디자인 시스템을 기반으로, 데이터 신뢰도와 위기감을 가장 효과적으로 전달하는 수익화 대시\n- 레오: Designer가 확정한 비주얼 가이드라인과 Writer의 후크 아이디어를 참고하여, 플랫폼 베타 참여자 모집을 위한 핵심 숏폼 영상 스토리보드\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: AOV, CAC, LTV 관련 Mock 데이터 검증 결과와 KPI 정의를 최종적으로 확인하고, 다음 단계의 수익화 전략에 필요한 핵심 지표 우선순위를 확정하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)",
+      "completedAt": "2026-07-02T00:30:43.359Z"
+    },
+    {
+      "id": "20260701101619-ycn1",
+      "title": "AI 진단 툴: 1 ~ 2 ~ 3 ~ 4 ~ 5",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-07-01T10:16:19.921Z",
+      "status": "done",
+      "sessionDir": "2026-07-02T00-19",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-02T00-19/_report.md\n- 현빈: AOV, CAC, LTV 관련 Mock 데이터 검증 결과와 KPI 정의를 최종적으로 확인하고, 다음 단계의 수익화 전략에 필요한 핵심 지표 우선\n- Designer: Trust Widget 및 PainGauge의 V3.0 디자인 시스템을 기반으로, 데이터 신뢰도와 위기감을 가장 효과적으로 전달하는 수익화 대시\n- 레오: Designer가 확정한 비주얼 가이드라인과 Writer의 후크 아이디어를 참고하여, 플랫폼 베타 참여자 모집을 위한 핵심 숏폼 영상 스토리보드\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: AOV, CAC, LTV 관련 Mock 데이터 검증 결과와 KPI 정의를 최종적으로 확인하고, 다음 단계의 수익화 전략에 필요한 핵심 지표 우선순위를 확정하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)",
+      "completedAt": "2026-07-02T00:30:43.387Z"
+    },
+    {
+      "id": "20260701101619-xf9n",
+      "title": "업로드/관리 툴: 1 ~ 2 ~ 3 ~ 4 ~ 5",
+      "description": "자동 등록 (Writer 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "writer"
+      ],
+      "createdAt": "2026-07-01T10:16:19.950Z",
+      "status": "done",
+      "sessionDir": "2026-07-02T00-19",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-02T00-19/_report.md\n- 현빈: AOV, CAC, LTV 관련 Mock 데이터 검증 결과와 KPI 정의를 최종적으로 확인하고, 다음 단계의 수익화 전략에 필요한 핵심 지표 우선\n- Designer: Trust Widget 및 PainGauge의 V3.0 디자인 시스템을 기반으로, 데이터 신뢰도와 위기감을 가장 효과적으로 전달하는 수익화 대시\n- 레오: Designer가 확정한 비주얼 가이드라인과 Writer의 후크 아이디어를 참고하여, 플랫폼 베타 참여자 모집을 위한 핵심 숏폼 영상 스토리보드\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: AOV, CAC, LTV 관련 Mock 데이터 검증 결과와 KPI 정의를 최종적으로 확인하고, 다음 단계의 수익화 전략에 필요한 핵심 지표 우선순위를 확정하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)",
+      "completedAt": "2026-07-02T00:30:43.413Z"
     }
   ]
 }
