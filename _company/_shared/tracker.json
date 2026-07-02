@@ -1,227 +1,6 @@
 {
   "tasks": [
     {
-      "id": "20260601174308-gtx5",
-      "title": "전화번호",
-      "description": "자동 등록 (Writer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "writer"
-      ],
-      "createdAt": "2026-06-01T17:43:08.861Z",
-      "status": "done",
-      "sessionDir": "2026-06-01T17-37",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-06-01T17-37/_report.md\n- Designer: 개발팀에 핸드오프할 핵심 오류 카드(`Error Card Component`)의 최종 UI/UX 목업 및 디자인 토큰을 명확히 정리하여 전달하고\n- Writer: MVP 검증 캠페인에 활용할 'Pain → Solution' 프레임을 기반으로, 오류 상황에서 사용자 신뢰를 확보하는 핵심 메시지(Error S\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 🎨 Designer _(Lead Designer)_\n> 📋 **지시**: 개발팀에 핸드오프할 핵심 오류 카드(`Error Card Component`)의 최종 UI/UX 목업 및 디자인 토큰을 명확히 정리하여 전달하고, 개발이 즉시 시작될 수 있도록 준비하라.\n> 🔧 **도구 실행**: _(없음 — L",
-      "completedAt": "2026-06-01T17:43:41.130Z"
-    },
-    {
-      "id": "20260601175445-pl3p",
-      "title": "Pain (불안) 을 인정하고 공감하는 표현이 포함되어 있는가?",
-      "description": "자동 등록 (Writer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "writer"
-      ],
-      "createdAt": "2026-06-01T17:54:45.403Z",
-      "status": "done",
-      "sessionDir": "2026-06-01T17-52",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-06-01T17-52/_report.md\n- Writer: 최종 확정된 'Pain → Solution' 프레임을 기반으로, 소상공인의 불안 해소 니즈에 집중하는 오류 상황 신뢰 확보 메시지(Error S\n- Designer: Writer가 제공한 최종 카피를 기반으로, 확정된 디자인 시스템(Pain → Solution 시각적 전환)에 완벽하게 통합되는 오류 카드 컴포\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 최종 확정된 'Pain → Solution' 프레임을 기반으로, 소상공인의 불안 해소 니즈에 집중하는 오류 상황 신뢰 확보 메시지(Error State Copy)와 행동 유도 문구(CTA)를 포함한 마케팅 카피를 제작하라.\n> 🔧 **도구",
-      "completedAt": "2026-06-01T17:56:32.189Z"
-    },
-    {
-      "id": "20260601175445-1blc",
-      "title": "Solution (해결책) 이 구체적이고 신뢰할 수 있는가?",
-      "description": "자동 등록 (Writer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "writer"
-      ],
-      "createdAt": "2026-06-01T17:54:45.467Z",
-      "status": "done",
-      "sessionDir": "2026-06-01T17-52",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-06-01T17-52/_report.md\n- Writer: 최종 확정된 'Pain → Solution' 프레임을 기반으로, 소상공인의 불안 해소 니즈에 집중하는 오류 상황 신뢰 확보 메시지(Error S\n- Designer: Writer가 제공한 최종 카피를 기반으로, 확정된 디자인 시스템(Pain → Solution 시각적 전환)에 완벽하게 통합되는 오류 카드 컴포\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 최종 확정된 'Pain → Solution' 프레임을 기반으로, 소상공인의 불안 해소 니즈에 집중하는 오류 상황 신뢰 확보 메시지(Error State Copy)와 행동 유도 문구(CTA)를 포함한 마케팅 카피를 제작하라.\n> 🔧 **도구",
-      "completedAt": "2026-06-01T17:56:32.222Z"
-    },
-    {
-      "id": "20260601175445-jo5l",
-      "title": "CTA 가 다음에 할 일을 명확하게 안내하는가?",
-      "description": "자동 등록 (Writer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "writer"
-      ],
-      "createdAt": "2026-06-01T17:54:45.638Z",
-      "status": "done",
-      "sessionDir": "2026-06-01T17-52",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-06-01T17-52/_report.md\n- Writer: 최종 확정된 'Pain → Solution' 프레임을 기반으로, 소상공인의 불안 해소 니즈에 집중하는 오류 상황 신뢰 확보 메시지(Error S\n- Designer: Writer가 제공한 최종 카피를 기반으로, 확정된 디자인 시스템(Pain → Solution 시각적 전환)에 완벽하게 통합되는 오류 카드 컴포\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 최종 확정된 'Pain → Solution' 프레임을 기반으로, 소상공인의 불안 해소 니즈에 집중하는 오류 상황 신뢰 확보 메시지(Error State Copy)와 행동 유도 문구(CTA)를 포함한 마케팅 카피를 제작하라.\n> 🔧 **도구",
-      "completedAt": "2026-06-01T17:56:32.237Z"
-    },
-    {
-      "id": "20260601175445-yngu",
-      "title": "시각적 가이드라인과 어울리는가? (색상, 아이콘, 타이포그래피)",
-      "description": "자동 등록 (Writer 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "writer"
-      ],
-      "createdAt": "2026-06-01T17:54:45.647Z",
-      "status": "done",
-      "sessionDir": "2026-06-01T17-52",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-06-01T17-52/_report.md\n- Writer: 최종 확정된 'Pain → Solution' 프레임을 기반으로, 소상공인의 불안 해소 니즈에 집중하는 오류 상황 신뢰 확보 메시지(Error S\n- Designer: Writer가 제공한 최종 카피를 기반으로, 확정된 디자인 시스템(Pain → Solution 시각적 전환)에 완벽하게 통합되는 오류 카드 컴포\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### ✍️ Writer _(Copywriter)_\n> 📋 **지시**: 최종 확정된 'Pain → Solution' 프레임을 기반으로, 소상공인의 불안 해소 니즈에 집중하는 오류 상황 신뢰 확보 메시지(Error State Copy)와 행동 유도 문구(CTA)를 포함한 마케팅 카피를 제작하라.\n> 🔧 **도구",
-      "completedAt": "2026-06-01T17:56:32.251Z"
-    },
-    {
-      "id": "20260601202845-23eg",
-      "title": "Pain Red (#FF4D4D) 는 불안, 문제 상황을 강조하는 데만 사용.",
-      "description": "자동 등록 (Instagram 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "instagram"
-      ],
-      "createdAt": "2026-06-01T20:28:45.795Z",
-      "status": "done",
-      "sessionDir": "2026-06-01T20-22",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-06-01T20-22/_report.md\n- 코다리: 현빈이 설정한 KPI(Success Rate 95%, Retry Rate 80%)를 달성하기 위해 Payment Failure Screen의 E\n- Designer: Payment Failure Screen의 Pain $\rightarrow$ Solution 흐름(Pain Red $\rightarrow$ Solu\n- 레오: 개발 및 디자인 작업이 진행되는 동안, 설정된 Pain $\rightarrow$ Solution 프레임을 기반으로 MVP 검증 캠페인에 최적화된 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 현빈이 설정한 KPI(Success Rate 95%, Retry Rate 80%)를 달성하기 위해 Payment Failure Screen의 E2E 테스트 환경 및 재시도 유도 로직 구현을 최우선으로 진행하고, 관련 기술적 안정성 지표를 확보",
-      "completedAt": "2026-06-01T20:29:37.122Z"
-    },
-    {
-      "id": "20260601202845-yzit",
-      "title": "Solution Green (#2ECC71) 은 해결책, 안정감을 강조하는 데만 사용.",
-      "description": "자동 등록 (Instagram 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "instagram"
-      ],
-      "createdAt": "2026-06-01T20:28:45.830Z",
-      "status": "done",
-      "sessionDir": "2026-06-01T20-22",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-06-01T20-22/_report.md\n- 코다리: 현빈이 설정한 KPI(Success Rate 95%, Retry Rate 80%)를 달성하기 위해 Payment Failure Screen의 E\n- Designer: Payment Failure Screen의 Pain $\rightarrow$ Solution 흐름(Pain Red $\rightarrow$ Solu\n- 레오: 개발 및 디자인 작업이 진행되는 동안, 설정된 Pain $\rightarrow$ Solution 프레임을 기반으로 MVP 검증 캠페인에 최적화된 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 현빈이 설정한 KPI(Success Rate 95%, Retry Rate 80%)를 달성하기 위해 Payment Failure Screen의 E2E 테스트 환경 및 재시도 유도 로직 구현을 최우선으로 진행하고, 관련 기술적 안정성 지표를 확보",
-      "completedAt": "2026-06-01T20:29:37.144Z"
-    },
-    {
-      "id": "20260601202845-udff",
-      "title": "모든 콘텐츠는 '불안 해소'와 '실질적 대안'이라는 메시지를 명확히 전달.",
-      "description": "자동 등록 (Instagram 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "instagram"
-      ],
-      "createdAt": "2026-06-01T20:28:45.850Z",
-      "status": "done",
-      "sessionDir": "2026-06-01T20-22",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-06-01T20-22/_report.md\n- 코다리: 현빈이 설정한 KPI(Success Rate 95%, Retry Rate 80%)를 달성하기 위해 Payment Failure Screen의 E\n- Designer: Payment Failure Screen의 Pain $\rightarrow$ Solution 흐름(Pain Red $\rightarrow$ Solu\n- 레오: 개발 및 디자인 작업이 진행되는 동안, 설정된 Pain $\rightarrow$ Solution 프레임을 기반으로 MVP 검증 캠페인에 최적화된 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 현빈이 설정한 KPI(Success Rate 95%, Retry Rate 80%)를 달성하기 위해 Payment Failure Screen의 E2E 테스트 환경 및 재시도 유도 로직 구현을 최우선으로 진행하고, 관련 기술적 안정성 지표를 확보",
-      "completedAt": "2026-06-01T20:29:37.158Z"
-    },
-    {
-      "id": "20260601202845-cmmt",
-      "title": "자막 토큰은 화면 중앙에 흰색 글씨로 배치, 배경은 블러 처리.",
-      "description": "자동 등록 (Instagram 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "instagram"
-      ],
-      "createdAt": "2026-06-01T20:28:45.874Z",
-      "status": "done",
-      "sessionDir": "2026-06-01T20-22",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-06-01T20-22/_report.md\n- 코다리: 현빈이 설정한 KPI(Success Rate 95%, Retry Rate 80%)를 달성하기 위해 Payment Failure Screen의 E\n- Designer: Payment Failure Screen의 Pain $\rightarrow$ Solution 흐름(Pain Red $\rightarrow$ Solu\n- 레오: 개발 및 디자인 작업이 진행되는 동안, 설정된 Pain $\rightarrow$ Solution 프레임을 기반으로 MVP 검증 캠페인에 최적화된 \n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💻 코다리 _(시니어 풀스택 엔지니어)_\n> 📋 **지시**: 현빈이 설정한 KPI(Success Rate 95%, Retry Rate 80%)를 달성하기 위해 Payment Failure Screen의 E2E 테스트 환경 및 재시도 유도 로직 구현을 최우선으로 진행하고, 관련 기술적 안정성 지표를 확보",
-      "completedAt": "2026-06-01T20:29:37.174Z"
-    },
-    {
-      "id": "20260601232534-pktc",
-      "title": "1. 전체 컨셉과 톤앤매너",
-      "description": "자동 등록 (Instagram 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "instagram"
-      ],
-      "createdAt": "2026-06-01T23:25:34.608Z",
-      "status": "done",
-      "sessionDir": "2026-06-01T23-22",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-06-01T23-22/_report.md\n- 영숙: 지난 의사결정 로그와 최근 활동(영상 기획, 디자인 시스템 확정)을 종합하여 현재 가장 가치 있는 단일 작업 1개를 결정하고, 이를 바탕으로 실\n- Writer: Instagram 콘텐츠 배포를 위한 최종 캡션 가이드라인과 영상 스크립트 개요(`video_script_outline.md`)를 기반으로, 모\n- Instagram: Writer와 Designer가 준비한 모든 최종 콘텐츠 가이드라인을 통합하여, 실제 배포를 위한 '콘텐츠 배포 최종 전달 문서'의 초안을 생성\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 지난 의사결정 로그와 최근 활동(영상 기획, 디자인 시스템 확정)을 종합하여 현재 가장 가치 있는 단일 작업 1개를 결정하고, 이를 바탕으로 실행 계획을 수립하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n",
-      "completedAt": "2026-06-01T23:26:45.402Z"
-    },
-    {
-      "id": "20260601232534-ujbk",
-      "title": "2. 플랫폼별 콘텐츠 전략 (릴스 & 피드)",
-      "description": "자동 등록 (Instagram 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "instagram"
-      ],
-      "createdAt": "2026-06-01T23:25:34.626Z",
-      "status": "done",
-      "sessionDir": "2026-06-01T23-22",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-06-01T23-22/_report.md\n- 영숙: 지난 의사결정 로그와 최근 활동(영상 기획, 디자인 시스템 확정)을 종합하여 현재 가장 가치 있는 단일 작업 1개를 결정하고, 이를 바탕으로 실\n- Writer: Instagram 콘텐츠 배포를 위한 최종 캡션 가이드라인과 영상 스크립트 개요(`video_script_outline.md`)를 기반으로, 모\n- Instagram: Writer와 Designer가 준비한 모든 최종 콘텐츠 가이드라인을 통합하여, 실제 배포를 위한 '콘텐츠 배포 최종 전달 문서'의 초안을 생성\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 지난 의사결정 로그와 최근 활동(영상 기획, 디자인 시스템 확정)을 종합하여 현재 가장 가치 있는 단일 작업 1개를 결정하고, 이를 바탕으로 실행 계획을 수립하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n",
-      "completedAt": "2026-06-01T23:26:45.428Z"
-    },
-    {
-      "id": "20260601232534-60kl",
-      "title": "3. 비주얼 자산 및 디자인 시스템 가이드",
-      "description": "자동 등록 (Instagram 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "instagram"
-      ],
-      "createdAt": "2026-06-01T23:25:34.644Z",
-      "status": "done",
-      "sessionDir": "2026-06-01T23-22",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-06-01T23-22/_report.md\n- 영숙: 지난 의사결정 로그와 최근 활동(영상 기획, 디자인 시스템 확정)을 종합하여 현재 가장 가치 있는 단일 작업 1개를 결정하고, 이를 바탕으로 실\n- Writer: Instagram 콘텐츠 배포를 위한 최종 캡션 가이드라인과 영상 스크립트 개요(`video_script_outline.md`)를 기반으로, 모\n- Instagram: Writer와 Designer가 준비한 모든 최종 콘텐츠 가이드라인을 통합하여, 실제 배포를 위한 '콘텐츠 배포 최종 전달 문서'의 초안을 생성\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 지난 의사결정 로그와 최근 활동(영상 기획, 디자인 시스템 확정)을 종합하여 현재 가장 가치 있는 단일 작업 1개를 결정하고, 이를 바탕으로 실행 계획을 수립하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n",
-      "completedAt": "2026-06-01T23:26:45.450Z"
-    },
-    {
-      "id": "20260601232534-j243",
-      "title": "4. 게시 일정, 해시태그 및 스토리 전략",
-      "description": "자동 등록 (Instagram 산출물에서 추출)",
-      "owner": "agent",
-      "agentIds": [
-        "instagram"
-      ],
-      "createdAt": "2026-06-01T23:25:34.668Z",
-      "status": "done",
-      "sessionDir": "2026-06-01T23-22",
-      "nudges": 0,
-      "priority": "normal",
-      "preAlarmsSent": [],
-      "evidence": "완료: sessions/2026-06-01T23-22/_report.md\n- 영숙: 지난 의사결정 로그와 최근 활동(영상 기획, 디자인 시스템 확정)을 종합하여 현재 가장 가치 있는 단일 작업 1개를 결정하고, 이를 바탕으로 실\n- Writer: Instagram 콘텐츠 배포를 위한 최종 캡션 가이드라인과 영상 스크립트 개요(`video_script_outline.md`)를 기반으로, 모\n- Instagram: Writer와 Designer가 준비한 모든 최종 콘텐츠 가이드라인을 통합하여, 실제 배포를 위한 '콘텐츠 배포 최종 전달 문서'의 초안을 생성\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📱 영숙 _(비서 · Personal Assistant)_\n> 📋 **지시**: 지난 의사결정 로그와 최근 활동(영상 기획, 디자인 시스템 확정)을 종합하여 현재 가장 가치 있는 단일 작업 1개를 결정하고, 이를 바탕으로 실행 계획을 수립하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)_\n",
-      "completedAt": "2026-06-01T23:26:45.473Z"
-    },
-    {
       "id": "20260602071426-6nyw",
       "title": "모든 컴포넌트는 반응형 웹(Responsive Web)을 기본으로 설계합니다.",
       "description": "자동 등록 (Designer 산출물에서 추출)",
@@ -6538,6 +6317,57 @@
       "preAlarmsSent": [],
       "evidence": "완료: sessions/2026-07-02T00-19/_report.md\n- 현빈: AOV, CAC, LTV 관련 Mock 데이터 검증 결과와 KPI 정의를 최종적으로 확인하고, 다음 단계의 수익화 전략에 필요한 핵심 지표 우선\n- Designer: Trust Widget 및 PainGauge의 V3.0 디자인 시스템을 기반으로, 데이터 신뢰도와 위기감을 가장 효과적으로 전달하는 수익화 대시\n- 레오: Designer가 확정한 비주얼 가이드라인과 Writer의 후크 아이디어를 참고하여, 플랫폼 베타 참여자 모집을 위한 핵심 숏폼 영상 스토리보드\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 💼 현빈 _(비즈니스 전략가 · Head of Business)_\n> 📋 **지시**: AOV, CAC, LTV 관련 Mock 데이터 검증 결과와 KPI 정의를 최종적으로 확인하고, 다음 단계의 수익화 전략에 필요한 핵심 지표 우선순위를 확정하라.\n> 🔧 **도구 실행**: _(없음 — LLM 추론만)",
       "completedAt": "2026-07-02T00:30:43.413Z"
+    },
+    {
+      "id": "20260702003933-stty",
+      "title": "**썸네일 이미지**: 빨간색 필터 + \"안전 마진이 없다면?\" 문구.",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-07-02T00:39:33.026Z",
+      "status": "done",
+      "sessionDir": "2026-07-02T00-34",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-02T00-34/_report.md\n- 레오: Designer와 Writer가 확정한 가이드라인을 기반으로, 플랫폼 베타 참여자 모집을 위한 핵심 숏폼 영상 스토리보드 및 후크 구성을 즉시 \n- Writer: 영상 스토리보드에 맞춰 데이터 기반의 신뢰도와 위기감을 강조하는 강력한 후크(H1, H2) 아이디어를 구체화하고 스크립트 초안을 작성하라.\n- Designer: 제작될 영상 콘텐츠에 적용될 비주얼 가이드라인 및 Trust Widget/PainGauge의 시각적 일관성을 최종 검증하여, 스토리보드에 반영할\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: Designer와 Writer가 확정한 가이드라인을 기반으로, 플랫폼 베타 참여자 모집을 위한 핵심 숏폼 영상 스토리보드 및 후크 구성을 즉시 제작하라.\n> 🔧 **도구 실행**: `my_videos_check.py (prefetch)`",
+      "completedAt": "2026-07-02T00:46:01.860Z"
+    },
+    {
+      "id": "20260702003933-pbly",
+      "title": "**태그 전략**: `#소상공인 #AI리스크 #매출관리 #골목상권살리기` (공동 목표 참조).",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-07-02T00:39:33.058Z",
+      "status": "done",
+      "sessionDir": "2026-07-02T00-34",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-02T00-34/_report.md\n- 레오: Designer와 Writer가 확정한 가이드라인을 기반으로, 플랫폼 베타 참여자 모집을 위한 핵심 숏폼 영상 스토리보드 및 후크 구성을 즉시 \n- Writer: 영상 스토리보드에 맞춰 데이터 기반의 신뢰도와 위기감을 강조하는 강력한 후크(H1, H2) 아이디어를 구체화하고 스크립트 초안을 작성하라.\n- Designer: 제작될 영상 콘텐츠에 적용될 비주얼 가이드라인 및 Trust Widget/PainGauge의 시각적 일관성을 최종 검증하여, 스토리보드에 반영할\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: Designer와 Writer가 확정한 가이드라인을 기반으로, 플랫폼 베타 참여자 모집을 위한 핵심 숏폼 영상 스토리보드 및 후크 구성을 즉시 제작하라.\n> 🔧 **도구 실행**: `my_videos_check.py (prefetch)`",
+      "completedAt": "2026-07-02T00:46:01.885Z"
+    },
+    {
+      "id": "20260702003933-sp9y",
+      "title": "**비상용 후크 (Plan B)**: \"당신의 가게, 지금 위험도 몇 점일까요?\" (호기심 자극).",
+      "description": "자동 등록 (레오 산출물에서 추출)",
+      "owner": "agent",
+      "agentIds": [
+        "youtube"
+      ],
+      "createdAt": "2026-07-02T00:39:33.093Z",
+      "status": "done",
+      "sessionDir": "2026-07-02T00-34",
+      "nudges": 0,
+      "priority": "normal",
+      "preAlarmsSent": [],
+      "evidence": "완료: sessions/2026-07-02T00-34/_report.md\n- 레오: Designer와 Writer가 확정한 가이드라인을 기반으로, 플랫폼 베타 참여자 모집을 위한 핵심 숏폼 영상 스토리보드 및 후크 구성을 즉시 \n- Writer: 영상 스토리보드에 맞춰 데이터 기반의 신뢰도와 위기감을 강조하는 강력한 후크(H1, H2) 아이디어를 구체화하고 스크립트 초안을 작성하라.\n- Designer: 제작될 영상 콘텐츠에 적용될 비주얼 가이드라인 및 Trust Widget/PainGauge의 시각적 일관성을 최종 검증하여, 스토리보드에 반영할\n\nCEO 종합 요점: ## 🗂 작업 라운드 — 누가 뭐 했나\n\n### 📺 레오 _(Head of YouTube)_\n> 📋 **지시**: Designer와 Writer가 확정한 가이드라인을 기반으로, 플랫폼 베타 참여자 모집을 위한 핵심 숏폼 영상 스토리보드 및 후크 구성을 즉시 제작하라.\n> 🔧 **도구 실행**: `my_videos_check.py (prefetch)`",
+      "completedAt": "2026-07-02T00:46:01.908Z"
     }
   ]
 }
