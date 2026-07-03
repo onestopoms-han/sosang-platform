@@ -2,78 +2,219 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Trust Widget & PainGauge V3.0 프로토타입</title>
+    <title>Trust Widget & PainGauge V3.0 프로토타입 (실시간 시뮬레이션 및 Fallback)</title>
     <style>
-        body { font-family: 'Apple SD Gothic Neo', sans-serif; margin: 20px; background-color: #f5f5f5; }
-        .container { max-width: 800px; margin: auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        h1 { color: #333; font-size: 24px; margin-bottom: 20px; }
-        .data-row { display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid #eee; align-items: center; }
-        .label { font-weight: bold; color: #666; width: 25%; }
+        body { font-family: 'Apple SD Gothic Neo', sans-serif; margin: 20px; background-color: #f8fafc; color: #1e293b; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 30px; border-radius: 16px; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.05), 0 8px 10px -6px rgba(0,0,0,0.05); }
+        h1 { color: #0f172a; font-size: 26px; font-weight: 800; margin-bottom: 8px; letter-spacing: -0.5px; }
+        .subtitle { color: #64748b; font-size: 14px; margin-bottom: 24px; }
+        
+        /* 시뮬레이션 패널 */
+        .sim-panel { background-color: #f1f5f9; padding: 16px; border-radius: 10px; display: flex; gap: 12px; margin-bottom: 24px; }
+        .btn { border: none; padding: 10px 18px; font-weight: bold; border-radius: 8px; cursor: pointer; transition: all 0.2s ease; font-size: 13px; }
+        .btn-primary { background-color: #0284c7; color: white; }
+        .btn-primary:hover { background-color: #0369a1; }
+        .btn-danger { background-color: #ef4444; color: white; }
+        .btn-danger:hover { background-color: #dc2626; }
+        .btn-active { outline: 3px solid #bae6fd; }
+
+        .data-row { display: flex; justify-content: space-between; padding: 18px 0; border-bottom: 1px solid #f1f5f9; align-items: center; transition: all 0.3s ease; }
+        .label { font-weight: 700; color: #334155; width: 40%; display: flex; flex-direction: column; gap: 4px; }
         
         /* Trust Widget 스타일 */
-        .trust-badge { display: inline-block; padding: 4px 8px; border-radius: 6px; font-size: 13px; font-weight: bold; margin-left: 10px; white-space: nowrap; }
-        .badge-high { background-color: #ffebee; color: #c62828; border: 1px solid #ef9a9a; } /* 위험도 높음 */
-        .badge-medium { background-color: #fff3e0; color: #ef6c00; border: 1px solid #ffcc80; } 
-        .badge-low { background-color: #e8f5e9; color: #2e7d32; border: 1px solid #a5d6a7; } /* 위험도 낮음 */
+        .trust-badge { display: inline-block; padding: 4px 8px; border-radius: 6px; font-size: 11px; font-weight: bold; width: fit-content; border: 1px solid; }
+        .badge-high { background-color: #fef2f2; color: #ef4444; border-color: #fee2e2; } /* 위험 (Critical) */
+        .badge-medium { background-color: #fffbeb; color: #d97706; border-color: #fef3c7; } /* 주의 (Warning) */
+        .badge-low { background-color: #f0fdf4; color: #16a34a; border-color: #dcfce7; } /* 정상 (Safe) */
         
-        /* PainGauge 스타일 - 가변적 색상 */
-        .pain-gauge { display: inline-block; width: 40px; height: 40px; border-radius: 50%; text-align: center; line-height: 38px; font-size: 12px; color: white; margin-left: 10px; transition: background-color 0.3s ease; }
+        /* PainGauge 스타일 - 원형 게이지 */
+        .pain-gauge { display: inline-block; width: 42px; height: 42px; border-radius: 50%; text-align: center; line-height: 40px; font-size: 11px; font-weight: 800; color: white; margin-left: 10px; transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); border: 2px solid transparent; }
         
-        /* 상태별 배경색 (Design System V3.0 기준) */
-        .critical { background-color: #d32f2f; box-shadow: 0 0 8px rgba(211,47,47,0.5); } /* Critical: 위험 */
-        .warning { background-color: #ff9800; box-shadow: 0 0 8px rgba(255,152,0,0.5); }    /* Warning: 주의 */
-        .info { background-color: #4caf50; box-shadow: 0 0 8px rgba(76,175,80,0.5); }      /* Info: 정상 */
+        /* 상태별 색상 및 그림자 효과 (Design System V3.0 규격) */
+        .critical { background-color: #ef4444; box-shadow: 0 0 10px rgba(239,68,68,0.4); border-color: #fee2e2; }
+        .warning { background-color: #f59e0b; box-shadow: 0 0 10px rgba(245,158,11,0.4); border-color: #fef3c7; }
+        .info { background-color: #10b981; box-shadow: 0 0 10px rgba(16,185,129,0.4); border-color: #dcfce7; }
 
-        .metric-value { font-size: 16px; color: #333; font-weight: bold; }
-        .trend { margin-top: 5px; font-size: 12px; }
+        .metric-value { font-size: 15px; color: #1e293b; font-weight: bold; }
+        .trend { margin-top: 4px; font-size: 12px; color: #64748b; }
+
+        /* API 에러 Fallback 배너 */
+        .error-banner { background-color: #fef2f2; border: 1px solid #fee2e2; border-radius: 10px; padding: 16px; display: flex; align-items: center; gap: 12px; margin-bottom: 24px; color: #991b1b; font-size: 14px; font-weight: 600; }
+        .error-banner button { background-color: #991b1b; color: white; border: none; padding: 6px 12px; border-radius: 6px; font-weight: bold; cursor: pointer; font-size: 12px; margin-left: auto; }
+        .error-banner button:hover { background-color: #7f1d1d; }
+
+        /* Shimmer 스켈레톤 로더 스타일 */
+        .skeleton-row { display: flex; justify-content: space-between; padding: 18px 0; border-bottom: 1px solid #f1f5f9; align-items: center; }
+        .skeleton-block { background: linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 50%, #f1f5f9 75%); background-size: 200% 100%; animation: shimmer 1.5s infinite; border-radius: 6px; }
+        .sk-title { width: 120px; height: 18px; margin-bottom: 8px; }
+        .sk-badge { width: 80px; height: 14px; }
+        .sk-metrics { width: 150px; height: 18px; margin-bottom: 6px; }
+        .sk-trend { width: 100px; height: 12px; }
+        .sk-gauge { width: 42px; height: 42px; border-radius: 50%; }
+
+        @keyframes shimmer {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Trust Widget & PainGauge V3.0 프로토타입 (Mock Data)</h1>
-        <p style="color:#666;">이제부터 CSV 데이터를 읽어와 위젯을 렌더링합니다.</p>
+        <h1>BDS Trust Widget & PainGauge V3.0</h1>
+        <div class="subtitle">디자인 시스템 V3.0 규격을 준수하는 실시간 데이터 변동 시뮬레이션 및 API 타임아웃 Fallback 환경입니다.</div>
         
+        <!-- 시뮬레이션 패널 -->
+        <div class="sim-panel">
+          <button id="simBtn" class="btn btn-primary">⚡️ 실시간 라이브 데이터 ON</button>
+          <button id="errBtn" class="btn btn-danger">⚠️ API 연결 오류 발생 (Fallback UI)</button>
+        </div>
+
+        <!-- 에러 배너 (기본 숨김) -->
+        <div id="errorBanner" class="error-banner" style="display:none;">
+          <span>⚠️ API 서버 응답 지연으로 데이터를 로드할 수 없습니다. 스켈레톤 상태에서 자동 재시도를 수행합니다.</span>
+          <button id="retryBtn">다시 시도</button>
+        </div>
+
         <div id="dashboard"></div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
     <script>
-        // Mock 데이터 로드 및 렌더링 로직
-        Papa.parse('mock_kpi_data_v3.csv', {
-            download: true,
-            header: true,
-            complete: function(results) {
-                const dashboard = document.getElementById('dashboard');
+        let cachedData = [];
+        let simulationInterval = null;
+        let isSimulating = false;
+
+        // 대시보드 렌더링 함수
+        function renderDashboard(dataList) {
+            const dashboard = document.getElementById('dashboard');
+            dashboard.innerHTML = '';
+            
+            dataList.slice(0, 5).forEach((row) => {
+                const dataRow = document.createElement('div');
+                dataRow.className = 'data-row';
+
+                // 임계값 매핑 (Design V3.0)
+                let trustClass = '';
+                let gaugeClass = '';
+                const score = parseInt(row.risk_score);
+
+                if (score >= 80) {
+                    trustClass = 'badge-high';
+                    gaugeClass = 'critical';
+                } else if (score >= 60) {
+                    trustClass = 'badge-medium';
+                    gaugeClass = 'warning';
+                } else {
+                    trustClass = 'badge-low';
+                    gaugeClass = 'info';
+                }
                 
-                results.data.slice(0, 5).forEach((row) => {
-                    const dataRow = document.createElement('div');
-                    dataRow.className = 'data-row';
+                const aov = parseInt(row.aov).toLocaleString();
+                const ltv = parseInt(row.ltv).toLocaleString();
+                const ratio = (parseInt(row.ltv) / parseInt(row.cac)).toFixed(2);
 
-                    // 신뢰도 (Risk Score -> Trust Widget) 매핑 로직
-                    let trustClass = '';
-                    if (row.risk_score >= 80) trustClass = 'badge-high critical';   // Critical: 위험 (Red)
-                    else if (row.risk_score >= 60) trustClass = 'badge-medium warning'; // Warning: 주의 (Orange)
-                    else trustClass = 'badge-low info';         // Info: 정상 (Green)
+                dataRow.innerHTML = `
+                    <div class="label">
+                        <span>🏪 ${row.shop_name}</span>
+                        <span class="trust-badge ${trustClass}">위험도 스코어: ${score}%</span>
+                    </div>
+                    <div style="text-align:right;">
+                        <div class="metric-value">${aov}원 / ${ltv}원</div>
+                        <div class="trend">LTV/CAC 배수: ${ratio}x</div>
+                    </div>
+                    <div style="margin-left:auto;">
+                        <span class="pain-gauge ${gaugeClass}">${score}%</span>
+                    </div>
+                `;
+                dashboard.appendChild(dataRow);
+            });
+        }
 
-                    const gaugeColorClass = trustClass.replace('badge-', '');
-                    
-                    dataRow.innerHTML = `
-                        <div class="label">
-                            🏪 ${row.shop_name}
-                            <span class="trust-badge ${trustClass}">신뢰도: Risk Score ${row.risk_score}</span>
-                        </div>
-                        <div style="text-align:right;">
-                            <div class="metric-value">${row.aov.toLocaleString()}원 / ${row.ltv.toLocaleString()}원</div>
-                            <div class="trend">LTV/CAC 비율: ${(row.ltv / row.cac).toFixed(2)}x</div>
-                        </div>
-                        <div style="margin-left:auto;">
-                            <span class="pain-gauge ${gaugeColorClass}">${row.risk_score}%</span>
-                        </div>
-                    `;
-                    dashboard.appendChild(dataRow);
-                });
+        // 스켈레톤 로더 렌더링
+        function renderSkeletons() {
+            const dashboard = document.getElementById('dashboard');
+            dashboard.innerHTML = '';
+            for(let i=0; i<5; i++) {
+                const skRow = document.createElement('div');
+                skRow.className = 'skeleton-row';
+                skRow.innerHTML = `
+                    <div style="display:flex; flex-direction:column; gap:6px;">
+                        <div class="skeleton-block sk-title"></div>
+                        <div class="skeleton-block sk-badge"></div>
+                    </div>
+                    <div style="display:flex; flex-direction:column; align-items:flex-end; gap:6px; margin-left:auto; margin-right:24px;">
+                        <div class="skeleton-block sk-metrics"></div>
+                        <div class="skeleton-block sk-trend"></div>
+                    </div>
+                    <div>
+                        <div class="skeleton-block sk-gauge"></div>
+                    </div>
+                `;
+                dashboard.appendChild(skRow);
             }
-        });
+        }
+
+        // CSV 데이터 로드
+        function loadData() {
+            renderSkeletons();
+            Papa.parse('mock_kpi_data_v3.csv', {
+                download: true,
+                header: true,
+                complete: function(results) {
+                    cachedData = results.data;
+                    setTimeout(() => {
+                        renderDashboard(cachedData);
+                    }, 800); // 로딩 시각적 효과 유입
+                }
+            });
+        }
+
+        // 실시간 값 변동 시뮬레이션
+        function toggleSimulation() {
+            const simBtn = document.getElementById('simBtn');
+            if (isSimulating) {
+                clearInterval(simulationInterval);
+                simBtn.innerText = '⚡️ 실시간 라이브 데이터 ON';
+                simBtn.className = 'btn btn-primary';
+                isSimulating = false;
+            } else {
+                simBtn.innerText = '⚡️ 라이브 진행중 (클릭 시 중지)';
+                simBtn.className = 'btn btn-primary btn-active';
+                isSimulating = true;
+                
+                simulationInterval = setInterval(() => {
+                    cachedData.forEach(row => {
+                        // 미세 변동 (-5% ~ +5%)
+                        let change = Math.floor(Math.random() * 11) - 5;
+                        let newScore = parseInt(row.risk_score) + change;
+                        row.risk_score = Math.max(10, Math.min(99, newScore));
+                    });
+                    renderDashboard(cachedData);
+                }, 2000);
+            }
+        }
+
+        // 에러 강제 유발 Fallback 시뮬레이터
+        function triggerAPIError() {
+            // 시뮬레이션 종료
+            if (isSimulating) toggleSimulation();
+            
+            document.getElementById('errorBanner').style.display = 'flex';
+            renderSkeletons(); // 데이터 클리어 및 스켈레톤 로더 노출
+        }
+
+        // 복구 및 재시도
+        function handleRetry() {
+            document.getElementById('errorBanner').style.display = 'none';
+            loadData();
+        }
+
+        document.getElementById('simBtn').addEventListener('click', toggleSimulation);
+        document.getElementById('errBtn').addEventListener('click', triggerAPIError);
+        document.getElementById('retryBtn').addEventListener('click', handleRetry);
+
+        // 초기 실행
+        loadData();
     </script>
 </body>
 </html>
