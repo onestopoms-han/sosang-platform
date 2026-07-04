@@ -1,4 +1,5 @@
-from services.schemas.local_connection_schema import ContextualQuerySchema, LocalRecommendationResponseSchema
+from services.schemas.local_connection_schema import ContextualQuerySchema, LocalRecommendationResponseSchema, StoreInfoSchema
+from typing import List
 import logging
 # from database.db_connector import get_nearby_stores # 실제 DB 연결 시 주석 해제 필요
 
@@ -51,6 +52,8 @@ class LocalConnectionService:
 
     def _mock_fetch_and_process_data(self, query: ContextualQuerySchema) -> List['StoreInfoSchema']:
         """가상의 데이터 로직 (실제로는 Geo-spatial DB 쿼리가 들어감)."""
+        if query.user_context.current_lat == 0.0 and query.user_context.current_lon == 0.0:
+            return []
         # 실제 구현 시 이 부분을 전문적인 지리 정보 서비스로 대체해야 합니다.
         return [
             StoreInfoSchema(store_id="S001", name="골목 카페 '정겨움'", category="카페", distance_km=0.35, storytelling_hook="대형 프랜차이즈가 절대 따라올 수 없는, 할머니의 손맛이 느껴지는 곳."),

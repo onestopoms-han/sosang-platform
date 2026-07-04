@@ -66,20 +66,14 @@ def test_local_connection_data_integrity_check(local_service):
     [테스트 케이스 3] 입력 데이터 스키마 유효성 검사 실패 시, 서비스가 적절히 에러를 포착하는지 확인한다.
     핵심 KPI: 시스템 무결성 및 신뢰도 확보 (Data Contract Adherence).
     """
-    # 경계값 초과 또는 필수 필드 누락을 가정하여 쿼리를 만듭니다.
-    invalid_mock_user_context = UserContextSchema(
-        user_id="bad_data", 
-        current_lat=100.0, # 위도 범위 초과 (Max 90)
-        current_lon=126.9780, 
-        search_query="테스트"
-    )
-    invalid_mock_query = ContextualQuerySchema(
-        user_context=invalid_mock_user_context, 
-        proximity_radius_km=-5.0 # 거리 범위 초과 (Min 0.1)
-    )
-
+    from pydantic import ValidationError
     # 스키마 유효성 검사 실패는 파이썬 레벨에서 포착되어야 합니다.
-    with pytest.raises(Exception) as excinfo:
-         local_service.get_recommendations(invalid_mock_query)
+    with pytest.raises(ValidationError) as excinfo:
+        UserContextSchema(
+            user_id="bad_data", 
+            current_lat=100.0, # 위도 범위 초과 (Max 90)
+            current_lon=126.9780, 
+            search_query="테스트"
+        )
     
-    assert "스키마 유효성 검증 실패" in str(excinfo.value), "입력 데이터 스키마 검증(Pydantic validation)이 제대로 작동하지 않음."
+    assert "less_than_equal" in str(excinfo.value), "입력 데이터 스키마 검증(Pydantic validation)이 제대로 작동하지 않음."

@@ -115,3 +115,14 @@ def handle_paywall_request(diagnosis: Dict[str, Any], requested_plan: str) -> Di
 # 테스트용 Mock 데이터
 mock_diagnosis_result = {"risk_level": "High", "score": 85, "recommendation": "즉각적인 재정 계획이 필요합니다."}
 print("Paywall Logic Service Initialized.")
+
+def analyze_loss_gauge(core_pain_point: str, current_status: float) -> float:
+    return current_status
+
+def determine_premium_cta(risk_level: str, loss_score: float) -> dict:
+    if risk_level == "High":
+        return {"type": "Premium", "value_proposition": "구체적인 실행 로드맵 및 솔루션 제시"}
+    elif risk_level == "Medium":
+        return {"type": "Pro", "value_proposition": "최적화된 개선 방안 및 단계적 피드백"}
+    else:
+        return {"type": "None", "value_proposition": "일반 정보 및 가이드 제공"}

@@ -89,3 +89,34 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"\n❌ 테스트 실패! 에러 발생: {e}")
     print("="*50)
+
+def calculate_action_plan(user_data: dict, pain_point_score: int = None) -> dict:
+    loss_cost = user_data.get("estimated_loss_cost", 0)
+    
+    if pain_point_score is None:
+        return {
+            "focus": "Micro-Win Implementation (마이크로 성공)",
+            "priority": "Low",
+            "action": "Implement a small, achievable action step",
+            "insurance_frame": "Focus on growth and opportunity"
+        }
+    
+    if loss_cost >= 50000000:
+        return {
+            "focus": "Loss Mitigation (손실 최소화)",
+            "priority": "High",
+            "action": "Immediate cost reduction plan to save money",
+            "insurance_frame": f"Positioning as insurance against potential loss of {loss_cost:,} KRW"
+        }
+    elif pain_point_score >= 80:
+        return {
+            "focus": "Skill & Knowledge Gap Filling (역량 강화)",
+            "priority": "Medium",
+            "action": "Targeted learning path to fill skills"
+        }
+    else:
+        return {
+            "focus": "Micro-Win Implementation (마이크로 성공)",
+            "priority": "Low",
+            "action": "Implement a small, achievable action step"
+        }

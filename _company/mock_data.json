@@ -27,7 +27,7 @@
         "cost_of_operation": 2500000,
         "time_spent_on_admin": 15.5
       },
-      "expected_roi_multiplier": 1.5  // 예시 ROI 결과
+      "expected_roi_multiplier": 1.5
     },
     {
       "user_id": "user002",
@@ -36,7 +36,7 @@
         "cost_of_operation": 3500000,
         "time_spent_on_admin": 25.0
       },
-      "expected_roi_multiplier": 1.2  // 예시 ROI 결과
+      "expected_roi_multiplier": 1.2
     }
   ]
 }

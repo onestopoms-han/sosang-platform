@@ -26,5 +26,5 @@ class StoreInfoSchema(BaseModel):
 
 class LocalRecommendationResponseSchema(BaseModel):
     """'지역 연결' 기능 전체 API 응답 구조."""
-    recommended_stores: conlist(StoreInfoSchema, min_items=3, max_items=15) # 최소 3개 추천 필수
+    recommended_stores: conlist(StoreInfoSchema, min_length=3, max_length=15) # 최소 3개 추천 필수
     suggested_cta_message: str = Field(..., description="사용자에게 보여줄 핵심 행동 유도 메시지 (Loss Minimization 기반)")

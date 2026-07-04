@@ -1,5 +1,5 @@
 import unittest
-from ..services.paywall_logic_service import analyze_loss_gauge, determine_premium_cta
+from services.paywall_logic_service import analyze_loss_gauge, determine_premium_cta
 
 # Mocking the diagnosis output schema for testing purposes
 MOCK_DIAGNOSIS_SCHEMA = {
