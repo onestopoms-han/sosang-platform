@@ -3,6 +3,11 @@
 duration (e.g. overnight). Reads its config from auto_planner.json."""
 import os, json, time, datetime, subprocess, sys
 
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(errors='replace')
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 CONFIG_PATH = os.path.join(HERE, "auto_planner.json")
 SNIPER_PATH = os.path.join(HERE, "trend_sniper.py")

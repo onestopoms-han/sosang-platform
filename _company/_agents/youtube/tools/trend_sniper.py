@@ -155,9 +155,9 @@ def main():
                     "model": model,
                     "messages": [{"role": "user", "content": prompt}],
                     "stream": False,
-                    "max_tokens": 2048,
+                    "max_tokens": 4096,
                 },
-                timeout=180,
+                timeout=360,
             )
             r.raise_for_status()
             report = r.json().get("choices", [{}])[0].get("message", {}).get("content", "").strip()
@@ -165,7 +165,7 @@ def main():
             r = requests.post(
                 f"{ollama_url}/api/generate",
                 json={"model": model, "prompt": prompt, "stream": False},
-                timeout=180,
+                timeout=360,
             )
             r.raise_for_status()
             report = r.json().get("response", "").strip()
