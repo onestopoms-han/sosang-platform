@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { RiskGradeColorMap } from '../utils/constants';
 
 // Trust Widget 컴포넌트: 리스크 등급 (A/B/C) 에 따른 신뢰도 표시

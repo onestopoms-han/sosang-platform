@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 // Pain Gauge 컴포넌트: Pain Level (고요, 분노 등) 에 따른 시각적 표현
 interface PainGaugeProps {
