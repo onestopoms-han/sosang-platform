@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html class="light" lang="ko"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BDS AI 비서 채널</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "secondary-container": "#d6e0f3",
+                    "outline": "#6c7b6d",
+                    "on-tertiary-fixed": "#001d31",
+                    "surface-container-lowest": "#ffffff",
+                    "tertiary-container": "#5fbaff",
+                    "surface-bright": "#f8fafb",
+                    "outline-variant": "#bbcbbb",
+                    "on-background": "#191c1d",
+                    "surface-container": "#eceeef",
+                    "on-primary-fixed-variant": "#005228",
+                    "inverse-surface": "#2e3132",
+                    "surface-container-low": "#f2f4f5",
+                    "on-surface-variant": "#3d4a3e",
+                    "surface": "#f8fafb",
+                    "error-container": "#ffdad6",
+                    "secondary-fixed": "#d9e3f6",
+                    "primary-container": "#2ecc71",
+                    "on-primary-fixed": "#00210c",
+                    "on-secondary": "#ffffff",
+                    "primary": "#006d37",
+                    "surface-variant": "#e1e3e4",
+                    "secondary": "#555f6f",
+                    "on-tertiary": "#ffffff",
+                    "background": "#f8fafb",
+                    "on-error": "#ffffff",
+                    "inverse-on-surface": "#eff1f2",
+                    "error": "#ba1a1a",
+                    "on-surface": "#191c1d",
+                    "secondary-fixed-dim": "#bdc7d9",
+                    "tertiary-fixed-dim": "#92ccff",
+                    "surface-dim": "#d8dadb",
+                    "inverse-primary": "#4ae183",
+                    "tertiary-fixed": "#cce5ff",
+                    "primary-fixed-dim": "#4ae183",
+                    "primary-fixed": "#6bfe9c",
+                    "on-tertiary-fixed-variant": "#004b73",
+                    "on-secondary-fixed": "#121c2a",
+                    "on-secondary-container": "#596373",
+                    "on-tertiary-container": "#004970",
+                    "on-primary-container": "#005027",
+                    "surface-tint": "#006d37",
+                    "tertiary": "#006397",
+                    "surface-container-highest": "#e1e3e4",
+                    "on-error-container": "#93000a",
+                    "on-primary": "#ffffff",
+                    "surface-container-high": "#e6e8e9",
+                    "on-secondary-fixed-variant": "#3d4756",
+                    "kakaotalk-blue": "#B2C7DA"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "xl": "64px",
+                    "container-max": "1280px",
+                    "gutter": "24px",
+                    "base": "8px",
+                    "xs": "4px",
+                    "sm": "12px",
+                    "md": "24px",
+                    "lg": "40px"
+            },
+            "fontFamily": {
+                    "body-sm": ["Inter"],
+                    "body-lg": ["Inter"],
+                    "label-sm": ["Inter"],
+                    "display-lg": ["Inter"],
+                    "headline-sm": ["Inter"],
+                    "headline-lg-mobile": ["Inter"],
+                    "body-md": ["Inter"],
+                    "headline-md": ["Inter"],
+                    "label-md": ["Inter"],
+                    "headline-lg": ["Inter"]
+            },
+            "fontSize": {
+                    "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                    "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                    "label-md": ["14px", {"lineHeight": "20px", "fontWeight": "600"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; -webkit-tap-highlight-color: transparent; }
+        .chat-container { height: calc(100vh - 144px); overflow-y: auto; scrollbar-width: none; }
+        .chat-container::-webkit-scrollbar { display: none; }
+        .bubble-left::after { content: ''; position: absolute; left: -8px; top: 12px; border-width: 8px 8px 8px 0; border-color: transparent white transparent transparent; }
+        .bubble-right::after { content: ''; position: absolute; right: -8px; top: 12px; border-width: 8px 0 8px 8px; border-color: transparent transparent transparent #FEE500; }
+        .message-animate { animation: slideIn 0.3s ease-out forwards; }
+        @keyframes slideIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-kakaotalk-blue overflow-hidden">
+<!-- Top AppBar (From Shared Component JSON Logic) -->
+<header class="fixed top-0 w-full z-50 bg-[#526373] text-white flex items-center justify-between px-md py-sm shadow-sm">
+<div class="flex items-center gap-base">
+<button class="material-symbols-outlined text-white hover:opacity-80 transition-opacity scale-95 active:scale-90 transition-transform">arrow_back</button>
+<div class="flex flex-col">
+<h1 class="font-headline-sm text-[16px] font-bold leading-tight">BDS AI 비서 채널</h1>
+<span class="text-[11px] opacity-80 font-label-sm">24시간 자동 상담 채널</span>
+</div>
+</div>
+<button class="material-symbols-outlined text-white hover:opacity-80 transition-opacity scale-95 active:scale-90 transition-transform">menu</button>
+</header>
+<!-- Chat Canvas -->
+<main class="chat-container mt-[64px] px-sm pb-xl">
+<div class="flex flex-col gap-md py-md">
+<!-- Date Indicator -->
+<div class="flex justify-center my-base">
+<span class="bg-black/10 text-white/90 text-label-sm px-3 py-1 rounded-full backdrop-blur-sm">2024년 5월 20일 월요일</span>
+</div>
+<!-- Bot Message 1 -->
+<div class="flex gap-sm items-start message-animate">
+<div class="w-10 h-10 rounded-xl bg-[#FEE500] flex items-center justify-center shrink-0 shadow-sm border border-black/5">
+<span class="font-bold text-on-surface text-lg">B</span>
+</div>
+<div class="flex flex-col gap-xs max-w-[80%]">
+<span class="text-on-surface-variant font-label-md text-xs ml-1">BDS AI 비서</span>
+<div class="relative bg-white text-on-surface p-sm rounded-xl rounded-tl-none shadow-sm text-body-sm leading-relaxed bubble-left">
+                        안녕하세요, 사장님! 소상공인 성공 도우미 BDS입니다. 밤에 잠자리에 들기 전에도 오늘 하루 고객 메시지 정리하느라 지치진 않으셨나요? 사장님의 바쁜 일상을 응원하며, 지금 사장님의 가게에 꼭 필요한 1분 무료 진단을 받아보세요! <br/><br/>
+<a class="text-primary font-bold underline decoration-2 underline-offset-4" href="#">👉 [무료 진단 받기]</a>
+</div>
+<span class="text-[10px] text-on-surface-variant/70 self-start ml-1 mt-1">오전 10:02</span>
+</div>
+</div>
+<!-- User Message -->
+<div class="flex flex-row-reverse gap-sm items-start message-animate" style="animation-delay: 0.2s;">
+<div class="flex flex-col gap-xs max-w-[80%] items-end">
+<div class="relative bg-[#FEE500] text-on-surface p-sm rounded-xl rounded-tr-none shadow-sm text-body-sm leading-relaxed bubble-right">
+                        BDS 소상공인 플랫폼이 무엇인가요?
+                    </div>
+<span class="text-[10px] text-on-surface-variant/70 self-end mr-1 mt-1">오전 10:05</span>
+</div>
+</div>
+<!-- Bot Message 2 -->
+<div class="flex gap-sm items-start message-animate" style="animation-delay: 0.4s;">
+<div class="w-10 h-10 rounded-xl bg-[#FEE500] flex items-center justify-center shrink-0 shadow-sm border border-black/5">
+<span class="font-bold text-on-surface text-lg">B</span>
+</div>
+<div class="flex flex-col gap-xs max-w-[80%]">
+<span class="text-on-surface-variant font-label-md text-xs ml-1">BDS AI 비서</span>
+<div class="relative bg-white text-on-surface p-sm rounded-xl rounded-tl-none shadow-sm text-body-sm leading-relaxed bubble-left">
+                        🚨 [웰컴 공감] <br/><br/>
+                        밤에 잠자리에 들기 전에도 오늘 하루 고객 메시지 정리하느라 지치진 않으셨나요? <br/><br/>
+                        BDS는 사장님이 매일 겪는 대화와 업무 속 병목을 해결해 드리는 24시간 AI 비즈니스 컨설턴트입니다.
+                    </div>
+<span class="text-[10px] text-on-surface-variant/70 self-start ml-1 mt-1">오전 10:05</span>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom Interface -->
+<div class="fixed bottom-0 left-0 w-full z-50">
+<!-- Preset Buttons Panel -->
+<div class="bg-transparent px-sm pb-xs overflow-x-auto whitespace-nowrap flex gap-xs no-scrollbar">
+<button class="bg-white/90 hover:bg-white text-on-surface-variant text-label-sm px-4 py-2 rounded-full shadow-sm border border-white/20 transition-all active:scale-95">1단계: 웰컴 공감</button>
+<button class="bg-white/90 hover:bg-white text-on-surface-variant text-label-sm px-4 py-2 rounded-full shadow-sm border border-white/20 transition-all active:scale-95">2단계: 리스크 경고</button>
+<button class="bg-white/90 hover:bg-white text-on-surface-variant text-label-sm px-4 py-2 rounded-full shadow-sm border border-white/20 transition-all active:scale-95">3단계: 프리미엄 제안</button>
+</div>
+<!-- Input Bar -->
+<div class="bg-white p-sm flex items-center gap-sm">
+<button class="material-symbols-outlined text-outline-variant hover:text-primary transition-colors">add_circle</button>
+<div class="flex-grow bg-surface-container-low rounded-xl px-md py-2 border border-outline-variant/30 flex items-center">
+<input class="bg-transparent border-none focus:ring-0 text-body-sm w-full placeholder:text-on-surface-variant/50" placeholder="메시지를 입력하세요 (예: 손실, 신청)" type="text"/>
+</div>
+<button class="bg-[#FEE500] text-on-surface font-bold text-label-md px-4 py-2.5 rounded-xl shadow-sm hover:opacity-90 active:scale-95 transition-all">전송</button>
+</div>
+</div>
+<!-- BottomNavBar Replacement (Simplified for specific UI context) -->
+<nav class="hidden">
+<!-- Suppressed per design shell logic for task-focused chat screen -->
+</nav>
+<script>
+        // Micro-interaction: Scroll to bottom on load
+        window.addEventListener('load', () => {
+            const container = document.querySelector('.chat-container');
+            container.scrollTop = container.scrollHeight;
+        });
+
+        // Simple button click effect
+        document.querySelectorAll('button').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                const ripple = document.createElement('div');
+                ripple.className = 'ripple';
+                this.appendChild(ripple);
+                setTimeout(() => ripple.remove(), 600);
+            });
+        });
+    </script>
+</body></html>
