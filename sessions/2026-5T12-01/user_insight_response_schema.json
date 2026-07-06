@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "data": {
+    "insightId": "UUID_GENERATED_BY_SYSTEM",
+    "diagnosisResult": {
+      "riskLevel": "High",
+      "coreDiagnosis": "Potential Supply Chain Risk",
+      "justification": "Based on analysis of raw material sourcing and processing methods."
+    },
+    "storyFlowProgress": {
+      "currentStep": 2,
+      "nextStep": 3,
+      "progressPercentage": 40,
+      "stageName": "Value Proposition Alignment",
+      "requiredAction": "Review Premium Benefits & ROI Simulation"
+    },
+    "valueProposition": {
+      "premiumBenefitScore": 75,
+      "estimatedSavingsMetric": "30%",
+      "competitiveAdvantage": "Source Traceability & Quality Assurance"
+    },
+    "riskMetrics": {
+      "trustScore": 65,
+      "painGaugeLevel": "Warning",
+      "riskFactorBreakdown": [
+        {"factor": "Sourcing Risk", "score": 80, "impact": "High"},
+        {"factor": "Quality Assurance", "score": 75, "impact": "Medium"}
+      ]
+    },
+    "roiSimulation": {
+      "estimatedROI": -15.5,
+      "projectionBasis": "Conservative Model (30% margin)",
+      "recommendation": "Implement Premium Tier for optimized sourcing."
+    }
+  },
+  "metadata": {
+    "timestamp": "2026-07-06T12:34:16Z",
+    "schemaVersion": "v2.0"
+  }
+}
