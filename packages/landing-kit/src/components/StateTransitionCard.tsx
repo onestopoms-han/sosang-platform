@@ -16,7 +16,7 @@ const StateTransitionCard: React.FC<StateTransitionCardProps> = ({ initialState,
   const [currentState, setCurrentState] = useState(initialState);
 
   // 데이터 수신 시 현재 상태 업데이트 및 애니메이션 트리거 로직
-  useEffect(() => {
+      useEffect(() => {
     if (data.current_state !== currentState) {
       setCurrentState(data.current_state);
     }
@@ -39,7 +39,7 @@ const StateTransitionCard: React.FC<StateTransitionCardProps> = ({ initialState,
   // UI 렌더링 로직 (실제 CSS/Motion 적용은 MotionSpec에 의존)
   const statusClass = `state-${currentState}`;
 
-  return (
+      return (
     <div className={`transition-card ${statusClass}`}>
       <h3 className="text-xl font-bold">현재 상태: {currentState}</h3>
       <p>불확실성 감소율: {(data.uncertainty_reduction_score * 100).toFixed(1)}%</p>

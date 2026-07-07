@@ -25,7 +25,7 @@ AUTONOMY_LEVEL: 2
 ### `paypal_revenue`
 내 PayPal 매출 자동 분석 — 일/주/월별 + 통화별 + 환불율
 
-- `enabled`: true
+- `enabled`: false
 - `requires_credentials`: `config.md` 참조
 
 

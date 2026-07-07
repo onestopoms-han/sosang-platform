@@ -1,0 +1,94 @@
+<title>LandingPage.css</title>
+```css
+/* --- Deep Control Palette 기반 스타일링 --- */
+
+/* 배경: Deep Indigo/Navy 계열의 차분함과 전문성 강조 */
+.landing-page {
+    background-color: #1A237E; /* Primary: Deep Indigo/Navy */
+    color: #e0e0e0; 
+    font-family: 'Inter', sans-serif; /* 시스템 메시지 전달에 중점을 둡니다. */
+    padding: 80px 40px;
+}
+
+/* Hero Section - 통제권 회복 강조 */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    border-bottom: 3px solid #FFC107; /* Secondary: Gold/Amber 강조 */
+}
+
+.headline {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.subheadline {
+    font-size: 1.5rem;
+    color: #B0BEC5; /* Secondary 톤 */
+    margin-bottom: 40px;
+}
+
+/* CTA Button - 명료한 행동 유도 */
+.cta-button {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    background-color: #FFC107; /* Secondary: Gold/Amber */
+    color: #1A237E; /* Primary 대비 */
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #ffeb3b; 
+}
+
+/* Features Section - 데이터 흐름 시각화 */
+.features-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.features-section h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-card {
+    background-color: #2C3E50; /* 조금 더 어두운 카드 배경 */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(255, 193, 7, 0.4); /* Gold 강조 그림자 */
+}
+
+.feature-card h3 {
+    color: #FFC107; /* Gold for titles */
+    margin-top: 0;
+}
+
+/* 기타 섹션 스타일 (Placeholder) */
+.pricing-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #2C3E50;
+    margin-top: 40px;
+}
+```
