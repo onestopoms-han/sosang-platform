@@ -1,53 +1,46 @@
-import { PainGauge } from './components/PainGauge'
-import { TrustWidget } from './components/TrustWidget'
+import React, { useState } from 'react';
+import PainGauge from './components/PainGauge';
+
+// Mock 데이터 및 설정 (실제 API 호출을 대체)
+const initialData = {
+  painScore: 75, // 초기 불안 점수
+  stage: 'Anxiety', // 시작 상태
+  progress: 0.2, // 초기 진행률
+};
+
+const animationParams = {
+  easingCurve: 'cubic-bezier(0.4, 0, 0.2, 1)', // Designer에서 정의된 Easing Curve 예시
+};
 
 function App() {
+  const [data, setData] = useState(initialData);
+
+  // 시뮬레이션 함수: 상태 전환 및 진행률 업데이트
+  const simulateJourney = (newState: 'Anxiety' | 'Relief' | 'Control', newProgress: number) => {
+    setData(prevData => ({
+      ...prevData,
+      stage: newState,
+      progress: newProgress,
+    }));
+  };
+
   return (
-    <div style={{ 
-      maxWidth: '800px', 
-      margin: '0 auto', 
-      padding: '40px 20px',
-      fontFamily: "'Pretendard', 'Apple SD Gothic Neo', sans-serif",
-    }}>
-      <header style={{ textAlign: 'center', marginBottom: '48px' }}>
-        <h1 style={{ 
-          fontSize: '28px', 
-          fontWeight: 700,
-          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
-          marginBottom: '8px',
-        }}>
-          🛡️ BDS 소상공인 플랫폼
-        </h1>
-        <p style={{ color: '#888', fontSize: '14px' }}>
-          기술적 안정성을 'Proof of Trust'로 시각화
-        </p>
-      </header>
-
-      <section style={{ marginBottom: '32px' }}>
-        <h2 style={{ fontSize: '18px', marginBottom: '16px', color: '#333' }}>
-          📊 Pain Gauge — 위기감 시각화
-        </h2>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-          <PainGauge painLevel={25} />
-          <PainGauge painLevel={55} />
-          <PainGauge painLevel={85} />
-        </div>
-      </section>
-
-      <section style={{ marginBottom: '32px' }}>
-        <h2 style={{ fontSize: '18px', marginBottom: '16px', color: '#333' }}>
-          🛡️ Trust Widget — 신뢰도 표시
-        </h2>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-          <TrustWidget riskGrade="A" />
-          <TrustWidget riskGrade="B" />
-          <TrustWidget riskGrade="C" />
-        </div>
-      </section>
+    <div style={{ padding: '40px', fontFamily: 'Arial, sans-serif' }}>
+      <h1>PainGauge v2.0 Prototype</h1>
+      <p>현재 상태: {data.stage}</p>
+      <hr />
+      {/* PainGauge 컴포넌트 렌더링 */}
+      <PainGauge 
+        initialData={{ painScore: data.painScore, stage: data.stage, progress: data.progress }} 
+        animationParams={animationParams}
+      />
+      <div style={{ marginTop: '30px' }}>
+        <h2>시뮬레이션 컨트롤</h2>
+        <button onClick={() => simulateJourney('Relief', 0.5)}>불안 $\to$ 안도 (50% 전환)</button>
+        <button onClick={() => simulateJourney('Control', 1.0)}>안도 $\to$ 통제권 회복 (완료)</button>
+      </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
