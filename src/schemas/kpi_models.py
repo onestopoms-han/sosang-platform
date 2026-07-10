@@ -1,36 +1,38 @@
 from pydantic import BaseModel, Field
-from typing import Literal, Dict, Any
-from datetime import datetime
+from typing import Literal, Optional
 
-# 1. KPI 측정 및 결과 모델
-class RoiResult(BaseModel):
-    """투자 수익률 (ROI) 계산 결과"""
-    roi_value: float = Field(..., description="계산된 투자 수익률 값")
-    risk_level: Literal["Low", "Medium", "High"] = Field(..., description="현재 위험 수준")
-    recommendation: str = Field(..., description="다음 실행 단계 추천")
+# --------------------------------------------------
+# 1. 입력 스키마: 사용자 행동 지표 (Input Schema)
+# 사용자가 플랫폼에서 수행한 특정 행동과 그 결과에 대한 데이터를 수집합니다.
+# --------------------------------------------------
+class ActionInputSchema(BaseModel):
+    """사용자의 특정 행동 및 측정된 결과를 담는 입력 모델."""
+    user_id: str = Field(..., description="플랫폼 사용자 고유 ID")
+    action_type: Literal["inventory_sync", "labor_optimization", "marketing_execution"] = Field(..., description="수행한 핵심 행동 유형")
+    input_data: dict = Field(..., description="행동과 관련된 구체적인 측정 데이터 (예: 재고 차이, 시간 절약량)")
+    outcome_value: float = Field(..., description="사용자 행동으로 인해 발생한 정량적 결과 값 (0.0 ~ 100.0)")
+    time_taken_sec: int = Field(..., description="해당 행동에 소요된 시간 (초)")
 
-# 2. 게이지 업데이트 모델
-class GaugeUpdate(BaseModel):
-    """통제권 회복 게이지 업데이트 요청"""
-    user_id: str = Field(..., description="사용자 고유 ID")
-    action_type: str = Field(..., description="수행된 행동 유형 (예: 'Consulting', 'Platform_Use')")
-    roi_achieved: float = Field(..., description="이 행동으로 인해 달성된 재무적 가치 (ROI)")
-    timestamp: datetime = Field(default_factory=datetime.utcnow)
+# --------------------------------------------------
+# 2. 출력 스키마: 게이지 및 가치 변화 (Output Schema)
+# 백엔드가 계산하여 프론트엔드로 반환할 핵심 지표를 정의합니다.
+# --------------------------------------------------
+class GaugeResultSchema(BaseModel):
+    """계산된 통제권 회복 및 ROI 결과."""
+    control_recovery_score: float = Field(..., description="통제권 회복 점수 (S_Control). 0.0 ~ 1.0")
+    roi_achieved_value: float = Field(..., description="달성된 재무적 가치 변화 (S_ROI). 상대적 수익 증대 지표")
+    story_flow_step: str = Field(..., description="현재 사용자 스토리 흐름 단계 (예: Diagnosis, Plan, Action)")
+    risk_level: Literal["Low", "Medium", "High"] = Field("Medium", description="현재 상태의 위험 수준")
+    feedback_message: str = Field(..., description="사용자에게 제공할 구체적인 피드백 메시지")
 
-# 3. 프리미엄 전환 모델 (Action Blueprint 관련)
-class PremiumTrigger(BaseModel):
-    """프리미엄 플랜 전환 트리거 요청"""
-    user_id: str = Field(..., description="사용자 고유 ID")
-    reason: str = Field(..., description="프리미엄 전환을 원하는 구체적인 이유 (예: '고급 분석 도구 필요', '더 빠른 실행 로드맵 요구')")
-    current_status: str = Field(..., description="현재 사용자 상태 (Diagnosis 결과 기반)")
-    justification: Dict[str, Any] = Field(..., description="전환 근거 데이터 (KPI 및 스토리라인 기반)")
+# --------------------------------------------------
+# 3. 통합 스키마 (통합 API 응답)
+# 입력과 결과를 하나의 응답으로 묶어 전달합니다.
+# --------------------------------------------------
+class ActionPlanResponse(BaseModel):
+    """최종 액션 플랜 결과 모델."""
+    status: Literal["success", "error"] = Field("success", description="API 호출 성공 여부")
+    result: GaugeResultSchema
+    calculated_metrics: dict = Field(..., description="S_Control, S_ROI 등 상세 계산 값")
 
-# 4. StoryFlowSchema 확장 (상태 변화 로직을 위한 구조)
-class StoryFlowState(BaseModel):
-    """사용자의 코칭 여정 상태를 정의하는 조건부 로직 맵"""
-    current_stage: str = Field(..., description="현재 사용자 진행 단계 (예: 'Diagnosis', 'Action Planning', 'Execution')")
-    next_action_required: str = Field(..., description="다음으로 요구되는 행동 또는 정보")
-    progress_score: float = Field(..., ge=0.0, le=100.0, description="현재 진행도 점수 (0~100)")
-    status_history: list[Dict[str, Any]] = Field(default_factory=list, description="과거 상태 변화 기록")
-
-print("✅ schemas.py 파일 생성 완료.")
+print("kpi_models.py 파일 생성 완료.")

@@ -1,160 +1,79 @@
-# src/services/action_plan_service.py
 from typing import Dict, Any
-from pydantic import BaseModel, ValidationError
-import json
+from src.schemas.kpi_models import ActionInputSchema, GaugeResultSchema, ActionPlanResponse
 
-# --- Mock Data and Schema Definitions (Based on previous context) ---
+# EAS 모델 상수 정의 (Designer 명세 기반)
+W_CONTROL = 0.50  # 통제권 회복 가중치
+W_ROI = 0.50      # 재무적 가치 가중치
 
-class ActionBlueprintRequest(BaseModel):
-    diagnosis_id: str
-    user_role: str
-    external_partner_data: Dict[str, Any] = {}
-
-class ActionBlueprintResponse(BaseModel):
-    blueprint_id: str
-    status: str  # e.g., 'SUCCESS', 'PARTIAL_SUCCESS', 'FAILED'
-    action_steps: list[Dict[str, str]]
-    risk_assessment: Dict[str, Any]
-    partner_integration_status: Dict[str, str]
-
-class ActionPlanService:
+def calculate_ease_metrics(input_data: ActionInputSchema) -> GaugeResultSchema:
     """
-    Action Blueprint 및 실행 계획을 관리하는 서비스 레이어.
-    데이터 유효성 검증 및 외부 파트너 연동 시뮬레이션을 담당한다.
+    입력된 행동 지표를 기반으로 S_Control과 S_ROI를 계산합니다.
+    이 함수는 실제 DB 연동 및 복잡한 통계 분석을 대체하는 골격입니다.
     """
-    def __init__(self):
-        # Mock Database/Data Store for demonstration purposes
-        self.mock_data = {
-            "DGN001": {
-                "diagnosis_id": "DGN001",
-                "risk_score": 75,
-                "status": "HIGH_RISK",
-                "suggested_actions": [
-                    {"step": 1, "description": "시장 조사 심화"},
-                    {"step": 2, "description": "리스크 분산 전략 수립"}
-                ]
-            },
-            "DGN002": {
-                "diagnosis_id": "DGN002",
-                "risk_score": 30,
-                "status": "LOW_RISK",
-                "suggested_actions": [
-                    {"step": 1, "description": "운영 효율화 방안 모색"}
-                ]
+    print(f"⚙️ 계산 시작: Action Type={input_data.action_type}, Outcome={input_data.outcome_value}")
+
+    # --- 1단계: S_Control (통제권 회복 점수) 계산 로직 시뮬레이션 ---
+    # 실제 구현에서는 입력 데이터(input_data)와 플랫폼의 목표 상태를 비교해야 합니다.
+    if input_data.outcome_value >= 80:
+        control_score = 0.85  # 높은 성과 달성 시 높은 통제권 회복
+    elif input_data.outcome_value >= 40:
+        control_score = 0.60
+    else:
+        control_score = 0.30
+
+    # --- 2단계: S_ROI (재무적 가치 변화) 계산 로직 시뮬레이션 ---
+    # 실제 구현에서는 input_data['input_data']와 사용자 설정된 가격 구조를 비교해야 합니다.
+    if input_data.outcome_value > 60 and control_score > 0.5:
+        roi_value = (input_data.outcome_value / 100) * 200  # 예시: 100점 달성 시 200의 가치 증대
+    else:
+        roi_value = (input_data.outcome_value / 100) * 50
+
+    # --- 3단계: 스토리 흐름 및 위험 레벨 결정 로직 시뮬레이션 ---
+    story_step = "Action" # 현재 단계는 행동 실행 완료 후 다음 단계로 넘어가는 것을 가정
+    risk = "Low" if control_score > 0.7 else ("Medium" if control_score > 0.4 else "High")
+
+    # --- 4단계: 피드백 메시지 생성 (Designer 가이드라인 적용) ---
+    feedback = f"축하합니다! {input_data.action_type}에서 {input_data.outcome_value:.1f}%의 성과를 달성했습니다. 다음 단계는 {story_step}입니다."
+
+    return GaugeResultSchema(
+        control_recovery_score=round(control_score, 2),
+        roi_achieved_value=round(roi_value, 2),
+        story_flow_step=story_step,
+        risk_level=risk,
+        feedback_message=feedback
+    )
+
+def process_action_plan(input_data: ActionInputSchema) -> ActionPlanResponse:
+    """
+    사용자 입력에 대해 최종 결과 객체를 반환하는 메인 함수.
+    """
+    try:
+        result = calculate_ease_metrics(input_data)
+
+        # 최종 응답 구조 구성
+        response = ActionPlanResponse(
+            result=result,
+            calculated_metrics={
+                "S_Control": result.control_recovery_score,
+                "S_ROI": result.roi_achieved_value,
+                "Time_Taken_Sec": input_data.time_taken_sec
             }
-        }
+        )
+        return response
 
-    def _validate_diagnosis(self, diagnosis_id: str) -> Dict[str, Any]:
-        """진단 ID의 유효성을 검증하고 데이터를 로드한다."""
-        if diagnosis_id not in self.mock_data:
-            raise ValueError(f"Diagnosis ID '{diagnosis_id}' not found.")
-        return self.mock_data[diagnosis_id]
-
-    def _simulate_partner_integration(self, partner_data: Dict[str, Any]) -> Dict[str, str]:
-        """외부 파트너사 연동 시뮬레이션 로직."""
-        # 실제 API 호출을 대체하여 시뮬레이션
-        if 'market_trend' in partner_data and partner_data['market_trend'] == 'volatile':
-            return {"MarketAnalysis": "High Volatility Detected. Immediate action required."}
-        elif 'cost_estimate' in partner_data:
-            return {"CostEstimate": f"Estimated cost based on input: {partner_data['cost_estimate']}"}
-        else:
-            return {"PartnerStatus": "Data received, but no specific integration points found."}
-
-    def generate_action_blueprint(self, request: ActionBlueprintRequest) -> ActionBlueprintResponse:
-        """
-        진단 ID를 기반으로 Action Blueprint를 생성하고 외부 파트너 연동을 시뮬레이션한다.
-        조건부 흐름 관리 및 권한 체크가 포함된다.
-        """
-        # 1. 권한 체크 (Authorization Check)
-        if request.user_role not in ["ADMIN", "PREMIUM_USER"]:
-            raise PermissionError("Access Denied: Insufficient role for Action Blueprint generation.")
-
-        # 2. 진단 데이터 검증 및 로드 (Data Validation & Loading)
-        try:
-            diagnosis_data = self._validate_diagnosis(request.diagnosis_id)
-        except ValueError as e:
-            raise ValueError(f"Validation Error: {e}")
-
-        # 3. 조건부 흐름 관리 (Conditional Flow Management)
-        if diagnosis_data['risk_score'] > 80:
-            status = "CRITICAL_ACTION"
-        elif diagnosis_data['risk_score'] > 50:
-            status = "HIGH_RISK_PLANNING"
-        else:
-            status = "LOW_RISK_OPTIMIZATION"
-
-        # 4. 외부 파트너 연동 시뮬레이션 (External Partner Simulation)
-        partner_results = self._simulate_partner_integration(request.external_partner_data)
-
-        # 5. 최종 결과 구성 (Response Structuring)
-        blueprint_id = f"BP-{request.diagnosis_id}-{hash(json.dumps(request.external_partner_data))}" # Mock ID 생성
-
-        return ActionBlueprintResponse(
-            blueprint_id=blueprint_id,
-            status=status,
-            action_steps=diagnosis_data['suggested_actions'],
-            risk_assessment={
-                "initial_score": diagnosis_data['risk_score'],
-                "current_status": status
-            },
-            partner_integration_status=partner_results
+    except Exception as e:
+        print(f"🚨 계산 중 오류 발생: {e}")
+        # 에러 발생 시 명확한 오류 메시지 반환 (내부 호출에 대한 가드)
+        return ActionPlanResponse(
+            status="error",
+            result=GaugeResultSchema(
+                control_recovery_score=0.0,
+                roi_achieved_value=0.0,
+                story_flow_step="Error",
+                risk_level="High",
+                feedback_message=f"시스템 오류 발생: {str(e)}"
+            ),
+            calculated_metrics={}
         )
 
-# --- Unit Tests ---
-import unittest
-
-class TestActionPlanService(unittest.TestCase):
-    def setUp(self):
-        """테스트 전에 서비스 인스턴스를 설정한다."""
-        self.service = ActionPlanService()
-
-    def test_successful_blueprint_generation_low_risk(self):
-        """낮은 위험도 진단에 대한 성공적인 Blueprint 생성을 테스트한다."""
-        request = ActionBlueprintRequest(
-            diagnosis_id="DGN002", 
-            user_role="PREMIUM_USER"
-        )
-        partner_data = {"cost_estimate": 1500}
-        
-        response = self.service.generate_action_blueprint(request)
-        
-        self.assertEqual(response.status, "LOW_RISK_OPTIMIZATION")
-        self.assertIn("CostEstimate", response.partner_integration_status)
-        self.assertIsInstance(response.action_steps, list)
-
-    def test_successful_blueprint_generation_high_risk_with_integration(self):
-        """높은 위험도 진단과 외부 데이터 연동 시뮬레이션을 테스트한다."""
-        request = ActionBlueprintRequest(
-            diagnosis_id="DGN001", 
-            user_role="ADMIN"
-        )
-        partner_data = {"market_trend": "volatile"} # Volatile 트렌드 시뮬레이션
-        
-        response = self.service.generate_action_blueprint(request)
-        
-        self.assertEqual(response.status, "CRITICAL_ACTION")
-        self.assertIn("MarketAnalysis", response.partner_integration_status)
-
-    def test_permission_denied(self):
-        """권한이 없는 사용자가 접근 시도 시 예외를 발생시키는 것을 테스트한다."""
-        request = ActionBlueprintRequest(
-            diagnosis_id="DGN001", 
-            user_role="BASIC_USER" # 권한 부족
-        )
-        
-        with self.assertRaisesRegex(PermissionError, "Access Denied"):
-            self.service.generate_action_blueprint(request)
-
-    def test_diagnosis_not_found(self):
-        """존재하지 않는 진단 ID로 요청 시 예외를 발생시키는 것을 테스트한다."""
-        request = ActionBlueprintRequest(
-            diagnosis_id="DGN999", 
-            user_role="ADMIN"
-        )
-        
-        with self.assertRaisesRegex(ValueError, "Diagnosis ID 'DGN999' not found."):
-            self.service.generate_action_blueprint(request)
-
-# 테스트 실행 (실제 환경에서는 이 부분이 자동화되어야 함)
-if __name__ == '__main__':
-    unittest.main()
+print("action_plan_service.py 파일 생성 완료.")
