@@ -1,99 +1,88 @@
-<![
-import pytest
-from src.services.action_plan_service import ActionPlanService
+import unittest
+from unittest.mock import MagicMock, Mock
+from datetime import datetime
+from pydantic import ValidationError
 
-# Mock Schema (실제 데이터 스키마를 가정)
-class MockSchema:
-    def validate(self, data):
-        # 실제 유효성 검증 로직을 모방
-        return all(k in data for k in ["user_id", "step_type", "details"])
+# 실제 모듈 임포트 (경로 확인 필요)
+from src.services.action_plan_service import ActionPlanService, RoiResult, GaugeUpdate, PremiumTrigger 
 
-@pytest.fixture
-def action_plan_service():
-    """테스트에 사용할 서비스 인스턴스를 제공합니다."""
-    # 실제 데이터 스키마를 전달 (이 부분은 실제 프로젝트 구조에 맞게 수정 필요)
-    mock_schema = MockSchema()
-    return ActionPlanService(data_schema=mock_schema)
+class TestActionPlanService(unittest.TestCase):
+    def setUp(self):
+        """테스트 시작 시마다 서비스 인스턴스와 Mock DB 세션을 설정합니다."""
+        # 실제 DB 연결 대신 Mock 객체를 사용합니다.
+        self.mock_db = MagicMock()
+        self.service = ActionPlanService(self.mock_db)
 
-def test_successful_state_transition(action_plan_service):
-    """성공 케이스: S1에서 S2로의 정상적인 상태 전환을 테스트합니다."""
-    user_id = "user_abc_123"
-    blueprint_data = {
-        "user_id": user_id,
-        "step_type": "S2_Problem_Recognition",
-        "details": {"pain_point": "낮은 마케팅 효율", "insight": "경쟁사 분석 필요"}
-    }
+    def test_calculate_roi_successful(self):
+        """ROI 계산 로직이 올바르게 작동하는지 확인합니다."""
+        user_id = "user123"
+        # ROI 계산에 필요한 최소한의 데이터 입력 (실제 비즈니스 로직 가정)
+        action_data = {
+            'time_spent': 5,  # 시간
+            'cost_incurred': 100, # 비용
+            'platform_value': 300 # 플랫폼 가치
+        }
+        
+        result = self.service.calculate_roi(user_id, action_data)
+        
+        self.assertIsInstance(result, RoiResult)
+        # 계산된 ROI 값의 범위 및 논리적 흐름 검증 (실제 비즈니스 로직과 일치해야 함)
+        self.assertGreaterEqual(result.roi_value, -10.0) 
+        self.assertIn(result.risk_level, ["Low", "Medium", "High"])
 
-    result = action_plan_service.process_action_blueprint(user_id, blueprint_data)
+    def test_calculate_roi_missing_data(self):
+        """필수 데이터가 누락되었을 때 예외 처리가 되는지 확인합니다."""
+        user_id = "user123"
+        action_data = {
+            'time_spent': 5,
+            # cost_incurred 또는 platform_value 누락
+        }
 
-    assert result["status"] == "success"
-    assert result["current_state"] == "S2_Problem_Recognition"
-    assert len(result["history"]) == 1
-    assert result["history"][0]["state"] == "S2"
+        with self.assertRaisesRegex(ValueError, "ROI 계산을 위해 time_spent, cost_incurred, platform_value 데이터가 누락되었습니다."):
+            self.service.calculate_roi(user_id, action_data)
+            
+    def test_update_gauge_successful(self):
+        """게이지 업데이트 로직이 성공적으로 기록되는지 확인합니다."""
+        user_id = "user456"
+        action_type = "Consulting"
+        roi_achieved = 60.0 # 높은 ROI 가정
+        
+        # Mock DB의 commit 호출을 예상
+        self.mock_db.session.commit.return_value = None
 
-    # 기록 확인: S1 상태가 누락되었는지 검증
-    assert not any(h['state'] == 'S1' for h in result["history"])
+        result = self.service.update_gauge(user_id, action_type, roi_achieved)
+        
+        self.assertIsInstance(result, GaugeUpdate)
+        self.assertEqual(result.action_type, action_type)
+        # 점수 증가 로직 검증 (예시: 50 + 60*20 = 620 -> min 100)
+        self.assertLessEqual(result.progress_score, 100.0)
 
+    def test_trigger_premium_success(self):
+        """충분한 조건 만족 시 프리미엄 전환이 성공적으로 이루어지는지 확인합니다."""
+        user_id = "premium_user"
+        reason = "고급 실행 로드맵 필요"
+        current_status = "Execution"
+        justification = {"roi_achieved": 75.0, "platform_value": 500}
 
-def test_failure_due_to_schema_violation(action_plan_service):
-    """실패 케이스: ActionBlueprintSchema v3.0을 위반하는 데이터로 인해 처리가 실패하는지 테스트합니다."""
-    user_id = "user_fail_456"
-    # 필수 필드 'details' 누락 시도
-    invalid_blueprint = {
-        "user_id": user_id,
-        "step_type": "S2_Problem_Recognition"
-        # details 누락
-    }
+        # DB 커밋이 성공해야 함을 Mock 설정
+        self.mock_db.session.commit.return_value = None
 
-    with pytest.raises(ValueError, match="Blueprint 데이터가 ActionBlueprintSchema v3.0을 준수하지 않습니다."):
-        action_plan_service.process_action_blueprint(user_id, invalid_blueprint)
+        result = self.service.trigger_premium(user_id, reason, current_status, justification)
+        
+        self.assertTrue(result)
+        # 실제 DB에 PremiumTrigger가 추가되었는지 확인 (Mock 호출 검증)
+        self.mock_db.session.add.assert_called_once()
 
-    # 실패 시 기록이 남지 않음을 확인 (데이터 무결성 검증)
-    assert user_id not in action_plan_service.action_history
+    def test_trigger_premium_failure(self):
+        """충분하지 않은 조건일 때 프리미엄 전환이 실패하고 예외를 발생시키는지 확인합니다."""
+        user_id = "basic_user"
+        reason = "고급 실행 로드맵 필요"
+        current_status = "Execution"
+        justification = {"roi_achieved": 30.0, "platform_value": 100} # ROI가 낮음
 
+        # 권한 오류 발생을 예상
+        with self.assertRaisesRegex(PermissionError, "프리미엄 전환 조건\(ROI > 50% 달성\)이 충족되지 않았습니다."):
+            self.service.trigger_premium(user_id, reason, current_status, justification)
 
-def test_failure_due_to_invalid_transition(action_plan_service):
-    """실패 케이스: 정의되지 않은 상태 전환 시도 실패를 테스트합니다 (S3에서 S1로의 역행)."""
-    user_id = "user_transition_test"
-    # 이미 S3 상태라고 가정하고 S1로의 전환 시도
-    action_plan_service.action_history[user_id] = {
-        "current_state": "S3_Action_Plan",
-        "steps": [{"state": "S3", "step_type": "S3_Action_Plan", "data": {}, "timestamp": "..."}]
-    }
-
-    invalid_blueprint = {
-        "user_id": user_id,
-        "step_type": "S1_Diagnosis", # S3 -> S1 시도
-        "details": {"pain_point": "Test"}
-    }
-
-    with pytest.raises(ValueError, match="잘못된 상태 전환 요청: S3_Action_Plan -> S1_Diagnosis"):
-        action_plan_service.process_action_blueprint(user_id, invalid_blueprint)
-
-    # 기록이 변경되지 않았음을 확인 (데이터 무결성 검증)
-    assert action_plan_service.action_history[user_id]["current_state"] == "S3_Action_Plan"
-
-
-def test_data_integrity_with_success(action_plan_service):
-    """성공 케이스: S1->S2->S3의 전체 흐름에 걸친 데이터 무결성을 확인합니다."""
-    user_id = "user_full_flow"
-
-    # 1. S1 -> S2 전환 (성공)
-    s2_data = {"user_id": user_id, "step_type": "S2_Problem_Recognition", "details": {"pain_point": "A", "insight": "B"}}
-    result_s2 = action_plan_service.process_action_blueprint(user_id, s2_data)
-    assert result_s2["current_state"] == "S2_Problem_Recognition"
-
-    # 2. S2 -> S3 전환 (성공)
-    s3_data = {"user_id": user_id, "step_type": "S3_Action_Plan", "details": {"action": "C", "timeline": "D"}}
-    result_s3 = action_plan_service.process_action_blueprint(user_id, s3_data)
-    assert result_s3["current_state"] == "S3_Action_Plan"
-
-    # 최종 기록 확인: S1이 누락되었는지 (정상 흐름에서는 S1은 별도 기록으로 관리됨)
-    history = action_plan_service.action_history[user_id]["steps"]
-    assert len(history) == 2 # S2, S3 단계만 기록되어야 함 (S1은 초기 진단 데이터로 분리 가정)
-    assert history[0]["state"] == "S2"
-    assert history[1]["state"] == "S3"
-
-
-# 테스트 실행 명령어 준비 (실제 환경에서 실행 시 필요함)
-print("테스트 코드 작성 완료. 이제 pytest를 사용하여 실행할 수 있습니다.")
+if __name__ == '__main__':
+    unittest.main()
