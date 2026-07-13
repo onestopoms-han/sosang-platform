@@ -1,0 +1,51 @@
+{
+  "status": "success",
+  "risk_level": "High",
+  "risk_score": 85,
+  "recommendation_id": "SOL-B2B-001",
+  "solution_package": {
+    "name": "Growth Recovery Path - Premium",
+    "description": "데이터 기반 리스크 감소를 위한 3단계 코칭 여정입니다.",
+    "cost_estimate": 499900,
+    "expected_benefit_metric": {
+      "time_saved_hours": 150,
+      "risk_reduction_percent": 35,
+      "financial_impact_usd": 8500
+    }
+  },
+  "flow_steps": [
+    {
+      "step_id": 1,
+      "title": "Pain Point Identification",
+      "description": "현재 소상공인의 핵심 리스크(예: 공급망 불안정)를 명확히 정의합니다.",
+      "action_required": "Input Data Gathering",
+      "next_step": 2
+    },
+    {
+      "step_id": 2,
+      "title": "Root Cause Analysis & Diagnosis",
+      "description": "데이터 기반으로 근본 원인(PLRI 지표)을 분석하고 진단합니다.",
+      "action_required": "Risk Calculation",
+      "next_step": 3
+    },
+    {
+      "step_id": 3,
+      "title": "Solution Pathway Mapping",
+      "description": "최적의 솔루션 패키지를 매핑하고 실행 계획을 수립합니다.",
+      "action_required": "Solution Recommendation",
+      "next_step": 4
+    },
+    {
+      "step_id": 4,
+      "title": "Implementation & Monitoring",
+      "description": "제안된 솔루션을 실행하고 리스크 감소를 모니터링합니다.",
+      "action_required": "Execution & Feedback Loop",
+      "next_step": "Complete"
+    }
+  ],
+  "risk_visualization": {
+    "status_color": "#d9534f",
+    "message": "Critical Risk Detected. Immediate Action Required.",
+    "flow_status": "In Progress"
+  }
+}
