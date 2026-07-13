@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "description": "PLRI 및 외부 경제 지표 통합을 위한 백엔드 데이터 스키마 명세서.",
+  "metadata": {
+    "created_at": "2026-07-10T14:00:00Z",
+    "owner": "KodaRi_Agent",
+    "purpose": "리스크 시뮬레이션 및 KPI 연동을 위한 데이터 계약 정의."
+  },
+  "data_sources": [
+    {
+      "source_name": "ExternalEconomicData",
+      "description": "외부 경제 지표 API로부터 수집된 실시간 또는 주기적 경제 데이터.",
+      "type": "object",
+      "fields": {
+        "indicator_id": "string",
+        "metric_name": "string",
+        "value": "number",
+        "unit": "string",
+        "timestamp": "string (ISO 8601)",
+        "source": "string (e.g., FRED, IMF)"
+      }
+    },
+    {
+      "source_name": "PlatformKPIs",
+      "description": "플랫폼의 핵심 성과 지표 (PLRI 기반).",
+      "type": "object",
+      "fields": {
+        "kpi_id": "string",
+        "metric_name": "string",
+        "value": "number",
+        "unit": "string",
+        "calculation_method": "string (e.g., 'PLRI_Formula_v1')",
+        "status": "string (e.g., 'Critical', 'Warning', 'Stable')"
+      }
+    },
+    {
+      "source_name": "RiskSimulationResult",
+      "description": "외부 지표와 플랫폼 데이터를 결합하여 산출된 최종 리스크 결과.",
+      "type": "object",
+      "fields": {
+        "simulation_id": "string",
+        "timestamp": "string (ISO 8601)",
+        "risk_score": "number (0-100)",
+        "plri_value": "number",
+        "external_impact_factor": "number",
+        "risk_prediction": "string (e.g., 'High Risk of Decline')",
+        "recommendation_flow": "array of string (Action Plan Steps)"
+      }
+    }
+  ],
+  "relationship_mapping": [
+    {
+      "from": "ExternalEconomicData",
+      "to": "RiskSimulationResult",
+      "mapping_key": "external_impact_factor",
+      "logic": "외부 지표의 변동성(Volatility)과 현재 PLRI 수준을 곱하여 잠재적 리스크를 조정함."
+    },
+    {
+      "from": "PlatformKPIs",
+      "to": "RiskSimulationResult",
+      "mapping_key": "base_risk_level",
+      "logic": "플랫폼의 기본 PLRI 점수를 기준값으로 설정함."
+    }
+  ],
+  "calculation_logic_definition": {
+    "name": "PLRI_Integration_Formula",
+    "description": "최종 리스크 점수(RiskScore)를 계산하는 핵심 로직 정의.",
+    "formula": "RiskScore = (BaseRiskLevel * (1 + ExternalImpactFactor)) / PlatformStabilityMultiplier",
+    "parameters": [
+      {"name": "BaseRiskLevel", "source": "PlatformKPIs.plri_value"},
+      {"name": "ExternalImpactFactor", "source": "ExternalEconomicData.derived_volatility"},
+      {"name": "PlatformStabilityMultiplier", "source": "PlatformKPIs.stability_index"}
+    ],
+    "notes": "ExternalImpactFactor는 외부 지표의 변동성(Volatility)을 정규화한 값으로 정의되며, 플랫폼 안정성 지수(StabilityMultiplier)를 통해 보정됨."
+  }
+}
