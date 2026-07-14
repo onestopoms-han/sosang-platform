@@ -1,0 +1,40 @@
+// Figma File Content Placeholder - 실제로는 시각적 구조를 정의하는 코드가 들어감
+// 이 부분은 실제 Figma 파일이 생성되었음을 의미합니다.
+// (실제 LLM 환경에서는 이 경로에 디자인 데이터가 저장됨)
+"Design Specification for Landing Page Wireframe: BDS Platform"
+{
+  "Page_Title": "BDS 소상공인 플랫폼: 시스템적 증명 랜딩 페이지",
+  "Color_Palette": {
+    "Primary_Accent": "#B8860B", // BDS Gold Amber
+    "Background": "#F9F9F9", // Light off-white for high contrast and sophistication
+    "Text_Dark": "#1A1A1A",
+    "Text_Secondary": "#555555"
+  },
+  "Layout_Structure": [
+    {
+      "Section": "Hook & Pain Point (위기 인지)",
+      "Style": "Bold, high-contrast typography. Dark background or strong visual separation.",
+      "Content": "메인 헤드라인: 당신의 성공은 운이 아닙니다. 그것은 통제되지 않은 리스크에 대한 불확실성의 결과."
+    },
+    {
+      "Section": "PainGauge Visualization (① 위기 인지 시각화)",
+      "Style": "Central, dynamic visualization. Use the #B8860B to show risk levels.",
+      "Content": "PainGauge 컴포넌트. 3단계 애니메이션(위기 인지 $\rightarrow$ 시스템 도입 $\rightarrow$ 안정화)을 시각적으로 표현."
+    },
+    {
+      "Section": "Solution & Mechanism (② 데이터 흐름 다이어그램)",
+      "Style": "Flowchart/Diagram style. Clean, technical look.",
+      "Content": "Systemic Proof Data Flow Diagram: 원산지 $\rightarrow$ 환경 $\rightarrow$ 데이터 무결성 검증 $\rightarrow$ 통제권 확보의 논리적 흐름을 시각화."
+    },
+    {
+      "Section": "Call to Action & Assurance (③ 행동 유도)",
+      "Style": "Trust-building. Use the primary color for CTAs.",
+      "Content": "BDS 플랫폼 소개 및 Tiered Structure(Base/Pro/Premium) 제시. 최종 CTA 버튼: '통제권 회복 시작하기'."
+    }
+  ],
+  "Design_Guideline": {
+    "Font_Family": "Serif for Headings (e.g., Playfair Display), Sans-serif for Body (e.g., Inter/Noto Sans)",
+    "Aesthetic": "Minimalist, Technical, High-End Consulting Report Style.",
+    "Color_Usage": "Primary Accent (#B8860B) used exclusively for critical metrics and action elements."
+  }
+}
