@@ -24,7 +24,7 @@
     {
       "Section": "Solution & Mechanism (② 데이터 흐름 다이어그램)",
       "Style": "Flowchart/Diagram style. Clean, technical look.",
-      "Content": "Systemic Proof Data Flow Diagram: 원산지 $\rightarrow$ 환경 $\rightarrow$ 데이터 무결성 검증 $\rightarrow$ 통제권 확보의 논리적 흐름을 시각화."
+      "Content": "Systemic Proof Data Flow Diagram: 소상공인 매출/재무 데이터 $\rightarrow$ AI 리스크 예측 엔진 $\rightarrow$ 통제권 회복 게이지 $\rightarrow$ 액션 플랜 처방의 논리적 흐름을 시각화."
     },
     {
       "Section": "Call to Action & Assurance (③ 행동 유도)",
