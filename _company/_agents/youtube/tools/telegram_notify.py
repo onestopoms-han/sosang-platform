@@ -12,9 +12,15 @@ and finally to youtube_account.json so older setups keep working."""
 import os, json, sys, time, re
 
 if hasattr(sys.stdout, 'reconfigure'):
-    sys.stdout.reconfigure(errors='replace')
+    try:
+        sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    except Exception:
+        sys.stdout.reconfigure(errors='replace')
 if hasattr(sys.stderr, 'reconfigure'):
-    sys.stderr.reconfigure(errors='replace')
+    try:
+        sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+    except Exception:
+        sys.stderr.reconfigure(errors='replace')
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ACCOUNT = os.path.join(HERE, "youtube_account.json")

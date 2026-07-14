@@ -8,6 +8,17 @@ data-driven recommendations.
 import os, json, sys, time, datetime, statistics, re
 from collections import Counter
 
+if hasattr(sys.stdout, 'reconfigure'):
+    try:
+        sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    except Exception:
+        sys.stdout.reconfigure(errors='replace')
+if hasattr(sys.stderr, 'reconfigure'):
+    try:
+        sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+    except Exception:
+        sys.stderr.reconfigure(errors='replace')
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 ACCOUNT = os.path.join(HERE, "youtube_account.json")
 REPORT  = os.path.join(HERE, "channel_full_analysis_report.md")
