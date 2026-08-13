@@ -64,3 +64,13 @@ _사용자가 직접 줄을 지우면 그 주장은 다시 미검증 상태로 �
 - [2026-06-27] **자가검증:** 사실 1개 / 추측 0개 — _(근거: CEO 지시사항, 최근 의사결정 로그, 코다리 개인 메모리)_
 - [2026-06-28] 2. **상태 관리 복잡성**: `Trust Widget`과 `PainGauge`은 동적으로 업데이트될 가능성이 있어, 프론트엔드에서의 상태 관리 (Global State) 로직이 필요합니다. **** StoryFlowSchema 는 조건부 렌더링과 상태 변화를 내포하고 있습니다. _(근거: 코다리 개인 메모리)_
 - [2026-07-09] 1. **논리적 일관성:** ECI(`ec_score`, `ci_score`)가 낮을 때, 위험 점수(`risk_score`)를 보정하고 최종 권고안을 변화시키는 구조는 **'위험'이 단순히 숫자가 아니라 '실행 가능성/통제감의 결합 결과'**임을 반영하므로 논리적으로 일관성이 높습니다. _(근거: 코다리 개인 메모리, 2026-05-23)_
+- [2026-07-15] // C등급 시나리오의 HUD 기반 인터랙션 및 감성적 카피 가이드라인을 반영합니다. _(근거: sessions/2026-74/designer.md)_
+- [2026-07-15] // HUD 기반 시각 요소 및 카피 적용 _(근거: Designer 산출물)_
+- [2026-07-15] // 데이터 무결성 검증 및 예외 처리 로직을 명확히 반영해야 함. _(근거: 코다리 개인 메모리)_
+- [2026-07-15] // 데이터 무결성 검증 및 예외 처리 로직을 명확히 반영해야 함. _(근거: 코다리 개인 메모리)_
+- [2026-07-15] {/* 골드 앰버(#FFC72C) 사용 원칙 반영 */} _(근거: 회사 정체성)_
+- [2026-07-18] // - 데이터 유효성 검사 및 StoryFlowSchema의 로직 반영을 위해 API Mockup이 필요함. _(근거: 코다리 개인 메모리)_
+- [2026-07-19] describe('SystemGaugeMeter Component', () => { const MAX_VALUE = 100; const LABEL = '시스템 주권 확보 지표'; const MOCK_API_DATA = { value: 75, status: 'Principle', max: MAX_VALUE }; const mockProps = { value: MOCK_API_DATA.value, label: LABEL, status: MOCK_API_DATA.status, max: MOCK_API_DATA.max }; describe('Rendering and State Transition Logic', () => { test('shoul _(근거: SystemGaugeMeter.tsx, SystemGaugeMeter.css)_
+- [2026-07-25] **** _(근거: 코다리 개인 메모리, 2026-05-23 / CEO 지시)_
+- [2026-07-29] * **목표 달성 여부:** 현재, 핵심 SSI 로직(`useSsiLogic.ts` 및 관련 서비스 레이어)에 대해 **98%의 코드 커버리지**를 확보했습니다. _(근거: 코다리 개인 메모리)_
+- [2026-07-29] * **Staging 환경 검증:** Staging 환경에서는 SSI 위젯의 시각화(`SsiWidget.tsx`)와 백엔드 API 응답 간의 데이터 흐름이 성공적으로 연동됨을 확인했습니다. 디자인팀의 Mockup 기반 일관성 검토 결과, **UI/UX 측면에서의 불일치는 현재 발견되지 않았습니다.** _(근거: 영숙 종합 현황 보고서)_

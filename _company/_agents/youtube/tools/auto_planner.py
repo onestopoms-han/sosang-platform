@@ -26,6 +26,12 @@ def load_config():
         print(f"❌ 설정 파일을 읽을 수 없어요: {CONFIG_PATH}\n{e}")
         sys.exit(1)
 
+def get_python_executable():
+    real_win_py = r"C:\Users\PJH\AppData\Local\Python\bin\python.exe"
+    if os.name == "nt" and os.path.exists(real_win_py):
+        return real_win_py
+    return sys.executable
+
 def main():
     cfg = load_config()
     interval_h = float(cfg.get("INTERVAL_HOURS", 6))  # v2.89.71: 디폴트 6시간 (하루 4번)
@@ -47,7 +53,8 @@ def main():
         sys.exit(1)
     # 첫 실행 전 trend_sniper.py가 정상 동작하는지 빠르게 검증
     print("🔍 trend_sniper.py 첫 회차 검증 중 (~30초)...")
-    test_proc = subprocess.run([sys.executable, SNIPER_PATH], capture_output=True, text=True, timeout=300)
+    python_bin = get_python_executable()
+    test_proc = subprocess.run([python_bin, SNIPER_PATH], capture_output=True, text=True, encoding="utf-8", timeout=300)
     if test_proc.returncode != 0:
         print(f"❌ trend_sniper.py 검증 실패 (exit {test_proc.returncode})")
         print("   먼저 trend_sniper.py 단독으로 ▶ 실행해서 설정·키워드·LLM 연결 확인 후 재시도.")
@@ -69,7 +76,7 @@ def main():
         elapsed_h = (time.time() - start) / 3600
         print(f"\n[{ts}] 🤖 {loop}회차 트렌드 스나이핑 (가동 {elapsed_h:.1f}시간)")
         try:
-            subprocess.run([sys.executable, SNIPER_PATH], check=False)
+            subprocess.run([python_bin, SNIPER_PATH], check=False)
         except Exception as e:
             print(f"❌ 실행 실패: {e}")
         next_at = datetime.datetime.now() + datetime.timedelta(hours=interval_h)
