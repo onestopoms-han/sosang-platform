@@ -46,3 +46,5 @@ _사용자가 직접 줄을 지우면 그 주장은 다시 미검증 상태로 �
 - [2026-08-09] <create_file path="sessions/2026-08-09T10-24/authority_flow_dynamic_spec.md"># Authority Flow Dynamic Specification (MVP UI Focus)\n\n## 1. 목표: 불안($\rightarrow$)통제 시각화 극대화\n사용자가 위기감(Anxiety)을 인지하고 해결책(Control)을 찾는 과정이 실시간으로 명확하게 드러나도록 색상, 타이포그래피, 애니메이션을 구체화합니다.\n\n## 2. 상태별 디자인 매핑 (State Mapping)\n모든 핵심 지표(`Control Score` 또는 `Risk Level`)는 다음 세 가지 동적 상태를 가집니 _(근거: XX)_
 - [2026-08-10] 1. **신뢰성 확보:** 모든 시각적 강조(Gold, Red)는 반드시 Researcher가 제시한 **법적/기술적 근거(``)**와 연결되어야 합니다. _(근거: ...)_
 - [2026-08-13] 3. **근거 제시 영역:** 선택된 데이터(Score, Flow)에 대한 모든 근거(``)를 명확하게 배치하여 신뢰도를 확보. _(근거: ...)_
+- [2026-08-13] * **근거 표시 (Evidence/Source):** 모든 데이터 포인트의 가장 하단 우측 구석에는 `****` 스타일로 해당 데이터의 출처(`` 형식)를 **매우 작고 회색**으로 표시하여 신뢰도를 뒷받침합니다. _(근거: ...)_
+- [2026-08-13] <create_file path="sessions/2026-08-13T06-27/designer_risk_dashboard_spec.md"># 리스크 대시보드 비주얼 시스템 최종 기획안 (Authority Flow)\n\n## 1. 디자인 원칙 요약\n* **핵심 목표:** 불안 $\rightarrow$ 통제권 회복(Authority Flow)의 감정적 여정을 시각화.\n* **색상 사용:** Red (위험) $\rightarrow$ Amber (경고) $\rightarrow$ Green (관리) $\rightarrow$ Gold (회복).\n* **근거 기반 강조:** 모든 시각적 강조는 데이터 기반 권위에 근거해야 함.\n\n## 2 _(근거: ...)_
