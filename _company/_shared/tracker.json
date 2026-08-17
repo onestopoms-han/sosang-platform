@@ -8,13 +8,13 @@
       "createdAt": "2026-07-19T04:52:26.920Z",
       "dueAt": "2026-07-30",
       "status": "pending",
-      "nudges": 27,
+      "nudges": 28,
       "priority": "normal",
       "preAlarmsSent": [
         "t1d",
         "t1h"
       ],
-      "_lastNudgeAt": "2026-08-16T09:01:42.044Z"
+      "_lastNudgeAt": "2026-08-17T12:06:24.453Z"
     },
     {
       "id": "20260719062240-pa7w",
